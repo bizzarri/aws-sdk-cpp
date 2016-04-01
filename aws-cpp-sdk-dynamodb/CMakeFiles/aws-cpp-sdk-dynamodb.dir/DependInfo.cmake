@@ -1,0 +1,100 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/DynamoDBClient.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBClient.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/DynamoDBEndpoint.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBEndpoint.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/DynamoDBErrorMarshaller.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBErrorMarshaller.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/DynamoDBErrors.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBErrors.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/AttributeAction.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/AttributeAction.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/AttributeDefinition.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/AttributeDefinition.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/AttributeValue.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/AttributeValue.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/AttributeValueUpdate.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/AttributeValueUpdate.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/AttributeValueValue.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/AttributeValueValue.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/BatchGetItemRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/BatchGetItemRequest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/BatchGetItemResult.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/BatchGetItemResult.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/BatchWriteItemRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/BatchWriteItemRequest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/BatchWriteItemResult.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/BatchWriteItemResult.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/Capacity.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/Capacity.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/ComparisonOperator.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ComparisonOperator.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/Condition.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/Condition.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/ConditionalOperator.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ConditionalOperator.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/ConsumedCapacity.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ConsumedCapacity.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/CreateGlobalSecondaryIndexAction.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/CreateGlobalSecondaryIndexAction.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/CreateTableRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/CreateTableRequest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/CreateTableResult.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/CreateTableResult.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/DeleteGlobalSecondaryIndexAction.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DeleteGlobalSecondaryIndexAction.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/DeleteItemRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DeleteItemRequest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/DeleteItemResult.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DeleteItemResult.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/DeleteRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DeleteRequest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/DeleteTableRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DeleteTableRequest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/DeleteTableResult.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DeleteTableResult.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/DescribeLimitsRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DescribeLimitsRequest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/DescribeLimitsResult.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DescribeLimitsResult.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/DescribeTableRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DescribeTableRequest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/DescribeTableResult.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DescribeTableResult.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/ExpectedAttributeValue.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ExpectedAttributeValue.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/GetItemRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/GetItemRequest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/GetItemResult.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/GetItemResult.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/GlobalSecondaryIndex.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/GlobalSecondaryIndex.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/GlobalSecondaryIndexDescription.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/GlobalSecondaryIndexDescription.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/GlobalSecondaryIndexUpdate.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/GlobalSecondaryIndexUpdate.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/IndexStatus.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/IndexStatus.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/ItemCollectionMetrics.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ItemCollectionMetrics.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/KeySchemaElement.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/KeySchemaElement.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/KeyType.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/KeyType.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/KeysAndAttributes.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/KeysAndAttributes.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/ListTablesRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ListTablesRequest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/ListTablesResult.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ListTablesResult.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/LocalSecondaryIndex.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/LocalSecondaryIndex.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/LocalSecondaryIndexDescription.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/LocalSecondaryIndexDescription.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/Projection.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/Projection.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/ProjectionType.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ProjectionType.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/ProvisionedThroughput.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ProvisionedThroughput.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/ProvisionedThroughputDescription.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ProvisionedThroughputDescription.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/PutItemRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/PutItemRequest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/PutItemResult.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/PutItemResult.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/PutRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/PutRequest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/QueryRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/QueryRequest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/QueryResult.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/QueryResult.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/ReturnConsumedCapacity.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ReturnConsumedCapacity.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/ReturnItemCollectionMetrics.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ReturnItemCollectionMetrics.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/ReturnValue.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ReturnValue.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/ScalarAttributeType.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ScalarAttributeType.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/ScanRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ScanRequest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/ScanResult.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ScanResult.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/Select.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/Select.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/StreamSpecification.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/StreamSpecification.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/StreamViewType.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/StreamViewType.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/TableDescription.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/TableDescription.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/TableStatus.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/TableStatus.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/UpdateGlobalSecondaryIndexAction.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/UpdateGlobalSecondaryIndexAction.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/UpdateItemRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/UpdateItemRequest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/UpdateItemResult.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/UpdateItemResult.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/UpdateTableRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/UpdateTableRequest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/UpdateTableResult.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/UpdateTableResult.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/source/model/WriteRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/WriteRequest.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "AWS_CUSTOM_MEMORY_MANAGEMENT"
+  "AWS_SDK_PLATFORM_LINUX"
+  "ENABLE_CURL_CLIENT"
+  "ENABLE_OPENSSL_ENCRYPTION"
+  "JSON_USE_EXCEPTION=0"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "aws-cpp-sdk-dynamodb/include"
+  "aws-cpp-sdk-core/include"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/DependInfo.cmake"
+  )
