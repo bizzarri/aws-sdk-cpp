@@ -1,8 +1,14 @@
 /*
- * Sample code to read/write to DynamoDB from Toradex boards
+ * setup the Toradex boards for Rapid Displays
+ * This code:
+ *   resets all parameters to 0 and none in the database (RAPID)
+ *   writes the MAC address of the board and a random number to be
+ *   used as the "secret" to the database
  *
  * Written by Maurice Bizzarri, based heaviliy on code supplied by Amazon 
- * to test the SDK C++ stack
+ * for the C++ SDK
+ *
+ * April 4, 2016 - First Release
  *
  */
   
@@ -58,10 +64,27 @@
 #include <aws/s3/model/ListObjectsRequest.h>
 #include <aws/s3/model/GetBucketLocationRequest.h>
 
+#include <aws/cognito-identity/CognitoIdentityClient.h>
+#include <aws/cognito-identity/CognitoIdentityErrors.h>
+#include <aws/cognito-identity/model/CreateIdentityPoolRequest.h>
+#include <aws/cognito-identity/model/DeleteIdentityPoolRequest.h>
+#include <aws/cognito-identity/model/DescribeIdentityPoolRequest.h>
+#include <aws/cognito-identity/model/UpdateIdentityPoolRequest.h>
+#include <aws/cognito-identity/model/ListIdentityPoolsRequest.h>
+#include <aws/cognito-identity/model/GetCredentialsForIdentityRequest.h>
+#include <aws/cognito-identity/model/GetIdRequest.h>
+#include <aws/cognito-identity/model/ListIdentitiesRequest.h>
+#include <aws/cognito-identity/model/GetOpenIdTokenRequest.h>
+#include <aws/cognito-identity/model/UnlinkIdentityRequest.h>
+#include <aws/cognito-identity/model/GetOpenIdTokenForDeveloperIdentityRequest.h>
+#include <aws/cognito-identity/model/LookupDeveloperIdentityRequest.h>
+#include <aws/cognito-identity/CognitoIdentityErrors.h>
+
 #include <iostream>
 #include <algorithm>
 #include <stdio.h>
 #include <string.h>
+#include <random>
 
 using namespace Aws::Auth;
 using namespace Aws::Http;
@@ -71,8 +94,11 @@ using namespace Aws::DynamoDB::Model;
 using namespace Aws::S3;
 using namespace Aws::S3::Model;
 
+using namespace Aws::CognitoIdentity;
+using namespace Aws::CognitoIdentity::Model;
 
 
+static const char* SERVICE_NAME = "cognito-sync";
 static const char* ALLOCATION_TAG = "EXPY_TEST";
 /*
  * use the first argument to increment the title being played
@@ -99,8 +125,19 @@ ClientConfiguration config;
  config.writeRateLimiter = m_limiter;
 
 
-  auto client = Aws::MakeShared<DynamoDBClient>(ALLOCATION_TAG, config);
+ //  auto client = Aws::MakeShared<DynamoDBClient>(ALLOCATION_TAG, config);
+  auto client = Aws::MakeShared<CognitoIdentityClient>(ALLOCATION_TAG);
+    Aws::String identityPoolName = "Rapid"
 
+
+    CreateIdentityPoolRequest createIdentityPoolRequest;
+
+    createIdentityPoolRequest.WithDeveloperProviderName("Bruce Wayne")
+                             .WithAllowUnauthenticatedIdentities(true)
+                             .WithIdentityPoolName(identityPoolName)
+                             .AddSupportedLoginProviders(" ", "us-east-1:0e708d28-3b97-4531-a25c-f7e5d2468ceb");
+
+    CreateIdentityPoolOutcome createIdentityPoolOutcome = client->CreateIdentityPool(createIdentityPoolRequest);
 
 
   /*
@@ -118,7 +155,42 @@ ClientConfiguration config;
       static const char* MAC_ADDRESS = "MacAddress";
       static const char* SECRET = "Secret";
 
+
+      /*
+       * get the MAC adddress
+       */
+
+      FILE * maca;
+      char *macaddr;
+      macaddr = (char *) calloc(50,1);
+      maca = fopen("/sys/class/net/eth0/address","r");
+      if (maca == NULL)
+	{
+	  printf("Can't open MAC address file.\n");
+	  exit(-1);
+	}
+ 
+      fscanf(maca,"%s",macaddr);
+      fclose(maca);   // close file - be clean about this
+      printf("mac address: %s\n",macaddr);
+
+      /*
+       * generate random number to be used as secret
+       */
+
+
+
       
+      long param1, param2, param3;            
+      std::mt19937 mt_rand(time(0));
+      param1 = mt_rand();
+      param2 = mt_rand();
+      //      std::cout << "random #: " << param1 << std::endl;
+      //std::cout << "random #: " << param2 << std::endl;
+      param3 = param1 * param2;
+      //      std::cout << "final number: " << param3 << std::endl;
+      
+
   /* get the number of times played, add one. */
    AttributeValue Hash;
    /* set key from argument to program */
@@ -155,28 +227,8 @@ ClientConfiguration config;
     auto oldname = returnedItemCollection[OLD_NAME].GetS();
     auto newmacaddress = returnedItemCollection[MAC_ADDRESS].GetS();
     auto newsecret = returnedItemCollection[SECRET].GetS();
-    
     int tplay = 0;
-    for (unsigned i=0; i < valreturned.size() ;i++)
-      {
-        int temp = (std::stoi(std::to_string(valreturned[i]).c_str()));
-	temp -= 48;
-	//  printf("temp = %d\n",temp);	
-        tplay += ( temp * std::pow(10,valreturned.size()-(i+1)));
-      }
-
-    printf("Times Played: %d\n",tplay);
-    tplay = tplay+1;
-
     
-    std::cout << "title: ";
-    for (unsigned i=0; i < titleret.size(); i++)
-      {
-	std::cout  <<  titleret[i];
-      }
-    std::cout << '\n';
-
-
     AttributeValue Body;
     Body.SetS(titleret);
 
@@ -194,10 +246,10 @@ ClientConfiguration config;
     rnewtitle.SetS(newtitle);
 
     AttributeValue rmacaddress;
-    rmacaddress.SetS(newmacaddress);
+    rmacaddress.SetS(macaddr);
 
     AttributeValue rsecret;
-    rsecret.SetS(newsecret);
+    rsecret.SetS(std::to_string(param1).c_str());
 		 
   PutItemRequest putRequest;
   putRequest.SetTableName("Rapid");

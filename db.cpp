@@ -1,8 +1,9 @@
 /*
- * Sample code to read/write to DynamoDB from Toradex boards
+ * Dynamo DB utility to test Amazon C++ SDK
  *
  * Written by Maurice Bizzarri, based heaviliy on code supplied by Amazon 
  * to test the SDK C++ stack
+ * first version April 1, 2016
  *
  */
   
@@ -60,8 +61,7 @@
 
 #include <iostream>
 #include <algorithm>
-#include <stdio.h>
-#include <string.h>
+
 
 using namespace Aws::Auth;
 using namespace Aws::Http;
@@ -88,20 +88,25 @@ int main(int argc,char *argv[]) {
       exit(1);
     }
 
+
+    /*
+     * display version info and compile date
+     */
+
+    std::cout << argv[0] << " Version 0.0" ;
+    std::cout << " Compiled: " << __DATE__ << " " <<  __TIME__ << '\n';
+
   
-ClientConfiguration config;
+    ClientConfiguration config;
  
- config.region = Aws::Region::US_WEST_2; // oregon region
- config.scheme = Scheme::HTTPS;
- config.connectTimeoutMs = 30000;
- config.requestTimeoutMs = 30000;
- config.readRateLimiter = m_limiter;
- config.writeRateLimiter = m_limiter;
+    config.region = Aws::Region::US_WEST_2; // oregon region
+    config.scheme = Scheme::HTTPS;
+    config.connectTimeoutMs = 30000;
+    config.requestTimeoutMs = 30000;
+    config.readRateLimiter = m_limiter;
+    config.writeRateLimiter = m_limiter;
 
-
-  auto client = Aws::MakeShared<DynamoDBClient>(ALLOCATION_TAG, config);
-
-
+    auto client = Aws::MakeShared<DynamoDBClient>(ALLOCATION_TAG, config);
 
   /*
    * DynamoDB test - read, increment number, and write it back
@@ -115,10 +120,7 @@ ClientConfiguration config;
       static const char* TIMES_COUNT = "TimesPlayed";
       static const char* NEW_NAME = "NewName";
       static const char* NEW_TITLE = "NewTitle";
-      static const char* MAC_ADDRESS = "MacAddress";
-      static const char* SECRET = "Secret";
 
-      
   /* get the number of times played, add one. */
    AttributeValue Hash;
    /* set key from argument to program */
@@ -135,8 +137,6 @@ ClientConfiguration config;
     attributesToGet.push_back(OLD_NAME);
     attributesToGet.push_back(NEW_NAME);
     attributesToGet.push_back(NEW_TITLE);
-    attributesToGet.push_back(MAC_ADDRESS);
-    attributesToGet.push_back(SECRET);
     GetItemOutcome getOutcome = client->GetItem(getItemRequest);
     GetItemResult result = getOutcome.GetResult();
     auto returnedItemCollection = result.GetItem();
@@ -146,16 +146,11 @@ ClientConfiguration config;
         exit(1);
       }
 
-
-
     auto valreturned = returnedItemCollection[TIMES_COUNT].GetN();
     auto titleret = returnedItemCollection[TITLE_NAME].GetS();
     auto newname = returnedItemCollection[NEW_NAME].GetS();
     auto newtitle = returnedItemCollection[NEW_TITLE].GetS();
     auto oldname = returnedItemCollection[OLD_NAME].GetS();
-    auto newmacaddress = returnedItemCollection[MAC_ADDRESS].GetS();
-    auto newsecret = returnedItemCollection[SECRET].GetS();
-    
     int tplay = 0;
     for (unsigned i=0; i < valreturned.size() ;i++)
       {
@@ -192,13 +187,7 @@ ClientConfiguration config;
 
     AttributeValue rnewtitle;
     rnewtitle.SetS(newtitle);
-
-    AttributeValue rmacaddress;
-    rmacaddress.SetS(newmacaddress);
-
-    AttributeValue rsecret;
-    rsecret.SetS(newsecret);
-		 
+    
   PutItemRequest putRequest;
   putRequest.SetTableName("Rapid");
   putRequest.AddItem(HASH_KEY_NAME, Hash);
@@ -207,8 +196,7 @@ ClientConfiguration config;
   putRequest.AddItem(TIMES_COUNT,Tplayed);
   putRequest.AddItem(NEW_NAME,rnewname);
   putRequest.AddItem(NEW_TITLE,rnewtitle);
-  putRequest.AddItem(MAC_ADDRESS,rmacaddress);
-  putRequest.AddItem(SECRET,rsecret);
+  
 auto putItemOutcome = client->PutItem(putRequest);
 
 if(putItemOutcome.IsSuccess())
