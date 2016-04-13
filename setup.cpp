@@ -9,7 +9,7 @@
  * for the C++ SDK
  *
  * April 4, 2016 - First Release
- *
+ * April 12, 2016 - added support for Cognito
  */
   
 #include <aws/external/gtest.h>
@@ -17,6 +17,7 @@
 #include <aws/core/client/AsyncCallerContext.h>
 #include <aws/core/client/ClientConfiguration.h>
 #include <aws/core/client/CoreErrors.h>
+#include <aws/core/auth/AWSCredentialsProvider.h>
 #include <aws/core/auth/AWSCredentialsProviderChain.h>
 #include <aws/core/http/HttpTypes.h>
 #include <aws/core/http/HttpClientFactory.h>
@@ -52,6 +53,8 @@
 #include <aws/s3/model/CreateBucketRequest.h>
 #include <aws/s3/model/HeadBucketRequest.h>
 #include <aws/s3/model/PutObjectRequest.h>
+#include <aws/core/utils/Outcome.h>
+#include <aws/core/utils/DateTime.h>
 #include <aws/core/utils/memory/stl/AWSStringStream.h>
 #include <aws/core/utils/HashingUtils.h>
 #include <aws/core/utils/StringUtils.h>
@@ -71,74 +74,174 @@
 #include <aws/cognito-identity/model/DescribeIdentityPoolRequest.h>
 #include <aws/cognito-identity/model/UpdateIdentityPoolRequest.h>
 #include <aws/cognito-identity/model/ListIdentityPoolsRequest.h>
-#include <aws/cognito-identity/model/GetCredentialsForIdentityRequest.h>
-#include <aws/cognito-identity/model/GetIdRequest.h>
+
+
 #include <aws/cognito-identity/model/ListIdentitiesRequest.h>
 #include <aws/cognito-identity/model/GetOpenIdTokenRequest.h>
 #include <aws/cognito-identity/model/UnlinkIdentityRequest.h>
 #include <aws/cognito-identity/model/GetOpenIdTokenForDeveloperIdentityRequest.h>
 #include <aws/cognito-identity/model/LookupDeveloperIdentityRequest.h>
 #include <aws/cognito-identity/CognitoIdentityErrors.h>
+#include <aws/access-management/AccessManagementClient.h>
+#include <aws/iam/IAMClient.h>
 
+#include <aws/identity-management/auth/CognitoCachingCredentialsProvider.h>
+#include <aws/identity-management/auth/PersistentCognitoIdentityProvider.h>
+#include <aws/cognito-identity/model/GetCredentialsForIdentityRequest.h>
+#include <aws/identity-management/IdentityManagment_EXPORTS.h>
+#include <aws/cognito-identity/model/GetIdRequest.h>
+#include <aws/cognito-identity/CognitoIdentityClient.h>
+#include <aws/cognito-identity/model/GetOpenIdTokenRequest.h>
+#include <aws/core/utils/Outcome.h>
+#include <aws/core/utils/DateTime.h>
+#include <aws/sts/model/AssumeRoleRequest.h>
+#include <aws/sts/model/AssumeRoleWithWebIdentityRequest.h>
+#include <aws/sts/model/AssumeRoleResult.h>
+#include <aws/sts/STSClient.h>
 #include <iostream>
 #include <algorithm>
 #include <stdio.h>
 #include <string.h>
 #include <random>
 
-using namespace Aws::Auth;
+
 using namespace Aws::Http;
 using namespace Aws::Client;
 using namespace Aws::DynamoDB;
 using namespace Aws::DynamoDB::Model;
+
 using namespace Aws::S3;
 using namespace Aws::S3::Model;
-
+using namespace Aws::Auth;
 using namespace Aws::CognitoIdentity;
 using namespace Aws::CognitoIdentity::Model;
+using namespace Aws::STS::Model;
+using namespace Aws::STS;
+using namespace Aws::Utils;
 
 
-static const char* SERVICE_NAME = "cognito-sync";
+
 static const char* ALLOCATION_TAG = "EXPY_TEST";
-/*
- * use the first argument to increment the title being played
- */
+static const char* AREGION = "us-east-1";
 
 int main(int argc,char *argv[]) {
 
-    static std::shared_ptr<Aws::Utils::RateLimits::RateLimiterInterface> m_limiter;
+  /*
+   * get Pool ID.  This Pool should allow dynamoDb access
+   */
+	
+static std::shared_ptr<Aws::Utils::RateLimits::RateLimiterInterface> m_limiter;
     m_limiter = Aws::MakeShared<Aws::Utils::RateLimits::DefaultRateLimiter<>>(ALLOCATION_TAG, 2000000);
-  if (argc == 1)
-    {
-      printf("First argument is the index of the title to increment the count\n");
-      exit(1);
-    }
-
   
 ClientConfiguration config;
  
  config.region = Aws::Region::US_WEST_2; // oregon region
+ // config.authenticationRegion = AREGION;
  config.scheme = Scheme::HTTPS;
  config.connectTimeoutMs = 30000;
  config.requestTimeoutMs = 30000;
  config.readRateLimiter = m_limiter;
  config.writeRateLimiter = m_limiter;
 
+   std::cout << argv[0] << " Version 0.0" << std::endl;
+   std::cout << " Compiled: " << __DATE__ << " " <<  __TIME__ << std::endl;
 
- //  auto client = Aws::MakeShared<DynamoDBClient>(ALLOCATION_TAG, config);
-  auto client = Aws::MakeShared<CognitoIdentityClient>(ALLOCATION_TAG);
-    Aws::String identityPoolName = "Rapid"
+ auto Cognitoclient = Aws::MakeShared<CognitoIdentityClient>(ALLOCATION_TAG);
+ config.region = Aws::Region::US_EAST_1; // cognito region
+ auto STSclient = Aws::MakeShared<STSClient>(ALLOCATION_TAG,config);
+ 
+  Aws::String identityPoolID = "us-east-1:0e708d28-3b97-4531-a25c-f7e5d2468ceb";
+  Aws::String identityARN = "arn:aws:cognito-identity:us-east-1:068477079542:identitypool/us-east-1:0e708d28-3b97-4531-a25c-f7e5d2468ceb";
+  Aws::String newARN = "arn:aws:iam::068477079542:role/Cognito_RapidUnauth_Role";
+  Aws::String identitySessionName = "bizzarri";  
+  Aws::String AccountID = "068477079542 ";
+    GetIdRequest getIdRequest;
+    getIdRequest.WithIdentityPoolId(identityPoolID);
+
+        GetIdOutcome getIdOutcome = Cognitoclient->GetId(getIdRequest);
+	if (getIdOutcome.IsSuccess())
+	  {
+	    std::cout << "success for Get ID!" << std::endl;
+	  }
+
+        GetIdResult getIdResult = getIdOutcome.GetResult();
+	
+	GetOpenIdTokenRequest getOpenIdTokenRequest;
+	getOpenIdTokenRequest.WithIdentityId(getIdOutcome.GetResult().GetIdentityId());
+	GetOpenIdTokenOutcome getOpenIdTokenOutcome = Cognitoclient->GetOpenIdToken(getOpenIdTokenRequest);
+
+        GetOpenIdTokenResult getOpenIdTokenResult = getOpenIdTokenOutcome.GetResult();
+	Aws::String tempToken = getOpenIdTokenResult.GetToken();
+	
+	if (getOpenIdTokenOutcome.IsSuccess())
+	  {
+	    std::cout << "Success for ID Outcome!" << std::endl;
+	    //	    std::cout << "Token: " << tempToken << std::endl;
+	  }
 
 
-    CreateIdentityPoolRequest createIdentityPoolRequest;
+        AssumeRoleWithWebIdentityRequest identityRequest;
+	identityRequest.SetRoleArn(newARN);
+	identityRequest.SetRoleSessionName(identitySessionName);
+	identityRequest.SetWebIdentityToken(tempToken);
 
-    createIdentityPoolRequest.WithDeveloperProviderName("Bruce Wayne")
-                             .WithAllowUnauthenticatedIdentities(true)
-                             .WithIdentityPoolName(identityPoolName)
-                             .AddSupportedLoginProviders(" ", "us-east-1:0e708d28-3b97-4531-a25c-f7e5d2468ceb");
+	AssumeRoleWithWebIdentityOutcome identityOutcome;
+	identityOutcome = STSclient->AssumeRoleWithWebIdentity(identityRequest);
+	AssumeRoleWithWebIdentityResult  identityResult = identityOutcome.GetResult();
+	Aws::STS::Model::Credentials  creds = identityResult.GetCredentials();
 
-    CreateIdentityPoolOutcome createIdentityPoolOutcome = client->CreateIdentityPool(createIdentityPoolRequest);
+	Aws::String keyid = creds.GetAccessKeyId();
+	Aws::String secret = creds.GetSecretAccessKey();
+	Aws::String SessionT = creds.GetSessionToken();
+	
+/****************************************************
+#if 0
+     GetCredentialsForIdentityRequest getCredentialsRequest;
+    getCredentialsRequest.WithIdentityId(getIdOutcome.GetResult().GetIdentityId());
+    GetCredentialsForIdentityOutcome getCredentialsOutcome = Cognitoclient->GetCredentialsForIdentity(getCredentialsRequest);
 
+    GetCredentialsForIdentityResult getCredentialsResult = getCredentialsOutcome.GetResult();
+Credentials creds = getCredentialsResult.GetCredentials();
+
+   Aws::String keyid = creds.GetAccessKeyId();
+   Aws::String secret = creds.GetSecretKey();
+
+#endif 
+*************************************************************************/
+
+
+   if (identityOutcome.IsSuccess())
+      {
+	std::cout << "success for get creds!" << std::endl;
+	//	std::cout << "keyid: " << keyid.c_str() << std::endl;
+	//std::cout << "secret: " << secret.c_str() << std::endl;
+      }
+    else
+      {
+	Aws::String errors = identityOutcome.GetError().GetExceptionName();
+	std::cout << "Error: " << errors.c_str() << std::endl;
+	std::cout << "creds failed!" << std::endl;
+	exit(-1);
+      }
+    
+    
+   
+      /*
+       * make sure enough args to software
+       */
+    
+  if (argc != 2)
+    {
+      printf("First and only argument is the index of the record to setup in DynamoDb\n");
+      exit(-1);
+    }
+
+    config.region = Aws::Region::US_WEST_2; // oregon region
+    auto client = Aws::MakeShared<DynamoDBClient>(ALLOCATION_TAG, AWSCredentials(keyid, secret,SessionT),config);
+
+ //auto client = Aws::MakeShared<DynamoDBClient>(ALLOCATION_TAG, Aws::MakeShared<CognitoCachingAnonymousCredentialsProvider>(ALLOCATION_TAG, identityPoolID, AccountID), config);
+
+ // auto client = Aws::MakeShared<DynamoDBClient>(ALLOCATION_TAG,config);
 
   /*
    * DynamoDB test - read, increment number, and write it back
@@ -146,7 +249,7 @@ ClientConfiguration config;
    * Name is the actual file name
    */
 
-  static const char* HASH_KEY_NAME = "DeviceID";
+      static const char* HASH_KEY_NAME = "DeviceID";
       static const char* TITLE_NAME = "Title";
       static const char* OLD_NAME = "OldName";
       static const char* TIMES_COUNT = "TimesPlayed";
@@ -162,7 +265,7 @@ ClientConfiguration config;
 
       FILE * maca;
       char *macaddr;
-      macaddr = (char *) calloc(50,1);
+      macaddr = (char *) calloc(100,1);
       maca = fopen("/sys/class/net/eth0/address","r");
       if (maca == NULL)
 	{
@@ -178,8 +281,6 @@ ClientConfiguration config;
        * generate random number to be used as secret
        */
 
-
-
       
       long param1, param2, param3;            
       std::mt19937 mt_rand(time(0));
@@ -191,7 +292,7 @@ ClientConfiguration config;
       //      std::cout << "final number: " << param3 << std::endl;
       
 
-  /* get the number of times played, add one. */
+
    AttributeValue Hash;
    /* set key from argument to program */
    //printf("argument string: %s\n",argv[1]);
@@ -210,6 +311,12 @@ ClientConfiguration config;
     attributesToGet.push_back(MAC_ADDRESS);
     attributesToGet.push_back(SECRET);
     GetItemOutcome getOutcome = client->GetItem(getItemRequest);
+    if (!getOutcome.IsSuccess())
+      {
+	Aws::String errors = getOutcome.GetError().GetExceptionName();
+	std::cout << "Error: " << errors.c_str() << std::endl;
+        exit(-1);
+      }
     GetItemResult result = getOutcome.GetResult();
     auto returnedItemCollection = result.GetItem();
     if(returnedItemCollection.size() == 0)
