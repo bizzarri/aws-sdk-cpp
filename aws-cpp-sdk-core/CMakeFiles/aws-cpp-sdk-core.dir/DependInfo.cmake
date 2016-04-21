@@ -51,6 +51,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/memory/AWSMemory.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/memory/AWSMemory.cpp.o"
   "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/stream/ResponseStream.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/stream/ResponseStream.cpp.o"
   "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/threading/Executor.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/threading/ThreadTask.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o"
   "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/unix/FileSystemUtils.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/unix/FileSystemUtils.cpp.o"
   "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/xml/XmlSerializer.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/xml/XmlSerializer.cpp.o"
   )

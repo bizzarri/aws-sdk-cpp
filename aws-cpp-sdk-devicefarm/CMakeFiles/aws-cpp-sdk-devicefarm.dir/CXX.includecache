@@ -1566,6 +1566,18 @@ cassert
 iterator
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+iomanip
+-
+ctime
+-
+mutex
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
 aws/core/utils/memory/stl/AWSMap.h
 -
@@ -1672,6 +1684,18 @@ map
 cstring
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+aws/core/utils/memory/stl/AWSDeque.h
+-
+deque
+-
+queue
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws/core/Core_EXPORTS.h
 -
@@ -1725,9 +1749,17 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
 aws/core/Core_EXPORTS.h
 -
+aws/core/utils/memory/stl/AWSFunction.h
+-
+aws/core/utils/memory/stl/AWSQueue.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 functional
 -
-aws/core/utils/memory/stl/AWSFunction.h
+mutex
+-
+condition_variable
 -
 
 aws-cpp-sdk-devicefarm/include/aws/devicefarm/DeviceFarmClient.h
@@ -2259,6 +2291,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/devicefarm/model/TestType.h
 -
+aws/core/utils/DateTime.h
+-
 aws/devicefarm/model/ExecutionStatus.h
 -
 aws/devicefarm/model/ExecutionResult.h
@@ -2543,6 +2577,8 @@ aws/devicefarm/model/OfferingTransactionType.h
 -
 aws/devicefarm/model/Offering.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-devicefarm/include/aws/devicefarm/model/OfferingTransaction.h
 aws/devicefarm/DeviceFarm_EXPORTS.h
@@ -2550,6 +2586,8 @@ aws/devicefarm/DeviceFarm_EXPORTS.h
 aws/devicefarm/model/OfferingStatus.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/devicefarm/model/MonetaryAmount.h
 -
@@ -2588,6 +2626,8 @@ aws-cpp-sdk-devicefarm/include/aws/devicefarm/model/Project.h
 aws/devicefarm/DeviceFarm_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-devicefarm/include/aws/devicefarm/model/PurchaseOfferingRequest.h
@@ -2664,6 +2704,8 @@ aws/core/utils/memory/stl/AWSString.h
 aws/devicefarm/model/TestType.h
 -
 aws/devicefarm/model/DevicePlatform.h
+-
+aws/core/utils/DateTime.h
 -
 aws/devicefarm/model/ExecutionStatus.h
 -
@@ -2753,6 +2795,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/devicefarm/model/TestType.h
 -
+aws/core/utils/DateTime.h
+-
 aws/devicefarm/model/ExecutionStatus.h
 -
 aws/devicefarm/model/ExecutionResult.h
@@ -2768,6 +2812,8 @@ aws/devicefarm/DeviceFarm_EXPORTS.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/devicefarm/model/TestType.h
+-
+aws/core/utils/DateTime.h
 -
 aws/devicefarm/model/ExecutionStatus.h
 -
@@ -2830,6 +2876,8 @@ aws-cpp-sdk-devicefarm/include/aws/devicefarm/model/Upload.h
 aws/devicefarm/DeviceFarm_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/devicefarm/model/UploadType.h
 -

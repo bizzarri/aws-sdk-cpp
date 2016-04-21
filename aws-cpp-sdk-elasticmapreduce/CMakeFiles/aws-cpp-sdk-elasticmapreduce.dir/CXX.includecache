@@ -1148,6 +1148,18 @@ cassert
 iterator
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+iomanip
+-
+ctime
+-
+mutex
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
 aws/core/utils/memory/stl/AWSMap.h
 -
@@ -1254,6 +1266,18 @@ map
 cstring
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+aws/core/utils/memory/stl/AWSDeque.h
+-
+deque
+-
+queue
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws/core/Core_EXPORTS.h
 -
@@ -1307,9 +1331,17 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
 aws/core/Core_EXPORTS.h
 -
+aws/core/utils/memory/stl/AWSFunction.h
+-
+aws/core/utils/memory/stl/AWSQueue.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 functional
 -
-aws/core/utils/memory/stl/AWSFunction.h
+mutex
+-
+condition_variable
 -
 
 aws-cpp-sdk-elasticmapreduce/include/aws/elasticmapreduce/EMRClient.h
@@ -1539,6 +1571,8 @@ aws/elasticmapreduce/model/ClusterStatus.h
 aws-cpp-sdk-elasticmapreduce/include/aws/elasticmapreduce/model/ClusterTimeline.h
 aws/elasticmapreduce/EMR_EXPORTS.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-elasticmapreduce/include/aws/elasticmapreduce/model/Command.h
 aws/elasticmapreduce/EMR_EXPORTS.h
@@ -1701,6 +1735,8 @@ aws/elasticmapreduce/model/InstanceRoleType.h
 -
 aws/elasticmapreduce/model/InstanceGroupState.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-elasticmapreduce/include/aws/elasticmapreduce/model/InstanceGroupModifyConfig.h
 aws/elasticmapreduce/EMR_EXPORTS.h
@@ -1742,6 +1778,8 @@ aws/elasticmapreduce/model/InstanceGroupTimeline.h
 
 aws-cpp-sdk-elasticmapreduce/include/aws/elasticmapreduce/model/InstanceGroupTimeline.h
 aws/elasticmapreduce/EMR_EXPORTS.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-elasticmapreduce/include/aws/elasticmapreduce/model/InstanceGroupType.h
@@ -1789,6 +1827,8 @@ aws/elasticmapreduce/model/InstanceTimeline.h
 aws-cpp-sdk-elasticmapreduce/include/aws/elasticmapreduce/model/InstanceTimeline.h
 aws/elasticmapreduce/EMR_EXPORTS.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-elasticmapreduce/include/aws/elasticmapreduce/model/JobFlowDetail.h
 aws/elasticmapreduce/EMR_EXPORTS.h
@@ -1816,6 +1856,8 @@ aws-cpp-sdk-elasticmapreduce/include/aws/elasticmapreduce/model/JobFlowExecution
 aws/elasticmapreduce/EMR_EXPORTS.h
 -
 aws/elasticmapreduce/model/JobFlowExecutionState.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
@@ -1872,6 +1914,8 @@ aws-cpp-sdk-elasticmapreduce/include/aws/elasticmapreduce/model/ListClustersRequ
 aws/elasticmapreduce/EMR_EXPORTS.h
 -
 aws/elasticmapreduce/EMRRequest.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
@@ -2087,6 +2131,8 @@ aws/elasticmapreduce/EMR_EXPORTS.h
 -
 aws/elasticmapreduce/model/StepExecutionState.h
 -
+aws/core/utils/DateTime.h
+-
 aws/core/utils/memory/stl/AWSString.h
 -
 
@@ -2134,6 +2180,8 @@ aws/elasticmapreduce/model/StepStatus.h
 
 aws-cpp-sdk-elasticmapreduce/include/aws/elasticmapreduce/model/StepTimeline.h
 aws/elasticmapreduce/EMR_EXPORTS.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-elasticmapreduce/include/aws/elasticmapreduce/model/SupportedProductConfig.h

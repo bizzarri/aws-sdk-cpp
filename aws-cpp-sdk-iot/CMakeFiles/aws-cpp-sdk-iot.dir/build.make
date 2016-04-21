@@ -153,9 +153,57 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTErrorMarshaller.cpp.o.p
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTErrorMarshaller.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTErrorMarshaller.cpp.o
 
 
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.o: aws-cpp-sdk-iot/source/model/CACertificateDescription.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CACertificateDescription.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CACertificateDescription.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CACertificateDescription.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.o
+
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.o: aws-cpp-sdk-iot/source/model/ListCACertificatesResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCACertificatesResult.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCACertificatesResult.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCACertificatesResult.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.o
+
+
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionRequest.cpp.o: aws-cpp-sdk-iot/source/model/CreatePolicyVersionRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CreatePolicyVersionRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionRequest.cpp.i: cmake_force
@@ -179,7 +227,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionR
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRulePayload.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRulePayload.cpp.o: aws-cpp-sdk-iot/source/model/TopicRulePayload.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRulePayload.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRulePayload.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRulePayload.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/TopicRulePayload.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRulePayload.cpp.i: cmake_force
@@ -201,9 +249,57 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRulePayload.cpp
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRulePayload.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRulePayload.cpp.o
 
 
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.o: aws-cpp-sdk-iot/source/model/DeleteRegistrationCodeRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteRegistrationCodeRequest.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteRegistrationCodeRequest.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteRegistrationCodeRequest.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.o
+
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.o: aws-cpp-sdk-iot/source/model/RegisterCertificateRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RegisterCertificateRequest.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RegisterCertificateRequest.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RegisterCertificateRequest.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.o
+
+
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SqsAction.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SqsAction.cpp.o: aws-cpp-sdk-iot/source/model/SqsAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SqsAction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SqsAction.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SqsAction.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/SqsAction.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SqsAction.cpp.i: cmake_force
@@ -227,7 +323,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SqsAction.cpp.o.prov
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsResult.cpp.o: aws-cpp-sdk-iot/source/model/ListPrincipalThingsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListPrincipalThingsResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsResult.cpp.i: cmake_force
@@ -249,9 +345,33 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsR
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsResult.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsResult.cpp.o
 
 
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.o: aws-cpp-sdk-iot/source/model/CACertificate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CACertificate.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CACertificate.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CACertificate.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.o
+
+
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateResult.cpp.o: aws-cpp-sdk-iot/source/model/DescribeCertificateResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DescribeCertificateResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateResult.cpp.i: cmake_force
@@ -275,7 +395,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateR
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRule.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRule.cpp.o: aws-cpp-sdk-iot/source/model/TopicRule.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRule.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRule.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRule.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/TopicRule.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRule.cpp.i: cmake_force
@@ -297,9 +417,33 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRule.cpp.o.prov
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRule.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRule.cpp.o
 
 
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.o: aws-cpp-sdk-iot/source/model/DeleteCACertificateRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteCACertificateRequest.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteCACertificateRequest.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteCACertificateRequest.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.o
+
+
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingResult.cpp.o: aws-cpp-sdk-iot/source/model/DescribeThingResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DescribeThingResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingResult.cpp.i: cmake_force
@@ -323,7 +467,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingResult.
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DynamoDBAction.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DynamoDBAction.cpp.o: aws-cpp-sdk-iot/source/model/DynamoDBAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DynamoDBAction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DynamoDBAction.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DynamoDBAction.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DynamoDBAction.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DynamoDBAction.cpp.i: cmake_force
@@ -347,7 +491,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DynamoDBAction.cpp.o
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateCertificateFromCsrResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateCertificateFromCsrResult.cpp.o: aws-cpp-sdk-iot/source/model/CreateCertificateFromCsrResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateCertificateFromCsrResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateCertificateFromCsrResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateCertificateFromCsrResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CreateCertificateFromCsrResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateCertificateFromCsrResult.cpp.i: cmake_force
@@ -371,7 +515,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateCertificateFro
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/KeyPair.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/KeyPair.cpp.o: aws-cpp-sdk-iot/source/model/KeyPair.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/KeyPair.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/KeyPair.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/KeyPair.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/KeyPair.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/KeyPair.cpp.i: cmake_force
@@ -395,7 +539,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/KeyPair.cpp.o.provid
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateTopicRuleRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateTopicRuleRequest.cpp.o: aws-cpp-sdk-iot/source/model/CreateTopicRuleRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateTopicRuleRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateTopicRuleRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateTopicRuleRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CreateTopicRuleRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateTopicRuleRequest.cpp.i: cmake_force
@@ -419,7 +563,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateTopicRuleReque
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttributePayload.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttributePayload.cpp.o: aws-cpp-sdk-iot/source/model/AttributePayload.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttributePayload.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttributePayload.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttributePayload.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/AttributePayload.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttributePayload.cpp.i: cmake_force
@@ -443,7 +587,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttributePayload.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesResult.cpp.o: aws-cpp-sdk-iot/source/model/ListPrincipalPoliciesResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListPrincipalPoliciesResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesResult.cpp.i: cmake_force
@@ -467,7 +611,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPolicie
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRuleListItem.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRuleListItem.cpp.o: aws-cpp-sdk-iot/source/model/TopicRuleListItem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRuleListItem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRuleListItem.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRuleListItem.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/TopicRuleListItem.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRuleListItem.cpp.i: cmake_force
@@ -489,9 +633,33 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRuleListItem.cp
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRuleListItem.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRuleListItem.cpp.o
 
 
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.o: aws-cpp-sdk-iot/source/model/CACertificateStatus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CACertificateStatus.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CACertificateStatus.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CACertificateStatus.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.o
+
+
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsRequest.cpp.o: aws-cpp-sdk-iot/source/model/ListPolicyVersionsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListPolicyVersionsRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsRequest.cpp.i: cmake_force
@@ -515,7 +683,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsRe
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/S3Action.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/S3Action.cpp.o: aws-cpp-sdk-iot/source/model/S3Action.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/S3Action.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/S3Action.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/S3Action.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/S3Action.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/S3Action.cpp.i: cmake_force
@@ -539,7 +707,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/S3Action.cpp.o.provi
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachPrincipalPolicyRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachPrincipalPolicyRequest.cpp.o: aws-cpp-sdk-iot/source/model/AttachPrincipalPolicyRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachPrincipalPolicyRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachPrincipalPolicyRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachPrincipalPolicyRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/AttachPrincipalPolicyRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachPrincipalPolicyRequest.cpp.i: cmake_force
@@ -563,7 +731,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachPrincipalPolic
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateCertificateFromCsrRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateCertificateFromCsrRequest.cpp.o: aws-cpp-sdk-iot/source/model/CreateCertificateFromCsrRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateCertificateFromCsrRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateCertificateFromCsrRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateCertificateFromCsrRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CreateCertificateFromCsrRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateCertificateFromCsrRequest.cpp.i: cmake_force
@@ -587,7 +755,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateCertificateFro
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPoliciesRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPoliciesRequest.cpp.o: aws-cpp-sdk-iot/source/model/ListPoliciesRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPoliciesRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPoliciesRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPoliciesRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListPoliciesRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPoliciesRequest.cpp.i: cmake_force
@@ -611,7 +779,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPoliciesRequest.
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Action.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Action.cpp.o: aws-cpp-sdk-iot/source/model/Action.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Action.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Action.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Action.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/Action.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Action.cpp.i: cmake_force
@@ -635,7 +803,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Action.cpp.o.provide
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/FirehoseAction.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/FirehoseAction.cpp.o: aws-cpp-sdk-iot/source/model/FirehoseAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/FirehoseAction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/FirehoseAction.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/FirehoseAction.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/FirehoseAction.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/FirehoseAction.cpp.i: cmake_force
@@ -659,7 +827,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/FirehoseAction.cpp.o
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateRequest.cpp.o: aws-cpp-sdk-iot/source/model/DescribeCertificateRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DescribeCertificateRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateRequest.cpp.i: cmake_force
@@ -681,9 +849,33 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateR
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateRequest.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateRequest.cpp.o
 
 
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.o: aws-cpp-sdk-iot/source/model/DescribeCACertificateResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DescribeCACertificateResult.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DescribeCACertificateResult.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DescribeCACertificateResult.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.o
+
+
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsResult.cpp.o: aws-cpp-sdk-iot/source/model/ListPolicyVersionsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListPolicyVersionsResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsResult.cpp.i: cmake_force
@@ -707,7 +899,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsRe
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateDescription.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateDescription.cpp.o: aws-cpp-sdk-iot/source/model/CertificateDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CertificateDescription.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateDescription.cpp.i: cmake_force
@@ -731,7 +923,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateDescripti
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyRequest.cpp.o: aws-cpp-sdk-iot/source/model/GetPolicyRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/GetPolicyRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyRequest.cpp.i: cmake_force
@@ -755,7 +947,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingPrincipalsRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingPrincipalsRequest.cpp.o: aws-cpp-sdk-iot/source/model/ListThingPrincipalsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingPrincipalsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingPrincipalsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingPrincipalsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListThingPrincipalsRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingPrincipalsRequest.cpp.i: cmake_force
@@ -779,7 +971,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingPrincipalsR
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingRequest.cpp.o: aws-cpp-sdk-iot/source/model/DescribeThingRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DescribeThingRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingRequest.cpp.i: cmake_force
@@ -803,7 +995,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingRequest
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingRequest.cpp.o: aws-cpp-sdk-iot/source/model/UpdateThingRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/UpdateThingRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingRequest.cpp.i: cmake_force
@@ -827,7 +1019,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingRequest.c
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingResult.cpp.o: aws-cpp-sdk-iot/source/model/CreateThingResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CreateThingResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingResult.cpp.i: cmake_force
@@ -849,9 +1041,57 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingResult.cp
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingResult.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingResult.cpp.o
 
 
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.o: aws-cpp-sdk-iot/source/model/ListCertificatesByCAResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCertificatesByCAResult.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCertificatesByCAResult.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCertificatesByCAResult.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.o
+
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.o: aws-cpp-sdk-iot/source/model/RegisterCACertificateResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RegisterCACertificateResult.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RegisterCACertificateResult.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RegisterCACertificateResult.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.o
+
+
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingResult.cpp.o: aws-cpp-sdk-iot/source/model/UpdateThingResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/UpdateThingResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingResult.cpp.i: cmake_force
@@ -875,7 +1115,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingResult.cp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsRequest.cpp.o: aws-cpp-sdk-iot/source/model/ListPrincipalThingsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListPrincipalThingsRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsRequest.cpp.i: cmake_force
@@ -899,7 +1139,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsR
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPoliciesResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPoliciesResult.cpp.o: aws-cpp-sdk-iot/source/model/ListPoliciesResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPoliciesResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPoliciesResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPoliciesResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListPoliciesResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPoliciesResult.cpp.i: cmake_force
@@ -923,7 +1163,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPoliciesResult.c
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetTopicRuleResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetTopicRuleResult.cpp.o: aws-cpp-sdk-iot/source/model/GetTopicRuleResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetTopicRuleResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetTopicRuleResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetTopicRuleResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/GetTopicRuleResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetTopicRuleResult.cpp.i: cmake_force
@@ -947,7 +1187,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetTopicRuleResult.c
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SetLoggingOptionsRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SetLoggingOptionsRequest.cpp.o: aws-cpp-sdk-iot/source/model/SetLoggingOptionsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SetLoggingOptionsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SetLoggingOptionsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SetLoggingOptionsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/SetLoggingOptionsRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SetLoggingOptionsRequest.cpp.i: cmake_force
@@ -971,7 +1211,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SetLoggingOptionsReq
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateKeysAndCertificateResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateKeysAndCertificateResult.cpp.o: aws-cpp-sdk-iot/source/model/CreateKeysAndCertificateResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateKeysAndCertificateResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateKeysAndCertificateResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateKeysAndCertificateResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CreateKeysAndCertificateResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateKeysAndCertificateResult.cpp.i: cmake_force
@@ -995,7 +1235,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateKeysAndCertifi
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyRequest.cpp.o: aws-cpp-sdk-iot/source/model/DeletePolicyRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeletePolicyRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyRequest.cpp.i: cmake_force
@@ -1019,7 +1259,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyRequest.
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/EnableTopicRuleRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/EnableTopicRuleRequest.cpp.o: aws-cpp-sdk-iot/source/model/EnableTopicRuleRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/EnableTopicRuleRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/EnableTopicRuleRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/EnableTopicRuleRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/EnableTopicRuleRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/EnableTopicRuleRequest.cpp.i: cmake_force
@@ -1043,7 +1283,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/EnableTopicRuleReque
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyRequest.cpp.o: aws-cpp-sdk-iot/source/model/CreatePolicyRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CreatePolicyRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyRequest.cpp.i: cmake_force
@@ -1067,7 +1307,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyRequest.
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesResult.cpp.o: aws-cpp-sdk-iot/source/model/ListCertificatesResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCertificatesResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesResult.cpp.i: cmake_force
@@ -1091,7 +1331,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesResu
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SetDefaultPolicyVersionRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SetDefaultPolicyVersionRequest.cpp.o: aws-cpp-sdk-iot/source/model/SetDefaultPolicyVersionRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SetDefaultPolicyVersionRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SetDefaultPolicyVersionRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SetDefaultPolicyVersionRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/SetDefaultPolicyVersionRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SetDefaultPolicyVersionRequest.cpp.i: cmake_force
@@ -1115,7 +1355,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SetDefaultPolicyVers
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/PolicyVersion.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/PolicyVersion.cpp.o: aws-cpp-sdk-iot/source/model/PolicyVersion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/PolicyVersion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/PolicyVersion.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/PolicyVersion.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/PolicyVersion.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/PolicyVersion.cpp.i: cmake_force
@@ -1139,7 +1379,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/PolicyVersion.cpp.o.
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalRequest.cpp.o: aws-cpp-sdk-iot/source/model/DetachThingPrincipalRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DetachThingPrincipalRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalRequest.cpp.i: cmake_force
@@ -1161,9 +1401,33 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipal
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalRequest.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalRequest.cpp.o
 
 
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.o: aws-cpp-sdk-iot/source/model/ListCACertificatesRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCACertificatesRequest.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCACertificatesRequest.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCACertificatesRequest.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.o
+
+
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointRequest.cpp.o: aws-cpp-sdk-iot/source/model/DescribeEndpointRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DescribeEndpointRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointRequest.cpp.i: cmake_force
@@ -1185,9 +1449,57 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointRequ
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointRequest.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointRequest.cpp.o
 
 
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.o: aws-cpp-sdk-iot/source/model/UpdateCACertificateRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/UpdateCACertificateRequest.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/UpdateCACertificateRequest.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/UpdateCACertificateRequest.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.o
+
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.o: aws-cpp-sdk-iot/source/model/DescribeCACertificateRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DescribeCACertificateRequest.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DescribeCACertificateRequest.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DescribeCACertificateRequest.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.o
+
+
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingRequest.cpp.o: aws-cpp-sdk-iot/source/model/CreateThingRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CreateThingRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingRequest.cpp.i: cmake_force
@@ -1211,7 +1523,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingRequest.c
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateStatus.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateStatus.cpp.o: aws-cpp-sdk-iot/source/model/CertificateStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateStatus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateStatus.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateStatus.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CertificateStatus.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateStatus.cpp.i: cmake_force
@@ -1235,7 +1547,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateStatus.cp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RejectCertificateTransferRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RejectCertificateTransferRequest.cpp.o: aws-cpp-sdk-iot/source/model/RejectCertificateTransferRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RejectCertificateTransferRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RejectCertificateTransferRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RejectCertificateTransferRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RejectCertificateTransferRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RejectCertificateTransferRequest.cpp.i: cmake_force
@@ -1259,7 +1571,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RejectCertificateTra
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListTopicRulesRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListTopicRulesRequest.cpp.o: aws-cpp-sdk-iot/source/model/ListTopicRulesRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListTopicRulesRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListTopicRulesRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListTopicRulesRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListTopicRulesRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListTopicRulesRequest.cpp.i: cmake_force
@@ -1283,7 +1595,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListTopicRulesReques
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsResult.cpp.o: aws-cpp-sdk-iot/source/model/GetLoggingOptionsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/GetLoggingOptionsResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsResult.cpp.i: cmake_force
@@ -1307,7 +1619,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsRes
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListTopicRulesResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListTopicRulesResult.cpp.o: aws-cpp-sdk-iot/source/model/ListTopicRulesResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListTopicRulesResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListTopicRulesResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListTopicRulesResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListTopicRulesResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListTopicRulesResult.cpp.i: cmake_force
@@ -1331,7 +1643,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListTopicRulesResult
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferCertificateResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferCertificateResult.cpp.o: aws-cpp-sdk-iot/source/model/TransferCertificateResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferCertificateResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferCertificateResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferCertificateResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/TransferCertificateResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferCertificateResult.cpp.i: cmake_force
@@ -1355,7 +1667,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferCertificateR
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyResult.cpp.o: aws-cpp-sdk-iot/source/model/CreatePolicyResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CreatePolicyResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyResult.cpp.i: cmake_force
@@ -1379,7 +1691,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyResult.c
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointResult.cpp.o: aws-cpp-sdk-iot/source/model/DescribeEndpointResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DescribeEndpointResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointResult.cpp.i: cmake_force
@@ -1403,7 +1715,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointResu
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AcceptCertificateTransferRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AcceptCertificateTransferRequest.cpp.o: aws-cpp-sdk-iot/source/model/AcceptCertificateTransferRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AcceptCertificateTransferRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AcceptCertificateTransferRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AcceptCertificateTransferRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/AcceptCertificateTransferRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AcceptCertificateTransferRequest.cpp.i: cmake_force
@@ -1427,7 +1739,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AcceptCertificateTra
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalResult.cpp.o: aws-cpp-sdk-iot/source/model/DetachThingPrincipalResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DetachThingPrincipalResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalResult.cpp.i: cmake_force
@@ -1451,7 +1763,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipal
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateKeysAndCertificateRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateKeysAndCertificateRequest.cpp.o: aws-cpp-sdk-iot/source/model/CreateKeysAndCertificateRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateKeysAndCertificateRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateKeysAndCertificateRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateKeysAndCertificateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CreateKeysAndCertificateRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateKeysAndCertificateRequest.cpp.i: cmake_force
@@ -1475,7 +1787,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateKeysAndCertifi
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCertificateRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCertificateRequest.cpp.o: aws-cpp-sdk-iot/source/model/UpdateCertificateRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCertificateRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCertificateRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCertificateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/UpdateCertificateRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCertificateRequest.cpp.i: cmake_force
@@ -1497,9 +1809,33 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCertificateReq
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCertificateRequest.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCertificateRequest.cpp.o
 
 
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.o: aws-cpp-sdk-iot/source/model/DeleteRegistrationCodeResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteRegistrationCodeResult.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteRegistrationCodeResult.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteRegistrationCodeResult.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.o
+
+
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionResult.cpp.o: aws-cpp-sdk-iot/source/model/CreatePolicyVersionResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CreatePolicyVersionResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionResult.cpp.i: cmake_force
@@ -1523,7 +1859,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionR
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCertificateRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCertificateRequest.cpp.o: aws-cpp-sdk-iot/source/model/DeleteCertificateRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCertificateRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCertificateRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCertificateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteCertificateRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCertificateRequest.cpp.i: cmake_force
@@ -1547,7 +1883,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCertificateReq
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingPrincipalsResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingPrincipalsResult.cpp.o: aws-cpp-sdk-iot/source/model/ListThingPrincipalsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingPrincipalsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingPrincipalsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingPrincipalsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListThingPrincipalsResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingPrincipalsResult.cpp.i: cmake_force
@@ -1571,7 +1907,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingPrincipalsR
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LogLevel.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LogLevel.cpp.o: aws-cpp-sdk-iot/source/model/LogLevel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LogLevel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LogLevel.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LogLevel.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/LogLevel.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LogLevel.cpp.i: cmake_force
@@ -1595,7 +1931,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LogLevel.cpp.o.provi
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteTopicRuleRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteTopicRuleRequest.cpp.o: aws-cpp-sdk-iot/source/model/DeleteTopicRuleRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteTopicRuleRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteTopicRuleRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteTopicRuleRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteTopicRuleRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteTopicRuleRequest.cpp.i: cmake_force
@@ -1619,7 +1955,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteTopicRuleReque
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachThingPrincipalRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachThingPrincipalRequest.cpp.o: aws-cpp-sdk-iot/source/model/AttachThingPrincipalRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachThingPrincipalRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachThingPrincipalRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachThingPrincipalRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/AttachThingPrincipalRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachThingPrincipalRequest.cpp.i: cmake_force
@@ -1643,7 +1979,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachThingPrincipal
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferCertificateRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferCertificateRequest.cpp.o: aws-cpp-sdk-iot/source/model/TransferCertificateRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferCertificateRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferCertificateRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferCertificateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/TransferCertificateRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferCertificateRequest.cpp.i: cmake_force
@@ -1667,7 +2003,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferCertificateR
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionResult.cpp.o: aws-cpp-sdk-iot/source/model/GetPolicyVersionResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/GetPolicyVersionResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionResult.cpp.i: cmake_force
@@ -1691,7 +2027,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionResu
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ReplaceTopicRuleRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ReplaceTopicRuleRequest.cpp.o: aws-cpp-sdk-iot/source/model/ReplaceTopicRuleRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ReplaceTopicRuleRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ReplaceTopicRuleRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ReplaceTopicRuleRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ReplaceTopicRuleRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ReplaceTopicRuleRequest.cpp.i: cmake_force
@@ -1715,7 +2051,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ReplaceTopicRuleRequ
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsRequest.cpp.o: aws-cpp-sdk-iot/source/model/GetLoggingOptionsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/GetLoggingOptionsRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsRequest.cpp.i: cmake_force
@@ -1737,9 +2073,33 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsReq
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsRequest.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsRequest.cpp.o
 
 
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.o: aws-cpp-sdk-iot/source/model/GetRegistrationCodeResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/GetRegistrationCodeResult.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/GetRegistrationCodeResult.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/GetRegistrationCodeResult.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.o
+
+
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsRequest.cpp.o: aws-cpp-sdk-iot/source/model/ListThingsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListThingsRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsRequest.cpp.i: cmake_force
@@ -1761,9 +2121,33 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsRequest.cp
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsRequest.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsRequest.cpp.o
 
 
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.o: aws-cpp-sdk-iot/source/model/GetRegistrationCodeRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/GetRegistrationCodeRequest.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/GetRegistrationCodeRequest.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/GetRegistrationCodeRequest.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.o
+
+
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingRequest.cpp.o: aws-cpp-sdk-iot/source/model/DeleteThingRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteThingRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingRequest.cpp.i: cmake_force
@@ -1787,7 +2171,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingRequest.c
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingResult.cpp.o: aws-cpp-sdk-iot/source/model/DeleteThingResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteThingResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingResult.cpp.i: cmake_force
@@ -1811,7 +2195,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingResult.cp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DisableTopicRuleRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DisableTopicRuleRequest.cpp.o: aws-cpp-sdk-iot/source/model/DisableTopicRuleRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DisableTopicRuleRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DisableTopicRuleRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DisableTopicRuleRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DisableTopicRuleRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DisableTopicRuleRequest.cpp.i: cmake_force
@@ -1835,7 +2219,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DisableTopicRuleRequ
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetTopicRuleRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetTopicRuleRequest.cpp.o: aws-cpp-sdk-iot/source/model/GetTopicRuleRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetTopicRuleRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetTopicRuleRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetTopicRuleRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/GetTopicRuleRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetTopicRuleRequest.cpp.i: cmake_force
@@ -1859,7 +2243,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetTopicRuleRequest.
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CloudwatchAlarmAction.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CloudwatchAlarmAction.cpp.o: aws-cpp-sdk-iot/source/model/CloudwatchAlarmAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CloudwatchAlarmAction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CloudwatchAlarmAction.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CloudwatchAlarmAction.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CloudwatchAlarmAction.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CloudwatchAlarmAction.cpp.i: cmake_force
@@ -1883,7 +2267,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CloudwatchAlarmActio
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CloudwatchMetricAction.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CloudwatchMetricAction.cpp.o: aws-cpp-sdk-iot/source/model/CloudwatchMetricAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CloudwatchMetricAction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CloudwatchMetricAction.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CloudwatchMetricAction.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CloudwatchMetricAction.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CloudwatchMetricAction.cpp.i: cmake_force
@@ -1907,7 +2291,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CloudwatchMetricActi
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachPrincipalPolicyRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachPrincipalPolicyRequest.cpp.o: aws-cpp-sdk-iot/source/model/DetachPrincipalPolicyRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachPrincipalPolicyRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachPrincipalPolicyRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachPrincipalPolicyRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DetachPrincipalPolicyRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachPrincipalPolicyRequest.cpp.i: cmake_force
@@ -1931,7 +2315,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachPrincipalPolic
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyResult.cpp.o: aws-cpp-sdk-iot/source/model/GetPolicyResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/GetPolicyResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyResult.cpp.i: cmake_force
@@ -1955,7 +2339,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyResult.cpp.
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Policy.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Policy.cpp.o: aws-cpp-sdk-iot/source/model/Policy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Policy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Policy.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Policy.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/Policy.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Policy.cpp.i: cmake_force
@@ -1979,7 +2363,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Policy.cpp.o.provide
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachThingPrincipalResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachThingPrincipalResult.cpp.o: aws-cpp-sdk-iot/source/model/AttachThingPrincipalResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachThingPrincipalResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachThingPrincipalResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachThingPrincipalResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/AttachThingPrincipalResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachThingPrincipalResult.cpp.i: cmake_force
@@ -2003,7 +2387,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachThingPrincipal
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ThingAttribute.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ThingAttribute.cpp.o: aws-cpp-sdk-iot/source/model/ThingAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ThingAttribute.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ThingAttribute.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ThingAttribute.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ThingAttribute.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ThingAttribute.cpp.i: cmake_force
@@ -2025,9 +2409,57 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ThingAttribute.cpp.o
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ThingAttribute.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ThingAttribute.cpp.o
 
 
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.o: aws-cpp-sdk-iot/source/model/RegisterCACertificateRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RegisterCACertificateRequest.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RegisterCACertificateRequest.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RegisterCACertificateRequest.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.o
+
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.o: aws-cpp-sdk-iot/source/model/DeleteCACertificateResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteCACertificateResult.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteCACertificateResult.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteCACertificateResult.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.o
+
+
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/MessageFormat.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/MessageFormat.cpp.o: aws-cpp-sdk-iot/source/model/MessageFormat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/MessageFormat.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/MessageFormat.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/MessageFormat.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/MessageFormat.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/MessageFormat.cpp.i: cmake_force
@@ -2051,7 +2483,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/MessageFormat.cpp.o.
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RepublishAction.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RepublishAction.cpp.o: aws-cpp-sdk-iot/source/model/RepublishAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RepublishAction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RepublishAction.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RepublishAction.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RepublishAction.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RepublishAction.cpp.i: cmake_force
@@ -2075,7 +2507,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RepublishAction.cpp.
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LambdaAction.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LambdaAction.cpp.o: aws-cpp-sdk-iot/source/model/LambdaAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LambdaAction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LambdaAction.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LambdaAction.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/LambdaAction.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LambdaAction.cpp.i: cmake_force
@@ -2099,7 +2531,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LambdaAction.cpp.o.p
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Certificate.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Certificate.cpp.o: aws-cpp-sdk-iot/source/model/Certificate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Certificate.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Certificate.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Certificate.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/Certificate.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Certificate.cpp.i: cmake_force
@@ -2123,7 +2555,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Certificate.cpp.o.pr
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ElasticsearchAction.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ElasticsearchAction.cpp.o: aws-cpp-sdk-iot/source/model/ElasticsearchAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ElasticsearchAction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ElasticsearchAction.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ElasticsearchAction.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ElasticsearchAction.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ElasticsearchAction.cpp.i: cmake_force
@@ -2147,7 +2579,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ElasticsearchAction.
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LoggingOptionsPayload.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LoggingOptionsPayload.cpp.o: aws-cpp-sdk-iot/source/model/LoggingOptionsPayload.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LoggingOptionsPayload.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LoggingOptionsPayload.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LoggingOptionsPayload.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/LoggingOptionsPayload.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LoggingOptionsPayload.cpp.i: cmake_force
@@ -2171,7 +2603,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LoggingOptionsPayloa
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesRequest.cpp.o: aws-cpp-sdk-iot/source/model/ListCertificatesRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCertificatesRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesRequest.cpp.i: cmake_force
@@ -2195,7 +2627,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesRequ
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionRequest.cpp.o: aws-cpp-sdk-iot/source/model/GetPolicyVersionRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/GetPolicyVersionRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionRequest.cpp.i: cmake_force
@@ -2217,9 +2649,33 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionRequ
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionRequest.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionRequest.cpp.o
 
 
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.o: aws-cpp-sdk-iot/source/model/ListCertificatesByCARequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCertificatesByCARequest.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCertificatesByCARequest.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCertificatesByCARequest.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.o
+
+
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyVersionRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyVersionRequest.cpp.o: aws-cpp-sdk-iot/source/model/DeletePolicyVersionRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyVersionRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyVersionRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyVersionRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeletePolicyVersionRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyVersionRequest.cpp.i: cmake_force
@@ -2243,7 +2699,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyVersionR
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesRequest.cpp.o: aws-cpp-sdk-iot/source/model/ListPrincipalPoliciesRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListPrincipalPoliciesRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesRequest.cpp.i: cmake_force
@@ -2267,7 +2723,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPolicie
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsResult.cpp.o: aws-cpp-sdk-iot/source/model/ListThingsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListThingsResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsResult.cpp.i: cmake_force
@@ -2291,7 +2747,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsResult.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SnsAction.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SnsAction.cpp.o: aws-cpp-sdk-iot/source/model/SnsAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SnsAction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SnsAction.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SnsAction.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/SnsAction.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SnsAction.cpp.i: cmake_force
@@ -2313,9 +2769,57 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SnsAction.cpp.o.prov
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SnsAction.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SnsAction.cpp.o
 
 
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.o: aws-cpp-sdk-iot/source/model/RegisterCertificateResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RegisterCertificateResult.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RegisterCertificateResult.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RegisterCertificateResult.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.o
+
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.o: aws-cpp-sdk-iot/source/model/TransferData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/TransferData.cpp
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/TransferData.cpp > CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.i
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/TransferData.cpp -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.s
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.o.requires
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.o.provides: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.o.provides
+
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.o.provides.build: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.o
+
+
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CancelCertificateTransferRequest.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CancelCertificateTransferRequest.cpp.o: aws-cpp-sdk-iot/source/model/CancelCertificateTransferRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CancelCertificateTransferRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CancelCertificateTransferRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CancelCertificateTransferRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CancelCertificateTransferRequest.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CancelCertificateTransferRequest.cpp.i: cmake_force
@@ -2339,7 +2843,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CancelCertificateTra
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/KinesisAction.cpp.o: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/flags.make
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/KinesisAction.cpp.o: aws-cpp-sdk-iot/source/model/KinesisAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/KinesisAction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/KinesisAction.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-iot.dir/source/model/KinesisAction.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/KinesisAction.cpp
 
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/KinesisAction.cpp.i: cmake_force
@@ -2367,12 +2871,18 @@ aws__cpp__sdk__iot_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTClient.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTErrors.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTErrorMarshaller.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRulePayload.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SqsAction.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRule.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DynamoDBAction.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateCertificateFromCsrResult.cpp.o" \
@@ -2381,6 +2891,7 @@ aws__cpp__sdk__iot_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttributePayload.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRuleListItem.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/S3Action.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachPrincipalPolicyRequest.cpp.o" \
@@ -2389,6 +2900,7 @@ aws__cpp__sdk__iot_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Action.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/FirehoseAction.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateDescription.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyRequest.cpp.o" \
@@ -2396,6 +2908,8 @@ aws__cpp__sdk__iot_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPoliciesResult.cpp.o" \
@@ -2409,7 +2923,10 @@ aws__cpp__sdk__iot_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SetDefaultPolicyVersionRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/PolicyVersion.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateStatus.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RejectCertificateTransferRequest.cpp.o" \
@@ -2423,6 +2940,7 @@ aws__cpp__sdk__iot_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateKeysAndCertificateRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCertificateRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCertificateRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingPrincipalsResult.cpp.o" \
@@ -2433,7 +2951,9 @@ aws__cpp__sdk__iot_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ReplaceTopicRuleRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DisableTopicRuleRequest.cpp.o" \
@@ -2445,6 +2965,8 @@ aws__cpp__sdk__iot_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Policy.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachThingPrincipalResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ThingAttribute.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/MessageFormat.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RepublishAction.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LambdaAction.cpp.o" \
@@ -2453,10 +2975,13 @@ aws__cpp__sdk__iot_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LoggingOptionsPayload.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyVersionRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SnsAction.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CancelCertificateTransferRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-iot.dir/source/model/KinesisAction.cpp.o"
 
@@ -2467,12 +2992,18 @@ aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-io
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTClient.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTErrors.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTErrorMarshaller.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRulePayload.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SqsAction.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsResult.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateResult.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRule.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingResult.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DynamoDBAction.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateCertificateFromCsrResult.cpp.o
@@ -2481,6 +3012,7 @@ aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-io
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttributePayload.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesResult.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRuleListItem.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/S3Action.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachPrincipalPolicyRequest.cpp.o
@@ -2489,6 +3021,7 @@ aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-io
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Action.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/FirehoseAction.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateRequest.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsResult.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateDescription.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyRequest.cpp.o
@@ -2496,6 +3029,8 @@ aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-io
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingResult.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingResult.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPoliciesResult.cpp.o
@@ -2509,7 +3044,10 @@ aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-io
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SetDefaultPolicyVersionRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/PolicyVersion.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalRequest.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointRequest.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateStatus.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RejectCertificateTransferRequest.cpp.o
@@ -2523,6 +3061,7 @@ aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-io
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalResult.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateKeysAndCertificateRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCertificateRequest.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionResult.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCertificateRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingPrincipalsResult.cpp.o
@@ -2533,7 +3072,9 @@ aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-io
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionResult.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ReplaceTopicRuleRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsRequest.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsRequest.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingResult.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DisableTopicRuleRequest.cpp.o
@@ -2545,6 +3086,8 @@ aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-io
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Policy.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachThingPrincipalResult.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ThingAttribute.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/MessageFormat.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RepublishAction.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LambdaAction.cpp.o
@@ -2553,16 +3096,19 @@ aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-io
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LoggingOptionsPayload.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionRequest.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyVersionRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsResult.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SnsAction.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.o
+aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CancelCertificateTransferRequest.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/KinesisAction.cpp.o
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-core/libaws-cpp-sdk-core.so
 aws-cpp-sdk-iot/libaws-cpp-sdk-iot.so: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Linking CXX shared library libaws-cpp-sdk-iot.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Linking CXX shared library libaws-cpp-sdk-iot.so"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aws-cpp-sdk-iot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -2574,12 +3120,18 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFi
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTClient.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTErrors.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTErrorMarshaller.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRulePayload.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SqsAction.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsResult.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateResult.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRule.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingResult.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DynamoDBAction.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateCertificateFromCsrResult.cpp.o.requires
@@ -2588,6 +3140,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFi
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttributePayload.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesResult.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRuleListItem.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/S3Action.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachPrincipalPolicyRequest.cpp.o.requires
@@ -2596,6 +3149,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFi
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Action.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/FirehoseAction.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateRequest.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsResult.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateDescription.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyRequest.cpp.o.requires
@@ -2603,6 +3157,8 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFi
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeThingRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingResult.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateThingResult.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalThingsRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPoliciesResult.cpp.o.requires
@@ -2616,7 +3172,10 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFi
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SetDefaultPolicyVersionRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/PolicyVersion.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalRequest.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointRequest.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateThingRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateStatus.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RejectCertificateTransferRequest.cpp.o.requires
@@ -2630,6 +3189,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFi
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DetachThingPrincipalResult.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateKeysAndCertificateRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCertificateRequest.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreatePolicyVersionResult.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCertificateRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingPrincipalsResult.cpp.o.requires
@@ -2640,7 +3200,9 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFi
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionResult.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ReplaceTopicRuleRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetLoggingOptionsRequest.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsRequest.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingResult.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DisableTopicRuleRequest.cpp.o.requires
@@ -2652,6 +3214,8 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFi
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Policy.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttachThingPrincipalResult.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ThingAttribute.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/MessageFormat.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RepublishAction.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LambdaAction.cpp.o.requires
@@ -2660,10 +3224,13 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFi
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LoggingOptionsPayload.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionRequest.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyVersionRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPrincipalPoliciesRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListThingsResult.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/SnsAction.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.o.requires
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CancelCertificateTransferRequest.cpp.o.requires
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/requires: aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/KinesisAction.cpp.o.requires
 

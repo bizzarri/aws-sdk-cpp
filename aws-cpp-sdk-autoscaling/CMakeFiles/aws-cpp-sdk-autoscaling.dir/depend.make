@@ -136,14 +136,17 @@ aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalin
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalingClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalingClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalingClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalingClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalingClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalingClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalingClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalingClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalingClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalingClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalingClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalingClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalingClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalingClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalingClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalingClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/AutoScalingClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
@@ -198,6 +201,7 @@ aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Acti
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Activity.cpp.o: aws-cpp-sdk-autoscaling/include/aws/autoscaling/model/Activity.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Activity.cpp.o: aws-cpp-sdk-autoscaling/include/aws/autoscaling/model/ScalingActivityStatusCode.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Activity.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Activity.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Activity.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Activity.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Activity.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -331,6 +335,7 @@ aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Auto
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/AutoScalingGroup.cpp.o: aws-cpp-sdk-autoscaling/include/aws/autoscaling/model/SuspendedProcess.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/AutoScalingGroup.cpp.o: aws-cpp-sdk-autoscaling/include/aws/autoscaling/model/TagDescription.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/AutoScalingGroup.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/AutoScalingGroup.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/AutoScalingGroup.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/AutoScalingGroup.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/AutoScalingGroup.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -870,6 +875,7 @@ aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Desc
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeAutoScalingGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeAutoScalingGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeAutoScalingGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeAutoScalingGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeAutoScalingGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeAutoScalingGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeAutoScalingGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1040,6 +1046,7 @@ aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Desc
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeLaunchConfigurationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeLaunchConfigurationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeLaunchConfigurationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeLaunchConfigurationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeLaunchConfigurationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeLaunchConfigurationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeLaunchConfigurationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1435,6 +1442,7 @@ aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Desc
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScalingActivitiesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScalingActivitiesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScalingActivitiesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScalingActivitiesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScalingActivitiesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScalingActivitiesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScalingActivitiesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1521,6 +1529,7 @@ aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Desc
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScheduledActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScheduledActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScheduledActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScheduledActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScheduledActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScheduledActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScheduledActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1547,6 +1556,7 @@ aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Desc
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScheduledActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScheduledActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScheduledActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScheduledActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScheduledActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScheduledActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DescribeScheduledActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1716,6 +1726,7 @@ aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Deta
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DetachInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DetachInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DetachInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DetachInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DetachInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DetachInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/DetachInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1910,6 +1921,7 @@ aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Ente
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/EnterStandbyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/EnterStandbyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/EnterStandbyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/EnterStandbyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/EnterStandbyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/EnterStandbyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/EnterStandbyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1992,6 +2004,7 @@ aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Exit
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/ExitStandbyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/ExitStandbyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/ExitStandbyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/ExitStandbyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/ExitStandbyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/ExitStandbyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/ExitStandbyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2067,6 +2080,7 @@ aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Laun
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/LaunchConfiguration.cpp.o: aws-cpp-sdk-autoscaling/include/aws/autoscaling/model/InstanceMonitoring.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/LaunchConfiguration.cpp.o: aws-cpp-sdk-autoscaling/include/aws/autoscaling/model/LaunchConfiguration.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/LaunchConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/LaunchConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/LaunchConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/LaunchConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/LaunchConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2338,6 +2352,7 @@ aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/PutS
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/PutScheduledUpdateGroupActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/PutScheduledUpdateGroupActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/PutScheduledUpdateGroupActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/PutScheduledUpdateGroupActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/PutScheduledUpdateGroupActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/PutScheduledUpdateGroupActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/PutScheduledUpdateGroupActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2486,6 +2501,7 @@ aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Sche
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/ScheduledUpdateGroupAction.cpp.o: aws-cpp-sdk-autoscaling/include/aws/autoscaling/AutoScaling_EXPORTS.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/ScheduledUpdateGroupAction.cpp.o: aws-cpp-sdk-autoscaling/include/aws/autoscaling/model/ScheduledUpdateGroupAction.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/ScheduledUpdateGroupAction.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/ScheduledUpdateGroupAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/ScheduledUpdateGroupAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/ScheduledUpdateGroupAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/ScheduledUpdateGroupAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2730,6 +2746,7 @@ aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/Term
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/TerminateInstanceInAutoScalingGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/TerminateInstanceInAutoScalingGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/TerminateInstanceInAutoScalingGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/TerminateInstanceInAutoScalingGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/TerminateInstanceInAutoScalingGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/TerminateInstanceInAutoScalingGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-autoscaling/CMakeFiles/aws-cpp-sdk-autoscaling.dir/source/model/TerminateInstanceInAutoScalingGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h

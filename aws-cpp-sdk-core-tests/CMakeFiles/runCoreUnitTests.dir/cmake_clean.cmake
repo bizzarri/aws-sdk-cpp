@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/runCoreUnitTests.dir/utils/OSVersionInfoTest.cpp.o"
   "CMakeFiles/runCoreUnitTests.dir/utils/HashingUtilsTest.cpp.o"
   "CMakeFiles/runCoreUnitTests.dir/utils/EnumOverflowTest.cpp.o"
+  "CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o"
   "CMakeFiles/runCoreUnitTests.dir/utils/json/JsonSerializerTest.cpp.o"
   "CMakeFiles/runCoreUnitTests.dir/utils/xml/XmlSerializerTest.cpp.o"
   "CMakeFiles/runCoreUnitTests.dir/utils/logging/LoggingTest.cpp.o"

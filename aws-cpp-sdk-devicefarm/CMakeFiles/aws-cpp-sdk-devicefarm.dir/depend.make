@@ -26,6 +26,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/DeviceFarmCl
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/DeviceFarmClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/DeviceFarmClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/DeviceFarmClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/DeviceFarmClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/DeviceFarmClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/DeviceFarmClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/DeviceFarmClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -36,6 +37,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/DeviceFarmCl
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/DeviceFarmClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/DeviceFarmClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/DeviceFarmClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/DeviceFarmClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/DeviceFarmClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/DeviceFarmClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/DeviceFarmClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -435,6 +437,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Create
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/CreateProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/CreateProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/CreateProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/CreateProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/CreateProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/CreateProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/CreateProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -491,6 +494,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Create
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/CreateUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/CreateUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/CreateUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/CreateUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/CreateUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/CreateUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/CreateUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1200,6 +1204,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetJob
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetJobResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetJobResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetJobResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetJobResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetJobResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetJobResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetJobResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1265,6 +1270,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetOff
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetOfferingStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetOfferingStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetOfferingStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetOfferingStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetOfferingStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetOfferingStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetOfferingStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1328,6 +1334,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetPro
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1383,6 +1390,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetRun
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1445,6 +1453,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetSui
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetSuiteResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetSuiteResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetSuiteResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetSuiteResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetSuiteResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetSuiteResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetSuiteResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1505,6 +1514,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetTes
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetTestResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetTestResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetTestResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetTestResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetTestResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetTestResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetTestResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1565,6 +1575,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetUpl
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/GetUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1607,6 +1618,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Job.cp
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Job.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Job.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Job.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Job.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Job.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Job.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Job.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1845,6 +1857,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListJo
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListJobsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListJobsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListJobsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListJobsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListJobsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListJobsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListJobsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1910,6 +1923,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListOf
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListOfferingTransactionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListOfferingTransactionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListOfferingTransactionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListOfferingTransactionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListOfferingTransactionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListOfferingTransactionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListOfferingTransactionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2035,6 +2049,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListPr
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListProjectsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListProjectsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListProjectsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListProjectsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListProjectsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListProjectsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListProjectsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2090,6 +2105,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListRu
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListRunsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListRunsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListRunsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListRunsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListRunsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListRunsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListRunsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2208,6 +2224,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListSu
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListSuitesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListSuitesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListSuitesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListSuitesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListSuitesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListSuitesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListSuitesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2268,6 +2285,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListTe
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListTestsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListTestsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListTestsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListTestsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListTestsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListTestsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListTestsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2391,6 +2409,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListUp
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListUploadsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListUploadsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListUploadsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListUploadsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListUploadsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListUploadsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ListUploadsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2475,6 +2494,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Offeri
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/OfferingStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/OfferingStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/OfferingStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/OfferingStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/OfferingStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/OfferingStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/OfferingStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2501,6 +2521,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Offeri
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/OfferingTransaction.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/OfferingTransaction.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/OfferingTransaction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/OfferingTransaction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/OfferingTransaction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/OfferingTransaction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/OfferingTransaction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2603,6 +2624,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Projec
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Project.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Project.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Project.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Project.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Project.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Project.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Project.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2655,6 +2677,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Purcha
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/PurchaseOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/PurchaseOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/PurchaseOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/PurchaseOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/PurchaseOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/PurchaseOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/PurchaseOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2774,6 +2797,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/RenewO
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/RenewOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/RenewOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/RenewOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/RenewOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/RenewOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/RenewOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/RenewOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2858,6 +2882,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Run.cp
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Run.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Run.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Run.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Run.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Run.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Run.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Run.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2979,6 +3004,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Schedu
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ScheduleRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ScheduleRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ScheduleRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ScheduleRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ScheduleRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ScheduleRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/ScheduleRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -3060,6 +3086,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/StopRu
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/StopRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/StopRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/StopRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/StopRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/StopRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/StopRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/StopRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -3088,6 +3115,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Suite.
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Suite.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Suite.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Suite.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Suite.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Suite.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Suite.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Suite.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -3111,6 +3139,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Test.c
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Test.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Test.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Test.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Test.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Test.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Test.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Test.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -3272,6 +3301,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Update
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/UpdateProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/UpdateProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/UpdateProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/UpdateProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/UpdateProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/UpdateProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/UpdateProjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -3293,6 +3323,7 @@ aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Upload
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Upload.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Upload.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Upload.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Upload.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Upload.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Upload.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-devicefarm/CMakeFiles/aws-cpp-sdk-devicefarm.dir/source/model/Upload.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

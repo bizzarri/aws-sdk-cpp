@@ -239,11 +239,14 @@ aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/client/ClientConfigurati
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/client/ClientConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/client/ClientConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/client/ClientConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/client/ClientConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/client/ClientConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/client/ClientConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/client/ClientConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/client/ClientConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/client/ClientConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/client/ClientConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/client/ClientConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/client/ClientConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/client/CoreErrors.cpp.o: aws-cpp-sdk-core/source/client/CoreErrors.cpp
@@ -508,10 +511,15 @@ aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/DateTime.cpp.o: aw
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/DateTime.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/DateTime.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/DateTime.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/DateTime.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/AWSLogging.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/DateTime.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/LogLevel.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/DateTime.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/LogMacros.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/DateTime.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/LogSystemInterface.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/DateTime.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/DateTime.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/DateTime.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/DateTime.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/DateTime.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/EnumParseOverflowContainer.cpp.o: aws-cpp-sdk-core/source/utils/EnumParseOverflowContainer.cpp
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/EnumParseOverflowContainer.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
@@ -759,8 +767,25 @@ aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/threading/ThreadTask.h
+
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o: aws-cpp-sdk-core/source/utils/threading/ThreadTask.cpp
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/threading/ThreadTask.h
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/unix/FileSystemUtils.cpp.o: aws-cpp-sdk-core/source/utils/unix/FileSystemUtils.cpp
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/unix/FileSystemUtils.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h

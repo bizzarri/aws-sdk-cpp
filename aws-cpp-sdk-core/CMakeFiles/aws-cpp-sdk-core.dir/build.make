@@ -921,9 +921,33 @@ aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/json/JsonSerialize
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/json/JsonSerializer.cpp.o.provides.build: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/json/JsonSerializer.cpp.o
 
 
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/flags.make
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o: aws-cpp-sdk-core/source/utils/threading/ThreadTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/threading/ThreadTask.cpp
+
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/threading/ThreadTask.cpp > CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.i
+
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/threading/ThreadTask.cpp -o CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.s
+
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o.requires
+
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o.provides: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/build.make aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o.provides
+
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o.provides.build: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o
+
+
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/flags.make
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o: aws-cpp-sdk-core/source/utils/threading/Executor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/threading/Executor.cpp
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.i: cmake_force
@@ -947,7 +971,7 @@ aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/xml/XmlSerializer.cpp.o: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/flags.make
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/xml/XmlSerializer.cpp.o: aws-cpp-sdk-core/source/utils/xml/XmlSerializer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/xml/XmlSerializer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/xml/XmlSerializer.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-core.dir/source/utils/xml/XmlSerializer.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/xml/XmlSerializer.cpp
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/xml/XmlSerializer.cpp.i: cmake_force
@@ -971,7 +995,7 @@ aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/xml/XmlSerializer.
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/stream/ResponseStream.cpp.o: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/flags.make
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/stream/ResponseStream.cpp.o: aws-cpp-sdk-core/source/utils/stream/ResponseStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/stream/ResponseStream.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/stream/ResponseStream.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-core.dir/source/utils/stream/ResponseStream.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/stream/ResponseStream.cpp
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/stream/ResponseStream.cpp.i: cmake_force
@@ -995,7 +1019,7 @@ aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/stream/ResponseStr
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/DefaultLogSystem.cpp.o: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/flags.make
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/DefaultLogSystem.cpp.o: aws-cpp-sdk-core/source/utils/logging/DefaultLogSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/DefaultLogSystem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/DefaultLogSystem.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/DefaultLogSystem.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/logging/DefaultLogSystem.cpp
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/DefaultLogSystem.cpp.i: cmake_force
@@ -1019,7 +1043,7 @@ aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/DefaultLog
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/FormattedLogSystem.cpp.o: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/flags.make
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/FormattedLogSystem.cpp.o: aws-cpp-sdk-core/source/utils/logging/FormattedLogSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/FormattedLogSystem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/FormattedLogSystem.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/FormattedLogSystem.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/logging/FormattedLogSystem.cpp
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/FormattedLogSystem.cpp.i: cmake_force
@@ -1043,7 +1067,7 @@ aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/FormattedL
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/LogLevel.cpp.o: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/flags.make
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/LogLevel.cpp.o: aws-cpp-sdk-core/source/utils/logging/LogLevel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/LogLevel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/LogLevel.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/LogLevel.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/logging/LogLevel.cpp
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/LogLevel.cpp.i: cmake_force
@@ -1067,7 +1091,7 @@ aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/LogLevel.c
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/AWSLogging.cpp.o: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/flags.make
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/AWSLogging.cpp.o: aws-cpp-sdk-core/source/utils/logging/AWSLogging.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/AWSLogging.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/AWSLogging.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/AWSLogging.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/logging/AWSLogging.cpp
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/AWSLogging.cpp.i: cmake_force
@@ -1091,7 +1115,7 @@ aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/AWSLogging
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/ConsoleLogSystem.cpp.o: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/flags.make
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/ConsoleLogSystem.cpp.o: aws-cpp-sdk-core/source/utils/logging/ConsoleLogSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/ConsoleLogSystem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/ConsoleLogSystem.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/ConsoleLogSystem.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/logging/ConsoleLogSystem.cpp
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/ConsoleLogSystem.cpp.i: cmake_force
@@ -1115,7 +1139,7 @@ aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/logging/ConsoleLog
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/memory/AWSMemory.cpp.o: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/flags.make
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/memory/AWSMemory.cpp.o: aws-cpp-sdk-core/source/utils/memory/AWSMemory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/memory/AWSMemory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/memory/AWSMemory.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-core.dir/source/utils/memory/AWSMemory.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/memory/AWSMemory.cpp
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/memory/AWSMemory.cpp.i: cmake_force
@@ -1139,7 +1163,7 @@ aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/memory/AWSMemory.c
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/http/curl/CurlHttpClient.cpp.o: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/flags.make
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/http/curl/CurlHttpClient.cpp.o: aws-cpp-sdk-core/source/http/curl/CurlHttpClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/http/curl/CurlHttpClient.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/http/curl/CurlHttpClient.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-core.dir/source/http/curl/CurlHttpClient.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/http/curl/CurlHttpClient.cpp
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/http/curl/CurlHttpClient.cpp.i: cmake_force
@@ -1163,7 +1187,7 @@ aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/http/curl/CurlHttpClient
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/http/curl/CurlHandleContainer.cpp.o: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/flags.make
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/http/curl/CurlHandleContainer.cpp.o: aws-cpp-sdk-core/source/http/curl/CurlHandleContainer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/http/curl/CurlHandleContainer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/http/curl/CurlHandleContainer.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-core.dir/source/http/curl/CurlHandleContainer.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/http/curl/CurlHandleContainer.cpp
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/http/curl/CurlHandleContainer.cpp.i: cmake_force
@@ -1187,7 +1211,7 @@ aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/http/curl/CurlHandleCont
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/crypto/openssl/CryptoImpl.cpp.o: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/flags.make
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/crypto/openssl/CryptoImpl.cpp.o: aws-cpp-sdk-core/source/utils/crypto/openssl/CryptoImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/crypto/openssl/CryptoImpl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/crypto/openssl/CryptoImpl.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-core.dir/source/utils/crypto/openssl/CryptoImpl.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/crypto/openssl/CryptoImpl.cpp
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/crypto/openssl/CryptoImpl.cpp.i: cmake_force
@@ -1211,7 +1235,7 @@ aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/crypto/openssl/Cry
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/unix/FileSystemUtils.cpp.o: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/flags.make
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/unix/FileSystemUtils.cpp.o: aws-cpp-sdk-core/source/utils/unix/FileSystemUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/unix/FileSystemUtils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/unix/FileSystemUtils.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-core.dir/source/utils/unix/FileSystemUtils.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/unix/FileSystemUtils.cpp
 
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/unix/FileSystemUtils.cpp.i: cmake_force
@@ -1271,6 +1295,7 @@ aws__cpp__sdk__core_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-core.dir/source/utils/crypto/Sha256HMAC.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-core.dir/source/utils/crypto/MD5.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-core.dir/source/utils/json/JsonSerializer.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-core.dir/source/utils/xml/XmlSerializer.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-core.dir/source/utils/stream/ResponseStream.cpp.o" \
@@ -1324,6 +1349,7 @@ aws-cpp-sdk-core/libaws-cpp-sdk-core.so: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk
 aws-cpp-sdk-core/libaws-cpp-sdk-core.so: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/crypto/Sha256HMAC.cpp.o
 aws-cpp-sdk-core/libaws-cpp-sdk-core.so: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/crypto/MD5.cpp.o
 aws-cpp-sdk-core/libaws-cpp-sdk-core.so: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/json/JsonSerializer.cpp.o
+aws-cpp-sdk-core/libaws-cpp-sdk-core.so: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o
 aws-cpp-sdk-core/libaws-cpp-sdk-core.so: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o
 aws-cpp-sdk-core/libaws-cpp-sdk-core.so: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/xml/XmlSerializer.cpp.o
 aws-cpp-sdk-core/libaws-cpp-sdk-core.so: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/stream/ResponseStream.cpp.o
@@ -1339,7 +1365,7 @@ aws-cpp-sdk-core/libaws-cpp-sdk-core.so: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk
 aws-cpp-sdk-core/libaws-cpp-sdk-core.so: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/unix/FileSystemUtils.cpp.o
 aws-cpp-sdk-core/libaws-cpp-sdk-core.so: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/build.make
 aws-cpp-sdk-core/libaws-cpp-sdk-core.so: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking CXX shared library libaws-cpp-sdk-core.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking CXX shared library libaws-cpp-sdk-core.so"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aws-cpp-sdk-core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1383,6 +1409,7 @@ aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/requires: aws-cpp-sdk-core/CMak
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/requires: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/crypto/Sha256HMAC.cpp.o.requires
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/requires: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/crypto/MD5.cpp.o.requires
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/requires: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/json/JsonSerializer.cpp.o.requires
+aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/requires: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o.requires
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/requires: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o.requires
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/requires: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/xml/XmlSerializer.cpp.o.requires
 aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/requires: aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/stream/ResponseStream.cpp.o.requires

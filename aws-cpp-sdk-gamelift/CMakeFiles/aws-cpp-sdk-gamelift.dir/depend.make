@@ -27,6 +27,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/GameLiftClient.c
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/GameLiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/GameLiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/GameLiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/GameLiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/GameLiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/GameLiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/GameLiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -37,6 +38,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/GameLiftClient.c
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/GameLiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/GameLiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/GameLiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/GameLiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/GameLiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/GameLiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/GameLiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -179,6 +181,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Alias.cpp.
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Alias.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Alias.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Alias.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Alias.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Alias.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Alias.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Alias.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -217,6 +220,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Build.cpp.
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Build.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Build.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Build.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Build.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Build.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Build.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Build.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -288,6 +292,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateAlia
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -345,6 +350,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateBuil
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -406,6 +412,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateFlee
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateFleetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateFleetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateFleetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateFleetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateFleetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateFleetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateFleetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -463,6 +470,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateGame
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateGameSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateGameSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateGameSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateGameSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateGameSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateGameSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreateGameSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -521,6 +529,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreatePlay
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreatePlayerSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreatePlayerSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreatePlayerSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreatePlayerSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreatePlayerSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreatePlayerSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreatePlayerSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -577,6 +586,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreatePlay
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreatePlayerSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreatePlayerSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreatePlayerSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreatePlayerSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreatePlayerSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreatePlayerSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/CreatePlayerSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -717,6 +727,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeAl
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -774,6 +785,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeBu
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -887,6 +899,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFl
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetAttributesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetAttributesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetAttributesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetAttributesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetAttributesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetAttributesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetAttributesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -972,6 +985,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFl
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1000,6 +1014,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFl
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeFleetEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1167,6 +1182,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeGa
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeGameSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeGameSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeGameSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeGameSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeGameSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeGameSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribeGameSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1225,6 +1241,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribePl
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribePlayerSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribePlayerSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribePlayerSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribePlayerSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribePlayerSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribePlayerSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/DescribePlayerSessionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1300,6 +1317,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Event.cpp.
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1335,6 +1353,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/FleetAttri
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/FleetAttributes.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/FleetAttributes.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/FleetAttributes.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/FleetAttributes.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/FleetAttributes.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/FleetAttributes.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/FleetAttributes.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1426,6 +1445,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/GameSessio
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/GameSession.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/GameSession.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/GameSession.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/GameSession.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/GameSession.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/GameSession.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/GameSession.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1587,6 +1607,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/ListAliase
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/ListAliasesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/ListAliasesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/ListAliasesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/ListAliasesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/ListAliasesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/ListAliasesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/ListAliasesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1645,6 +1666,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/ListBuilds
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/ListBuildsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/ListBuildsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/ListBuildsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/ListBuildsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/ListBuildsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/ListBuildsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/ListBuildsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1721,6 +1743,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/PlayerSess
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/PlayerSession.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/PlayerSession.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/PlayerSession.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/PlayerSession.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/PlayerSession.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/PlayerSession.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/PlayerSession.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1971,6 +1994,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateAlia
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateAliasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2028,6 +2052,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateBuil
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateBuildResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2249,6 +2274,7 @@ aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateGame
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateGameSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateGameSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateGameSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateGameSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateGameSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateGameSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-gamelift/CMakeFiles/aws-cpp-sdk-gamelift.dir/source/model/UpdateGameSessionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

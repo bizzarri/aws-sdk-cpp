@@ -25,14 +25,17 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCach
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCacheClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCacheClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCacheClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCacheClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCacheClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCacheClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCacheClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCacheClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCacheClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCacheClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCacheClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCacheClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCacheClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCacheClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCacheClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCacheClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/ElastiCacheClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
@@ -361,6 +364,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Avai
 
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CacheCluster.cpp.o: aws-cpp-sdk-elasticache/source/model/CacheCluster.cpp
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CacheCluster.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CacheCluster.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CacheCluster.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CacheCluster.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CacheCluster.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -400,6 +404,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Cach
 
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CacheNode.cpp.o: aws-cpp-sdk-elasticache/source/model/CacheNode.cpp
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CacheNode.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CacheNode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CacheNode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CacheNode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CacheNode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -564,6 +569,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Copy
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CopySnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CopySnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CopySnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CopySnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CopySnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CopySnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CopySnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -623,6 +629,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Crea
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CreateCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CreateCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CreateCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CreateCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CreateCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CreateCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CreateCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -920,6 +927,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Crea
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CreateSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CreateSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CreateSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CreateSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CreateSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CreateSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/CreateSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -977,6 +985,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Dele
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DeleteCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DeleteCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DeleteCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DeleteCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DeleteCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DeleteCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DeleteCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1177,6 +1186,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Dele
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DeleteSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DeleteSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DeleteSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DeleteSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DeleteSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DeleteSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DeleteSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1234,6 +1244,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Desc
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeCacheClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeCacheClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeCacheClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeCacheClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeCacheClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeCacheClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeCacheClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1616,6 +1627,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Desc
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1642,6 +1654,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Desc
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1818,6 +1831,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Desc
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeReservedCacheNodesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeReservedCacheNodesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeReservedCacheNodesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeReservedCacheNodesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeReservedCacheNodesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeReservedCacheNodesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeReservedCacheNodesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1875,6 +1889,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Desc
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/DescribeSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1952,6 +1967,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Engi
 
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Event.cpp.o: aws-cpp-sdk-elasticache/source/model/Event.cpp
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2112,6 +2128,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Modi
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/ModifyCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/ModifyCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/ModifyCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/ModifyCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/ModifyCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/ModifyCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/ModifyCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2355,6 +2372,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Node
 
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/NodeSnapshot.cpp.o: aws-cpp-sdk-elasticache/source/model/NodeSnapshot.cpp
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/NodeSnapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/NodeSnapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/NodeSnapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/NodeSnapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/NodeSnapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2482,6 +2500,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Purc
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/PurchaseReservedCacheNodesOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/PurchaseReservedCacheNodesOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/PurchaseReservedCacheNodesOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/PurchaseReservedCacheNodesOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/PurchaseReservedCacheNodesOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/PurchaseReservedCacheNodesOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/PurchaseReservedCacheNodesOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2539,6 +2558,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Rebo
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/RebootCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/RebootCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/RebootCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/RebootCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/RebootCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/RebootCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/RebootCacheClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2682,6 +2702,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Repl
 
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/ReservedCacheNode.cpp.o: aws-cpp-sdk-elasticache/source/model/ReservedCacheNode.cpp
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/ReservedCacheNode.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/ReservedCacheNode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/ReservedCacheNode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/ReservedCacheNode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/ReservedCacheNode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2861,6 +2882,7 @@ aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Secu
 
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-elasticache/source/model/Snapshot.cpp
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticache/CMakeFiles/aws-cpp-sdk-elasticache.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h

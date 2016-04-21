@@ -148,6 +148,18 @@ aws/core/utils/HashingUtils.h
 aws/route53/Route53Errors.h
 -
 
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/AlarmIdentifier.cpp
+aws/route53/model/AlarmIdentifier.h
+-
+aws/core/utils/xml/XmlSerializer.h
+-
+aws/core/utils/StringUtils.h
+-
+aws/core/utils/memory/stl/AWSStringStream.h
+-
+utility
+-
+
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/AliasTarget.cpp
 aws/route53/model/AliasTarget.h
 -
@@ -286,6 +298,38 @@ aws/core/AmazonWebServiceResult.h
 aws/core/utils/StringUtils.h
 -
 utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CloudWatchAlarmConfiguration.cpp
+aws/route53/model/CloudWatchAlarmConfiguration.h
+-
+aws/core/utils/xml/XmlSerializer.h
+-
+aws/core/utils/StringUtils.h
+-
+aws/core/utils/memory/stl/AWSStringStream.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CloudWatchRegion.cpp
+aws/route53/model/CloudWatchRegion.h
+-
+aws/core/utils/HashingUtils.h
+-
+aws/core/Globals.h
+-
+aws/core/utils/EnumParseOverflowContainer.h
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ComparisonOperator.cpp
+aws/route53/model/ComparisonOperator.h
+-
+aws/core/utils/HashingUtils.h
+-
+aws/core/Globals.h
+-
+aws/core/utils/EnumParseOverflowContainer.h
 -
 
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CreateHealthCheckRequest.cpp
@@ -528,6 +572,18 @@ aws/core/utils/xml/XmlSerializer.h
 aws/core/AmazonWebServiceResult.h
 -
 aws/core/utils/StringUtils.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/Dimension.cpp
+aws/route53/model/Dimension.h
+-
+aws/core/utils/xml/XmlSerializer.h
+-
+aws/core/utils/StringUtils.h
+-
+aws/core/utils/memory/stl/AWSStringStream.h
 -
 utility
 -
@@ -876,6 +932,16 @@ aws/core/utils/memory/stl/AWSStringStream.h
 utility
 -
 
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/HealthCheckRegion.cpp
+aws/route53/model/HealthCheckRegion.h
+-
+aws/core/utils/HashingUtils.h
+-
+aws/core/Globals.h
+-
+aws/core/utils/EnumParseOverflowContainer.h
+-
+
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/HealthCheckType.cpp
 aws/route53/model/HealthCheckType.h
 -
@@ -908,6 +974,16 @@ aws/core/utils/StringUtils.h
 aws/core/utils/memory/stl/AWSStringStream.h
 -
 utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/InsufficientDataHealthStatus.cpp
+aws/route53/model/InsufficientDataHealthStatus.h
+-
+aws/core/utils/HashingUtils.h
+-
+aws/core/Globals.h
+-
+aws/core/utils/EnumParseOverflowContainer.h
 -
 
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListGeoLocationsRequest.cpp
@@ -1278,6 +1354,16 @@ aws/core/utils/StringUtils.h
 aws/core/utils/memory/stl/AWSStringStream.h
 -
 utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/Statistic.cpp
+aws/route53/model/Statistic.h
+-
+aws/core/utils/HashingUtils.h
+-
+aws/core/Globals.h
+-
+aws/core/utils/EnumParseOverflowContainer.h
 -
 
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/StatusReport.cpp
@@ -1684,6 +1770,18 @@ cassert
 iterator
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+iomanip
+-
+ctime
+-
+mutex
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
 aws/core/utils/memory/stl/AWSMap.h
 -
@@ -1752,6 +1850,14 @@ memory
 cstdlib
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+deque
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws/core/Core_EXPORTS.h
 -
@@ -1776,6 +1882,18 @@ aws/core/utils/memory/stl/AWSAllocator.h
 map
 -
 cstring
+-
+
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+aws/core/utils/memory/stl/AWSDeque.h
+-
+deque
+-
+queue
 -
 
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
@@ -1819,9 +1937,17 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
 aws/core/Core_EXPORTS.h
 -
+aws/core/utils/memory/stl/AWSFunction.h
+-
+aws/core/utils/memory/stl/AWSQueue.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 functional
 -
-aws/core/utils/memory/stl/AWSFunction.h
+mutex
+-
+condition_variable
 -
 
 aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
@@ -1980,6 +2106,14 @@ aws/core/http/HttpRequest.h
 
 aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
 
+aws-cpp-sdk-route53/include/aws/route53/model/AlarmIdentifier.h
+aws/route53/Route53_EXPORTS.h
+-
+aws/route53/model/CloudWatchRegion.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+
 aws-cpp-sdk-route53/include/aws/route53/model/AliasTarget.h
 aws/route53/Route53_EXPORTS.h
 -
@@ -2031,6 +2165,8 @@ aws/route53/Route53_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/route53/model/ChangeStatus.h
 -
 aws/core/utils/memory/stl/AWSVector.h
@@ -2044,6 +2180,8 @@ aws/route53/Route53_EXPORTS.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/route53/model/ChangeStatus.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-route53/include/aws/route53/model/ChangeResourceRecordSetsRequest.h
@@ -2084,6 +2222,32 @@ aws/route53/model/Tag.h
 
 aws-cpp-sdk-route53/include/aws/route53/model/ChangeTagsForResourceResult.h
 aws/route53/Route53_EXPORTS.h
+-
+
+aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchAlarmConfiguration.h
+aws/route53/Route53_EXPORTS.h
+-
+aws/route53/model/ComparisonOperator.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+aws/route53/model/Statistic.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
+aws/route53/model/Dimension.h
+-
+
+aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchRegion.h
+aws/route53/Route53_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+
+aws-cpp-sdk-route53/include/aws/route53/model/ComparisonOperator.h
+aws/route53/Route53_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
 -
 
 aws-cpp-sdk-route53/include/aws/route53/model/CreateHealthCheckRequest.h
@@ -2262,6 +2426,12 @@ aws/core/utils/memory/stl/AWSString.h
 
 aws-cpp-sdk-route53/include/aws/route53/model/DeleteTrafficPolicyResult.h
 aws/route53/Route53_EXPORTS.h
+-
+
+aws-cpp-sdk-route53/include/aws/route53/model/Dimension.h
+aws/route53/Route53_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
 -
 
 aws-cpp-sdk-route53/include/aws/route53/model/DisassociateVPCFromHostedZoneRequest.h
@@ -2479,6 +2649,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/route53/model/HealthCheckConfig.h
 -
+aws/route53/model/CloudWatchAlarmConfiguration.h
+-
 
 aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckConfig.h
 aws/route53/Route53_EXPORTS.h
@@ -2489,13 +2661,27 @@ aws/route53/model/HealthCheckType.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
+aws/route53/model/AlarmIdentifier.h
+-
+aws/route53/model/InsufficientDataHealthStatus.h
+-
+aws/route53/model/HealthCheckRegion.h
+-
 
 aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckObservation.h
 aws/route53/Route53_EXPORTS.h
 -
+aws/route53/model/HealthCheckRegion.h
+-
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/route53/model/StatusReport.h
+-
+
+aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckRegion.h
+aws/route53/Route53_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
 -
 
 aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckType.h
@@ -2513,6 +2699,12 @@ aws/route53/model/HostedZoneConfig.h
 -
 
 aws-cpp-sdk-route53/include/aws/route53/model/HostedZoneConfig.h
+aws/route53/Route53_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+
+aws-cpp-sdk-route53/include/aws/route53/model/InsufficientDataHealthStatus.h
 aws/route53/Route53_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
@@ -2824,10 +3016,18 @@ aws/core/utils/memory/stl/AWSVector.h
 aws/route53/model/Tag.h
 -
 
+aws-cpp-sdk-route53/include/aws/route53/model/Statistic.h
+aws/route53/Route53_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+
 aws-cpp-sdk-route53/include/aws/route53/model/StatusReport.h
 aws/route53/Route53_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-route53/include/aws/route53/model/Tag.h
@@ -2874,6 +3074,12 @@ aws/route53/Route53Request.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/core/utils/memory/stl/AWSVector.h
+-
+aws/route53/model/AlarmIdentifier.h
+-
+aws/route53/model/InsufficientDataHealthStatus.h
+-
+aws/route53/model/HealthCheckRegion.h
 -
 
 aws-cpp-sdk-route53/include/aws/route53/model/UpdateHealthCheckResult.h

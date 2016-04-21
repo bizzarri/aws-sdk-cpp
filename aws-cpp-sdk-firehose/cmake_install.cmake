@@ -72,10 +72,14 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/RedshiftDestinationDescription.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/DeleteDeliveryStreamResult.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/UpdateDestinationResult.h"
+    "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/CloudWatchLoggingOptions.h"
+    "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/ElasticsearchDestinationUpdate.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/RedshiftDestinationConfiguration.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/DeleteDeliveryStreamRequest.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/ListDeliveryStreamsResult.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/UpdateDestinationRequest.h"
+    "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/ElasticsearchIndexRotationPeriod.h"
+    "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/ElasticsearchBufferingHints.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/S3DestinationUpdate.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/S3DestinationDescription.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/KMSEncryptionConfig.h"
@@ -85,6 +89,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/PutRecordResult.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/EncryptionConfiguration.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/DescribeDeliveryStreamResult.h"
+    "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/ElasticsearchRetryOptions.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/DeliveryStreamStatus.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/CopyCommand.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/Record.h"
@@ -94,6 +99,9 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/S3DestinationConfiguration.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/ListDeliveryStreamsRequest.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/DescribeDeliveryStreamRequest.h"
+    "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/ElasticsearchDestinationDescription.h"
+    "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/ElasticsearchDestinationConfiguration.h"
+    "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/include/aws/firehose/model/ElasticsearchS3BackupMode.h"
     )
 endif()
 

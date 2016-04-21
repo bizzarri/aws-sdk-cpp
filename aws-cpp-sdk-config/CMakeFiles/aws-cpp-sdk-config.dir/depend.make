@@ -108,6 +108,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/ConfigServiceClient.
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/ConfigServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/ConfigServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/ConfigServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/ConfigServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/ConfigServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/ConfigServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/ConfigServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -118,6 +119,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/ConfigServiceClient.
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/ConfigServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/ConfigServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/ConfigServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/ConfigServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/ConfigServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/ConfigServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/ConfigServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -270,6 +272,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ComplianceSumm
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ComplianceSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ComplianceSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ComplianceSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ComplianceSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ComplianceSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ComplianceSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ComplianceSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -290,6 +293,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ComplianceSumm
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ComplianceSummaryByResourceType.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ComplianceSummaryByResourceType.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ComplianceSummaryByResourceType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ComplianceSummaryByResourceType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ComplianceSummaryByResourceType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ComplianceSummaryByResourceType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ComplianceSummaryByResourceType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -325,6 +329,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigExportDe
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigExportDeliveryInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigExportDeliveryInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigExportDeliveryInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigExportDeliveryInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigExportDeliveryInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigExportDeliveryInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigExportDeliveryInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -369,6 +374,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigRuleEval
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigRuleEvaluationStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigRuleEvaluationStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigRuleEvaluationStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigRuleEvaluationStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigRuleEvaluationStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigRuleEvaluationStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigRuleEvaluationStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -423,6 +429,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigStreamDe
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigStreamDeliveryInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigStreamDeliveryInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigStreamDeliveryInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigStreamDeliveryInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigStreamDeliveryInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigStreamDeliveryInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigStreamDeliveryInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -444,6 +451,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigurationI
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigurationItem.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigurationItem.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigurationItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigurationItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigurationItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigurationItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigurationItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -499,6 +507,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigurationR
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigurationRecorderStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigurationRecorderStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigurationRecorderStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigurationRecorderStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigurationRecorderStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigurationRecorderStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ConfigurationRecorderStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -650,6 +659,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DeliveryChanne
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DeliveryChannelStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DeliveryChannelStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DeliveryChannelStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DeliveryChannelStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DeliveryChannelStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DeliveryChannelStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DeliveryChannelStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -837,6 +847,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeConfig
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeConfigRuleEvaluationStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeConfigRuleEvaluationStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeConfigRuleEvaluationStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeConfigRuleEvaluationStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeConfigRuleEvaluationStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeConfigRuleEvaluationStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeConfigRuleEvaluationStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -956,6 +967,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeConfig
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeConfigurationRecorderStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeConfigurationRecorderStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeConfigurationRecorderStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeConfigurationRecorderStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeConfigurationRecorderStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeConfigurationRecorderStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeConfigurationRecorderStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1071,6 +1083,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeDelive
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeDeliveryChannelStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeDeliveryChannelStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeDeliveryChannelStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeDeliveryChannelStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeDeliveryChannelStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeDeliveryChannelStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/DescribeDeliveryChannelStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1149,6 +1162,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/Evaluation.cpp
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/Evaluation.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/Evaluation.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/Evaluation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/Evaluation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/Evaluation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/Evaluation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/Evaluation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1170,6 +1184,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/EvaluationResu
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/EvaluationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/EvaluationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/EvaluationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/EvaluationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/EvaluationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/EvaluationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/EvaluationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1189,6 +1204,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/EvaluationResu
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/EvaluationResultIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/EvaluationResultIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/EvaluationResultIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/EvaluationResultIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/EvaluationResultIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/EvaluationResultIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/EvaluationResultIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1280,6 +1296,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceD
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceDetailsByConfigRuleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceDetailsByConfigRuleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceDetailsByConfigRuleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceDetailsByConfigRuleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceDetailsByConfigRuleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceDetailsByConfigRuleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceDetailsByConfigRuleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1339,6 +1356,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceD
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceDetailsByResourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceDetailsByResourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceDetailsByResourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceDetailsByResourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceDetailsByResourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceDetailsByResourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceDetailsByResourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1367,6 +1385,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceS
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceSummaryByConfigRuleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceSummaryByConfigRuleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceSummaryByConfigRuleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceSummaryByConfigRuleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceSummaryByConfigRuleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceSummaryByConfigRuleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceSummaryByConfigRuleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1424,6 +1443,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceS
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceSummaryByResourceTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceSummaryByResourceTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceSummaryByResourceTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceSummaryByResourceTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceSummaryByResourceTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceSummaryByResourceTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetComplianceSummaryByResourceTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1453,6 +1473,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetResourceCon
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetResourceConfigHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetResourceConfigHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetResourceConfigHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetResourceConfigHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetResourceConfigHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetResourceConfigHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetResourceConfigHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1484,6 +1505,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetResourceCon
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetResourceConfigHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetResourceConfigHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetResourceConfigHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetResourceConfigHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetResourceConfigHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetResourceConfigHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/GetResourceConfigHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1541,6 +1563,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ListDiscovered
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ListDiscoveredResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ListDiscoveredResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ListDiscoveredResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ListDiscoveredResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ListDiscoveredResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ListDiscoveredResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ListDiscoveredResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1717,6 +1740,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/PutEvaluations
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/PutEvaluationsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/PutEvaluationsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/PutEvaluationsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/PutEvaluationsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/PutEvaluationsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/PutEvaluationsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/PutEvaluationsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1746,6 +1770,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/PutEvaluations
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/PutEvaluationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/PutEvaluationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/PutEvaluationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/PutEvaluationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/PutEvaluationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/PutEvaluationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/PutEvaluationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1821,6 +1846,7 @@ aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ResourceIdenti
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ResourceIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ResourceIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ResourceIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ResourceIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ResourceIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ResourceIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-config/CMakeFiles/aws-cpp-sdk-config.dir/source/model/ResourceIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

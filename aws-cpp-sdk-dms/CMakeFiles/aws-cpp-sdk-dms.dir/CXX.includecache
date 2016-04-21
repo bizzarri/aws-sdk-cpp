@@ -1138,6 +1138,18 @@ cassert
 iterator
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+iomanip
+-
+ctime
+-
+mutex
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
 aws/core/utils/memory/stl/AWSMap.h
 -
@@ -1244,6 +1256,18 @@ map
 cstring
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+aws/core/utils/memory/stl/AWSDeque.h
+-
+deque
+-
+queue
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws/core/Core_EXPORTS.h
 -
@@ -1297,9 +1321,17 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
 aws/core/Core_EXPORTS.h
 -
+aws/core/utils/memory/stl/AWSFunction.h
+-
+aws/core/utils/memory/stl/AWSQueue.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 functional
 -
-aws/core/utils/memory/stl/AWSFunction.h
+mutex
+-
+condition_variable
 -
 
 aws-cpp-sdk-dms/include/aws/dms/DatabaseMigrationServiceClient.h
@@ -1514,6 +1546,8 @@ aws/dms/DatabaseMigrationServiceRequest.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/dms/model/MigrationTypeValue.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
@@ -1903,6 +1937,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/dms/model/RefreshSchemasStatusTypeValue.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-dms/include/aws/dms/model/RefreshSchemasStatusTypeValue.h
 aws/dms/DatabaseMigrationService_EXPORTS.h
@@ -1935,6 +1971,8 @@ aws/dms/DatabaseMigrationService_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/dms/model/ReplicationSubnetGroup.h
 -
 aws/dms/model/ReplicationPendingModifiedValues.h
@@ -1963,6 +2001,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/dms/model/MigrationTypeValue.h
 -
+aws/core/utils/DateTime.h
+-
 aws/dms/model/ReplicationTaskStats.h
 -
 
@@ -1978,6 +2018,8 @@ aws/dms/DatabaseMigrationServiceRequest.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/dms/model/StartReplicationTaskTypeValue.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-dms/include/aws/dms/model/StartReplicationTaskResult.h
@@ -2026,6 +2068,8 @@ aws-cpp-sdk-dms/include/aws/dms/model/TableStatistics.h
 aws/dms/DatabaseMigrationService_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-dms/include/aws/dms/model/Tag.h

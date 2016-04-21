@@ -20,6 +20,7 @@ aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/Downloa
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -40,6 +41,7 @@ aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/Downloa
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/AbortIncompleteMultipartUpload.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/AbortMultipartUploadResult.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/Bucket.h
+aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketAccelerateStatus.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketLocationConstraint.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketLogsPermission.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketVersioningStatus.h
@@ -63,6 +65,7 @@ aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/Downloa
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/ExpirationStatus.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/FilterRule.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/FilterRuleName.h
+aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAccelerateConfigurationResult.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAclResult.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketCorsResult.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/DownloadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketLifecycleConfigurationResult.h
@@ -159,6 +162,7 @@ aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileR
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -180,6 +184,7 @@ aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileR
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/AbortIncompleteMultipartUpload.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/AbortMultipartUploadResult.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/Bucket.h
+aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketAccelerateStatus.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketLocationConstraint.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketLogsPermission.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketVersioningStatus.h
@@ -203,6 +208,7 @@ aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileR
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/ExpirationStatus.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/FilterRule.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/FilterRuleName.h
+aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAccelerateConfigurationResult.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAclResult.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketCorsResult.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/S3FileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketLifecycleConfigurationResult.h
@@ -298,6 +304,7 @@ aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/Transfe
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -321,6 +328,7 @@ aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/Transfe
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/AbortIncompleteMultipartUpload.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/AbortMultipartUploadResult.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/Bucket.h
+aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketAccelerateStatus.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketLocationConstraint.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketLogsPermission.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketVersioningStatus.h
@@ -344,6 +352,7 @@ aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/Transfe
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/ExpirationStatus.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/FilterRule.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/FilterRuleName.h
+aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAccelerateConfigurationResult.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAclResult.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketCorsResult.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/TransferClient.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketLifecycleConfigurationResult.h
@@ -453,6 +462,7 @@ aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadF
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -476,6 +486,7 @@ aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadF
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/AbortMultipartUploadRequest.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/AbortMultipartUploadResult.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/Bucket.h
+aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketAccelerateStatus.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketCannedACL.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketLocationConstraint.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketLogsPermission.h
@@ -506,6 +517,7 @@ aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadF
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/ExpirationStatus.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/FilterRule.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/FilterRuleName.h
+aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAccelerateConfigurationResult.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAclResult.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketCorsResult.h
 aws-cpp-sdk-transfer/CMakeFiles/aws-cpp-sdk-transfer.dir/source/transfer/UploadFileRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketLifecycleConfigurationResult.h

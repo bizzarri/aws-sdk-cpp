@@ -26,6 +26,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/DatabaseMigrationServiceCl
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/DatabaseMigrationServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/DatabaseMigrationServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/DatabaseMigrationServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/DatabaseMigrationServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/DatabaseMigrationServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/DatabaseMigrationServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/DatabaseMigrationServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -36,6 +37,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/DatabaseMigrationServiceCl
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/DatabaseMigrationServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/DatabaseMigrationServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/DatabaseMigrationServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/DatabaseMigrationServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/DatabaseMigrationServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/DatabaseMigrationServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/DatabaseMigrationServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -375,6 +377,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationIns
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -464,6 +467,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationTas
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationTaskRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationTaskRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationTaskRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationTaskRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationTaskRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationTaskRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationTaskRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -494,6 +498,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationTas
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/CreateReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -607,6 +612,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DeleteReplicationIns
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DeleteReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DeleteReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DeleteReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DeleteReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DeleteReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DeleteReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DeleteReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -720,6 +726,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DeleteReplicationTas
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DeleteReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DeleteReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DeleteReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DeleteReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DeleteReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DeleteReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DeleteReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1057,6 +1064,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeRefreshSchem
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeRefreshSchemasStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeRefreshSchemasStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeRefreshSchemasStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeRefreshSchemasStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeRefreshSchemasStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeRefreshSchemasStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeRefreshSchemasStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1114,6 +1122,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeReplicationI
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeReplicationInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeReplicationInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeReplicationInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeReplicationInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeReplicationInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeReplicationInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeReplicationInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1232,6 +1241,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeReplicationT
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeReplicationTasksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeReplicationTasksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeReplicationTasksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeReplicationTasksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeReplicationTasksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeReplicationTasksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeReplicationTasksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1343,6 +1353,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeTableStatist
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeTableStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeTableStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeTableStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeTableStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeTableStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeTableStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/DescribeTableStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1563,6 +1574,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ModifyReplicationIns
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ModifyReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ModifyReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ModifyReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ModifyReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ModifyReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ModifyReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ModifyReplicationInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1697,6 +1709,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/RefreshSchemasResult
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/RefreshSchemasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/RefreshSchemasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/RefreshSchemasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/RefreshSchemasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/RefreshSchemasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/RefreshSchemasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/RefreshSchemasResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1719,6 +1732,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/RefreshSchemasStatus
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/RefreshSchemasStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/RefreshSchemasStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/RefreshSchemasStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/RefreshSchemasStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/RefreshSchemasStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/RefreshSchemasStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/RefreshSchemasStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1824,6 +1838,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ReplicationInstance.
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ReplicationInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ReplicationInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ReplicationInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ReplicationInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ReplicationInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ReplicationInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ReplicationInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1884,6 +1899,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ReplicationTask.cpp.
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ReplicationTask.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ReplicationTask.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ReplicationTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ReplicationTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ReplicationTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ReplicationTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/ReplicationTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1928,6 +1944,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StartReplicationTask
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StartReplicationTaskRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StartReplicationTaskRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StartReplicationTaskRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StartReplicationTaskRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StartReplicationTaskRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StartReplicationTaskRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StartReplicationTaskRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1957,6 +1974,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StartReplicationTask
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StartReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StartReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StartReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StartReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StartReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StartReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StartReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2030,6 +2048,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StopReplicationTaskR
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StopReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StopReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StopReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StopReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StopReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StopReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/StopReplicationTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2091,6 +2110,7 @@ aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/TableStatistics.cpp.
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/TableStatistics.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/TableStatistics.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/TableStatistics.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/TableStatistics.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/TableStatistics.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/TableStatistics.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dms/CMakeFiles/aws-cpp-sdk-dms.dir/source/model/TableStatistics.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

@@ -413,7 +413,17 @@ sstream
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/DateTime.cpp
 aws/core/utils/DateTime.h
 -
-ctime
+aws/core/utils/memory/stl/AWSStringStream.h
+-
+aws/core/utils/logging/LogMacros.h
+-
+time.h
+-
+cassert
+-
+iostream
+-
+cstring
 -
 
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/EnumParseOverflowContainer.cpp
@@ -597,7 +607,15 @@ aws/core/utils/memory/stl/AWSStringStream.h
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/threading/Executor.cpp
 aws/core/utils/threading/Executor.h
 -
+aws/core/utils/threading/ThreadTask.h
+-
 thread
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/threading/ThreadTask.cpp
+aws/core/utils/threading/ThreadTask.h
+-
+aws/core/utils/threading/Executor.h
 -
 
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/source/utils/unix/FileSystemUtils.cpp
@@ -1049,6 +1067,10 @@ aws/core/Core_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+iomanip
+-
+ctime
+-
 mutex
 -
 
@@ -1411,9 +1433,27 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
 aws/core/Core_EXPORTS.h
 -
+aws/core/utils/memory/stl/AWSFunction.h
+-
+aws/core/utils/memory/stl/AWSQueue.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 functional
 -
-aws/core/utils/memory/stl/AWSFunction.h
+mutex
+-
+condition_variable
+-
+
+aws-cpp-sdk-core/include/aws/core/utils/threading/ThreadTask.h
+aws/core/Core_EXPORTS.h
+-
+functional
+-
+thread
+-
+atomic
 -
 
 aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h

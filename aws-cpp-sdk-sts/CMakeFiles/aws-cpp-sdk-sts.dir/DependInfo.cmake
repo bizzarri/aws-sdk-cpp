@@ -19,6 +19,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/DecodeAuthorizationMessageRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/DecodeAuthorizationMessageRequest.cpp.o"
   "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/DecodeAuthorizationMessageResult.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/DecodeAuthorizationMessageResult.cpp.o"
   "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/FederatedUser.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/FederatedUser.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/GetCallerIdentityRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/GetCallerIdentityResult.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o"
   "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/GetFederationTokenRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenRequest.cpp.o"
   "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/GetFederationTokenResult.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenResult.cpp.o"
   "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/GetSessionTokenRequest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenRequest.cpp.o"

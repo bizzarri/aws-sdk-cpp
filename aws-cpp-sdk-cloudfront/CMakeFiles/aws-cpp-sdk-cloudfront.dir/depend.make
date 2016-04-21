@@ -127,14 +127,17 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontCl
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/CloudFrontClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
@@ -565,6 +568,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Create
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -620,6 +624,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Create
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateInvalidation2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateInvalidation2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateInvalidation2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateInvalidation2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateInvalidation2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateInvalidation2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateInvalidation2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -686,6 +691,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Create
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/CreateStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -912,6 +918,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Distri
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Distribution.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/model/ViewerCertificate.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Distribution.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/model/ViewerProtocolPolicy.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Distribution.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Distribution.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Distribution.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Distribution.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Distribution.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1010,6 +1017,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Distri
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/DistributionList.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/model/ViewerCertificate.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/DistributionList.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/model/ViewerProtocolPolicy.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/DistributionList.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/DistributionList.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/DistributionList.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/DistributionList.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/DistributionList.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1058,6 +1066,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Distri
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/DistributionSummary.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/model/ViewerCertificate.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/DistributionSummary.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/model/ViewerProtocolPolicy.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/DistributionSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/DistributionSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/DistributionSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/DistributionSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/DistributionSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1296,6 +1305,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetDis
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1431,6 +1441,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetInv
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetInvalidation2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetInvalidation2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetInvalidation2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetInvalidation2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetInvalidation2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetInvalidation2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetInvalidation2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1490,6 +1501,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetStr
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/GetStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1582,6 +1594,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Invali
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Invalidation.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/model/InvalidationBatch.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Invalidation.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/model/Paths.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Invalidation.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Invalidation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Invalidation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Invalidation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Invalidation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1616,6 +1629,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Invali
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/InvalidationList.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/model/InvalidationList.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/InvalidationList.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/model/InvalidationSummary.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/InvalidationList.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/InvalidationList.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/InvalidationList.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/InvalidationList.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/InvalidationList.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1632,6 +1646,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Invali
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/InvalidationSummary.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/CloudFront_EXPORTS.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/InvalidationSummary.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/model/InvalidationSummary.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/InvalidationSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/InvalidationSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/InvalidationSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/InvalidationSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/InvalidationSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1797,6 +1812,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListDi
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListDistributions2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListDistributions2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListDistributions2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListDistributions2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListDistributions2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListDistributions2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListDistributions2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1881,6 +1897,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListDi
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListDistributionsByWebACLId2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListDistributionsByWebACLId2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListDistributionsByWebACLId2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListDistributionsByWebACLId2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListDistributionsByWebACLId2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListDistributionsByWebACLId2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListDistributionsByWebACLId2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1933,6 +1950,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListIn
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListInvalidations2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListInvalidations2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListInvalidations2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListInvalidations2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListInvalidations2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListInvalidations2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListInvalidations2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1989,6 +2007,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListSt
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListStreamingDistributions2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListStreamingDistributions2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListStreamingDistributions2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListStreamingDistributions2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListStreamingDistributions2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListStreamingDistributions2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/ListStreamingDistributions2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2292,6 +2311,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Stream
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistribution.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/model/StreamingLoggingConfig.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistribution.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/model/TrustedSigners.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistribution.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistribution.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistribution.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistribution.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistribution.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2334,6 +2354,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Stream
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistributionList.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/model/StreamingDistributionSummary.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistributionList.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/model/TrustedSigners.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistributionList.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistributionList.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistributionList.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistributionList.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistributionList.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2354,6 +2375,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Stream
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistributionSummary.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/model/StreamingDistributionSummary.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistributionSummary.cpp.o: aws-cpp-sdk-cloudfront/include/aws/cloudfront/model/TrustedSigners.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistributionSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistributionSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistributionSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistributionSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/StreamingDistributionSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2559,6 +2581,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Update
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/UpdateDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/UpdateDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/UpdateDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/UpdateDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/UpdateDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/UpdateDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/UpdateDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2626,6 +2649,7 @@ aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/Update
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/UpdateStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/UpdateStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/UpdateStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/UpdateStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/UpdateStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/UpdateStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudfront/CMakeFiles/aws-cpp-sdk-cloudfront.dir/source/model/UpdateStreamingDistribution2016_01_28Result.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h

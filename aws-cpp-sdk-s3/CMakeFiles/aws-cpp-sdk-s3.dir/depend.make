@@ -27,14 +27,17 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
@@ -51,8 +54,10 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/AbortIncompleteMultipartUpload.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/AbortMultipartUploadRequest.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/AbortMultipartUploadResult.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/AccelerateConfiguration.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/AccessControlPolicy.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/Bucket.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketAccelerateStatus.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketCannedACL.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketLifecycleConfiguration.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketLocationConstraint.h
@@ -97,6 +102,8 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/ExpirationStatus.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/FilterRule.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/FilterRuleName.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAccelerateConfigurationRequest.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAccelerateConfigurationResult.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAclRequest.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAclResult.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketCorsRequest.h
@@ -166,6 +173,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/Payer.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/Permission.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/Protocol.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/PutBucketAccelerateConfigurationRequest.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/PutBucketAclRequest.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/PutBucketCorsRequest.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/S3Client.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/PutBucketLifecycleConfigurationRequest.h
@@ -322,6 +330,23 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AbortMultipartUploadRe
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AbortMultipartUploadResult.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/AbortMultipartUploadResult.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AbortMultipartUploadResult.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/RequestCharged.h
 
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-s3/source/model/AccelerateConfiguration.cpp
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-s3/include/aws/s3/S3_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/AccelerateConfiguration.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketAccelerateStatus.h
+
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccessControlPolicy.cpp.o: aws-cpp-sdk-s3/source/model/AccessControlPolicy.cpp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccessControlPolicy.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccessControlPolicy.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
@@ -345,6 +370,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccessControlPolicy.cp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Bucket.cpp.o: aws-cpp-sdk-s3/source/model/Bucket.cpp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Bucket.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Bucket.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Bucket.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Bucket.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Bucket.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -358,6 +384,22 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Bucket.cpp.o: aws-cpp-
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Bucket.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Bucket.cpp.o: aws-cpp-sdk-s3/include/aws/s3/S3_EXPORTS.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Bucket.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/Bucket.h
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o: aws-cpp-sdk-s3/source/model/BucketAccelerateStatus.cpp
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Globals.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o: aws-cpp-sdk-s3/include/aws/s3/S3_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketAccelerateStatus.h
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketCannedACL.cpp.o: aws-cpp-sdk-s3/source/model/BucketCannedACL.cpp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketCannedACL.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
@@ -377,6 +419,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketCannedACL.cpp.o:
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLifecycleConfiguration.cpp.o: aws-cpp-sdk-s3/source/model/BucketLifecycleConfiguration.cpp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLifecycleConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLifecycleConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLifecycleConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLifecycleConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLifecycleConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -649,6 +692,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyObjectRequest.cpp.
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -679,6 +723,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyObjectResult.cpp.o
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -698,6 +743,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyObjectResult.cpp.o
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyPartResult.cpp.o: aws-cpp-sdk-s3/source/model/CopyPartResult.cpp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyPartResult.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyPartResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyPartResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyPartResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CopyPartResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -792,6 +838,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadR
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -821,6 +868,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadR
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1034,6 +1082,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteBucketWebsiteReq
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteMarkerEntry.cpp.o: aws-cpp-sdk-s3/source/model/DeleteMarkerEntry.cpp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteMarkerEntry.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteMarkerEntry.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteMarkerEntry.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteMarkerEntry.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteMarkerEntry.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1306,6 +1355,57 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/FilterRuleName.cpp.o: 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/FilterRuleName.cpp.o: aws-cpp-sdk-s3/include/aws/s3/S3_EXPORTS.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/FilterRuleName.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/FilterRuleName.h
 
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-s3/source/model/GetBucketAccelerateConfigurationRequest.cpp
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/S3Request.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/S3_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAccelerateConfigurationRequest.h
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-s3/source/model/GetBucketAccelerateConfigurationResult.cpp
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-s3/include/aws/s3/S3_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketAccelerateStatus.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAccelerateConfigurationResult.h
+
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAclRequest.cpp.o: aws-cpp-sdk-s3/source/model/GetBucketAclRequest.cpp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAclRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAclRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
@@ -1445,6 +1545,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLifecycleConf
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLifecycleConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLifecycleConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLifecycleConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLifecycleConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLifecycleConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLifecycleConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLifecycleConfigurationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2015,6 +2116,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectRequest.cpp.o
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2042,6 +2144,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectResult.cpp.o:
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2185,6 +2288,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadObjectRequest.cpp.
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2211,6 +2315,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadObjectResult.cpp.o
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadObjectResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2287,6 +2392,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LambdaFunctionConfigur
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleConfiguration.cpp.o: aws-cpp-sdk-s3/source/model/LifecycleConfiguration.cpp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2311,6 +2417,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleConfiguration
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleExpiration.cpp.o: aws-cpp-sdk-s3/source/model/LifecycleExpiration.cpp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleExpiration.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleExpiration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleExpiration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleExpiration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleExpiration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2327,6 +2434,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleExpiration.cp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleRule.cpp.o: aws-cpp-sdk-s3/source/model/LifecycleRule.cpp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleRule.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleRule.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleRule.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleRule.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LifecycleRule.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2356,6 +2464,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListBucketsResult.cpp.
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListBucketsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListBucketsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListBucketsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListBucketsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListBucketsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListBucketsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListBucketsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2410,6 +2519,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsRe
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2468,6 +2578,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectVersionsResu
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2526,6 +2637,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsResult.cpp.
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2583,6 +2695,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.o:
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2675,6 +2788,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MetadataDirective.cpp.
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MultipartUpload.cpp.o: aws-cpp-sdk-s3/source/model/MultipartUpload.cpp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MultipartUpload.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MultipartUpload.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MultipartUpload.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MultipartUpload.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MultipartUpload.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2790,6 +2904,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurat
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Object.cpp.o: aws-cpp-sdk-s3/source/model/Object.cpp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Object.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Object.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Object.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Object.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Object.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2856,6 +2971,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectStorageClass.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectVersion.cpp.o: aws-cpp-sdk-s3/source/model/ObjectVersion.cpp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectVersion.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectVersion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectVersion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectVersion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectVersion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2906,6 +3022,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Owner.cpp.o: aws-cpp-s
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Part.cpp.o: aws-cpp-sdk-s3/source/model/Part.cpp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Part.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Part.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Part.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Part.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Part.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2967,6 +3084,33 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Protocol.cpp.o: aws-cp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Protocol.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Protocol.cpp.o: aws-cpp-sdk-s3/include/aws/s3/S3_EXPORTS.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Protocol.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/Protocol.h
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-s3/source/model/PutBucketAccelerateConfigurationRequest.cpp
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/S3Request.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/S3_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/AccelerateConfiguration.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/BucketAccelerateStatus.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-s3/include/aws/s3/model/PutBucketAccelerateConfigurationRequest.h
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAclRequest.cpp.o: aws-cpp-sdk-s3/source/model/PutBucketAclRequest.cpp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAclRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -3040,6 +3184,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketLifecycleConf
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketLifecycleConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketLifecycleConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketLifecycleConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketLifecycleConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketLifecycleConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketLifecycleConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketLifecycleConfigurationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -3386,6 +3531,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectRequest.cpp.o
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -3716,6 +3862,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RoutingRule.cpp.o: aws
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Rule.cpp.o: aws-cpp-sdk-s3/source/model/Rule.cpp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Rule.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Rule.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Rule.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Rule.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Rule.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3879,6 +4026,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/TopicConfigurationDepr
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Transition.cpp.o: aws-cpp-sdk-s3/source/model/Transition.cpp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Transition.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Transition.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Transition.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Transition.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Transition.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3935,6 +4083,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartCopyRequest.
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartCopyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartCopyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartCopyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartCopyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartCopyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartCopyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartCopyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -3961,6 +4110,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartCopyResult.c
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h

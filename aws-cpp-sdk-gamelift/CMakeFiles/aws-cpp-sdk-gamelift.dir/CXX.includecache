@@ -1192,6 +1192,18 @@ cassert
 iterator
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+iomanip
+-
+ctime
+-
+mutex
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
 aws/core/utils/memory/stl/AWSMap.h
 -
@@ -1298,6 +1310,18 @@ map
 cstring
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+aws/core/utils/memory/stl/AWSDeque.h
+-
+deque
+-
+queue
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws/core/Core_EXPORTS.h
 -
@@ -1351,9 +1375,17 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
 aws/core/Core_EXPORTS.h
 -
+aws/core/utils/memory/stl/AWSFunction.h
+-
+aws/core/utils/memory/stl/AWSQueue.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 functional
 -
-aws/core/utils/memory/stl/AWSFunction.h
+mutex
+-
+condition_variable
 -
 
 aws-cpp-sdk-gamelift/include/aws/gamelift/GameLiftClient.h
@@ -1477,6 +1509,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/gamelift/model/RoutingStrategy.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-gamelift/include/aws/gamelift/model/AwsCredentials.h
 aws/gamelift/GameLift_EXPORTS.h
@@ -1490,6 +1524,8 @@ aws/gamelift/GameLift_EXPORTS.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/gamelift/model/BuildStatus.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-gamelift/include/aws/gamelift/model/BuildStatus.h
@@ -1717,6 +1753,8 @@ aws/gamelift/GameLiftRequest.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-gamelift/include/aws/gamelift/model/DescribeFleetEventsResult.h
 aws/gamelift/GameLift_EXPORTS.h
@@ -1823,6 +1861,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/gamelift/model/EventCode.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-gamelift/include/aws/gamelift/model/EventCode.h
 aws/gamelift/GameLift_EXPORTS.h
@@ -1834,6 +1874,8 @@ aws-cpp-sdk-gamelift/include/aws/gamelift/model/FleetAttributes.h
 aws/gamelift/GameLift_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/gamelift/model/FleetStatus.h
 -
@@ -1872,6 +1914,8 @@ aws-cpp-sdk-gamelift/include/aws/gamelift/model/GameSession.h
 aws/gamelift/GameLift_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/gamelift/model/GameSessionStatus.h
 -
@@ -1976,6 +2020,8 @@ aws-cpp-sdk-gamelift/include/aws/gamelift/model/PlayerSession.h
 aws/gamelift/GameLift_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/gamelift/model/PlayerSessionStatus.h
 -

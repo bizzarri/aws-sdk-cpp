@@ -36,6 +36,7 @@ aws-cpp-sdk-workspaces/CMakeFiles/aws-cpp-sdk-workspaces.dir/source/WorkSpacesCl
 aws-cpp-sdk-workspaces/CMakeFiles/aws-cpp-sdk-workspaces.dir/source/WorkSpacesClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-workspaces/CMakeFiles/aws-cpp-sdk-workspaces.dir/source/WorkSpacesClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-workspaces/CMakeFiles/aws-cpp-sdk-workspaces.dir/source/WorkSpacesClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-workspaces/CMakeFiles/aws-cpp-sdk-workspaces.dir/source/WorkSpacesClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-workspaces/CMakeFiles/aws-cpp-sdk-workspaces.dir/source/WorkSpacesClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-workspaces/CMakeFiles/aws-cpp-sdk-workspaces.dir/source/WorkSpacesClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-workspaces/CMakeFiles/aws-cpp-sdk-workspaces.dir/source/WorkSpacesClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h

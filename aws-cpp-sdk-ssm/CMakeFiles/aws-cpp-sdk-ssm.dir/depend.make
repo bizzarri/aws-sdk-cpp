@@ -26,6 +26,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/SSMClient.cpp.o: aws-cpp-s
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/SSMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/SSMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/SSMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/SSMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/SSMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/SSMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/SSMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -36,6 +37,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/SSMClient.cpp.o: aws-cpp-s
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/SSMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/SSMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/SSMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/SSMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/SSMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/SSMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/SSMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -174,6 +176,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/AssociationDescripti
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/AssociationDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/AssociationDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/AssociationDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/AssociationDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/AssociationDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/AssociationDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/AssociationDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -229,6 +232,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/AssociationStatus.cp
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/AssociationStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/AssociationStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/AssociationStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/AssociationStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/AssociationStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/AssociationStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/AssociationStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -318,6 +322,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/Command.cpp.o: aws-c
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/Command.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/Command.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/Command.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/Command.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/Command.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/Command.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/Command.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -372,6 +377,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CommandInvocation.cp
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CommandInvocation.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CommandInvocation.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CommandInvocation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CommandInvocation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CommandInvocation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CommandInvocation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CommandInvocation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -409,6 +415,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CommandPlugin.cpp.o:
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CommandPlugin.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CommandPlugin.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CommandPlugin.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CommandPlugin.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CommandPlugin.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CommandPlugin.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CommandPlugin.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -513,6 +520,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateAssociationBat
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateAssociationBatchResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateAssociationBatchResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateAssociationBatchResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateAssociationBatchResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateAssociationBatchResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateAssociationBatchResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateAssociationBatchResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -573,6 +581,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateAssociationRes
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateAssociationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateAssociationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateAssociationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateAssociationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateAssociationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateAssociationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateAssociationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -630,6 +639,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateDocumentResult
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateDocumentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateDocumentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateDocumentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateDocumentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateDocumentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateDocumentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/CreateDocumentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -797,6 +807,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeAssociationR
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeAssociationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeAssociationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeAssociationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeAssociationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeAssociationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeAssociationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeAssociationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -854,6 +865,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeDocumentResu
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeDocumentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeDocumentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeDocumentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeDocumentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeDocumentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeDocumentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeDocumentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -915,6 +927,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeInstanceInfo
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeInstanceInformationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeInstanceInformationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeInstanceInformationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeInstanceInformationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeInstanceInformationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeInstanceInformationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DescribeInstanceInformationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -938,6 +951,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DocumentDescription.
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DocumentDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DocumentDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DocumentDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DocumentDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DocumentDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DocumentDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/DocumentDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1155,6 +1169,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/InstanceInformation.
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/InstanceInformation.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/InstanceInformation.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/InstanceInformation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/InstanceInformation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/InstanceInformation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/InstanceInformation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/InstanceInformation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1303,6 +1318,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/ListCommandInvocatio
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/ListCommandInvocationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/ListCommandInvocationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/ListCommandInvocationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/ListCommandInvocationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/ListCommandInvocationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/ListCommandInvocationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/ListCommandInvocationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1363,6 +1379,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/ListCommandsResult.c
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/ListCommandsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/ListCommandsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/ListCommandsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/ListCommandsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/ListCommandsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/ListCommandsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/ListCommandsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1509,6 +1526,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/SendCommandResult.cp
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/SendCommandResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/SendCommandResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/SendCommandResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/SendCommandResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/SendCommandResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/SendCommandResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/SendCommandResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1537,6 +1555,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/UpdateAssociationSta
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/UpdateAssociationStatusRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/UpdateAssociationStatusRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/UpdateAssociationStatusRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/UpdateAssociationStatusRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/UpdateAssociationStatusRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/UpdateAssociationStatusRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/UpdateAssociationStatusRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1567,6 +1586,7 @@ aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/UpdateAssociationSta
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/UpdateAssociationStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/UpdateAssociationStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/UpdateAssociationStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/UpdateAssociationStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/UpdateAssociationStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/UpdateAssociationStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ssm/CMakeFiles/aws-cpp-sdk-ssm.dir/source/model/UpdateAssociationStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

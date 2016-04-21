@@ -27,6 +27,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/EMRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/EMRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/EMRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/EMRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/EMRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/EMRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/EMRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -37,6 +38,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/EMRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/EMRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/EMRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/EMRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/EMRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/EMRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/EMRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -422,6 +424,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Cluster.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Cluster.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Cluster.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Cluster.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Cluster.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Cluster.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Cluster.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -500,6 +503,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -522,6 +526,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -545,6 +550,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ClusterTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -633,6 +639,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/DescribeClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/DescribeClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/DescribeClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/DescribeClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/DescribeClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/DescribeClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/DescribeClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -697,6 +704,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/DescribeStepResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/DescribeStepResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/DescribeStepResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/DescribeStepResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/DescribeStepResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/DescribeStepResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/DescribeStepResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -856,6 +864,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Instance.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Instance.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Instance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Instance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Instance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Instance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Instance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -880,6 +889,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroup.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroup.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroup.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroup.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroup.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroup.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroup.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -932,6 +942,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1022,6 +1033,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1044,6 +1056,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceGroupTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1145,6 +1158,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1167,6 +1181,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/InstanceTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1185,6 +1200,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1237,6 +1253,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowExecutionStatusDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowExecutionStatusDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowExecutionStatusDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowExecutionStatusDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowExecutionStatusDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowExecutionStatusDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowExecutionStatusDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1282,6 +1299,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowInstancesDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowInstancesDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowInstancesDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowInstancesDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowInstancesDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowInstancesDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/JobFlowInstancesDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1384,6 +1402,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListClustersRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListClustersRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListClustersRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListClustersRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListClustersRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListClustersRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListClustersRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1413,6 +1432,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1473,6 +1493,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListInstanceGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListInstanceGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListInstanceGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListInstanceGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListInstanceGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListInstanceGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListInstanceGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1539,6 +1560,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1601,6 +1623,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListStepsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListStepsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListStepsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListStepsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListStepsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListStepsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/ListStepsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1892,6 +1915,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Step.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Step.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Step.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Step.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Step.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Step.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/Step.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1938,6 +1962,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1978,6 +2003,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepExecutionStatusDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepExecutionStatusDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepExecutionStatusDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepExecutionStatusDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepExecutionStatusDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepExecutionStatusDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepExecutionStatusDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2048,6 +2074,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2070,6 +2097,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2095,6 +2123,7 @@ aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-elasticmapreduce/CMakeFiles/aws-cpp-sdk-elasticmapreduce.dir/source/model/StepTimeline.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

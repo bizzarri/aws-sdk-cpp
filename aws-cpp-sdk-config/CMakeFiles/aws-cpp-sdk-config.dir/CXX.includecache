@@ -917,6 +917,8 @@ aws/config/ConfigService_EXPORTS.h
 -
 aws/config/model/ComplianceContributorCount.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-config/include/aws/config/model/ComplianceSummaryByResourceType.h
 aws/config/ConfigService_EXPORTS.h
@@ -939,6 +941,8 @@ aws/config/model/DeliveryStatus.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-config/include/aws/config/model/ConfigRule.h
 aws/config/ConfigService_EXPORTS.h
@@ -958,6 +962,8 @@ aws-cpp-sdk-config/include/aws/config/model/ConfigRuleEvaluationStatus.h
 aws/config/ConfigService_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-config/include/aws/config/model/ConfigRuleState.h
@@ -979,11 +985,15 @@ aws/config/model/DeliveryStatus.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-config/include/aws/config/model/ConfigurationItem.h
 aws/config/ConfigService_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/config/model/ConfigurationItemStatus.h
 -
@@ -1014,6 +1024,8 @@ aws-cpp-sdk-config/include/aws/config/model/ConfigurationRecorderStatus.h
 aws/config/ConfigService_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/config/model/RecorderStatus.h
 -
@@ -1233,6 +1245,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/config/model/ComplianceType.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-config/include/aws/config/model/EvaluationResult.h
 aws/config/ConfigService_EXPORTS.h
@@ -1241,6 +1255,8 @@ aws/config/model/EvaluationResultIdentifier.h
 -
 aws/config/model/ComplianceType.h
 -
+aws/core/utils/DateTime.h
+-
 aws/core/utils/memory/stl/AWSString.h
 -
 
@@ -1248,6 +1264,8 @@ aws-cpp-sdk-config/include/aws/config/model/EvaluationResultIdentifier.h
 aws/config/ConfigService_EXPORTS.h
 -
 aws/config/model/EvaluationResultQualifier.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-config/include/aws/config/model/EvaluationResultQualifier.h
@@ -1338,6 +1356,8 @@ aws/config/ConfigServiceRequest.h
 aws/config/model/ResourceType.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/config/model/ChronologicalOrder.h
 -
@@ -1464,6 +1484,8 @@ aws/config/ConfigService_EXPORTS.h
 aws/config/model/ResourceType.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-config/include/aws/config/model/ResourceType.h
@@ -1794,6 +1816,18 @@ cassert
 iterator
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+iomanip
+-
+ctime
+-
+mutex
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
 aws/core/utils/memory/stl/AWSMap.h
 -
@@ -1900,6 +1934,18 @@ map
 cstring
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+aws/core/utils/memory/stl/AWSDeque.h
+-
+deque
+-
+queue
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws/core/Core_EXPORTS.h
 -
@@ -1953,8 +1999,16 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
 aws/core/Core_EXPORTS.h
 -
+aws/core/utils/memory/stl/AWSFunction.h
+-
+aws/core/utils/memory/stl/AWSQueue.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 functional
 -
-aws/core/utils/memory/stl/AWSFunction.h
+mutex
+-
+condition_variable
 -
 

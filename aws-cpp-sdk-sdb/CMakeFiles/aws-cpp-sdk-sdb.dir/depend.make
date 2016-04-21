@@ -30,9 +30,11 @@ aws-cpp-sdk-sdb/CMakeFiles/aws-cpp-sdk-sdb.dir/source/SimpleDBClient.cpp.o: aws-
 aws-cpp-sdk-sdb/CMakeFiles/aws-cpp-sdk-sdb.dir/source/SimpleDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-sdb/CMakeFiles/aws-cpp-sdk-sdb.dir/source/SimpleDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-sdb/CMakeFiles/aws-cpp-sdk-sdb.dir/source/SimpleDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-sdb/CMakeFiles/aws-cpp-sdk-sdb.dir/source/SimpleDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-sdb/CMakeFiles/aws-cpp-sdk-sdb.dir/source/SimpleDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-sdb/CMakeFiles/aws-cpp-sdk-sdb.dir/source/SimpleDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-sdb/CMakeFiles/aws-cpp-sdk-sdb.dir/source/SimpleDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-sdb/CMakeFiles/aws-cpp-sdk-sdb.dir/source/SimpleDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-sdb/CMakeFiles/aws-cpp-sdk-sdb.dir/source/SimpleDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-sdb/CMakeFiles/aws-cpp-sdk-sdb.dir/source/SimpleDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-sdb/CMakeFiles/aws-cpp-sdk-sdb.dir/source/SimpleDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h

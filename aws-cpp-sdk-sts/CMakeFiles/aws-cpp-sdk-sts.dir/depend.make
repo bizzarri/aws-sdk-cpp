@@ -24,14 +24,17 @@ aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-s
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
@@ -56,6 +59,8 @@ aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-s
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-sts/include/aws/sts/model/DecodeAuthorizationMessageRequest.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-sts/include/aws/sts/model/DecodeAuthorizationMessageResult.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-sts/include/aws/sts/model/FederatedUser.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-sts/include/aws/sts/model/GetCallerIdentityRequest.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-sts/include/aws/sts/model/GetCallerIdentityResult.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-sts/include/aws/sts/model/GetFederationTokenRequest.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-sts/include/aws/sts/model/GetFederationTokenResult.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/STSClient.cpp.o: aws-cpp-sdk-sts/include/aws/sts/model/GetSessionTokenRequest.h
@@ -136,6 +141,7 @@ aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleResult.cpp
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -193,6 +199,7 @@ aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLRe
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -250,6 +257,7 @@ aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithWebIde
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithWebIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithWebIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithWebIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithWebIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithWebIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithWebIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithWebIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -292,6 +300,7 @@ aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumedRoleUser.cpp.
 
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/Credentials.cpp.o: aws-cpp-sdk-sts/source/model/Credentials.cpp
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/Credentials.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/Credentials.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/Credentials.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/Credentials.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/Credentials.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -377,6 +386,61 @@ aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/FederatedUser.cpp.o:
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/FederatedUser.cpp.o: aws-cpp-sdk-sts/include/aws/sts/STS_EXPORTS.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/FederatedUser.cpp.o: aws-cpp-sdk-sts/include/aws/sts/model/FederatedUser.h
 
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-sts/source/model/GetCallerIdentityRequest.cpp
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-sts/include/aws/sts/STSRequest.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-sts/include/aws/sts/STS_EXPORTS.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-sts/include/aws/sts/model/GetCallerIdentityRequest.h
+
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-sts/source/model/GetCallerIdentityResult.cpp
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/AWSLogging.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/LogLevel.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/LogMacros.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/LogSystemInterface.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-sts/include/aws/sts/STS_EXPORTS.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-sts/include/aws/sts/model/GetCallerIdentityResult.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-sts/include/aws/sts/model/ResponseMetadata.h
+
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenRequest.cpp.o: aws-cpp-sdk-sts/source/model/GetFederationTokenRequest.cpp
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
@@ -410,6 +474,7 @@ aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenRe
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -467,6 +532,7 @@ aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResul
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h

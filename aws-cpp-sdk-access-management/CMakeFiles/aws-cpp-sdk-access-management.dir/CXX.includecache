@@ -273,6 +273,8 @@ aws/cognito-identity/CognitoIdentity_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-cognito-identity/include/aws/cognito-identity/model/DeleteIdentitiesResult.h
 aws/cognito-identity/CognitoIdentity_EXPORTS.h
@@ -306,6 +308,8 @@ aws/cognito-identity/CognitoIdentity_EXPORTS.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/core/utils/memory/stl/AWSVector.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-cognito-identity/include/aws/cognito-identity/model/ErrorCode.h
@@ -362,6 +366,8 @@ aws/cognito-identity/CognitoIdentity_EXPORTS.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/core/utils/memory/stl/AWSVector.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-cognito-identity/include/aws/cognito-identity/model/IdentityPoolShortDescription.h
@@ -648,6 +654,18 @@ memory
 cassert
 -
 iterator
+-
+
+aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+iomanip
+-
+ctime
+-
+mutex
 -
 
 aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
@@ -1007,11 +1025,15 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/iam/model/StatusType.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-iam/include/aws/iam/model/AccessKeyLastUsed.h
 aws/iam/IAM_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSStreamFwd.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
@@ -1024,6 +1046,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/iam/model/StatusType.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-iam/include/aws/iam/model/AddUserToGroupRequest.h
@@ -1413,6 +1437,8 @@ aws/core/utils/Array.h
 -
 aws/iam/model/ReportFormatType.h
 -
+aws/core/utils/DateTime.h
+-
 aws/iam/model/ResponseMetadata.h
 -
 
@@ -1477,6 +1503,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
+aws/core/utils/DateTime.h
+-
 aws/iam/model/ResponseMetadata.h
 -
 
@@ -1524,6 +1552,8 @@ aws-cpp-sdk-iam/include/aws/iam/model/GetSAMLProviderResult.h
 aws/iam/IAM_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/iam/model/ResponseMetadata.h
 -
@@ -1575,6 +1605,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-iam/include/aws/iam/model/GroupDetail.h
 aws/iam/IAM_EXPORTS.h
@@ -1582,6 +1614,8 @@ aws/iam/IAM_EXPORTS.h
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
@@ -1596,6 +1630,8 @@ aws/iam/IAM_EXPORTS.h
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
@@ -1997,6 +2033,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-iam/include/aws/iam/model/MFADevice.h
 aws/iam/IAM_EXPORTS.h
@@ -2005,6 +2043,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-iam/include/aws/iam/model/ManagedPolicyDetail.h
 aws/iam/IAM_EXPORTS.h
@@ -2012,6 +2052,8 @@ aws/iam/IAM_EXPORTS.h
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
@@ -2038,6 +2080,8 @@ aws/iam/IAM_EXPORTS.h
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-iam/include/aws/iam/model/PolicyDetail.h
@@ -2096,6 +2140,8 @@ aws/iam/IAM_EXPORTS.h
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-iam/include/aws/iam/model/Position.h
@@ -2163,6 +2209,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-iam/include/aws/iam/model/RoleDetail.h
 aws/iam/IAM_EXPORTS.h
@@ -2170,6 +2218,8 @@ aws/iam/IAM_EXPORTS.h
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
@@ -2187,6 +2237,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-iam/include/aws/iam/model/SSHPublicKey.h
 aws/iam/IAM_EXPORTS.h
@@ -2197,6 +2249,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/iam/model/StatusType.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-iam/include/aws/iam/model/SSHPublicKeyMetadata.h
 aws/iam/IAM_EXPORTS.h
@@ -2206,6 +2260,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/iam/model/StatusType.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-iam/include/aws/iam/model/ServerCertificate.h
@@ -2225,6 +2281,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-iam/include/aws/iam/model/SigningCertificate.h
 aws/iam/IAM_EXPORTS.h
@@ -2234,6 +2292,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/iam/model/StatusType.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-iam/include/aws/iam/model/SimulateCustomPolicyResult.h
@@ -2323,6 +2383,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-iam/include/aws/iam/model/UserDetail.h
 aws/iam/IAM_EXPORTS.h
@@ -2330,6 +2392,8 @@ aws/iam/IAM_EXPORTS.h
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
@@ -2348,5 +2412,7 @@ aws/core/utils/memory/stl/AWSString.h
 aws/core/utils/Array.h
 -
 aws/iam/model/User.h
+-
+aws/core/utils/DateTime.h
 -
 

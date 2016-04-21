@@ -114,14 +114,17 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearc
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
@@ -177,6 +180,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Acce
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AccessPoliciesStatus.cpp.o: aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionState.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AccessPoliciesStatus.cpp.o: aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionStatus.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AccessPoliciesStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AccessPoliciesStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AccessPoliciesStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AccessPoliciesStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AccessPoliciesStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -267,6 +271,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Anal
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AnalysisSchemeStatus.cpp.o: aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionState.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AnalysisSchemeStatus.cpp.o: aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionStatus.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AnalysisSchemeStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AnalysisSchemeStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AnalysisSchemeStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AnalysisSchemeStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AnalysisSchemeStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -285,6 +290,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Avai
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AvailabilityOptionsStatus.cpp.o: aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionState.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AvailabilityOptionsStatus.cpp.o: aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionStatus.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AvailabilityOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AvailabilityOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AvailabilityOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AvailabilityOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/AvailabilityOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -489,6 +495,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Defi
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineAnalysisSchemeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineAnalysisSchemeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineAnalysisSchemeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineAnalysisSchemeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineAnalysisSchemeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineAnalysisSchemeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineAnalysisSchemeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -549,6 +556,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Defi
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineExpressionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineExpressionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineExpressionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineExpressionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineExpressionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineExpressionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineExpressionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -633,6 +641,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Defi
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineIndexFieldResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineIndexFieldResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineIndexFieldResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineIndexFieldResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineIndexFieldResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineIndexFieldResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineIndexFieldResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -697,6 +706,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Defi
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineSuggesterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineSuggesterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineSuggesterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineSuggesterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineSuggesterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineSuggesterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DefineSuggesterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -759,6 +769,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Dele
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteAnalysisSchemeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteAnalysisSchemeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteAnalysisSchemeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteAnalysisSchemeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteAnalysisSchemeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteAnalysisSchemeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteAnalysisSchemeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -876,6 +887,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Dele
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteExpressionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteExpressionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteExpressionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteExpressionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteExpressionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteExpressionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteExpressionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -947,6 +959,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Dele
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteIndexFieldResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteIndexFieldResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteIndexFieldResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteIndexFieldResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteIndexFieldResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteIndexFieldResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteIndexFieldResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1008,6 +1021,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Dele
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteSuggesterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteSuggesterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteSuggesterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteSuggesterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteSuggesterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteSuggesterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DeleteSuggesterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1070,6 +1084,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Desc
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeAnalysisSchemesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeAnalysisSchemesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeAnalysisSchemesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeAnalysisSchemesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeAnalysisSchemesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeAnalysisSchemesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeAnalysisSchemesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1128,6 +1143,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Desc
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeAvailabilityOptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeAvailabilityOptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeAvailabilityOptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeAvailabilityOptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeAvailabilityOptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeAvailabilityOptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeAvailabilityOptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1245,6 +1261,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Desc
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeExpressionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeExpressionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeExpressionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeExpressionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeExpressionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeExpressionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeExpressionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1316,6 +1333,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Desc
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeIndexFieldsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeIndexFieldsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeIndexFieldsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeIndexFieldsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeIndexFieldsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeIndexFieldsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeIndexFieldsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1376,6 +1394,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Desc
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeScalingParametersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeScalingParametersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeScalingParametersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeScalingParametersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeScalingParametersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeScalingParametersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeScalingParametersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1434,6 +1453,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Desc
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeServiceAccessPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeServiceAccessPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeServiceAccessPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeServiceAccessPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeServiceAccessPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeServiceAccessPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeServiceAccessPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1495,6 +1515,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Desc
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeSuggestersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeSuggestersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeSuggestersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeSuggestersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeSuggestersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeSuggestersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/DescribeSuggestersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1604,6 +1625,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Expr
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/ExpressionStatus.cpp.o: aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionState.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/ExpressionStatus.cpp.o: aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionStatus.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/ExpressionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/ExpressionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/ExpressionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/ExpressionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/ExpressionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1718,6 +1740,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Inde
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/IndexFieldStatus.cpp.o: aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/TextArrayOptions.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/IndexFieldStatus.cpp.o: aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/TextOptions.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/IndexFieldStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/IndexFieldStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/IndexFieldStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/IndexFieldStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/IndexFieldStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1918,6 +1941,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Opti
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/OptionStatus.cpp.o: aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionState.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/OptionStatus.cpp.o: aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionStatus.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/OptionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/OptionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/OptionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/OptionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/OptionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1987,6 +2011,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Scal
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/ScalingParametersStatus.cpp.o: aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/ScalingParameters.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/ScalingParametersStatus.cpp.o: aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/ScalingParametersStatus.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/ScalingParametersStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/ScalingParametersStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/ScalingParametersStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/ScalingParametersStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/ScalingParametersStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2058,6 +2083,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Sugg
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/SuggesterStatus.cpp.o: aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/SuggesterFuzzyMatching.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/SuggesterStatus.cpp.o: aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/SuggesterStatus.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/SuggesterStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/SuggesterStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/SuggesterStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/SuggesterStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/SuggesterStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2141,6 +2167,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Upda
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateAvailabilityOptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateAvailabilityOptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateAvailabilityOptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateAvailabilityOptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateAvailabilityOptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateAvailabilityOptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateAvailabilityOptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2203,6 +2230,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Upda
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateScalingParametersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateScalingParametersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateScalingParametersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateScalingParametersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateScalingParametersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateScalingParametersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateScalingParametersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2261,6 +2289,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Upda
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateServiceAccessPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateServiceAccessPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateServiceAccessPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateServiceAccessPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateServiceAccessPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateServiceAccessPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/UpdateServiceAccessPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h

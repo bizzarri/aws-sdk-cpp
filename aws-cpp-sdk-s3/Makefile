@@ -358,6 +358,33 @@ source/model/AbortMultipartUploadResult.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AbortMultipartUploadResult.cpp.s
 .PHONY : source/model/AbortMultipartUploadResult.cpp.s
 
+source/model/AccelerateConfiguration.o: source/model/AccelerateConfiguration.cpp.o
+
+.PHONY : source/model/AccelerateConfiguration.o
+
+# target to build an object file
+source/model/AccelerateConfiguration.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o
+.PHONY : source/model/AccelerateConfiguration.cpp.o
+
+source/model/AccelerateConfiguration.i: source/model/AccelerateConfiguration.cpp.i
+
+.PHONY : source/model/AccelerateConfiguration.i
+
+# target to preprocess a source file
+source/model/AccelerateConfiguration.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.i
+.PHONY : source/model/AccelerateConfiguration.cpp.i
+
+source/model/AccelerateConfiguration.s: source/model/AccelerateConfiguration.cpp.s
+
+.PHONY : source/model/AccelerateConfiguration.s
+
+# target to generate assembly for a file
+source/model/AccelerateConfiguration.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.s
+.PHONY : source/model/AccelerateConfiguration.cpp.s
+
 source/model/AccessControlPolicy.o: source/model/AccessControlPolicy.cpp.o
 
 .PHONY : source/model/AccessControlPolicy.o
@@ -411,6 +438,33 @@ source/model/Bucket.s: source/model/Bucket.cpp.s
 source/model/Bucket.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Bucket.cpp.s
 .PHONY : source/model/Bucket.cpp.s
+
+source/model/BucketAccelerateStatus.o: source/model/BucketAccelerateStatus.cpp.o
+
+.PHONY : source/model/BucketAccelerateStatus.o
+
+# target to build an object file
+source/model/BucketAccelerateStatus.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o
+.PHONY : source/model/BucketAccelerateStatus.cpp.o
+
+source/model/BucketAccelerateStatus.i: source/model/BucketAccelerateStatus.cpp.i
+
+.PHONY : source/model/BucketAccelerateStatus.i
+
+# target to preprocess a source file
+source/model/BucketAccelerateStatus.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.i
+.PHONY : source/model/BucketAccelerateStatus.cpp.i
+
+source/model/BucketAccelerateStatus.s: source/model/BucketAccelerateStatus.cpp.s
+
+.PHONY : source/model/BucketAccelerateStatus.s
+
+# target to generate assembly for a file
+source/model/BucketAccelerateStatus.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.s
+.PHONY : source/model/BucketAccelerateStatus.cpp.s
 
 source/model/BucketCannedACL.o: source/model/BucketCannedACL.cpp.o
 
@@ -1626,6 +1680,60 @@ source/model/FilterRuleName.s: source/model/FilterRuleName.cpp.s
 source/model/FilterRuleName.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/FilterRuleName.cpp.s
 .PHONY : source/model/FilterRuleName.cpp.s
+
+source/model/GetBucketAccelerateConfigurationRequest.o: source/model/GetBucketAccelerateConfigurationRequest.cpp.o
+
+.PHONY : source/model/GetBucketAccelerateConfigurationRequest.o
+
+# target to build an object file
+source/model/GetBucketAccelerateConfigurationRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o
+.PHONY : source/model/GetBucketAccelerateConfigurationRequest.cpp.o
+
+source/model/GetBucketAccelerateConfigurationRequest.i: source/model/GetBucketAccelerateConfigurationRequest.cpp.i
+
+.PHONY : source/model/GetBucketAccelerateConfigurationRequest.i
+
+# target to preprocess a source file
+source/model/GetBucketAccelerateConfigurationRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.i
+.PHONY : source/model/GetBucketAccelerateConfigurationRequest.cpp.i
+
+source/model/GetBucketAccelerateConfigurationRequest.s: source/model/GetBucketAccelerateConfigurationRequest.cpp.s
+
+.PHONY : source/model/GetBucketAccelerateConfigurationRequest.s
+
+# target to generate assembly for a file
+source/model/GetBucketAccelerateConfigurationRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.s
+.PHONY : source/model/GetBucketAccelerateConfigurationRequest.cpp.s
+
+source/model/GetBucketAccelerateConfigurationResult.o: source/model/GetBucketAccelerateConfigurationResult.cpp.o
+
+.PHONY : source/model/GetBucketAccelerateConfigurationResult.o
+
+# target to build an object file
+source/model/GetBucketAccelerateConfigurationResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o
+.PHONY : source/model/GetBucketAccelerateConfigurationResult.cpp.o
+
+source/model/GetBucketAccelerateConfigurationResult.i: source/model/GetBucketAccelerateConfigurationResult.cpp.i
+
+.PHONY : source/model/GetBucketAccelerateConfigurationResult.i
+
+# target to preprocess a source file
+source/model/GetBucketAccelerateConfigurationResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.i
+.PHONY : source/model/GetBucketAccelerateConfigurationResult.cpp.i
+
+source/model/GetBucketAccelerateConfigurationResult.s: source/model/GetBucketAccelerateConfigurationResult.cpp.s
+
+.PHONY : source/model/GetBucketAccelerateConfigurationResult.s
+
+# target to generate assembly for a file
+source/model/GetBucketAccelerateConfigurationResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.s
+.PHONY : source/model/GetBucketAccelerateConfigurationResult.cpp.s
 
 source/model/GetBucketAclRequest.o: source/model/GetBucketAclRequest.cpp.o
 
@@ -3544,6 +3652,33 @@ source/model/Protocol.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Protocol.cpp.s
 .PHONY : source/model/Protocol.cpp.s
 
+source/model/PutBucketAccelerateConfigurationRequest.o: source/model/PutBucketAccelerateConfigurationRequest.cpp.o
+
+.PHONY : source/model/PutBucketAccelerateConfigurationRequest.o
+
+# target to build an object file
+source/model/PutBucketAccelerateConfigurationRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o
+.PHONY : source/model/PutBucketAccelerateConfigurationRequest.cpp.o
+
+source/model/PutBucketAccelerateConfigurationRequest.i: source/model/PutBucketAccelerateConfigurationRequest.cpp.i
+
+.PHONY : source/model/PutBucketAccelerateConfigurationRequest.i
+
+# target to preprocess a source file
+source/model/PutBucketAccelerateConfigurationRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.i
+.PHONY : source/model/PutBucketAccelerateConfigurationRequest.cpp.i
+
+source/model/PutBucketAccelerateConfigurationRequest.s: source/model/PutBucketAccelerateConfigurationRequest.cpp.s
+
+.PHONY : source/model/PutBucketAccelerateConfigurationRequest.s
+
+# target to generate assembly for a file
+source/model/PutBucketAccelerateConfigurationRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.s
+.PHONY : source/model/PutBucketAccelerateConfigurationRequest.cpp.s
+
 source/model/PutBucketAclRequest.o: source/model/PutBucketAclRequest.cpp.o
 
 .PHONY : source/model/PutBucketAclRequest.o
@@ -4874,12 +5009,18 @@ help:
 	@echo "... source/model/AbortMultipartUploadResult.o"
 	@echo "... source/model/AbortMultipartUploadResult.i"
 	@echo "... source/model/AbortMultipartUploadResult.s"
+	@echo "... source/model/AccelerateConfiguration.o"
+	@echo "... source/model/AccelerateConfiguration.i"
+	@echo "... source/model/AccelerateConfiguration.s"
 	@echo "... source/model/AccessControlPolicy.o"
 	@echo "... source/model/AccessControlPolicy.i"
 	@echo "... source/model/AccessControlPolicy.s"
 	@echo "... source/model/Bucket.o"
 	@echo "... source/model/Bucket.i"
 	@echo "... source/model/Bucket.s"
+	@echo "... source/model/BucketAccelerateStatus.o"
+	@echo "... source/model/BucketAccelerateStatus.i"
+	@echo "... source/model/BucketAccelerateStatus.s"
 	@echo "... source/model/BucketCannedACL.o"
 	@echo "... source/model/BucketCannedACL.i"
 	@echo "... source/model/BucketCannedACL.s"
@@ -5015,6 +5156,12 @@ help:
 	@echo "... source/model/FilterRuleName.o"
 	@echo "... source/model/FilterRuleName.i"
 	@echo "... source/model/FilterRuleName.s"
+	@echo "... source/model/GetBucketAccelerateConfigurationRequest.o"
+	@echo "... source/model/GetBucketAccelerateConfigurationRequest.i"
+	@echo "... source/model/GetBucketAccelerateConfigurationRequest.s"
+	@echo "... source/model/GetBucketAccelerateConfigurationResult.o"
+	@echo "... source/model/GetBucketAccelerateConfigurationResult.i"
+	@echo "... source/model/GetBucketAccelerateConfigurationResult.s"
 	@echo "... source/model/GetBucketAclRequest.o"
 	@echo "... source/model/GetBucketAclRequest.i"
 	@echo "... source/model/GetBucketAclRequest.s"
@@ -5228,6 +5375,9 @@ help:
 	@echo "... source/model/Protocol.o"
 	@echo "... source/model/Protocol.i"
 	@echo "... source/model/Protocol.s"
+	@echo "... source/model/PutBucketAccelerateConfigurationRequest.o"
+	@echo "... source/model/PutBucketAccelerateConfigurationRequest.i"
+	@echo "... source/model/PutBucketAccelerateConfigurationRequest.s"
 	@echo "... source/model/PutBucketAclRequest.o"
 	@echo "... source/model/PutBucketAclRequest.i"
 	@echo "... source/model/PutBucketAclRequest.s"

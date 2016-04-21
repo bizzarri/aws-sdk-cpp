@@ -80,6 +80,14 @@ aws/core/utils/json/JsonSerializer.h
 utility
 -
 
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/CloudWatchLoggingOptions.cpp
+aws/firehose/model/CloudWatchLoggingOptions.h
+-
+aws/core/utils/json/JsonSerializer.h
+-
+utility
+-
+
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/CompressionFormat.cpp
 aws/firehose/model/CompressionFormat.h
 -
@@ -182,6 +190,66 @@ aws/firehose/model/DestinationDescription.h
 aws/core/utils/json/JsonSerializer.h
 -
 utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchBufferingHints.cpp
+aws/firehose/model/ElasticsearchBufferingHints.h
+-
+aws/core/utils/json/JsonSerializer.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchDestinationConfiguration.cpp
+aws/firehose/model/ElasticsearchDestinationConfiguration.h
+-
+aws/core/utils/json/JsonSerializer.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchDestinationDescription.cpp
+aws/firehose/model/ElasticsearchDestinationDescription.h
+-
+aws/core/utils/json/JsonSerializer.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchDestinationUpdate.cpp
+aws/firehose/model/ElasticsearchDestinationUpdate.h
+-
+aws/core/utils/json/JsonSerializer.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchIndexRotationPeriod.cpp
+aws/firehose/model/ElasticsearchIndexRotationPeriod.h
+-
+aws/core/utils/HashingUtils.h
+-
+aws/core/Globals.h
+-
+aws/core/utils/EnumParseOverflowContainer.h
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchRetryOptions.cpp
+aws/firehose/model/ElasticsearchRetryOptions.h
+-
+aws/core/utils/json/JsonSerializer.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchS3BackupMode.cpp
+aws/firehose/model/ElasticsearchS3BackupMode.h
+-
+aws/core/utils/HashingUtils.h
+-
+aws/core/Globals.h
+-
+aws/core/utils/EnumParseOverflowContainer.h
 -
 
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/EncryptionConfiguration.cpp
@@ -630,6 +698,18 @@ cassert
 iterator
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+iomanip
+-
+ctime
+-
+mutex
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
 aws/core/utils/memory/stl/AWSMap.h
 -
@@ -736,6 +816,18 @@ map
 cstring
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+aws/core/utils/memory/stl/AWSDeque.h
+-
+deque
+-
+queue
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws/core/Core_EXPORTS.h
 -
@@ -789,9 +881,17 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
 aws/core/Core_EXPORTS.h
 -
+aws/core/utils/memory/stl/AWSFunction.h
+-
+aws/core/utils/memory/stl/AWSQueue.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 functional
 -
-aws/core/utils/memory/stl/AWSFunction.h
+mutex
+-
+condition_variable
 -
 
 aws-cpp-sdk-firehose/include/aws/firehose/FirehoseClient.h
@@ -868,6 +968,12 @@ aws-cpp-sdk-firehose/include/aws/firehose/model/BufferingHints.h
 aws/firehose/Firehose_EXPORTS.h
 -
 
+aws-cpp-sdk-firehose/include/aws/firehose/model/CloudWatchLoggingOptions.h
+aws/firehose/Firehose_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+
 aws-cpp-sdk-firehose/include/aws/firehose/model/CompressionFormat.h
 aws/firehose/Firehose_EXPORTS.h
 -
@@ -890,6 +996,8 @@ aws/core/utils/memory/stl/AWSString.h
 aws/firehose/model/S3DestinationConfiguration.h
 -
 aws/firehose/model/RedshiftDestinationConfiguration.h
+-
+aws/firehose/model/ElasticsearchDestinationConfiguration.h
 -
 
 aws-cpp-sdk-firehose/include/aws/firehose/model/CreateDeliveryStreamResult.h
@@ -916,6 +1024,8 @@ aws/firehose/Firehose_EXPORTS.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/firehose/model/DeliveryStreamStatus.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
@@ -950,6 +1060,80 @@ aws/core/utils/memory/stl/AWSString.h
 aws/firehose/model/S3DestinationDescription.h
 -
 aws/firehose/model/RedshiftDestinationDescription.h
+-
+aws/firehose/model/ElasticsearchDestinationDescription.h
+-
+
+aws-cpp-sdk-firehose/include/aws/firehose/model/ElasticsearchBufferingHints.h
+aws/firehose/Firehose_EXPORTS.h
+-
+
+aws-cpp-sdk-firehose/include/aws/firehose/model/ElasticsearchDestinationConfiguration.h
+aws/firehose/Firehose_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+aws/firehose/model/ElasticsearchIndexRotationPeriod.h
+-
+aws/firehose/model/ElasticsearchBufferingHints.h
+-
+aws/firehose/model/ElasticsearchRetryOptions.h
+-
+aws/firehose/model/ElasticsearchS3BackupMode.h
+-
+aws/firehose/model/S3DestinationConfiguration.h
+-
+aws/firehose/model/CloudWatchLoggingOptions.h
+-
+
+aws-cpp-sdk-firehose/include/aws/firehose/model/ElasticsearchDestinationDescription.h
+aws/firehose/Firehose_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+aws/firehose/model/ElasticsearchIndexRotationPeriod.h
+-
+aws/firehose/model/ElasticsearchBufferingHints.h
+-
+aws/firehose/model/ElasticsearchRetryOptions.h
+-
+aws/firehose/model/ElasticsearchS3BackupMode.h
+-
+aws/firehose/model/S3DestinationDescription.h
+-
+aws/firehose/model/CloudWatchLoggingOptions.h
+-
+
+aws-cpp-sdk-firehose/include/aws/firehose/model/ElasticsearchDestinationUpdate.h
+aws/firehose/Firehose_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+aws/firehose/model/ElasticsearchIndexRotationPeriod.h
+-
+aws/firehose/model/ElasticsearchBufferingHints.h
+-
+aws/firehose/model/ElasticsearchRetryOptions.h
+-
+aws/firehose/model/S3DestinationUpdate.h
+-
+aws/firehose/model/CloudWatchLoggingOptions.h
+-
+
+aws-cpp-sdk-firehose/include/aws/firehose/model/ElasticsearchIndexRotationPeriod.h
+aws/firehose/Firehose_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+
+aws-cpp-sdk-firehose/include/aws/firehose/model/ElasticsearchRetryOptions.h
+aws/firehose/Firehose_EXPORTS.h
+-
+
+aws-cpp-sdk-firehose/include/aws/firehose/model/ElasticsearchS3BackupMode.h
+aws/firehose/Firehose_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
 -
 
 aws-cpp-sdk-firehose/include/aws/firehose/model/EncryptionConfiguration.h
@@ -1045,6 +1229,8 @@ aws/firehose/model/CopyCommand.h
 -
 aws/firehose/model/S3DestinationConfiguration.h
 -
+aws/firehose/model/CloudWatchLoggingOptions.h
+-
 
 aws-cpp-sdk-firehose/include/aws/firehose/model/RedshiftDestinationDescription.h
 aws/firehose/Firehose_EXPORTS.h
@@ -1055,6 +1241,8 @@ aws/firehose/model/CopyCommand.h
 -
 aws/firehose/model/S3DestinationDescription.h
 -
+aws/firehose/model/CloudWatchLoggingOptions.h
+-
 
 aws-cpp-sdk-firehose/include/aws/firehose/model/RedshiftDestinationUpdate.h
 aws/firehose/Firehose_EXPORTS.h
@@ -1064,6 +1252,8 @@ aws/core/utils/memory/stl/AWSString.h
 aws/firehose/model/CopyCommand.h
 -
 aws/firehose/model/S3DestinationUpdate.h
+-
+aws/firehose/model/CloudWatchLoggingOptions.h
 -
 
 aws-cpp-sdk-firehose/include/aws/firehose/model/S3DestinationConfiguration.h
@@ -1077,6 +1267,8 @@ aws/firehose/model/CompressionFormat.h
 -
 aws/firehose/model/EncryptionConfiguration.h
 -
+aws/firehose/model/CloudWatchLoggingOptions.h
+-
 
 aws-cpp-sdk-firehose/include/aws/firehose/model/S3DestinationDescription.h
 aws/firehose/Firehose_EXPORTS.h
@@ -1088,6 +1280,8 @@ aws/firehose/model/BufferingHints.h
 aws/firehose/model/CompressionFormat.h
 -
 aws/firehose/model/EncryptionConfiguration.h
+-
+aws/firehose/model/CloudWatchLoggingOptions.h
 -
 
 aws-cpp-sdk-firehose/include/aws/firehose/model/S3DestinationUpdate.h
@@ -1101,6 +1295,8 @@ aws/firehose/model/CompressionFormat.h
 -
 aws/firehose/model/EncryptionConfiguration.h
 -
+aws/firehose/model/CloudWatchLoggingOptions.h
+-
 
 aws-cpp-sdk-firehose/include/aws/firehose/model/UpdateDestinationRequest.h
 aws/firehose/Firehose_EXPORTS.h
@@ -1112,6 +1308,8 @@ aws/core/utils/memory/stl/AWSString.h
 aws/firehose/model/S3DestinationUpdate.h
 -
 aws/firehose/model/RedshiftDestinationUpdate.h
+-
+aws/firehose/model/ElasticsearchDestinationUpdate.h
 -
 
 aws-cpp-sdk-firehose/include/aws/firehose/model/UpdateDestinationResult.h

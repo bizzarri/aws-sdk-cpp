@@ -24,14 +24,17 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
@@ -45,6 +48,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53Errors.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53Request.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/AlarmIdentifier.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/AliasTarget.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/AssociateVPCWithHostedZoneRequest.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/AssociateVPCWithHostedZoneResult.h
@@ -57,6 +61,9 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ChangeStatus.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ChangeTagsForResourceRequest.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ChangeTagsForResourceResult.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchAlarmConfiguration.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchRegion.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ComparisonOperator.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CreateHealthCheckRequest.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CreateHealthCheckResult.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CreateHostedZoneRequest.h
@@ -80,6 +87,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/DeleteTrafficPolicyInstanceResult.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/DeleteTrafficPolicyRequest.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/DeleteTrafficPolicyResult.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Dimension.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/DisassociateVPCFromHostedZoneRequest.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/DisassociateVPCFromHostedZoneResult.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/GeoLocation.h
@@ -113,9 +121,11 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheck.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckConfig.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckObservation.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckRegion.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckType.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HostedZone.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HostedZoneConfig.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/InsufficientDataHealthStatus.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ListGeoLocationsRequest.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ListGeoLocationsResult.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ListHealthChecksRequest.h
@@ -148,6 +158,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ResourceRecordSetFailover.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ResourceRecordSetRegion.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ResourceTagSet.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Statistic.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/StatusReport.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Tag.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Client.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/TagResourceType.h
@@ -206,6 +217,23 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Errors.cpp.
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Errors.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53Errors.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Errors.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
 
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-route53/source/model/AlarmIdentifier.cpp
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/AlarmIdentifier.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchRegion.h
+
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AliasTarget.cpp.o: aws-cpp-sdk-route53/source/model/AliasTarget.cpp
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AliasTarget.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AliasTarget.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
@@ -256,6 +284,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPC
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -342,6 +371,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatch.
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatchRecord.cpp.o: aws-cpp-sdk-route53/source/model/ChangeBatchRecord.cpp
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatchRecord.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatchRecord.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatchRecord.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatchRecord.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatchRecord.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -368,6 +398,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatchR
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeInfo.cpp.o: aws-cpp-sdk-route53/source/model/ChangeInfo.cpp
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -426,6 +457,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResour
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -513,6 +545,57 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsFo
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsForResourceResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsForResourceResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ChangeTagsForResourceResult.h
 
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-route53/source/model/CloudWatchAlarmConfiguration.cpp
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchAlarmConfiguration.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ComparisonOperator.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Dimension.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Statistic.h
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o: aws-cpp-sdk-route53/source/model/CloudWatchRegion.cpp
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/Globals.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchRegion.h
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o: aws-cpp-sdk-route53/source/model/ComparisonOperator.cpp
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o: aws-cpp-sdk-core/include/aws/core/Globals.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ComparisonOperator.h
+
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/source/model/CreateHealthCheckRequest.cpp
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
@@ -536,9 +619,13 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealth
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53Request.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/AlarmIdentifier.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchRegion.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CreateHealthCheckRequest.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckConfig.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckRegion.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckType.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/InsufficientDataHealthStatus.h
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/source/model/CreateHealthCheckResult.cpp
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
@@ -563,10 +650,18 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealth
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/AlarmIdentifier.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchAlarmConfiguration.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchRegion.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ComparisonOperator.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CreateHealthCheckResult.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Dimension.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheck.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckConfig.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckRegion.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckType.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/InsufficientDataHealthStatus.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Statistic.h
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneRequest.cpp.o: aws-cpp-sdk-route53/source/model/CreateHostedZoneRequest.cpp
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -603,6 +698,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHosted
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -927,6 +1023,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHosted
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1093,6 +1190,22 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTraffi
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/DeleteTrafficPolicyResult.h
 
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o: aws-cpp-sdk-route53/source/model/Dimension.cpp
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Dimension.h
+
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneRequest.cpp.o: aws-cpp-sdk-route53/source/model/DisassociateVPCFromHostedZoneRequest.cpp
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
@@ -1127,6 +1240,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Disassociate
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1210,6 +1324,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeRes
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1410,6 +1525,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthChe
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1427,6 +1543,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthChe
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/GetHealthCheckLastFailureReasonResult.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckObservation.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckRegion.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/StatusReport.h
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/source/model/GetHealthCheckRequest.cpp
@@ -1476,10 +1593,18 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthChe
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/AlarmIdentifier.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchAlarmConfiguration.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchRegion.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ComparisonOperator.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Dimension.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/GetHealthCheckResult.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheck.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckConfig.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckRegion.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckType.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/InsufficientDataHealthStatus.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Statistic.h
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusRequest.cpp.o: aws-cpp-sdk-route53/source/model/GetHealthCheckStatusRequest.cpp
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -1513,6 +1638,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthChe
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1530,6 +1656,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthChe
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/GetHealthCheckStatusResult.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckObservation.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckRegion.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/StatusReport.h
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountRequest.cpp.o: aws-cpp-sdk-route53/source/model/GetHostedZoneCountRequest.cpp
@@ -1850,9 +1977,17 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/AlarmIdentifier.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchAlarmConfiguration.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchRegion.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ComparisonOperator.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Dimension.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheck.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckConfig.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckRegion.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckType.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/InsufficientDataHealthStatus.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Statistic.h
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckConfig.cpp.o: aws-cpp-sdk-route53/source/model/HealthCheckConfig.cpp
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckConfig.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
@@ -1868,11 +2003,16 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckC
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckConfig.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckConfig.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckConfig.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckConfig.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/AlarmIdentifier.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckConfig.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchRegion.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckConfig.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckConfig.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckConfig.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckRegion.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckConfig.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckType.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckConfig.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/InsufficientDataHealthStatus.h
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckObservation.cpp.o: aws-cpp-sdk-route53/source/model/HealthCheckObservation.cpp
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckObservation.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckObservation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckObservation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckObservation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckObservation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1886,7 +2026,24 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckO
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckObservation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckObservation.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckObservation.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckObservation.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckObservation.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckRegion.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckObservation.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/StatusReport.h
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o: aws-cpp-sdk-route53/source/model/HealthCheckRegion.cpp
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/Globals.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckRegion.h
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckType.cpp.o: aws-cpp-sdk-route53/source/model/HealthCheckType.cpp
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckType.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
@@ -1936,6 +2093,22 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZoneCo
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZoneConfig.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZoneConfig.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZoneConfig.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HostedZoneConfig.h
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o: aws-cpp-sdk-route53/source/model/InsufficientDataHealthStatus.cpp
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Globals.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/InsufficientDataHealthStatus.h
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocationsRequest.cpp.o: aws-cpp-sdk-route53/source/model/ListGeoLocationsRequest.cpp
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocationsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -2036,10 +2209,18 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthCh
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/AlarmIdentifier.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchAlarmConfiguration.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchRegion.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ComparisonOperator.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Dimension.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheck.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckConfig.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckRegion.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckType.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/InsufficientDataHealthStatus.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ListHealthChecksResult.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Statistic.h
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesByNameRequest.cpp.o: aws-cpp-sdk-route53/source/model/ListHostedZonesByNameRequest.cpp
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesByNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -2728,8 +2909,25 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceTagS
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceTagSet.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Tag.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceTagSet.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/TagResourceType.h
 
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o: aws-cpp-sdk-route53/source/model/Statistic.cpp
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o: aws-cpp-sdk-core/include/aws/core/Globals.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Statistic.h
+
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/StatusReport.cpp.o: aws-cpp-sdk-route53/source/model/StatusReport.cpp
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/StatusReport.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/StatusReport.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/StatusReport.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/StatusReport.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/StatusReport.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2850,6 +3048,10 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealth
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53Request.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/AlarmIdentifier.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchRegion.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckRegion.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/InsufficientDataHealthStatus.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/UpdateHealthCheckRequest.h
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/source/model/UpdateHealthCheckResult.cpp
@@ -2875,9 +3077,17 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealth
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/Route53_EXPORTS.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/AlarmIdentifier.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchAlarmConfiguration.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/CloudWatchRegion.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/ComparisonOperator.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Dimension.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheck.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckConfig.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckRegion.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/HealthCheckType.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/InsufficientDataHealthStatus.h
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/Statistic.h
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/include/aws/route53/model/UpdateHealthCheckResult.h
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHostedZoneCommentRequest.cpp.o: aws-cpp-sdk-route53/source/model/UpdateHostedZoneCommentRequest.cpp

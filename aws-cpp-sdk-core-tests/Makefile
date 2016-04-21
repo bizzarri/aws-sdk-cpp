@@ -385,6 +385,33 @@ http/URITest.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/build.make aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/http/URITest.cpp.s
 .PHONY : http/URITest.cpp.s
 
+utils/DateTimeTest.o: utils/DateTimeTest.cpp.o
+
+.PHONY : utils/DateTimeTest.o
+
+# target to build an object file
+utils/DateTimeTest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/build.make aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o
+.PHONY : utils/DateTimeTest.cpp.o
+
+utils/DateTimeTest.i: utils/DateTimeTest.cpp.i
+
+.PHONY : utils/DateTimeTest.i
+
+# target to preprocess a source file
+utils/DateTimeTest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/build.make aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.i
+.PHONY : utils/DateTimeTest.cpp.i
+
+utils/DateTimeTest.s: utils/DateTimeTest.cpp.s
+
+.PHONY : utils/DateTimeTest.s
+
+# target to generate assembly for a file
+utils/DateTimeTest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/build.make aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.s
+.PHONY : utils/DateTimeTest.cpp.s
+
 utils/EnumOverflowTest.o: utils/EnumOverflowTest.cpp.o
 
 .PHONY : utils/EnumOverflowTest.o
@@ -665,6 +692,9 @@ help:
 	@echo "... http/URITest.o"
 	@echo "... http/URITest.i"
 	@echo "... http/URITest.s"
+	@echo "... utils/DateTimeTest.o"
+	@echo "... utils/DateTimeTest.i"
+	@echo "... utils/DateTimeTest.s"
 	@echo "... utils/EnumOverflowTest.o"
 	@echo "... utils/EnumOverflowTest.i"
 	@echo "... utils/EnumOverflowTest.s"

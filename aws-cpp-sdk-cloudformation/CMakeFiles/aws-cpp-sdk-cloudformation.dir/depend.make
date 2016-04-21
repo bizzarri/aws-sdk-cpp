@@ -107,14 +107,17 @@ aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/Clou
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/CloudFormationClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/CloudFormationClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/CloudFormationClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/CloudFormationClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/CloudFormationClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/CloudFormationClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/CloudFormationClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/CloudFormationClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/CloudFormationClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/CloudFormationClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/CloudFormationClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/CloudFormationClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/CloudFormationClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/CloudFormationClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/CloudFormationClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/CloudFormationClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/CloudFormationClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
@@ -284,6 +287,7 @@ aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/mode
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ChangeSetSummary.cpp.o: aws-cpp-sdk-cloudformation/include/aws/cloudformation/model/ChangeSetStatus.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ChangeSetSummary.cpp.o: aws-cpp-sdk-cloudformation/include/aws/cloudformation/model/ChangeSetSummary.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ChangeSetSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ChangeSetSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ChangeSetSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ChangeSetSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ChangeSetSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -687,6 +691,7 @@ aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/mode
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeChangeSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeChangeSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeChangeSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeChangeSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeChangeSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeChangeSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeChangeSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -744,6 +749,7 @@ aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/mode
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -801,6 +807,7 @@ aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/mode
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackResourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackResourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackResourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackResourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackResourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackResourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackResourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -858,6 +865,7 @@ aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/mode
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStackResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -919,6 +927,7 @@ aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/mode
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStacksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStacksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStacksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStacksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStacksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStacksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/DescribeStacksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1271,6 +1280,7 @@ aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/mode
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListChangeSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListChangeSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListChangeSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListChangeSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListChangeSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListChangeSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListChangeSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1328,6 +1338,7 @@ aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/mode
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListStackResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListStackResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListStackResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListStackResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListStackResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListStackResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListStackResourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1386,6 +1397,7 @@ aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/mode
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListStacksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListStacksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListStacksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListStacksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListStacksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListStacksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/ListStacksResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1705,6 +1717,7 @@ aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/mode
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/Stack.cpp.o: aws-cpp-sdk-cloudformation/include/aws/cloudformation/model/StackStatus.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/Stack.cpp.o: aws-cpp-sdk-cloudformation/include/aws/cloudformation/model/Tag.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/Stack.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/Stack.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/Stack.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/Stack.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/Stack.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1722,6 +1735,7 @@ aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/mode
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackEvent.cpp.o: aws-cpp-sdk-cloudformation/include/aws/cloudformation/model/ResourceStatus.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackEvent.cpp.o: aws-cpp-sdk-cloudformation/include/aws/cloudformation/model/StackEvent.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1739,6 +1753,7 @@ aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/mode
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResource.cpp.o: aws-cpp-sdk-cloudformation/include/aws/cloudformation/model/ResourceStatus.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResource.cpp.o: aws-cpp-sdk-cloudformation/include/aws/cloudformation/model/StackResource.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResource.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResource.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResource.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResource.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResource.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1756,6 +1771,7 @@ aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/mode
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResourceDetail.cpp.o: aws-cpp-sdk-cloudformation/include/aws/cloudformation/model/ResourceStatus.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResourceDetail.cpp.o: aws-cpp-sdk-cloudformation/include/aws/cloudformation/model/StackResourceDetail.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResourceDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResourceDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResourceDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResourceDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResourceDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1773,6 +1789,7 @@ aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/mode
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResourceSummary.cpp.o: aws-cpp-sdk-cloudformation/include/aws/cloudformation/model/ResourceStatus.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResourceSummary.cpp.o: aws-cpp-sdk-cloudformation/include/aws/cloudformation/model/StackResourceSummary.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResourceSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResourceSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResourceSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResourceSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackResourceSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1806,6 +1823,7 @@ aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/mode
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackSummary.cpp.o: aws-cpp-sdk-cloudformation/include/aws/cloudformation/model/StackStatus.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackSummary.cpp.o: aws-cpp-sdk-cloudformation/include/aws/cloudformation/model/StackSummary.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-cloudformation/CMakeFiles/aws-cpp-sdk-cloudformation.dir/source/model/StackSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h

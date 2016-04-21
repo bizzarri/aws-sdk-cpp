@@ -27,6 +27,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/DirectoryServiceClient.cpp.o
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -37,6 +38,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/DirectoryServiceClient.cpp.o
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -52,12 +54,15 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/DirectoryServiceClient.cpp.o
  aws-cpp-sdk-ds/include/aws/ds/DirectoryService_EXPORTS.h
  aws-cpp-sdk-ds/include/aws/ds/model/Attribute.h
  aws-cpp-sdk-ds/include/aws/ds/model/Computer.h
+ aws-cpp-sdk-ds/include/aws/ds/model/ConditionalForwarder.h
  aws-cpp-sdk-ds/include/aws/ds/model/ConnectDirectoryRequest.h
  aws-cpp-sdk-ds/include/aws/ds/model/ConnectDirectoryResult.h
  aws-cpp-sdk-ds/include/aws/ds/model/CreateAliasRequest.h
  aws-cpp-sdk-ds/include/aws/ds/model/CreateAliasResult.h
  aws-cpp-sdk-ds/include/aws/ds/model/CreateComputerRequest.h
  aws-cpp-sdk-ds/include/aws/ds/model/CreateComputerResult.h
+ aws-cpp-sdk-ds/include/aws/ds/model/CreateConditionalForwarderRequest.h
+ aws-cpp-sdk-ds/include/aws/ds/model/CreateConditionalForwarderResult.h
  aws-cpp-sdk-ds/include/aws/ds/model/CreateDirectoryRequest.h
  aws-cpp-sdk-ds/include/aws/ds/model/CreateDirectoryResult.h
  aws-cpp-sdk-ds/include/aws/ds/model/CreateMicrosoftADRequest.h
@@ -66,6 +71,8 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/DirectoryServiceClient.cpp.o
  aws-cpp-sdk-ds/include/aws/ds/model/CreateSnapshotResult.h
  aws-cpp-sdk-ds/include/aws/ds/model/CreateTrustRequest.h
  aws-cpp-sdk-ds/include/aws/ds/model/CreateTrustResult.h
+ aws-cpp-sdk-ds/include/aws/ds/model/DeleteConditionalForwarderRequest.h
+ aws-cpp-sdk-ds/include/aws/ds/model/DeleteConditionalForwarderResult.h
  aws-cpp-sdk-ds/include/aws/ds/model/DeleteDirectoryRequest.h
  aws-cpp-sdk-ds/include/aws/ds/model/DeleteDirectoryResult.h
  aws-cpp-sdk-ds/include/aws/ds/model/DeleteSnapshotRequest.h
@@ -74,6 +81,8 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/DirectoryServiceClient.cpp.o
  aws-cpp-sdk-ds/include/aws/ds/model/DeleteTrustResult.h
  aws-cpp-sdk-ds/include/aws/ds/model/DeregisterEventTopicRequest.h
  aws-cpp-sdk-ds/include/aws/ds/model/DeregisterEventTopicResult.h
+ aws-cpp-sdk-ds/include/aws/ds/model/DescribeConditionalForwardersRequest.h
+ aws-cpp-sdk-ds/include/aws/ds/model/DescribeConditionalForwardersResult.h
  aws-cpp-sdk-ds/include/aws/ds/model/DescribeDirectoriesRequest.h
  aws-cpp-sdk-ds/include/aws/ds/model/DescribeDirectoriesResult.h
  aws-cpp-sdk-ds/include/aws/ds/model/DescribeEventTopicsRequest.h
@@ -109,6 +118,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/DirectoryServiceClient.cpp.o
  aws-cpp-sdk-ds/include/aws/ds/model/RadiusStatus.h
  aws-cpp-sdk-ds/include/aws/ds/model/RegisterEventTopicRequest.h
  aws-cpp-sdk-ds/include/aws/ds/model/RegisterEventTopicResult.h
+ aws-cpp-sdk-ds/include/aws/ds/model/ReplicationScope.h
  aws-cpp-sdk-ds/include/aws/ds/model/RestoreFromSnapshotRequest.h
  aws-cpp-sdk-ds/include/aws/ds/model/RestoreFromSnapshotResult.h
  aws-cpp-sdk-ds/include/aws/ds/model/Snapshot.h
@@ -120,6 +130,8 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/DirectoryServiceClient.cpp.o
  aws-cpp-sdk-ds/include/aws/ds/model/TrustDirection.h
  aws-cpp-sdk-ds/include/aws/ds/model/TrustState.h
  aws-cpp-sdk-ds/include/aws/ds/model/TrustType.h
+ aws-cpp-sdk-ds/include/aws/ds/model/UpdateConditionalForwarderRequest.h
+ aws-cpp-sdk-ds/include/aws/ds/model/UpdateConditionalForwarderResult.h
  aws-cpp-sdk-ds/include/aws/ds/model/UpdateRadiusRequest.h
  aws-cpp-sdk-ds/include/aws/ds/model/UpdateRadiusResult.h
  aws-cpp-sdk-ds/include/aws/ds/model/VerifyTrustRequest.h
@@ -202,6 +214,25 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Computer.cpp.o
  aws-cpp-sdk-ds/include/aws/ds/DirectoryService_EXPORTS.h
  aws-cpp-sdk-ds/include/aws/ds/model/Attribute.h
  aws-cpp-sdk-ds/include/aws/ds/model/Computer.h
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/ConditionalForwarder.cpp
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-ds/include/aws/ds/DirectoryService_EXPORTS.h
+ aws-cpp-sdk-ds/include/aws/ds/model/ConditionalForwarder.h
+ aws-cpp-sdk-ds/include/aws/ds/model/ReplicationScope.h
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConnectDirectoryRequest.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/ConnectDirectoryRequest.cpp
  aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -369,6 +400,60 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerResult.c
  aws-cpp-sdk-ds/include/aws/ds/model/Attribute.h
  aws-cpp-sdk-ds/include/aws/ds/model/Computer.h
  aws-cpp-sdk-ds/include/aws/ds/model/CreateComputerResult.h
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateConditionalForwarderRequest.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-ds/include/aws/ds/DirectoryServiceRequest.h
+ aws-cpp-sdk-ds/include/aws/ds/DirectoryService_EXPORTS.h
+ aws-cpp-sdk-ds/include/aws/ds/model/CreateConditionalForwarderRequest.h
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateConditionalForwarderResult.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-ds/include/aws/ds/DirectoryService_EXPORTS.h
+ aws-cpp-sdk-ds/include/aws/ds/model/CreateConditionalForwarderResult.h
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryRequest.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateDirectoryRequest.cpp
  aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -590,6 +675,60 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateTrustResult.cpp.
  aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
  aws-cpp-sdk-ds/include/aws/ds/DirectoryService_EXPORTS.h
  aws-cpp-sdk-ds/include/aws/ds/model/CreateTrustResult.h
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteConditionalForwarderRequest.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-ds/include/aws/ds/DirectoryServiceRequest.h
+ aws-cpp-sdk-ds/include/aws/ds/DirectoryService_EXPORTS.h
+ aws-cpp-sdk-ds/include/aws/ds/model/DeleteConditionalForwarderRequest.h
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteConditionalForwarderResult.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-ds/include/aws/ds/DirectoryService_EXPORTS.h
+ aws-cpp-sdk-ds/include/aws/ds/model/DeleteConditionalForwarderResult.h
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryRequest.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteDirectoryRequest.cpp
  aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -806,6 +945,62 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeregisterEventTopicRe
  aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
  aws-cpp-sdk-ds/include/aws/ds/DirectoryService_EXPORTS.h
  aws-cpp-sdk-ds/include/aws/ds/model/DeregisterEventTopicResult.h
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeConditionalForwardersRequest.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-ds/include/aws/ds/DirectoryServiceRequest.h
+ aws-cpp-sdk-ds/include/aws/ds/DirectoryService_EXPORTS.h
+ aws-cpp-sdk-ds/include/aws/ds/model/DescribeConditionalForwardersRequest.h
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeConditionalForwardersResult.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-ds/include/aws/ds/DirectoryService_EXPORTS.h
+ aws-cpp-sdk-ds/include/aws/ds/model/ConditionalForwarder.h
+ aws-cpp-sdk-ds/include/aws/ds/model/DescribeConditionalForwardersResult.h
+ aws-cpp-sdk-ds/include/aws/ds/model/ReplicationScope.h
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesRequest.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeDirectoriesRequest.cpp
  aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -845,6 +1040,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesRes
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -908,6 +1104,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsRes
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -964,6 +1161,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsResul
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1021,6 +1219,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeTrustsResult.c
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1081,6 +1280,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryDescription.c
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
  aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1427,6 +1627,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EventTopic.cpp.o
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
  aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1656,6 +1857,22 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicResu
  aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
  aws-cpp-sdk-ds/include/aws/ds/DirectoryService_EXPORTS.h
  aws-cpp-sdk-ds/include/aws/ds/model/RegisterEventTopicResult.h
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/ReplicationScope.cpp
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/Globals.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
+ aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-ds/include/aws/ds/DirectoryService_EXPORTS.h
+ aws-cpp-sdk-ds/include/aws/ds/model/ReplicationScope.h
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RestoreFromSnapshotRequest.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/RestoreFromSnapshotRequest.cpp
  aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -1715,6 +1932,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Snapshot.cpp.o
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
  aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1801,6 +2019,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Trust.cpp.o
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
  aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1865,6 +2084,60 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustType.cpp.o
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
  aws-cpp-sdk-ds/include/aws/ds/DirectoryService_EXPORTS.h
  aws-cpp-sdk-ds/include/aws/ds/model/TrustType.h
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/UpdateConditionalForwarderRequest.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-ds/include/aws/ds/DirectoryServiceRequest.h
+ aws-cpp-sdk-ds/include/aws/ds/DirectoryService_EXPORTS.h
+ aws-cpp-sdk-ds/include/aws/ds/model/UpdateConditionalForwarderRequest.h
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/UpdateConditionalForwarderResult.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-ds/include/aws/ds/DirectoryService_EXPORTS.h
+ aws-cpp-sdk-ds/include/aws/ds/model/UpdateConditionalForwarderResult.h
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusRequest.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/UpdateRadiusRequest.cpp
  aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h

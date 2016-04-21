@@ -345,9 +345,33 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeregisterEventTopicRe
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeregisterEventTopicRequest.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeregisterEventTopicRequest.cpp.o
 
 
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.o: aws-cpp-sdk-ds/source/model/UpdateConditionalForwarderResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/UpdateConditionalForwarderResult.cpp
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/UpdateConditionalForwarderResult.cpp > CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.i
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/UpdateConditionalForwarderResult.cpp -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.s
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.o.requires
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.o.provides: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.o.provides
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.o
+
+
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsRequest.cpp.o: aws-cpp-sdk-ds/source/model/DescribeSnapshotsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeSnapshotsRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsRequest.cpp.i: cmake_force
@@ -369,9 +393,33 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsReque
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsRequest.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsRequest.cpp.o
 
 
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.o: aws-cpp-sdk-ds/source/model/DeleteConditionalForwarderResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteConditionalForwarderResult.cpp
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteConditionalForwarderResult.cpp > CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.i
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteConditionalForwarderResult.cpp -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.s
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.o.requires
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.o.provides: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.o.provides
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.o
+
+
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusResult.cpp.o: aws-cpp-sdk-ds/source/model/UpdateRadiusResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/UpdateRadiusResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusResult.cpp.i: cmake_force
@@ -395,7 +443,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Computer.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Computer.cpp.o: aws-cpp-sdk-ds/source/model/Computer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Computer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Computer.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Computer.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/Computer.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Computer.cpp.i: cmake_force
@@ -417,9 +465,33 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Computer.cpp.o.provide
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Computer.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Computer.cpp.o
 
 
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.o: aws-cpp-sdk-ds/source/model/DescribeConditionalForwardersRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeConditionalForwardersRequest.cpp
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeConditionalForwardersRequest.cpp > CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.i
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeConditionalForwardersRequest.cpp -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.s
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.o.requires
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.o.provides: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.o.provides
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.o
+
+
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotStatus.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotStatus.cpp.o: aws-cpp-sdk-ds/source/model/SnapshotStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotStatus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotStatus.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotStatus.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/SnapshotStatus.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotStatus.cpp.i: cmake_force
@@ -443,7 +515,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotStatus.cpp.o.p
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryDescription.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryDescription.cpp.o: aws-cpp-sdk-ds/source/model/DirectoryDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DirectoryDescription.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryDescription.cpp.i: cmake_force
@@ -467,7 +539,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryDescription.c
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustState.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustState.cpp.o: aws-cpp-sdk-ds/source/model/TrustState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustState.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustState.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/TrustState.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustState.cpp.i: cmake_force
@@ -491,7 +563,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustState.cpp.o.provi
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicRequest.cpp.o: aws-cpp-sdk-ds/source/model/RegisterEventTopicRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/RegisterEventTopicRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicRequest.cpp.i: cmake_force
@@ -513,9 +585,33 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicRequ
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicRequest.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicRequest.cpp.o
 
 
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.o: aws-cpp-sdk-ds/source/model/CreateConditionalForwarderResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateConditionalForwarderResult.cpp
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateConditionalForwarderResult.cpp > CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.i
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateConditionalForwarderResult.cpp -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.s
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.o.requires
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.o.provides: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.o.provides
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.o
+
+
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableSsoResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableSsoResult.cpp.o: aws-cpp-sdk-ds/source/model/EnableSsoResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableSsoResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableSsoResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableSsoResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/EnableSsoResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableSsoResult.cpp.i: cmake_force
@@ -539,7 +635,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableSsoResult.cpp.o.
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetDirectoryLimitsResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetDirectoryLimitsResult.cpp.o: aws-cpp-sdk-ds/source/model/GetDirectoryLimitsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetDirectoryLimitsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetDirectoryLimitsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetDirectoryLimitsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/GetDirectoryLimitsResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetDirectoryLimitsResult.cpp.i: cmake_force
@@ -563,7 +659,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetDirectoryLimitsResu
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADRequest.cpp.o: aws-cpp-sdk-ds/source/model/CreateMicrosoftADRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateMicrosoftADRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADRequest.cpp.i: cmake_force
@@ -587,7 +683,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADReque
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustRequest.cpp.o: aws-cpp-sdk-ds/source/model/DeleteTrustRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteTrustRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustRequest.cpp.i: cmake_force
@@ -611,7 +707,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateSnapshotResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateSnapshotResult.cpp.o: aws-cpp-sdk-ds/source/model/CreateSnapshotResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateSnapshotResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateSnapshotResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateSnapshotResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateSnapshotResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateSnapshotResult.cpp.i: cmake_force
@@ -635,7 +731,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateSnapshotResult.c
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RadiusSettings.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RadiusSettings.cpp.o: aws-cpp-sdk-ds/source/model/RadiusSettings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RadiusSettings.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RadiusSettings.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RadiusSettings.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/RadiusSettings.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RadiusSettings.cpp.i: cmake_force
@@ -659,7 +755,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RadiusSettings.cpp.o.p
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesRequest.cpp.o: aws-cpp-sdk-ds/source/model/DescribeDirectoriesRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeDirectoriesRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesRequest.cpp.i: cmake_force
@@ -683,7 +779,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesReq
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Attribute.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Attribute.cpp.o: aws-cpp-sdk-ds/source/model/Attribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Attribute.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Attribute.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Attribute.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/Attribute.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Attribute.cpp.i: cmake_force
@@ -707,7 +803,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Attribute.cpp.o.provid
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateTrustResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateTrustResult.cpp.o: aws-cpp-sdk-ds/source/model/CreateTrustResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateTrustResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateTrustResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateTrustResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateTrustResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateTrustResult.cpp.i: cmake_force
@@ -731,7 +827,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateTrustResult.cpp.
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableRadiusResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableRadiusResult.cpp.o: aws-cpp-sdk-ds/source/model/DisableRadiusResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableRadiusResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableRadiusResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableRadiusResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DisableRadiusResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableRadiusResult.cpp.i: cmake_force
@@ -755,7 +851,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableRadiusResult.cp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableRadiusRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableRadiusRequest.cpp.o: aws-cpp-sdk-ds/source/model/EnableRadiusRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableRadiusRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableRadiusRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableRadiusRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/EnableRadiusRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableRadiusRequest.cpp.i: cmake_force
@@ -779,7 +875,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableRadiusRequest.cp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustResult.cpp.o: aws-cpp-sdk-ds/source/model/DeleteTrustResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteTrustResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustResult.cpp.i: cmake_force
@@ -801,9 +897,33 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustResult.cpp.
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustResult.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustResult.cpp.o
 
 
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.o: aws-cpp-sdk-ds/source/model/ReplicationScope.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/ReplicationScope.cpp
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/ReplicationScope.cpp > CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.i
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/ReplicationScope.cpp -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.s
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.o.requires
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.o.provides: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.o.provides
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.o
+
+
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/VerifyTrustRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/VerifyTrustRequest.cpp.o: aws-cpp-sdk-ds/source/model/VerifyTrustRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/VerifyTrustRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/VerifyTrustRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/VerifyTrustRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/VerifyTrustRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/VerifyTrustRequest.cpp.i: cmake_force
@@ -827,7 +947,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/VerifyTrustRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeTrustsRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeTrustsRequest.cpp.o: aws-cpp-sdk-ds/source/model/DescribeTrustsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeTrustsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeTrustsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeTrustsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeTrustsRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeTrustsRequest.cpp.i: cmake_force
@@ -849,9 +969,33 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeTrustsRequest.
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeTrustsRequest.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeTrustsRequest.cpp.o
 
 
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.o: aws-cpp-sdk-ds/source/model/ConditionalForwarder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/ConditionalForwarder.cpp
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/ConditionalForwarder.cpp > CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.i
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/ConditionalForwarder.cpp -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.s
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.o.requires
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.o.provides: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.o.provides
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.o
+
+
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADResult.cpp.o: aws-cpp-sdk-ds/source/model/CreateMicrosoftADResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateMicrosoftADResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADResult.cpp.i: cmake_force
@@ -875,7 +1019,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADResul
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoResult.cpp.o: aws-cpp-sdk-ds/source/model/DisableSsoResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DisableSsoResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoResult.cpp.i: cmake_force
@@ -899,7 +1043,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoResult.cpp.o
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoRequest.cpp.o: aws-cpp-sdk-ds/source/model/DisableSsoRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DisableSsoRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoRequest.cpp.i: cmake_force
@@ -923,7 +1067,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoRequest.cpp.
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasResult.cpp.o: aws-cpp-sdk-ds/source/model/CreateAliasResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateAliasResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasResult.cpp.i: cmake_force
@@ -945,9 +1089,33 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasResult.cpp.
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasResult.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasResult.cpp.o
 
 
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.o: aws-cpp-sdk-ds/source/model/DeleteConditionalForwarderRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteConditionalForwarderRequest.cpp
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteConditionalForwarderRequest.cpp > CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.i
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteConditionalForwarderRequest.cpp -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.s
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.o.requires
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.o.provides: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.o.provides
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.o
+
+
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasRequest.cpp.o: aws-cpp-sdk-ds/source/model/CreateAliasRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateAliasRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasRequest.cpp.i: cmake_force
@@ -971,7 +1139,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotLimits.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotLimits.cpp.o: aws-cpp-sdk-ds/source/model/SnapshotLimits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotLimits.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotLimits.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotLimits.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/SnapshotLimits.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotLimits.cpp.i: cmake_force
@@ -995,7 +1163,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotLimits.cpp.o.p
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryConnectSettings.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryConnectSettings.cpp.o: aws-cpp-sdk-ds/source/model/DirectoryConnectSettings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryConnectSettings.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryConnectSettings.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryConnectSettings.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DirectoryConnectSettings.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryConnectSettings.cpp.i: cmake_force
@@ -1019,7 +1187,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryConnectSettin
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateSnapshotRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateSnapshotRequest.cpp.o: aws-cpp-sdk-ds/source/model/CreateSnapshotRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateSnapshotRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateSnapshotRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateSnapshotRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateSnapshotRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateSnapshotRequest.cpp.i: cmake_force
@@ -1043,7 +1211,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateSnapshotRequest.
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-ds/source/model/Snapshot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Snapshot.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Snapshot.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Snapshot.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/Snapshot.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Snapshot.cpp.i: cmake_force
@@ -1067,7 +1235,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Snapshot.cpp.o.provide
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryRequest.cpp.o: aws-cpp-sdk-ds/source/model/CreateDirectoryRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateDirectoryRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryRequest.cpp.i: cmake_force
@@ -1091,7 +1259,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryRequest
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeregisterEventTopicResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeregisterEventTopicResult.cpp.o: aws-cpp-sdk-ds/source/model/DeregisterEventTopicResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeregisterEventTopicResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeregisterEventTopicResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeregisterEventTopicResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeregisterEventTopicResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeregisterEventTopicResult.cpp.i: cmake_force
@@ -1115,7 +1283,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeregisterEventTopicRe
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryConnectSettingsDescription.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryConnectSettingsDescription.cpp.o: aws-cpp-sdk-ds/source/model/DirectoryConnectSettingsDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryConnectSettingsDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryConnectSettingsDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryConnectSettingsDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DirectoryConnectSettingsDescription.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryConnectSettingsDescription.cpp.i: cmake_force
@@ -1139,7 +1307,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryConnectSettin
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableSsoRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableSsoRequest.cpp.o: aws-cpp-sdk-ds/source/model/EnableSsoRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableSsoRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableSsoRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableSsoRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/EnableSsoRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableSsoRequest.cpp.i: cmake_force
@@ -1163,7 +1331,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableSsoRequest.cpp.o
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteSnapshotResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteSnapshotResult.cpp.o: aws-cpp-sdk-ds/source/model/DeleteSnapshotResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteSnapshotResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteSnapshotResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteSnapshotResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteSnapshotResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteSnapshotResult.cpp.i: cmake_force
@@ -1187,7 +1355,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteSnapshotResult.c
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryResult.cpp.o: aws-cpp-sdk-ds/source/model/DeleteDirectoryResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteDirectoryResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryResult.cpp.i: cmake_force
@@ -1211,7 +1379,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryResult.
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetSnapshotLimitsResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetSnapshotLimitsResult.cpp.o: aws-cpp-sdk-ds/source/model/GetSnapshotLimitsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetSnapshotLimitsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetSnapshotLimitsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetSnapshotLimitsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/GetSnapshotLimitsResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetSnapshotLimitsResult.cpp.i: cmake_force
@@ -1235,7 +1403,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetSnapshotLimitsResul
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerResult.cpp.o: aws-cpp-sdk-ds/source/model/CreateComputerResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateComputerResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerResult.cpp.i: cmake_force
@@ -1259,7 +1427,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerResult.c
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettingsDescription.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettingsDescription.cpp.o: aws-cpp-sdk-ds/source/model/DirectoryVpcSettingsDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettingsDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettingsDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettingsDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DirectoryVpcSettingsDescription.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettingsDescription.cpp.i: cmake_force
@@ -1283,7 +1451,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettingsDe
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableRadiusResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableRadiusResult.cpp.o: aws-cpp-sdk-ds/source/model/EnableRadiusResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableRadiusResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableRadiusResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableRadiusResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/EnableRadiusResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableRadiusResult.cpp.i: cmake_force
@@ -1307,7 +1475,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableRadiusResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/VerifyTrustResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/VerifyTrustResult.cpp.o: aws-cpp-sdk-ds/source/model/VerifyTrustResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/VerifyTrustResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/VerifyTrustResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/VerifyTrustResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/VerifyTrustResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/VerifyTrustResult.cpp.i: cmake_force
@@ -1331,7 +1499,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/VerifyTrustResult.cpp.
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusRequest.cpp.o: aws-cpp-sdk-ds/source/model/UpdateRadiusRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/UpdateRadiusRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusRequest.cpp.i: cmake_force
@@ -1355,7 +1523,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusRequest.cp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicResult.cpp.o: aws-cpp-sdk-ds/source/model/RegisterEventTopicResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/RegisterEventTopicResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicResult.cpp.i: cmake_force
@@ -1379,7 +1547,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicResu
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RadiusAuthenticationProtocol.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RadiusAuthenticationProtocol.cpp.o: aws-cpp-sdk-ds/source/model/RadiusAuthenticationProtocol.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RadiusAuthenticationProtocol.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RadiusAuthenticationProtocol.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RadiusAuthenticationProtocol.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/RadiusAuthenticationProtocol.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RadiusAuthenticationProtocol.cpp.i: cmake_force
@@ -1403,7 +1571,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RadiusAuthenticationPr
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustType.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustType.cpp.o: aws-cpp-sdk-ds/source/model/TrustType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustType.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustType.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustType.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/TrustType.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustType.cpp.i: cmake_force
@@ -1427,7 +1595,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustType.cpp.o.provid
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConnectDirectoryResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConnectDirectoryResult.cpp.o: aws-cpp-sdk-ds/source/model/ConnectDirectoryResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConnectDirectoryResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConnectDirectoryResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConnectDirectoryResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/ConnectDirectoryResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConnectDirectoryResult.cpp.i: cmake_force
@@ -1451,7 +1619,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConnectDirectoryResult
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetSnapshotLimitsRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetSnapshotLimitsRequest.cpp.o: aws-cpp-sdk-ds/source/model/GetSnapshotLimitsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetSnapshotLimitsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetSnapshotLimitsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetSnapshotLimitsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/GetSnapshotLimitsRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetSnapshotLimitsRequest.cpp.i: cmake_force
@@ -1475,7 +1643,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetSnapshotLimitsReque
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateTrustRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateTrustRequest.cpp.o: aws-cpp-sdk-ds/source/model/CreateTrustRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateTrustRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateTrustRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateTrustRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateTrustRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateTrustRequest.cpp.i: cmake_force
@@ -1499,7 +1667,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateTrustRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsResult.cpp.o: aws-cpp-sdk-ds/source/model/DescribeEventTopicsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeEventTopicsResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsResult.cpp.i: cmake_force
@@ -1523,7 +1691,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsRes
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EventTopic.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EventTopic.cpp.o: aws-cpp-sdk-ds/source/model/EventTopic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EventTopic.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EventTopic.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EventTopic.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/EventTopic.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EventTopic.cpp.i: cmake_force
@@ -1547,7 +1715,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EventTopic.cpp.o.provi
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerRequest.cpp.o: aws-cpp-sdk-ds/source/model/CreateComputerRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateComputerRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerRequest.cpp.i: cmake_force
@@ -1571,7 +1739,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerRequest.
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesResult.cpp.o: aws-cpp-sdk-ds/source/model/DescribeDirectoriesResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeDirectoriesResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesResult.cpp.i: cmake_force
@@ -1595,7 +1763,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesRes
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustDirection.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustDirection.cpp.o: aws-cpp-sdk-ds/source/model/TrustDirection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustDirection.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustDirection.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustDirection.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/TrustDirection.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustDirection.cpp.i: cmake_force
@@ -1617,9 +1785,57 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustDirection.cpp.o.p
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustDirection.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustDirection.cpp.o
 
 
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.o: aws-cpp-sdk-ds/source/model/DescribeConditionalForwardersResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeConditionalForwardersResult.cpp
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeConditionalForwardersResult.cpp > CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.i
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeConditionalForwardersResult.cpp -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.s
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.o.requires
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.o.provides: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.o.provides
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.o
+
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.o: aws-cpp-sdk-ds/source/model/CreateConditionalForwarderRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateConditionalForwarderRequest.cpp
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateConditionalForwarderRequest.cpp > CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.i
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateConditionalForwarderRequest.cpp -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.s
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.o.requires
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.o.provides: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.o.provides
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.o
+
+
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TopicStatus.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TopicStatus.cpp.o: aws-cpp-sdk-ds/source/model/TopicStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TopicStatus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TopicStatus.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TopicStatus.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/TopicStatus.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TopicStatus.cpp.i: cmake_force
@@ -1643,7 +1859,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TopicStatus.cpp.o.prov
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RestoreFromSnapshotRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RestoreFromSnapshotRequest.cpp.o: aws-cpp-sdk-ds/source/model/RestoreFromSnapshotRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RestoreFromSnapshotRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RestoreFromSnapshotRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RestoreFromSnapshotRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/RestoreFromSnapshotRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RestoreFromSnapshotRequest.cpp.i: cmake_force
@@ -1667,7 +1883,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RestoreFromSnapshotReq
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectorySize.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectorySize.cpp.o: aws-cpp-sdk-ds/source/model/DirectorySize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectorySize.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectorySize.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectorySize.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DirectorySize.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectorySize.cpp.i: cmake_force
@@ -1691,7 +1907,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectorySize.cpp.o.pr
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteSnapshotRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteSnapshotRequest.cpp.o: aws-cpp-sdk-ds/source/model/DeleteSnapshotRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteSnapshotRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteSnapshotRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteSnapshotRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteSnapshotRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteSnapshotRequest.cpp.i: cmake_force
@@ -1715,7 +1931,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteSnapshotRequest.
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryType.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryType.cpp.o: aws-cpp-sdk-ds/source/model/DirectoryType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryType.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryType.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryType.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DirectoryType.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryType.cpp.i: cmake_force
@@ -1739,7 +1955,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryType.cpp.o.pr
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableRadiusRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableRadiusRequest.cpp.o: aws-cpp-sdk-ds/source/model/DisableRadiusRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableRadiusRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableRadiusRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableRadiusRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DisableRadiusRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableRadiusRequest.cpp.i: cmake_force
@@ -1763,7 +1979,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableRadiusRequest.c
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsResult.cpp.o: aws-cpp-sdk-ds/source/model/DescribeSnapshotsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeSnapshotsResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsResult.cpp.i: cmake_force
@@ -1787,7 +2003,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsResul
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryRequest.cpp.o: aws-cpp-sdk-ds/source/model/DeleteDirectoryRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteDirectoryRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryRequest.cpp.i: cmake_force
@@ -1811,7 +2027,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryRequest
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettings.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettings.cpp.o: aws-cpp-sdk-ds/source/model/DirectoryVpcSettings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettings.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettings.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettings.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DirectoryVpcSettings.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettings.cpp.i: cmake_force
@@ -1833,9 +2049,33 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettings.c
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettings.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettings.cpp.o
 
 
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.o: aws-cpp-sdk-ds/source/model/UpdateConditionalForwarderRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/UpdateConditionalForwarderRequest.cpp
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/UpdateConditionalForwarderRequest.cpp > CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.i
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/UpdateConditionalForwarderRequest.cpp -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.s
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.o.requires
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.o.provides: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.o.provides
+
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.o.provides.build: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.o
+
+
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsRequest.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsRequest.cpp.o: aws-cpp-sdk-ds/source/model/DescribeEventTopicsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeEventTopicsRequest.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsRequest.cpp.i: cmake_force
@@ -1859,7 +2099,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsReq
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Trust.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Trust.cpp.o: aws-cpp-sdk-ds/source/model/Trust.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Trust.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Trust.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Trust.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/Trust.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Trust.cpp.i: cmake_force
@@ -1883,7 +2123,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Trust.cpp.o.provides.b
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryResult.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryResult.cpp.o: aws-cpp-sdk-ds/source/model/CreateDirectoryResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateDirectoryResult.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryResult.cpp.i: cmake_force
@@ -1907,7 +2147,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryResult.
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryStage.cpp.o: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/flags.make
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryStage.cpp.o: aws-cpp-sdk-ds/source/model/DirectoryStage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryStage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryStage.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryStage.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DirectoryStage.cpp
 
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryStage.cpp.i: cmake_force
@@ -1943,13 +2183,17 @@ aws__cpp__sdk__ds_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RestoreFromSnapshotResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeTrustsResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeregisterEventTopicRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Computer.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotStatus.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryDescription.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustState.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableSsoResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetDirectoryLimitsResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADRequest.cpp.o" \
@@ -1962,12 +2206,15 @@ aws__cpp__sdk__ds_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableRadiusResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableRadiusRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/VerifyTrustRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeTrustsRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotLimits.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryConnectSettings.cpp.o" \
@@ -1996,6 +2243,8 @@ aws__cpp__sdk__ds_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustDirection.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TopicStatus.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RestoreFromSnapshotRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectorySize.cpp.o" \
@@ -2005,6 +2254,7 @@ aws__cpp__sdk__ds_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettings.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Trust.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryResult.cpp.o" \
@@ -2025,13 +2275,17 @@ aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.di
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RestoreFromSnapshotResult.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeTrustsResult.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeregisterEventTopicRequest.cpp.o
+aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsRequest.cpp.o
+aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusResult.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Computer.cpp.o
+aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotStatus.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryDescription.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustState.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicRequest.cpp.o
+aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableSsoResult.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetDirectoryLimitsResult.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADRequest.cpp.o
@@ -2044,12 +2298,15 @@ aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.di
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableRadiusResult.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableRadiusRequest.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustResult.cpp.o
+aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/VerifyTrustRequest.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeTrustsRequest.cpp.o
+aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADResult.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoResult.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoRequest.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasResult.cpp.o
+aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasRequest.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotLimits.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryConnectSettings.cpp.o
@@ -2078,6 +2335,8 @@ aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.di
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerRequest.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesResult.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustDirection.cpp.o
+aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.o
+aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TopicStatus.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RestoreFromSnapshotRequest.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectorySize.cpp.o
@@ -2087,6 +2346,7 @@ aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.di
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsResult.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryRequest.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettings.cpp.o
+aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsRequest.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Trust.cpp.o
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryResult.cpp.o
@@ -2094,7 +2354,7 @@ aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.di
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-core/libaws-cpp-sdk-core.so
 aws-cpp-sdk-ds/libaws-cpp-sdk-ds.so: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Linking CXX shared library libaws-cpp-sdk-ds.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Linking CXX shared library libaws-cpp-sdk-ds.so"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aws-cpp-sdk-ds.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -2114,13 +2374,17 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RestoreFromSnapshotResult.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeTrustsResult.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeregisterEventTopicRequest.cpp.o.requires
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsRequest.cpp.o.requires
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateRadiusResult.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Computer.cpp.o.requires
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotStatus.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryDescription.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustState.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicRequest.cpp.o.requires
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableSsoResult.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/GetDirectoryLimitsResult.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADRequest.cpp.o.requires
@@ -2133,12 +2397,15 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableRadiusResult.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/EnableRadiusRequest.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteTrustResult.cpp.o.requires
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/VerifyTrustRequest.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeTrustsRequest.cpp.o.requires
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateMicrosoftADResult.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoResult.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DisableSsoRequest.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasResult.cpp.o.requires
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateAliasRequest.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/SnapshotLimits.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryConnectSettings.cpp.o.requires
@@ -2167,6 +2434,8 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerRequest.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeDirectoriesResult.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustDirection.cpp.o.requires
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.o.requires
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TopicStatus.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RestoreFromSnapshotRequest.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectorySize.cpp.o.requires
@@ -2176,6 +2445,7 @@ aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeSnapshotsResult.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteDirectoryRequest.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DirectoryVpcSettings.cpp.o.requires
+aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeEventTopicsRequest.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Trust.cpp.o.requires
 aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/requires: aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateDirectoryResult.cpp.o.requires

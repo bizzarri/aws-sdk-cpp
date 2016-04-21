@@ -26,6 +26,7 @@ aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/ECRClient.cpp.o: aws-cpp-s
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/ECRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/ECRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/ECRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/ECRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/ECRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/ECRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/ECRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -36,6 +37,7 @@ aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/ECRClient.cpp.o: aws-cpp-s
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/ECRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/ECRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/ECRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/ECRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/ECRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/ECRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/ECRClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -137,6 +139,7 @@ aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/model/AuthorizationData.cp
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/model/AuthorizationData.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/model/AuthorizationData.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/model/AuthorizationData.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/model/AuthorizationData.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/model/AuthorizationData.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/model/AuthorizationData.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/model/AuthorizationData.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -637,6 +640,7 @@ aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/model/GetAuthorizationToke
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/model/GetAuthorizationTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/model/GetAuthorizationTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/model/GetAuthorizationTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/model/GetAuthorizationTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/model/GetAuthorizationTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/model/GetAuthorizationTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-ecr/CMakeFiles/aws-cpp-sdk-ecr.dir/source/model/GetAuthorizationTokenResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

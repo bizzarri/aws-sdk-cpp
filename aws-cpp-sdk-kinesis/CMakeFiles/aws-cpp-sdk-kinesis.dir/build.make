@@ -441,9 +441,33 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/ShardIterato
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/ShardIteratorType.cpp.o.provides.build: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/ShardIteratorType.cpp.o
 
 
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.o: aws-cpp-sdk-kinesis/source/model/DisableEnhancedMonitoringRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/DisableEnhancedMonitoringRequest.cpp
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/DisableEnhancedMonitoringRequest.cpp > CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.i
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/DisableEnhancedMonitoringRequest.cpp -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.s
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.o.requires
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.o.provides: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.o.provides
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.o.provides.build: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.o
+
+
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/SequenceNumberRange.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/SequenceNumberRange.cpp.o: aws-cpp-sdk-kinesis/source/model/SequenceNumberRange.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/SequenceNumberRange.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/SequenceNumberRange.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/SequenceNumberRange.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/SequenceNumberRange.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/SequenceNumberRange.cpp.i: cmake_force
@@ -467,7 +491,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/SequenceNumb
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/ListTagsForStreamRequest.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/ListTagsForStreamRequest.cpp.o: aws-cpp-sdk-kinesis/source/model/ListTagsForStreamRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/ListTagsForStreamRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/ListTagsForStreamRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/ListTagsForStreamRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/ListTagsForStreamRequest.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/ListTagsForStreamRequest.cpp.i: cmake_force
@@ -491,7 +515,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/ListTagsForS
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/CreateStreamRequest.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/CreateStreamRequest.cpp.o: aws-cpp-sdk-kinesis/source/model/CreateStreamRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/CreateStreamRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/CreateStreamRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/CreateStreamRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/CreateStreamRequest.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/CreateStreamRequest.cpp.i: cmake_force
@@ -513,9 +537,33 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/CreateStream
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/CreateStreamRequest.cpp.o.provides.build: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/CreateStreamRequest.cpp.o
 
 
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.o: aws-cpp-sdk-kinesis/source/model/DisableEnhancedMonitoringResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/DisableEnhancedMonitoringResult.cpp
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/DisableEnhancedMonitoringResult.cpp > CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.i
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/DisableEnhancedMonitoringResult.cpp -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.s
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.o.requires
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.o.provides: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.o.provides
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.o.provides.build: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.o
+
+
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorResult.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorResult.cpp.o: aws-cpp-sdk-kinesis/source/model/GetShardIteratorResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/GetShardIteratorResult.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorResult.cpp.i: cmake_force
@@ -537,9 +585,81 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIter
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorResult.cpp.o.provides.build: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorResult.cpp.o
 
 
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.o: aws-cpp-sdk-kinesis/source/model/MetricsName.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/MetricsName.cpp
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/MetricsName.cpp > CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.i
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/MetricsName.cpp -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.s
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.o.requires
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.o.provides: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.o.provides
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.o.provides.build: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.o
+
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.o: aws-cpp-sdk-kinesis/source/model/EnableEnhancedMonitoringResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/EnableEnhancedMonitoringResult.cpp
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/EnableEnhancedMonitoringResult.cpp > CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.i
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/EnableEnhancedMonitoringResult.cpp -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.s
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.o.requires
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.o.provides: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.o.provides
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.o.provides.build: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.o
+
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.o: aws-cpp-sdk-kinesis/source/model/EnableEnhancedMonitoringRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/EnableEnhancedMonitoringRequest.cpp
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/EnableEnhancedMonitoringRequest.cpp > CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.i
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/EnableEnhancedMonitoringRequest.cpp -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.s
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.o.requires
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.o.provides: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.o.provides
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.o.provides.build: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.o
+
+
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorRequest.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorRequest.cpp.o: aws-cpp-sdk-kinesis/source/model/GetShardIteratorRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/GetShardIteratorRequest.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorRequest.cpp.i: cmake_force
@@ -563,7 +683,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIter
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsResultEntry.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsResultEntry.cpp.o: aws-cpp-sdk-kinesis/source/model/PutRecordsResultEntry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsResultEntry.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsResultEntry.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsResultEntry.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/PutRecordsResultEntry.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsResultEntry.cpp.i: cmake_force
@@ -587,7 +707,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRe
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRequest.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRequest.cpp.o: aws-cpp-sdk-kinesis/source/model/PutRecordsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/PutRecordsRequest.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRequest.cpp.i: cmake_force
@@ -611,7 +731,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRe
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRequestEntry.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRequestEntry.cpp.o: aws-cpp-sdk-kinesis/source/model/PutRecordsRequestEntry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRequestEntry.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRequestEntry.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRequestEntry.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/PutRecordsRequestEntry.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRequestEntry.cpp.i: cmake_force
@@ -635,7 +755,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRe
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsResult.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsResult.cpp.o: aws-cpp-sdk-kinesis/source/model/PutRecordsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/PutRecordsResult.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsResult.cpp.i: cmake_force
@@ -659,7 +779,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRe
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/AddTagsToStreamRequest.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/AddTagsToStreamRequest.cpp.o: aws-cpp-sdk-kinesis/source/model/AddTagsToStreamRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/AddTagsToStreamRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/AddTagsToStreamRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/AddTagsToStreamRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/AddTagsToStreamRequest.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/AddTagsToStreamRequest.cpp.i: cmake_force
@@ -683,7 +803,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/AddTagsToStr
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetRecordsRequest.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetRecordsRequest.cpp.o: aws-cpp-sdk-kinesis/source/model/GetRecordsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetRecordsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetRecordsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetRecordsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/GetRecordsRequest.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetRecordsRequest.cpp.i: cmake_force
@@ -707,7 +827,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetRecordsRe
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DeleteStreamRequest.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DeleteStreamRequest.cpp.o: aws-cpp-sdk-kinesis/source/model/DeleteStreamRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DeleteStreamRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DeleteStreamRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DeleteStreamRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/DeleteStreamRequest.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DeleteStreamRequest.cpp.i: cmake_force
@@ -731,7 +851,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DeleteStream
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DecreaseStreamRetentionPeriodRequest.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DecreaseStreamRetentionPeriodRequest.cpp.o: aws-cpp-sdk-kinesis/source/model/DecreaseStreamRetentionPeriodRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DecreaseStreamRetentionPeriodRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DecreaseStreamRetentionPeriodRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DecreaseStreamRetentionPeriodRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/DecreaseStreamRetentionPeriodRequest.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DecreaseStreamRetentionPeriodRequest.cpp.i: cmake_force
@@ -753,9 +873,33 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DecreaseStre
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DecreaseStreamRetentionPeriodRequest.cpp.o.provides.build: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DecreaseStreamRetentionPeriodRequest.cpp.o
 
 
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.o: aws-cpp-sdk-kinesis/source/model/EnhancedMetrics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/EnhancedMetrics.cpp
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/EnhancedMetrics.cpp > CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.i
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/EnhancedMetrics.cpp -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.s
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.o.requires
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.o.provides: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.o.provides
+
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.o.provides.build: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.o
+
+
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStreamRequest.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStreamRequest.cpp.o: aws-cpp-sdk-kinesis/source/model/DescribeStreamRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStreamRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStreamRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStreamRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/DescribeStreamRequest.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStreamRequest.cpp.i: cmake_force
@@ -779,7 +923,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStre
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordRequest.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordRequest.cpp.o: aws-cpp-sdk-kinesis/source/model/PutRecordRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/PutRecordRequest.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordRequest.cpp.i: cmake_force
@@ -803,7 +947,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordReq
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/RemoveTagsFromStreamRequest.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/RemoveTagsFromStreamRequest.cpp.o: aws-cpp-sdk-kinesis/source/model/RemoveTagsFromStreamRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/RemoveTagsFromStreamRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/RemoveTagsFromStreamRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/RemoveTagsFromStreamRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/RemoveTagsFromStreamRequest.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/RemoveTagsFromStreamRequest.cpp.i: cmake_force
@@ -827,7 +971,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/RemoveTagsFr
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStreamResult.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStreamResult.cpp.o: aws-cpp-sdk-kinesis/source/model/DescribeStreamResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStreamResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStreamResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStreamResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/DescribeStreamResult.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStreamResult.cpp.i: cmake_force
@@ -851,7 +995,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStre
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/SplitShardRequest.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/SplitShardRequest.cpp.o: aws-cpp-sdk-kinesis/source/model/SplitShardRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/SplitShardRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/SplitShardRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/SplitShardRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/SplitShardRequest.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/SplitShardRequest.cpp.i: cmake_force
@@ -875,7 +1019,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/SplitShardRe
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/StreamDescription.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/StreamDescription.cpp.o: aws-cpp-sdk-kinesis/source/model/StreamDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/StreamDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/StreamDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/StreamDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/StreamDescription.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/StreamDescription.cpp.i: cmake_force
@@ -899,7 +1043,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/StreamDescri
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/HashKeyRange.cpp.o: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/flags.make
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/HashKeyRange.cpp.o: aws-cpp-sdk-kinesis/source/model/HashKeyRange.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/HashKeyRange.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/HashKeyRange.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/HashKeyRange.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/HashKeyRange.cpp
 
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/HashKeyRange.cpp.i: cmake_force
@@ -939,10 +1083,15 @@ aws__cpp__sdk__kinesis_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/Record.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/StreamStatus.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/ShardIteratorType.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/SequenceNumberRange.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/ListTagsForStreamRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/CreateStreamRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsResultEntry.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRequest.cpp.o" \
@@ -952,6 +1101,7 @@ aws__cpp__sdk__kinesis_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetRecordsRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DeleteStreamRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DecreaseStreamRetentionPeriodRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStreamRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/RemoveTagsFromStreamRequest.cpp.o" \
@@ -979,10 +1129,15 @@ aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aw
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/Record.cpp.o
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/StreamStatus.cpp.o
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/ShardIteratorType.cpp.o
+aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.o
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/SequenceNumberRange.cpp.o
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/ListTagsForStreamRequest.cpp.o
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/CreateStreamRequest.cpp.o
+aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.o
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorResult.cpp.o
+aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.o
+aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.o
+aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.o
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorRequest.cpp.o
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsResultEntry.cpp.o
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRequest.cpp.o
@@ -992,6 +1147,7 @@ aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aw
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetRecordsRequest.cpp.o
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DeleteStreamRequest.cpp.o
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DecreaseStreamRetentionPeriodRequest.cpp.o
+aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.o
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStreamRequest.cpp.o
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordRequest.cpp.o
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/RemoveTagsFromStreamRequest.cpp.o
@@ -1002,7 +1158,7 @@ aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aw
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-core/libaws-cpp-sdk-core.so
 aws-cpp-sdk-kinesis/libaws-cpp-sdk-kinesis.so: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking CXX shared library libaws-cpp-sdk-kinesis.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Linking CXX shared library libaws-cpp-sdk-kinesis.so"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aws-cpp-sdk-kinesis.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1026,10 +1182,15 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kin
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/Record.cpp.o.requires
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/StreamStatus.cpp.o.requires
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/ShardIteratorType.cpp.o.requires
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.o.requires
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/SequenceNumberRange.cpp.o.requires
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/ListTagsForStreamRequest.cpp.o.requires
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/CreateStreamRequest.cpp.o.requires
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.o.requires
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorResult.cpp.o.requires
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.o.requires
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.o.requires
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.o.requires
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIteratorRequest.cpp.o.requires
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsResultEntry.cpp.o.requires
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordsRequest.cpp.o.requires
@@ -1039,6 +1200,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kin
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetRecordsRequest.cpp.o.requires
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DeleteStreamRequest.cpp.o.requires
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DecreaseStreamRetentionPeriodRequest.cpp.o.requires
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.o.requires
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStreamRequest.cpp.o.requires
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordRequest.cpp.o.requires
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/requires: aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/RemoveTagsFromStreamRequest.cpp.o.requires

@@ -2688,6 +2688,18 @@ cassert
 iterator
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+iomanip
+-
+ctime
+-
+mutex
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
 aws/core/utils/memory/stl/AWSMap.h
 -
@@ -2788,6 +2800,14 @@ memory
 cstdlib
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+deque
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws/core/Core_EXPORTS.h
 -
@@ -2812,6 +2832,18 @@ aws/core/utils/memory/stl/AWSAllocator.h
 map
 -
 cstring
+-
+
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+aws/core/utils/memory/stl/AWSDeque.h
+-
+deque
+-
+queue
 -
 
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
@@ -2855,9 +2887,17 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
 aws/core/Core_EXPORTS.h
 -
+aws/core/utils/memory/stl/AWSFunction.h
+-
+aws/core/utils/memory/stl/AWSQueue.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 functional
 -
-aws/core/utils/memory/stl/AWSFunction.h
+mutex
+-
+condition_variable
 -
 
 aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
@@ -3158,6 +3198,8 @@ aws/rds/RDS_EXPORTS.h
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-rds/include/aws/rds/model/CharacterSet.h
@@ -3477,6 +3519,8 @@ aws/core/utils/memory/stl/AWSVector.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/rds/model/DBClusterOptionGroupStatus.h
 -
 aws/rds/model/DBClusterMember.h
@@ -3517,6 +3561,8 @@ aws/core/utils/memory/stl/AWSVector.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-rds/include/aws/rds/model/DBEngineVersion.h
 aws/rds/RDS_EXPORTS.h
@@ -3540,6 +3586,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/rds/model/Endpoint.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
@@ -3612,6 +3660,8 @@ aws/rds/RDS_EXPORTS.h
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-rds/include/aws/rds/model/DBSnapshotAttribute.h
@@ -4215,6 +4265,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/rds/model/SourceType.h
 -
+aws/core/utils/DateTime.h
+-
 aws/core/utils/memory/stl/AWSVector.h
 -
 aws/rds/model/Filter.h
@@ -4438,6 +4490,8 @@ aws/core/utils/memory/stl/AWSString.h
 aws/rds/model/SourceType.h
 -
 aws/core/utils/memory/stl/AWSVector.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-rds/include/aws/rds/model/EventCategoriesMap.h
@@ -4771,6 +4825,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-rds/include/aws/rds/model/PendingModifiedValues.h
 aws/rds/RDS_EXPORTS.h
@@ -4872,6 +4928,8 @@ aws/rds/RDS_EXPORTS.h
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
@@ -4977,6 +5035,8 @@ aws/rds/RDSRequest.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/core/utils/memory/stl/AWSVector.h
 -
 aws/rds/model/Tag.h
@@ -5016,6 +5076,8 @@ aws/rds/RDS_EXPORTS.h
 aws/rds/RDSRequest.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -

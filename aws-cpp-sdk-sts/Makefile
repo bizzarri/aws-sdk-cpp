@@ -574,6 +574,60 @@ source/model/FederatedUser.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/build.make aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/FederatedUser.cpp.s
 .PHONY : source/model/FederatedUser.cpp.s
 
+source/model/GetCallerIdentityRequest.o: source/model/GetCallerIdentityRequest.cpp.o
+
+.PHONY : source/model/GetCallerIdentityRequest.o
+
+# target to build an object file
+source/model/GetCallerIdentityRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/build.make aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o
+.PHONY : source/model/GetCallerIdentityRequest.cpp.o
+
+source/model/GetCallerIdentityRequest.i: source/model/GetCallerIdentityRequest.cpp.i
+
+.PHONY : source/model/GetCallerIdentityRequest.i
+
+# target to preprocess a source file
+source/model/GetCallerIdentityRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/build.make aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.i
+.PHONY : source/model/GetCallerIdentityRequest.cpp.i
+
+source/model/GetCallerIdentityRequest.s: source/model/GetCallerIdentityRequest.cpp.s
+
+.PHONY : source/model/GetCallerIdentityRequest.s
+
+# target to generate assembly for a file
+source/model/GetCallerIdentityRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/build.make aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.s
+.PHONY : source/model/GetCallerIdentityRequest.cpp.s
+
+source/model/GetCallerIdentityResult.o: source/model/GetCallerIdentityResult.cpp.o
+
+.PHONY : source/model/GetCallerIdentityResult.o
+
+# target to build an object file
+source/model/GetCallerIdentityResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/build.make aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o
+.PHONY : source/model/GetCallerIdentityResult.cpp.o
+
+source/model/GetCallerIdentityResult.i: source/model/GetCallerIdentityResult.cpp.i
+
+.PHONY : source/model/GetCallerIdentityResult.i
+
+# target to preprocess a source file
+source/model/GetCallerIdentityResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/build.make aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.i
+.PHONY : source/model/GetCallerIdentityResult.cpp.i
+
+source/model/GetCallerIdentityResult.s: source/model/GetCallerIdentityResult.cpp.s
+
+.PHONY : source/model/GetCallerIdentityResult.s
+
+# target to generate assembly for a file
+source/model/GetCallerIdentityResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/build.make aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.s
+.PHONY : source/model/GetCallerIdentityResult.cpp.s
+
 source/model/GetFederationTokenRequest.o: source/model/GetFederationTokenRequest.cpp.o
 
 .PHONY : source/model/GetFederationTokenRequest.o
@@ -767,6 +821,12 @@ help:
 	@echo "... source/model/FederatedUser.o"
 	@echo "... source/model/FederatedUser.i"
 	@echo "... source/model/FederatedUser.s"
+	@echo "... source/model/GetCallerIdentityRequest.o"
+	@echo "... source/model/GetCallerIdentityRequest.i"
+	@echo "... source/model/GetCallerIdentityRequest.s"
+	@echo "... source/model/GetCallerIdentityResult.o"
+	@echo "... source/model/GetCallerIdentityResult.i"
+	@echo "... source/model/GetCallerIdentityResult.s"
 	@echo "... source/model/GetFederationTokenRequest.o"
 	@echo "... source/model/GetFederationTokenRequest.i"
 	@echo "... source/model/GetFederationTokenRequest.s"

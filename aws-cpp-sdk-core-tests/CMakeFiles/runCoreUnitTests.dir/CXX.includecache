@@ -102,6 +102,12 @@ aws/testing/MemoryTesting.h
 aws/core/http/URI.h
 -
 
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/utils/DateTimeTest.cpp
+aws/external/gtest.h
+-
+aws/core/utils/DateTime.h
+-
+
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/utils/EnumOverflowTest.cpp
 aws/external/gtest.h
 -
@@ -482,6 +488,18 @@ memory
 cassert
 -
 iterator
+-
+
+aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+iomanip
+-
+ctime
+-
+mutex
 -
 
 aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h

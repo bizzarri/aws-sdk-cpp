@@ -11,6 +11,7 @@
  * rename to s3upload
  * Fix bug that causes files that match directory in S3 to be deleted!
  * April 1, 2016 - split into two files - s3upload and s3down
+ * April 21, 2016 - fix last modified date display
  */
   
 #include <aws/external/gtest.h>
@@ -194,12 +195,11 @@ void helpdisplay(int argc, char* argv[],bool downflag); //help message display
 		    auto classp = object.GetStorageClass();
 		    Aws::String classname = GetNameForObjectStorageClass(classp);
 		    std::cout <<  classname.c_str() << '\t';
-                    double tp = object.GetLastModified();
-		    //std::cout << "raw time: " << tp << '\n';
-                    //printf("raw time: %f\n",tp);
-		    std::time_t rawtime = tp;
-		    //time ( &rawtime );
-		    std::cout << std::asctime(std::localtime(&rawtime));
+                    auto tp = object.GetLastModified();
+
+		    auto timer = DateTime(tp);
+		    Aws::String dater = timer.ToLocalTimeString(DateFormat::RFC822);
+		    std::cout << dater << std::endl;
 		    /*
 		     * see if we are downloading the entire bucket
                      */

@@ -25,14 +25,17 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.c
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/RedshiftClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
@@ -354,6 +357,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/AuthorizeS
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/AuthorizeSnapshotAccessResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/AuthorizeSnapshotAccessResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/AuthorizeSnapshotAccessResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/AuthorizeSnapshotAccessResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/AuthorizeSnapshotAccessResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/AuthorizeSnapshotAccessResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/AuthorizeSnapshotAccessResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -397,6 +401,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Availabili
 
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Cluster.cpp.o: aws-cpp-sdk-redshift/source/model/Cluster.cpp
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Cluster.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Cluster.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Cluster.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Cluster.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Cluster.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -625,6 +630,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CopyCluste
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CopyClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CopyClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CopyClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CopyClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CopyClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CopyClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CopyClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -742,6 +748,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateClus
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -872,6 +879,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateClus
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -991,6 +999,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateEven
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateEventSubscriptionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateEventSubscriptionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateEventSubscriptionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateEventSubscriptionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateEventSubscriptionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateEventSubscriptionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/CreateEventSubscriptionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1291,6 +1300,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DeleteClus
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DeleteClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DeleteClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DeleteClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DeleteClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DeleteClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DeleteClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DeleteClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1385,6 +1395,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DeleteClus
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DeleteClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DeleteClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DeleteClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DeleteClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DeleteClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DeleteClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DeleteClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1741,6 +1752,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeCl
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClusterSnapshotsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClusterSnapshotsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClusterSnapshotsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClusterSnapshotsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClusterSnapshotsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClusterSnapshotsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClusterSnapshotsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1766,6 +1778,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeCl
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClusterSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClusterSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClusterSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClusterSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClusterSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClusterSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClusterSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1939,6 +1952,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeCl
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2123,6 +2137,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEv
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventSubscriptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventSubscriptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventSubscriptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventSubscriptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventSubscriptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventSubscriptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventSubscriptionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2155,6 +2170,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEv
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2181,6 +2197,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEv
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2352,6 +2369,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeLo
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeLoggingStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeLoggingStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeLoggingStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeLoggingStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeLoggingStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeLoggingStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeLoggingStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2521,6 +2539,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeRe
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeReservedNodesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeReservedNodesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeReservedNodesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeReservedNodesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeReservedNodesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeReservedNodesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeReservedNodesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2690,6 +2709,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeTa
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeTableRestoreStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeTableRestoreStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeTableRestoreStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeTableRestoreStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeTableRestoreStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeTableRestoreStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DescribeTableRestoreStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2804,6 +2824,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DisableLog
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DisableLoggingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DisableLoggingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DisableLoggingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DisableLoggingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DisableLoggingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DisableLoggingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DisableLoggingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2859,6 +2880,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DisableSna
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DisableSnapshotCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DisableSnapshotCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DisableSnapshotCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DisableSnapshotCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DisableSnapshotCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DisableSnapshotCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/DisableSnapshotCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2961,6 +2983,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EnableLogg
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EnableLoggingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EnableLoggingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EnableLoggingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EnableLoggingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EnableLoggingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EnableLoggingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EnableLoggingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3016,6 +3039,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EnableSnap
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EnableSnapshotCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EnableSnapshotCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EnableSnapshotCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EnableSnapshotCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EnableSnapshotCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EnableSnapshotCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EnableSnapshotCopyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3070,6 +3094,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Endpoint.c
 
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Event.cpp.o: aws-cpp-sdk-redshift/source/model/Event.cpp
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3120,6 +3145,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EventInfoM
 
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EventSubscription.cpp.o: aws-cpp-sdk-redshift/source/model/EventSubscription.cpp
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EventSubscription.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EventSubscription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EventSubscription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EventSubscription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/EventSubscription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3235,6 +3261,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyClus
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyClusterIamRolesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyClusterIamRolesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyClusterIamRolesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyClusterIamRolesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyClusterIamRolesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyClusterIamRolesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyClusterIamRolesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3361,6 +3388,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyClus
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3489,6 +3517,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyEven
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyEventSubscriptionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyEventSubscriptionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyEventSubscriptionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyEventSubscriptionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyEventSubscriptionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyEventSubscriptionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifyEventSubscriptionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3546,6 +3575,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifySnap
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifySnapshotCopyRetentionPeriodResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifySnapshotCopyRetentionPeriodResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifySnapshotCopyRetentionPeriodResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifySnapshotCopyRetentionPeriodResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifySnapshotCopyRetentionPeriodResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifySnapshotCopyRetentionPeriodResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ModifySnapshotCopyRetentionPeriodResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3681,6 +3711,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/PurchaseRe
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/PurchaseReservedNodeOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/PurchaseReservedNodeOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/PurchaseReservedNodeOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/PurchaseReservedNodeOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/PurchaseReservedNodeOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/PurchaseReservedNodeOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/PurchaseReservedNodeOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3738,6 +3769,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RebootClus
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RebootClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RebootClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RebootClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RebootClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RebootClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RebootClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RebootClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3792,6 +3824,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RecurringC
 
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ReservedNode.cpp.o: aws-cpp-sdk-redshift/source/model/ReservedNode.cpp
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ReservedNode.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ReservedNode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ReservedNode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ReservedNode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/ReservedNode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3930,6 +3963,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RestoreFro
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RestoreFromClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RestoreFromClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RestoreFromClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RestoreFromClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RestoreFromClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RestoreFromClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RestoreFromClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4015,6 +4049,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RestoreTab
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RestoreTableFromClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RestoreTableFromClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RestoreTableFromClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RestoreTableFromClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RestoreTableFromClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RestoreTableFromClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RestoreTableFromClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4131,6 +4166,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RevokeSnap
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RevokeSnapshotAccessResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RevokeSnapshotAccessResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RevokeSnapshotAccessResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RevokeSnapshotAccessResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RevokeSnapshotAccessResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RevokeSnapshotAccessResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RevokeSnapshotAccessResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4189,6 +4225,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RotateEncr
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RotateEncryptionKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RotateEncryptionKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RotateEncryptionKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RotateEncryptionKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RotateEncryptionKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RotateEncryptionKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RotateEncryptionKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4227,6 +4264,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/RotateEncr
 
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-redshift/source/model/Snapshot.cpp
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4295,6 +4333,7 @@ aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/Subnet.cpp
 
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/TableRestoreStatus.cpp.o: aws-cpp-sdk-redshift/source/model/TableRestoreStatus.cpp
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/TableRestoreStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/TableRestoreStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/TableRestoreStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/TableRestoreStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-redshift/CMakeFiles/aws-cpp-sdk-redshift.dir/source/model/TableRestoreStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h

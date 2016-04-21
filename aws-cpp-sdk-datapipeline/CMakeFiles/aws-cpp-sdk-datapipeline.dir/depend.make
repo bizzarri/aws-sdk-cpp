@@ -27,6 +27,7 @@ aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/DataPipe
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/DataPipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/DataPipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/DataPipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/DataPipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/DataPipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/DataPipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/DataPipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -37,6 +38,7 @@ aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/DataPipe
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/DataPipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/DataPipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/DataPipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/DataPipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/DataPipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/DataPipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/DataPipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -155,6 +157,7 @@ aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/model/Ac
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/model/ActivatePipelineRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/model/ActivatePipelineRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/model/ActivatePipelineRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/model/ActivatePipelineRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/model/ActivatePipelineRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/model/ActivatePipelineRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-datapipeline/CMakeFiles/aws-cpp-sdk-datapipeline.dir/source/model/ActivatePipelineRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

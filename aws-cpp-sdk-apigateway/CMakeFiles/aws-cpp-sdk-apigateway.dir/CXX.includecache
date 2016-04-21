@@ -143,6 +143,8 @@ aws/apigateway/model/GetStageRequest.h
 -
 aws/apigateway/model/GetStagesRequest.h
 -
+aws/apigateway/model/ImportRestApiRequest.h
+-
 aws/apigateway/model/PutIntegrationRequest.h
 -
 aws/apigateway/model/PutIntegrationResponseRequest.h
@@ -150,6 +152,8 @@ aws/apigateway/model/PutIntegrationResponseRequest.h
 aws/apigateway/model/PutMethodRequest.h
 -
 aws/apigateway/model/PutMethodResponseRequest.h
+-
+aws/apigateway/model/PutRestApiRequest.h
 -
 aws/apigateway/model/TestInvokeAuthorizerRequest.h
 -
@@ -1230,6 +1234,32 @@ aws/core/utils/UnreferencedParam.h
 utility
 -
 
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/ImportRestApiRequest.cpp
+aws/apigateway/model/ImportRestApiRequest.h
+-
+aws/core/AmazonWebServiceResult.h
+-
+aws/core/http/URI.h
+-
+aws/core/utils/memory/stl/AWSStringStream.h
+-
+aws/core/utils/HashingUtils.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/ImportRestApiResult.cpp
+aws/apigateway/model/ImportRestApiResult.h
+-
+aws/core/utils/json/JsonSerializer.h
+-
+aws/core/AmazonWebServiceResult.h
+-
+aws/core/utils/UnreferencedParam.h
+-
+utility
+-
+
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/Integration.cpp
 aws/apigateway/model/Integration.h
 -
@@ -1384,6 +1414,42 @@ utility
 
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutMethodResult.cpp
 aws/apigateway/model/PutMethodResult.h
+-
+aws/core/utils/json/JsonSerializer.h
+-
+aws/core/AmazonWebServiceResult.h
+-
+aws/core/utils/UnreferencedParam.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutMode.cpp
+aws/apigateway/model/PutMode.h
+-
+aws/core/utils/HashingUtils.h
+-
+aws/core/Globals.h
+-
+aws/core/utils/EnumParseOverflowContainer.h
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutRestApiRequest.cpp
+aws/apigateway/model/PutRestApiRequest.h
+-
+aws/core/AmazonWebServiceResult.h
+-
+aws/core/http/URI.h
+-
+aws/core/utils/memory/stl/AWSStringStream.h
+-
+aws/core/utils/HashingUtils.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutRestApiResult.cpp
+aws/apigateway/model/PutRestApiResult.h
 -
 aws/core/utils/json/JsonSerializer.h
 -
@@ -1875,6 +1941,8 @@ aws/apigateway/model/GetStageResult.h
 -
 aws/apigateway/model/GetStagesResult.h
 -
+aws/apigateway/model/ImportRestApiResult.h
+-
 aws/apigateway/model/PutIntegrationResult.h
 -
 aws/apigateway/model/PutIntegrationResponseResult.h
@@ -1882,6 +1950,8 @@ aws/apigateway/model/PutIntegrationResponseResult.h
 aws/apigateway/model/PutMethodResult.h
 -
 aws/apigateway/model/PutMethodResponseResult.h
+-
+aws/apigateway/model/PutRestApiResult.h
 -
 aws/apigateway/model/TestInvokeAuthorizerResult.h
 -
@@ -1957,6 +2027,8 @@ aws/core/utils/UnreferencedParam.h
 -
 aws/core/http/HttpRequest.h
 -
+aws/core/AmazonStreamingWebServiceRequest.h
+-
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 
@@ -1966,6 +2038,8 @@ aws/apigateway/APIGateway_EXPORTS.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/core/utils/memory/stl/AWSVector.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/Authorizer.h
@@ -2005,6 +2079,8 @@ aws/apigateway/APIGateway_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/CreateApiKeyRequest.h
 aws/apigateway/APIGateway_EXPORTS.h
@@ -2024,6 +2100,8 @@ aws/apigateway/APIGateway_EXPORTS.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/core/utils/memory/stl/AWSVector.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/CreateAuthorizerRequest.h
@@ -2075,6 +2153,8 @@ aws/apigateway/APIGateway_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/core/utils/memory/stl/AWSMap.h
 -
 aws/apigateway/model/MethodSnapshot.h
@@ -2092,6 +2172,8 @@ aws-cpp-sdk-apigateway/include/aws/apigateway/model/CreateDomainNameResult.h
 aws/apigateway/APIGateway_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/CreateModelRequest.h
@@ -2139,6 +2221,10 @@ aws/apigateway/APIGateway_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/CreateStageRequest.h
 aws/apigateway/APIGateway_EXPORTS.h
@@ -2162,6 +2248,8 @@ aws/apigateway/model/CacheClusterSize.h
 aws/apigateway/model/CacheClusterStatus.h
 -
 aws/core/utils/memory/stl/AWSMap.h
+-
+aws/core/utils/DateTime.h
 -
 aws/apigateway/model/MethodSetting.h
 -
@@ -2283,6 +2371,8 @@ aws/apigateway/APIGateway_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/core/utils/memory/stl/AWSMap.h
 -
 aws/apigateway/model/MethodSnapshot.h
@@ -2292,6 +2382,8 @@ aws-cpp-sdk-apigateway/include/aws/apigateway/model/DomainName.h
 aws/apigateway/APIGateway_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/FlushStageAuthorizersCacheRequest.h
@@ -2323,6 +2415,8 @@ aws/apigateway/APIGateway_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetAccountRequest.h
 aws/apigateway/APIGateway_EXPORTS.h
@@ -2352,6 +2446,8 @@ aws/apigateway/APIGateway_EXPORTS.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/core/utils/memory/stl/AWSVector.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetApiKeysRequest.h
@@ -2451,6 +2547,8 @@ aws/apigateway/APIGateway_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetClientCertificatesRequest.h
 aws/apigateway/APIGateway_EXPORTS.h
@@ -2482,6 +2580,8 @@ aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetDeploymentResult.h
 aws/apigateway/APIGateway_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSMap.h
 -
@@ -2518,6 +2618,8 @@ aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetDomainNameResult.h
 aws/apigateway/APIGateway_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetDomainNamesRequest.h
@@ -2727,6 +2829,10 @@ aws/apigateway/APIGateway_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetRestApisRequest.h
 aws/apigateway/APIGateway_EXPORTS.h
@@ -2785,6 +2891,8 @@ aws/apigateway/model/CacheClusterStatus.h
 -
 aws/core/utils/memory/stl/AWSMap.h
 -
+aws/core/utils/DateTime.h
+-
 aws/apigateway/model/MethodSetting.h
 -
 
@@ -2802,6 +2910,28 @@ aws/apigateway/APIGateway_EXPORTS.h
 aws/core/utils/memory/stl/AWSVector.h
 -
 aws/apigateway/model/Stage.h
+-
+
+aws-cpp-sdk-apigateway/include/aws/apigateway/model/ImportRestApiRequest.h
+aws/apigateway/APIGateway_EXPORTS.h
+-
+aws/apigateway/APIGatewayRequest.h
+-
+aws/core/utils/memory/stl/AWSMap.h
+-
+aws/core/utils/Array.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+
+aws-cpp-sdk-apigateway/include/aws/apigateway/model/ImportRestApiResult.h
+aws/apigateway/APIGateway_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
+-
+aws/core/utils/memory/stl/AWSVector.h
 -
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/Integration.h
@@ -2972,6 +3102,36 @@ aws/apigateway/model/Integration.h
 aws/apigateway/model/MethodResponse.h
 -
 
+aws-cpp-sdk-apigateway/include/aws/apigateway/model/PutMode.h
+aws/apigateway/APIGateway_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+
+aws-cpp-sdk-apigateway/include/aws/apigateway/model/PutRestApiRequest.h
+aws/apigateway/APIGateway_EXPORTS.h
+-
+aws/apigateway/APIGatewayRequest.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+aws/apigateway/model/PutMode.h
+-
+aws/core/utils/memory/stl/AWSMap.h
+-
+aws/core/utils/Array.h
+-
+
+aws-cpp-sdk-apigateway/include/aws/apigateway/model/PutRestApiResult.h
+aws/apigateway/APIGateway_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
+
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/Resource.h
 aws/apigateway/APIGateway_EXPORTS.h
 -
@@ -2987,6 +3147,10 @@ aws/apigateway/APIGateway_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/Stage.h
 aws/apigateway/APIGateway_EXPORTS.h
@@ -2998,6 +3162,8 @@ aws/apigateway/model/CacheClusterSize.h
 aws/apigateway/model/CacheClusterStatus.h
 -
 aws/core/utils/memory/stl/AWSMap.h
+-
+aws/core/utils/DateTime.h
 -
 aws/apigateway/model/MethodSetting.h
 -
@@ -3093,6 +3259,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateAuthorizerRequest.h
 aws/apigateway/APIGateway_EXPORTS.h
@@ -3149,6 +3317,8 @@ aws/apigateway/APIGateway_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateDeploymentRequest.h
 aws/apigateway/APIGateway_EXPORTS.h
@@ -3166,6 +3336,8 @@ aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateDeploymentResult.h
 aws/apigateway/APIGateway_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSMap.h
 -
@@ -3188,6 +3360,8 @@ aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateDomainNameResult.h
 aws/apigateway/APIGateway_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateIntegrationRequest.h
@@ -3337,6 +3511,10 @@ aws/apigateway/APIGateway_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 
 aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateStageRequest.h
 aws/apigateway/APIGateway_EXPORTS.h
@@ -3361,6 +3539,8 @@ aws/apigateway/model/CacheClusterStatus.h
 -
 aws/core/utils/memory/stl/AWSMap.h
 -
+aws/core/utils/DateTime.h
+-
 aws/apigateway/model/MethodSetting.h
 -
 
@@ -3376,6 +3556,22 @@ aws/core/utils/UnreferencedParam.h
 aws/core/http/HttpTypes.h
 -
 aws/core/utils/memory/stl/AWSStreamFwd.h
+-
+
+aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/memory/stl/AWSStreamFwd.h
+-
+aws/core/utils/UnreferencedParam.h
+-
+aws/core/http/HttpTypes.h
+-
+aws/core/http/HttpRequest.h
+-
+aws/core/AmazonWebServiceRequest.h
 -
 
 aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
@@ -3642,6 +3838,18 @@ cassert
 iterator
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+iomanip
+-
+ctime
+-
+mutex
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
 aws/core/utils/memory/stl/AWSMap.h
 -
@@ -3758,6 +3966,18 @@ map
 cstring
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+aws/core/utils/memory/stl/AWSDeque.h
+-
+deque
+-
+queue
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws/core/Core_EXPORTS.h
 -
@@ -3811,8 +4031,16 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
 aws/core/Core_EXPORTS.h
 -
+aws/core/utils/memory/stl/AWSFunction.h
+-
+aws/core/utils/memory/stl/AWSQueue.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 functional
 -
-aws/core/utils/memory/stl/AWSFunction.h
+mutex
+-
+condition_variable
 -
 

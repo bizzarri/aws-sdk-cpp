@@ -304,6 +304,33 @@ source/model/BufferingHints.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/BufferingHints.cpp.s
 .PHONY : source/model/BufferingHints.cpp.s
 
+source/model/CloudWatchLoggingOptions.o: source/model/CloudWatchLoggingOptions.cpp.o
+
+.PHONY : source/model/CloudWatchLoggingOptions.o
+
+# target to build an object file
+source/model/CloudWatchLoggingOptions.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.o
+.PHONY : source/model/CloudWatchLoggingOptions.cpp.o
+
+source/model/CloudWatchLoggingOptions.i: source/model/CloudWatchLoggingOptions.cpp.i
+
+.PHONY : source/model/CloudWatchLoggingOptions.i
+
+# target to preprocess a source file
+source/model/CloudWatchLoggingOptions.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.i
+.PHONY : source/model/CloudWatchLoggingOptions.cpp.i
+
+source/model/CloudWatchLoggingOptions.s: source/model/CloudWatchLoggingOptions.cpp.s
+
+.PHONY : source/model/CloudWatchLoggingOptions.s
+
+# target to generate assembly for a file
+source/model/CloudWatchLoggingOptions.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.s
+.PHONY : source/model/CloudWatchLoggingOptions.cpp.s
+
 source/model/CompressionFormat.o: source/model/CompressionFormat.cpp.o
 
 .PHONY : source/model/CompressionFormat.o
@@ -600,6 +627,195 @@ source/model/DestinationDescription.s: source/model/DestinationDescription.cpp.s
 source/model/DestinationDescription.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DestinationDescription.cpp.s
 .PHONY : source/model/DestinationDescription.cpp.s
+
+source/model/ElasticsearchBufferingHints.o: source/model/ElasticsearchBufferingHints.cpp.o
+
+.PHONY : source/model/ElasticsearchBufferingHints.o
+
+# target to build an object file
+source/model/ElasticsearchBufferingHints.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.o
+.PHONY : source/model/ElasticsearchBufferingHints.cpp.o
+
+source/model/ElasticsearchBufferingHints.i: source/model/ElasticsearchBufferingHints.cpp.i
+
+.PHONY : source/model/ElasticsearchBufferingHints.i
+
+# target to preprocess a source file
+source/model/ElasticsearchBufferingHints.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.i
+.PHONY : source/model/ElasticsearchBufferingHints.cpp.i
+
+source/model/ElasticsearchBufferingHints.s: source/model/ElasticsearchBufferingHints.cpp.s
+
+.PHONY : source/model/ElasticsearchBufferingHints.s
+
+# target to generate assembly for a file
+source/model/ElasticsearchBufferingHints.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.s
+.PHONY : source/model/ElasticsearchBufferingHints.cpp.s
+
+source/model/ElasticsearchDestinationConfiguration.o: source/model/ElasticsearchDestinationConfiguration.cpp.o
+
+.PHONY : source/model/ElasticsearchDestinationConfiguration.o
+
+# target to build an object file
+source/model/ElasticsearchDestinationConfiguration.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.o
+.PHONY : source/model/ElasticsearchDestinationConfiguration.cpp.o
+
+source/model/ElasticsearchDestinationConfiguration.i: source/model/ElasticsearchDestinationConfiguration.cpp.i
+
+.PHONY : source/model/ElasticsearchDestinationConfiguration.i
+
+# target to preprocess a source file
+source/model/ElasticsearchDestinationConfiguration.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.i
+.PHONY : source/model/ElasticsearchDestinationConfiguration.cpp.i
+
+source/model/ElasticsearchDestinationConfiguration.s: source/model/ElasticsearchDestinationConfiguration.cpp.s
+
+.PHONY : source/model/ElasticsearchDestinationConfiguration.s
+
+# target to generate assembly for a file
+source/model/ElasticsearchDestinationConfiguration.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.s
+.PHONY : source/model/ElasticsearchDestinationConfiguration.cpp.s
+
+source/model/ElasticsearchDestinationDescription.o: source/model/ElasticsearchDestinationDescription.cpp.o
+
+.PHONY : source/model/ElasticsearchDestinationDescription.o
+
+# target to build an object file
+source/model/ElasticsearchDestinationDescription.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.o
+.PHONY : source/model/ElasticsearchDestinationDescription.cpp.o
+
+source/model/ElasticsearchDestinationDescription.i: source/model/ElasticsearchDestinationDescription.cpp.i
+
+.PHONY : source/model/ElasticsearchDestinationDescription.i
+
+# target to preprocess a source file
+source/model/ElasticsearchDestinationDescription.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.i
+.PHONY : source/model/ElasticsearchDestinationDescription.cpp.i
+
+source/model/ElasticsearchDestinationDescription.s: source/model/ElasticsearchDestinationDescription.cpp.s
+
+.PHONY : source/model/ElasticsearchDestinationDescription.s
+
+# target to generate assembly for a file
+source/model/ElasticsearchDestinationDescription.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.s
+.PHONY : source/model/ElasticsearchDestinationDescription.cpp.s
+
+source/model/ElasticsearchDestinationUpdate.o: source/model/ElasticsearchDestinationUpdate.cpp.o
+
+.PHONY : source/model/ElasticsearchDestinationUpdate.o
+
+# target to build an object file
+source/model/ElasticsearchDestinationUpdate.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.o
+.PHONY : source/model/ElasticsearchDestinationUpdate.cpp.o
+
+source/model/ElasticsearchDestinationUpdate.i: source/model/ElasticsearchDestinationUpdate.cpp.i
+
+.PHONY : source/model/ElasticsearchDestinationUpdate.i
+
+# target to preprocess a source file
+source/model/ElasticsearchDestinationUpdate.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.i
+.PHONY : source/model/ElasticsearchDestinationUpdate.cpp.i
+
+source/model/ElasticsearchDestinationUpdate.s: source/model/ElasticsearchDestinationUpdate.cpp.s
+
+.PHONY : source/model/ElasticsearchDestinationUpdate.s
+
+# target to generate assembly for a file
+source/model/ElasticsearchDestinationUpdate.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.s
+.PHONY : source/model/ElasticsearchDestinationUpdate.cpp.s
+
+source/model/ElasticsearchIndexRotationPeriod.o: source/model/ElasticsearchIndexRotationPeriod.cpp.o
+
+.PHONY : source/model/ElasticsearchIndexRotationPeriod.o
+
+# target to build an object file
+source/model/ElasticsearchIndexRotationPeriod.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.o
+.PHONY : source/model/ElasticsearchIndexRotationPeriod.cpp.o
+
+source/model/ElasticsearchIndexRotationPeriod.i: source/model/ElasticsearchIndexRotationPeriod.cpp.i
+
+.PHONY : source/model/ElasticsearchIndexRotationPeriod.i
+
+# target to preprocess a source file
+source/model/ElasticsearchIndexRotationPeriod.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.i
+.PHONY : source/model/ElasticsearchIndexRotationPeriod.cpp.i
+
+source/model/ElasticsearchIndexRotationPeriod.s: source/model/ElasticsearchIndexRotationPeriod.cpp.s
+
+.PHONY : source/model/ElasticsearchIndexRotationPeriod.s
+
+# target to generate assembly for a file
+source/model/ElasticsearchIndexRotationPeriod.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.s
+.PHONY : source/model/ElasticsearchIndexRotationPeriod.cpp.s
+
+source/model/ElasticsearchRetryOptions.o: source/model/ElasticsearchRetryOptions.cpp.o
+
+.PHONY : source/model/ElasticsearchRetryOptions.o
+
+# target to build an object file
+source/model/ElasticsearchRetryOptions.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.o
+.PHONY : source/model/ElasticsearchRetryOptions.cpp.o
+
+source/model/ElasticsearchRetryOptions.i: source/model/ElasticsearchRetryOptions.cpp.i
+
+.PHONY : source/model/ElasticsearchRetryOptions.i
+
+# target to preprocess a source file
+source/model/ElasticsearchRetryOptions.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.i
+.PHONY : source/model/ElasticsearchRetryOptions.cpp.i
+
+source/model/ElasticsearchRetryOptions.s: source/model/ElasticsearchRetryOptions.cpp.s
+
+.PHONY : source/model/ElasticsearchRetryOptions.s
+
+# target to generate assembly for a file
+source/model/ElasticsearchRetryOptions.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.s
+.PHONY : source/model/ElasticsearchRetryOptions.cpp.s
+
+source/model/ElasticsearchS3BackupMode.o: source/model/ElasticsearchS3BackupMode.cpp.o
+
+.PHONY : source/model/ElasticsearchS3BackupMode.o
+
+# target to build an object file
+source/model/ElasticsearchS3BackupMode.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.o
+.PHONY : source/model/ElasticsearchS3BackupMode.cpp.o
+
+source/model/ElasticsearchS3BackupMode.i: source/model/ElasticsearchS3BackupMode.cpp.i
+
+.PHONY : source/model/ElasticsearchS3BackupMode.i
+
+# target to preprocess a source file
+source/model/ElasticsearchS3BackupMode.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.i
+.PHONY : source/model/ElasticsearchS3BackupMode.cpp.i
+
+source/model/ElasticsearchS3BackupMode.s: source/model/ElasticsearchS3BackupMode.cpp.s
+
+.PHONY : source/model/ElasticsearchS3BackupMode.s
+
+# target to generate assembly for a file
+source/model/ElasticsearchS3BackupMode.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.s
+.PHONY : source/model/ElasticsearchS3BackupMode.cpp.s
 
 source/model/EncryptionConfiguration.o: source/model/EncryptionConfiguration.cpp.o
 
@@ -1142,6 +1358,9 @@ help:
 	@echo "... source/model/BufferingHints.o"
 	@echo "... source/model/BufferingHints.i"
 	@echo "... source/model/BufferingHints.s"
+	@echo "... source/model/CloudWatchLoggingOptions.o"
+	@echo "... source/model/CloudWatchLoggingOptions.i"
+	@echo "... source/model/CloudWatchLoggingOptions.s"
 	@echo "... source/model/CompressionFormat.o"
 	@echo "... source/model/CompressionFormat.i"
 	@echo "... source/model/CompressionFormat.s"
@@ -1175,6 +1394,27 @@ help:
 	@echo "... source/model/DestinationDescription.o"
 	@echo "... source/model/DestinationDescription.i"
 	@echo "... source/model/DestinationDescription.s"
+	@echo "... source/model/ElasticsearchBufferingHints.o"
+	@echo "... source/model/ElasticsearchBufferingHints.i"
+	@echo "... source/model/ElasticsearchBufferingHints.s"
+	@echo "... source/model/ElasticsearchDestinationConfiguration.o"
+	@echo "... source/model/ElasticsearchDestinationConfiguration.i"
+	@echo "... source/model/ElasticsearchDestinationConfiguration.s"
+	@echo "... source/model/ElasticsearchDestinationDescription.o"
+	@echo "... source/model/ElasticsearchDestinationDescription.i"
+	@echo "... source/model/ElasticsearchDestinationDescription.s"
+	@echo "... source/model/ElasticsearchDestinationUpdate.o"
+	@echo "... source/model/ElasticsearchDestinationUpdate.i"
+	@echo "... source/model/ElasticsearchDestinationUpdate.s"
+	@echo "... source/model/ElasticsearchIndexRotationPeriod.o"
+	@echo "... source/model/ElasticsearchIndexRotationPeriod.i"
+	@echo "... source/model/ElasticsearchIndexRotationPeriod.s"
+	@echo "... source/model/ElasticsearchRetryOptions.o"
+	@echo "... source/model/ElasticsearchRetryOptions.i"
+	@echo "... source/model/ElasticsearchRetryOptions.s"
+	@echo "... source/model/ElasticsearchS3BackupMode.o"
+	@echo "... source/model/ElasticsearchS3BackupMode.i"
+	@echo "... source/model/ElasticsearchS3BackupMode.s"
 	@echo "... source/model/EncryptionConfiguration.o"
 	@echo "... source/model/EncryptionConfiguration.i"
 	@echo "... source/model/EncryptionConfiguration.s"

@@ -26,6 +26,7 @@ aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBClient.c
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -36,6 +37,7 @@ aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBClient.c
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/DynamoDBClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -541,6 +543,7 @@ aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/CreateTabl
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/CreateTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/CreateTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/CreateTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/CreateTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/CreateTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/CreateTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/CreateTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -711,6 +714,7 @@ aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DeleteTabl
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DeleteTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DeleteTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DeleteTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DeleteTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DeleteTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DeleteTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DeleteTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -833,6 +837,7 @@ aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DescribeTa
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DescribeTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DescribeTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DescribeTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DescribeTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DescribeTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DescribeTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/DescribeTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -969,6 +974,7 @@ aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/GlobalSeco
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/GlobalSecondaryIndexDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/GlobalSecondaryIndexDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/GlobalSecondaryIndexDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/GlobalSecondaryIndexDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/GlobalSecondaryIndexDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/GlobalSecondaryIndexDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/GlobalSecondaryIndexDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1259,6 +1265,7 @@ aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/Provisione
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ProvisionedThroughputDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ProvisionedThroughputDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ProvisionedThroughputDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ProvisionedThroughputDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ProvisionedThroughputDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ProvisionedThroughputDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/ProvisionedThroughputDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1602,6 +1609,7 @@ aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/TableDescr
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/TableDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/TableDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/TableDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/TableDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/TableDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/TableDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/TableDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1782,6 +1790,7 @@ aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/UpdateTabl
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/UpdateTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/UpdateTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/UpdateTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/UpdateTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/UpdateTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/UpdateTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-dynamodb/CMakeFiles/aws-cpp-sdk-dynamodb.dir/source/model/UpdateTableResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

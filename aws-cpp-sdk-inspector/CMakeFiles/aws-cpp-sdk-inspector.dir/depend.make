@@ -26,6 +26,7 @@ aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/InspectorClien
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/InspectorClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/InspectorClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/InspectorClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/InspectorClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/InspectorClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/InspectorClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/InspectorClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -36,6 +37,7 @@ aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/InspectorClien
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/InspectorClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/InspectorClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/InspectorClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/InspectorClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/InspectorClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/InspectorClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/InspectorClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -335,6 +337,7 @@ aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Assessme
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Assessment.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Assessment.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Assessment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Assessment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Assessment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Assessment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Assessment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -354,6 +357,7 @@ aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Assessme
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/AssessmentsFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/AssessmentsFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/AssessmentsFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/AssessmentsFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/AssessmentsFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/AssessmentsFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/AssessmentsFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -860,6 +864,7 @@ aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Describe
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/DescribeAssessmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/DescribeAssessmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/DescribeAssessmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/DescribeAssessmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/DescribeAssessmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/DescribeAssessmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/DescribeAssessmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1114,6 +1119,7 @@ aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Describe
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/DescribeRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/DescribeRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/DescribeRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/DescribeRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/DescribeRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/DescribeRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/DescribeRunResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1423,6 +1429,7 @@ aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListAsse
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListAssessmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListAssessmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListAssessmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListAssessmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListAssessmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListAssessmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListAssessmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1480,6 +1487,7 @@ aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListAtta
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListAttachedAssessmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListAttachedAssessmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListAttachedAssessmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListAttachedAssessmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListAttachedAssessmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListAttachedAssessmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListAttachedAssessmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1701,6 +1709,7 @@ aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListRuns
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListRunsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListRunsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListRunsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListRunsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListRunsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListRunsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/ListRunsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2139,6 +2148,7 @@ aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Run.cpp.
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Run.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Run.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Run.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Run.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Run.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Run.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Run.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2211,6 +2221,7 @@ aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/RunsFilt
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/RunsFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/RunsFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/RunsFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/RunsFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/RunsFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/RunsFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/RunsFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2430,6 +2441,7 @@ aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/Timestam
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/TimestampRange.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/TimestampRange.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/TimestampRange.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/TimestampRange.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/TimestampRange.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/TimestampRange.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-inspector/CMakeFiles/aws-cpp-sdk-inspector.dir/source/model/TimestampRange.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

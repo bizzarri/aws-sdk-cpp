@@ -3004,6 +3004,60 @@ source/model/GetStagesResult.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesResult.cpp.s
 .PHONY : source/model/GetStagesResult.cpp.s
 
+source/model/ImportRestApiRequest.o: source/model/ImportRestApiRequest.cpp.o
+
+.PHONY : source/model/ImportRestApiRequest.o
+
+# target to build an object file
+source/model/ImportRestApiRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o
+.PHONY : source/model/ImportRestApiRequest.cpp.o
+
+source/model/ImportRestApiRequest.i: source/model/ImportRestApiRequest.cpp.i
+
+.PHONY : source/model/ImportRestApiRequest.i
+
+# target to preprocess a source file
+source/model/ImportRestApiRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.i
+.PHONY : source/model/ImportRestApiRequest.cpp.i
+
+source/model/ImportRestApiRequest.s: source/model/ImportRestApiRequest.cpp.s
+
+.PHONY : source/model/ImportRestApiRequest.s
+
+# target to generate assembly for a file
+source/model/ImportRestApiRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.s
+.PHONY : source/model/ImportRestApiRequest.cpp.s
+
+source/model/ImportRestApiResult.o: source/model/ImportRestApiResult.cpp.o
+
+.PHONY : source/model/ImportRestApiResult.o
+
+# target to build an object file
+source/model/ImportRestApiResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o
+.PHONY : source/model/ImportRestApiResult.cpp.o
+
+source/model/ImportRestApiResult.i: source/model/ImportRestApiResult.cpp.i
+
+.PHONY : source/model/ImportRestApiResult.i
+
+# target to preprocess a source file
+source/model/ImportRestApiResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.i
+.PHONY : source/model/ImportRestApiResult.cpp.i
+
+source/model/ImportRestApiResult.s: source/model/ImportRestApiResult.cpp.s
+
+.PHONY : source/model/ImportRestApiResult.s
+
+# target to generate assembly for a file
+source/model/ImportRestApiResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.s
+.PHONY : source/model/ImportRestApiResult.cpp.s
+
 source/model/Integration.o: source/model/Integration.cpp.o
 
 .PHONY : source/model/Integration.o
@@ -3489,6 +3543,87 @@ source/model/PutMethodResult.s: source/model/PutMethodResult.cpp.s
 source/model/PutMethodResult.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResult.cpp.s
 .PHONY : source/model/PutMethodResult.cpp.s
+
+source/model/PutMode.o: source/model/PutMode.cpp.o
+
+.PHONY : source/model/PutMode.o
+
+# target to build an object file
+source/model/PutMode.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o
+.PHONY : source/model/PutMode.cpp.o
+
+source/model/PutMode.i: source/model/PutMode.cpp.i
+
+.PHONY : source/model/PutMode.i
+
+# target to preprocess a source file
+source/model/PutMode.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.i
+.PHONY : source/model/PutMode.cpp.i
+
+source/model/PutMode.s: source/model/PutMode.cpp.s
+
+.PHONY : source/model/PutMode.s
+
+# target to generate assembly for a file
+source/model/PutMode.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.s
+.PHONY : source/model/PutMode.cpp.s
+
+source/model/PutRestApiRequest.o: source/model/PutRestApiRequest.cpp.o
+
+.PHONY : source/model/PutRestApiRequest.o
+
+# target to build an object file
+source/model/PutRestApiRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o
+.PHONY : source/model/PutRestApiRequest.cpp.o
+
+source/model/PutRestApiRequest.i: source/model/PutRestApiRequest.cpp.i
+
+.PHONY : source/model/PutRestApiRequest.i
+
+# target to preprocess a source file
+source/model/PutRestApiRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.i
+.PHONY : source/model/PutRestApiRequest.cpp.i
+
+source/model/PutRestApiRequest.s: source/model/PutRestApiRequest.cpp.s
+
+.PHONY : source/model/PutRestApiRequest.s
+
+# target to generate assembly for a file
+source/model/PutRestApiRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.s
+.PHONY : source/model/PutRestApiRequest.cpp.s
+
+source/model/PutRestApiResult.o: source/model/PutRestApiResult.cpp.o
+
+.PHONY : source/model/PutRestApiResult.o
+
+# target to build an object file
+source/model/PutRestApiResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o
+.PHONY : source/model/PutRestApiResult.cpp.o
+
+source/model/PutRestApiResult.i: source/model/PutRestApiResult.cpp.i
+
+.PHONY : source/model/PutRestApiResult.i
+
+# target to preprocess a source file
+source/model/PutRestApiResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.i
+.PHONY : source/model/PutRestApiResult.cpp.i
+
+source/model/PutRestApiResult.s: source/model/PutRestApiResult.cpp.s
+
+.PHONY : source/model/PutRestApiResult.s
+
+# target to generate assembly for a file
+source/model/PutRestApiResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.s
+.PHONY : source/model/PutRestApiResult.cpp.s
 
 source/model/Resource.o: source/model/Resource.cpp.o
 
@@ -4898,6 +5033,12 @@ help:
 	@echo "... source/model/GetStagesResult.o"
 	@echo "... source/model/GetStagesResult.i"
 	@echo "... source/model/GetStagesResult.s"
+	@echo "... source/model/ImportRestApiRequest.o"
+	@echo "... source/model/ImportRestApiRequest.i"
+	@echo "... source/model/ImportRestApiRequest.s"
+	@echo "... source/model/ImportRestApiResult.o"
+	@echo "... source/model/ImportRestApiResult.i"
+	@echo "... source/model/ImportRestApiResult.s"
 	@echo "... source/model/Integration.o"
 	@echo "... source/model/Integration.i"
 	@echo "... source/model/Integration.s"
@@ -4952,6 +5093,15 @@ help:
 	@echo "... source/model/PutMethodResult.o"
 	@echo "... source/model/PutMethodResult.i"
 	@echo "... source/model/PutMethodResult.s"
+	@echo "... source/model/PutMode.o"
+	@echo "... source/model/PutMode.i"
+	@echo "... source/model/PutMode.s"
+	@echo "... source/model/PutRestApiRequest.o"
+	@echo "... source/model/PutRestApiRequest.i"
+	@echo "... source/model/PutRestApiRequest.s"
+	@echo "... source/model/PutRestApiResult.o"
+	@echo "... source/model/PutRestApiResult.i"
+	@echo "... source/model/PutRestApiResult.s"
 	@echo "... source/model/Resource.o"
 	@echo "... source/model/Resource.i"
 	@echo "... source/model/Resource.s"

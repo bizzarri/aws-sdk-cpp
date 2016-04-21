@@ -7352,6 +7352,18 @@ cassert
 iterator
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+iomanip
+-
+ctime
+-
+mutex
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
 aws/core/utils/memory/stl/AWSMap.h
 -
@@ -7452,6 +7464,14 @@ memory
 cstdlib
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+deque
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws/core/Core_EXPORTS.h
 -
@@ -7476,6 +7496,18 @@ aws/core/utils/memory/stl/AWSAllocator.h
 map
 -
 cstring
+-
+
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+aws/core/utils/memory/stl/AWSDeque.h
+-
+deque
+-
+queue
 -
 
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
@@ -7519,9 +7551,17 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
 aws/core/Core_EXPORTS.h
 -
+aws/core/utils/memory/stl/AWSFunction.h
+-
+aws/core/utils/memory/stl/AWSQueue.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 functional
 -
-aws/core/utils/memory/stl/AWSFunction.h
+mutex
+-
+condition_variable
 -
 
 aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
@@ -8099,6 +8139,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/VolumeAttachmentState.h
 -
+aws/core/utils/DateTime.h
+-
 aws/ec2/model/ResponseMetadata.h
 -
 
@@ -8256,6 +8298,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/BundleTaskState.h
+-
+aws/core/utils/DateTime.h
 -
 aws/ec2/model/Storage.h
 -
@@ -8462,6 +8506,8 @@ aws-cpp-sdk-ec2/include/aws/ec2/model/ClientData.h
 aws/ec2/EC2_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSStreamFwd.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
@@ -8837,6 +8883,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/SnapshotState.h
 -
+aws/core/utils/DateTime.h
+-
 aws/core/utils/memory/stl/AWSVector.h
 -
 aws/ec2/model/ResponseMetadata.h
@@ -8924,6 +8972,8 @@ aws/ec2/EC2_EXPORTS.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/VolumeState.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
@@ -10259,11 +10309,15 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/EventType.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/DescribeSpotFleetRequestHistoryResponse.h
 aws/ec2/EC2_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
@@ -10320,6 +10374,8 @@ aws-cpp-sdk-ec2/include/aws/ec2/model/DescribeSpotPriceHistoryRequest.h
 aws/ec2/EC2_EXPORTS.h
 -
 aws/ec2/EC2Request.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
@@ -10699,6 +10755,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/VolumeAttachmentState.h
 -
+aws/core/utils/DateTime.h
+-
 aws/ec2/model/ResponseMetadata.h
 -
 
@@ -10865,6 +10923,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/AttachmentStatus.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/EbsInstanceBlockDeviceSpecification.h
 aws/ec2/EC2_EXPORTS.h
@@ -11009,6 +11069,8 @@ aws/ec2/EC2_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
+aws/core/utils/DateTime.h
+-
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/TrafficType.h
@@ -11039,6 +11101,8 @@ aws/ec2/EC2_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/ec2/model/ResponseMetadata.h
 -
 
@@ -11055,6 +11119,8 @@ aws/ec2/EC2_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/ec2/model/ResponseMetadata.h
 -
 
@@ -11070,6 +11136,8 @@ aws-cpp-sdk-ec2/include/aws/ec2/model/HistoryRecord.h
 aws/ec2/EC2_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSStreamFwd.h
+-
+aws/core/utils/DateTime.h
 -
 aws/ec2/model/EventType.h
 -
@@ -11152,6 +11220,8 @@ aws/ec2/EC2_EXPORTS.h
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/Image.h
@@ -11417,6 +11487,8 @@ aws/core/utils/memory/stl/AWSVector.h
 -
 aws/ec2/model/InstanceType.h
 -
+aws/core/utils/DateTime.h
+-
 aws/ec2/model/Placement.h
 -
 aws/ec2/model/PlatformValues.h
@@ -11553,6 +11625,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/AttachmentStatus.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/InstanceNetworkInterfaceSpecification.h
 aws/ec2/EC2_EXPORTS.h
@@ -11625,6 +11699,8 @@ aws/ec2/model/StatusName.h
 -
 aws/ec2/model/StatusType.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/InstanceStatusEvent.h
 aws/ec2/EC2_EXPORTS.h
@@ -11634,6 +11710,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws/ec2/model/EventCode.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/InstanceStatusSummary.h
@@ -12041,6 +12119,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/core/utils/memory/stl/AWSVector.h
 -
 aws/ec2/model/NatGatewayState.h
@@ -12140,6 +12220,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/AttachmentStatus.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/NetworkInterfaceAttachmentChanges.h
@@ -12545,6 +12627,8 @@ aws/core/utils/memory/stl/AWSVector.h
 -
 aws/ec2/model/ReportStatusType.h
 -
+aws/core/utils/DateTime.h
+-
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/ReportInstanceReasonCodes.h
@@ -12580,6 +12664,8 @@ aws/ec2/EC2Request.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/SpotInstanceType.h
+-
+aws/core/utils/DateTime.h
 -
 aws/ec2/model/RequestSpotLaunchSpecification.h
 -
@@ -12655,6 +12741,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/InstanceType.h
 -
+aws/core/utils/DateTime.h
+-
 aws/ec2/model/RIProductDescription.h
 -
 aws/ec2/model/ReservedInstanceState.h
@@ -12697,6 +12785,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/ec2/model/ListingStatus.h
 -
 aws/core/utils/memory/stl/AWSVector.h
@@ -12716,6 +12806,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/core/utils/memory/stl/AWSVector.h
+-
+aws/core/utils/DateTime.h
 -
 aws/ec2/model/ReservedInstancesId.h
 -
@@ -12995,6 +13087,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/ScheduledInstanceRecurrence.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/ScheduledInstanceAvailability.h
 aws/ec2/EC2_EXPORTS.h
@@ -13004,6 +13098,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/ScheduledInstanceRecurrence.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/ScheduledInstanceRecurrence.h
@@ -13131,11 +13227,15 @@ aws/ec2/EC2_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/SlotStartTimeRangeRequest.h
 aws/ec2/EC2_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSStreamFwd.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/Snapshot.h
@@ -13146,6 +13246,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/SnapshotState.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
@@ -13249,6 +13351,8 @@ aws/ec2/model/BatchState.h
 -
 aws/ec2/model/SpotFleetRequestConfigData.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/SpotFleetRequestConfigData.h
 aws/ec2/EC2_EXPORTS.h
@@ -13256,6 +13360,8 @@ aws/ec2/EC2_EXPORTS.h
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
@@ -13280,6 +13386,8 @@ aws/ec2/model/SpotInstanceState.h
 aws/ec2/model/SpotInstanceStateFault.h
 -
 aws/ec2/model/SpotInstanceStatus.h
+-
+aws/core/utils/DateTime.h
 -
 aws/ec2/model/LaunchSpecification.h
 -
@@ -13311,6 +13419,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/SpotInstanceType.h
 aws/ec2/EC2_EXPORTS.h
@@ -13336,6 +13446,8 @@ aws/ec2/model/InstanceType.h
 aws/ec2/model/RIProductDescription.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/StartInstancesRequest.h
@@ -13535,9 +13647,9 @@ aws/ec2/EC2_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
-aws/core/utils/memory/stl/AWSString.h
--
 aws/ec2/model/UnsuccessfulItemError.h
+-
+aws/core/utils/memory/stl/AWSString.h
 -
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/UnsuccessfulItemError.h
@@ -13589,6 +13701,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/TelemetryStatus.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/VirtualizationType.h
 aws/ec2/EC2_EXPORTS.h
@@ -13604,6 +13718,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/VolumeState.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
@@ -13624,6 +13740,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/ec2/model/VolumeAttachmentState.h
+-
+aws/core/utils/DateTime.h
 -
 aws/ec2/model/ResponseMetadata.h
 -
@@ -13676,6 +13794,8 @@ aws/ec2/EC2_EXPORTS.h
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/VolumeStatusInfo.h
@@ -13779,6 +13899,8 @@ aws/ec2/model/State.h
 -
 aws/core/utils/memory/stl/AWSVector.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-ec2/include/aws/ec2/model/VpcPeeringConnection.h
 aws/ec2/EC2_EXPORTS.h
@@ -13786,6 +13908,8 @@ aws/ec2/EC2_EXPORTS.h
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/ec2/model/VpcPeeringConnectionVpcInfo.h
+-
+aws/core/utils/DateTime.h
 -
 aws/ec2/model/VpcPeeringConnectionStateReason.h
 -

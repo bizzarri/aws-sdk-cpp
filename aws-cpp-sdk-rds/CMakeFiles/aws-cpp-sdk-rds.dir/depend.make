@@ -25,14 +25,17 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-s
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/RDSClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
@@ -436,6 +439,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ApplyPendingMaintena
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ApplyPendingMaintenanceActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ApplyPendingMaintenanceActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ApplyPendingMaintenanceActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ApplyPendingMaintenanceActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ApplyPendingMaintenanceActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ApplyPendingMaintenanceActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ApplyPendingMaintenanceActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -536,6 +540,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/AvailabilityZone.cpp
 
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/Certificate.cpp.o: aws-cpp-sdk-rds/source/model/Certificate.cpp
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/Certificate.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/Certificate.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/Certificate.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/Certificate.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/Certificate.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -600,6 +605,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CopyDBClusterSnapsho
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CopyDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CopyDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CopyDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CopyDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CopyDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CopyDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CopyDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -714,6 +720,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CopyDBSnapshotResult
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CopyDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CopyDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CopyDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CopyDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CopyDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CopyDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CopyDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -889,6 +896,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBClusterResul
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -949,6 +957,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBClusterSnaps
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1006,6 +1015,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBInstanceRead
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBInstanceReadReplicaResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBInstanceReadReplicaResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBInstanceReadReplicaResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBInstanceReadReplicaResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBInstanceReadReplicaResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBInstanceReadReplicaResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBInstanceReadReplicaResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1074,6 +1084,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBInstanceResu
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1258,6 +1269,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBSnapshotResu
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1460,6 +1472,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/CreateOptionGroupRes
 
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBCluster.cpp.o: aws-cpp-sdk-rds/source/model/DBCluster.cpp
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBCluster.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBCluster.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBCluster.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBCluster.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBCluster.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1527,6 +1540,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBClusterParameterGr
 
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBClusterSnapshot.cpp.o: aws-cpp-sdk-rds/source/model/DBClusterSnapshot.cpp
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBClusterSnapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBClusterSnapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBClusterSnapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBClusterSnapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBClusterSnapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1561,6 +1575,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBEngineVersion.cpp.
 
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBInstance.cpp.o: aws-cpp-sdk-rds/source/model/DBInstance.cpp
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1670,6 +1685,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBSecurityGroupMembe
 
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBSnapshot.cpp.o: aws-cpp-sdk-rds/source/model/DBSnapshot.cpp
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBSnapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBSnapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBSnapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBSnapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DBSnapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1793,6 +1809,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBClusterResul
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1852,6 +1869,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBClusterSnaps
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBClusterSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1908,6 +1926,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBInstanceResu
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2025,6 +2044,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBSnapshotResu
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DeleteDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2244,6 +2264,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeCertificates
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2416,6 +2437,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBClusterSna
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBClusterSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBClusterSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBClusterSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBClusterSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBClusterSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBClusterSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBClusterSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2473,6 +2495,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBClustersRe
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBClustersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2592,6 +2615,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBInstancesR
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2964,6 +2988,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBSnapshotsR
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeDBSnapshotsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3286,6 +3311,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeEventsReques
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -3313,6 +3339,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeEventsResult
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3548,6 +3575,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribePendingMaint
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribePendingMaintenanceActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribePendingMaintenanceActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribePendingMaintenanceActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribePendingMaintenanceActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribePendingMaintenanceActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribePendingMaintenanceActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribePendingMaintenanceActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3664,6 +3692,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeReservedDBIn
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeReservedDBInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeReservedDBInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeReservedDBInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeReservedDBInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeReservedDBInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeReservedDBInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/DescribeReservedDBInstancesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3811,6 +3840,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/EngineDefaults.cpp.o
 
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/Event.cpp.o: aws-cpp-sdk-rds/source/model/Event.cpp
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3891,6 +3921,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/FailoverDBClusterRes
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/FailoverDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/FailoverDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/FailoverDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/FailoverDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/FailoverDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/FailoverDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/FailoverDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4096,6 +4127,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ModifyDBClusterResul
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ModifyDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ModifyDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ModifyDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ModifyDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ModifyDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ModifyDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ModifyDBClusterResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4155,6 +4187,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ModifyDBInstanceResu
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ModifyDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ModifyDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ModifyDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ModifyDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ModifyDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ModifyDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ModifyDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4636,6 +4669,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/Parameter.cpp.o: aws
 
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PendingMaintenanceAction.cpp.o: aws-cpp-sdk-rds/source/model/PendingMaintenanceAction.cpp
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PendingMaintenanceAction.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PendingMaintenanceAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PendingMaintenanceAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PendingMaintenanceAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PendingMaintenanceAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4699,6 +4733,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PromoteReadReplicaRe
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PromoteReadReplicaResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PromoteReadReplicaResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PromoteReadReplicaResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PromoteReadReplicaResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PromoteReadReplicaResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PromoteReadReplicaResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PromoteReadReplicaResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4767,6 +4802,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PurchaseReservedDBIn
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PurchaseReservedDBInstancesOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PurchaseReservedDBInstancesOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PurchaseReservedDBInstancesOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PurchaseReservedDBInstancesOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PurchaseReservedDBInstancesOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PurchaseReservedDBInstancesOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/PurchaseReservedDBInstancesOfferingResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4824,6 +4860,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RebootDBInstanceResu
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RebootDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RebootDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RebootDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RebootDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RebootDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RebootDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RebootDBInstanceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4957,6 +4994,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RemoveTagsFromResour
 
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ReservedDBInstance.cpp.o: aws-cpp-sdk-rds/source/model/ReservedDBInstance.cpp
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ReservedDBInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ReservedDBInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ReservedDBInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ReservedDBInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ReservedDBInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5105,6 +5143,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ResetDBParameterGrou
 
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ResourcePendingMaintenanceActions.cpp.o: aws-cpp-sdk-rds/source/model/ResourcePendingMaintenanceActions.cpp
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ResourcePendingMaintenanceActions.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ResourcePendingMaintenanceActions.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ResourcePendingMaintenanceActions.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ResourcePendingMaintenanceActions.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/ResourcePendingMaintenanceActions.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5170,6 +5209,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterFrom
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterFromSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterFromSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterFromSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterFromSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterFromSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterFromSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterFromSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5204,6 +5244,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterToPo
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterToPointInTimeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterToPointInTimeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterToPointInTimeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterToPointInTimeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterToPointInTimeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterToPointInTimeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterToPointInTimeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -5230,6 +5271,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterToPo
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterToPointInTimeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterToPointInTimeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterToPointInTimeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterToPointInTimeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterToPointInTimeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterToPointInTimeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBClusterToPointInTimeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5290,6 +5332,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceFro
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceFromDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceFromDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceFromDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceFromDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceFromDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceFromDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceFromDBSnapshotResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5332,6 +5375,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceToP
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceToPointInTimeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceToPointInTimeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceToPointInTimeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceToPointInTimeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceToPointInTimeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceToPointInTimeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceToPointInTimeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -5358,6 +5402,7 @@ aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceToP
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceToPointInTimeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceToPointInTimeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceToPointInTimeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceToPointInTimeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceToPointInTimeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceToPointInTimeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-rds/CMakeFiles/aws-cpp-sdk-rds.dir/source/model/RestoreDBInstanceToPointInTimeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h

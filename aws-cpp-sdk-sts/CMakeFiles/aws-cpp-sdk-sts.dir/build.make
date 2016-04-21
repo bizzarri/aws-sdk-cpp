@@ -369,9 +369,33 @@ aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenReque
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenRequest.cpp.o.provides.build: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenRequest.cpp.o
 
 
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/flags.make
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o: aws-cpp-sdk-sts/source/model/GetCallerIdentityRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/GetCallerIdentityRequest.cpp
+
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/GetCallerIdentityRequest.cpp > CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.i
+
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/GetCallerIdentityRequest.cpp -o CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.s
+
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o.requires
+
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o.provides: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/build.make aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o.provides
+
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o.provides.build: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o
+
+
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumedRoleUser.cpp.o: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/flags.make
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumedRoleUser.cpp.o: aws-cpp-sdk-sts/source/model/AssumedRoleUser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumedRoleUser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumedRoleUser.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumedRoleUser.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/AssumedRoleUser.cpp
 
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumedRoleUser.cpp.i: cmake_force
@@ -395,7 +419,7 @@ aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumedRoleUser.cpp.
 
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleRequest.cpp.o: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/flags.make
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleRequest.cpp.o: aws-cpp-sdk-sts/source/model/AssumeRoleRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/AssumeRoleRequest.cpp
 
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleRequest.cpp.i: cmake_force
@@ -419,7 +443,7 @@ aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleRequest.cp
 
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLRequest.cpp.o: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/flags.make
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLRequest.cpp.o: aws-cpp-sdk-sts/source/model/AssumeRoleWithSAMLRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/AssumeRoleWithSAMLRequest.cpp
 
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLRequest.cpp.i: cmake_force
@@ -443,7 +467,7 @@ aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLRe
 
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResult.cpp.o: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/flags.make
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResult.cpp.o: aws-cpp-sdk-sts/source/model/GetSessionTokenResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/GetSessionTokenResult.cpp
 
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResult.cpp.i: cmake_force
@@ -467,7 +491,7 @@ aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResul
 
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenRequest.cpp.o: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/flags.make
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenRequest.cpp.o: aws-cpp-sdk-sts/source/model/GetFederationTokenRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/GetFederationTokenRequest.cpp
 
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenRequest.cpp.i: cmake_force
@@ -489,9 +513,33 @@ aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenRe
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenRequest.cpp.o.provides.build: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenRequest.cpp.o
 
 
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/flags.make
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o: aws-cpp-sdk-sts/source/model/GetCallerIdentityResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/GetCallerIdentityResult.cpp
+
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/GetCallerIdentityResult.cpp > CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.i
+
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/GetCallerIdentityResult.cpp -o CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.s
+
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o.requires
+
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o.provides: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/build.make aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o.provides
+
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o.provides.build: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o
+
+
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/DecodeAuthorizationMessageRequest.cpp.o: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/flags.make
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/DecodeAuthorizationMessageRequest.cpp.o: aws-cpp-sdk-sts/source/model/DecodeAuthorizationMessageRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/DecodeAuthorizationMessageRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/DecodeAuthorizationMessageRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-sts.dir/source/model/DecodeAuthorizationMessageRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/DecodeAuthorizationMessageRequest.cpp
 
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/DecodeAuthorizationMessageRequest.cpp.i: cmake_force
@@ -515,7 +563,7 @@ aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/DecodeAuthorizationM
 
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleResult.cpp.o: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/flags.make
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleResult.cpp.o: aws-cpp-sdk-sts/source/model/AssumeRoleResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/AssumeRoleResult.cpp
 
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleResult.cpp.i: cmake_force
@@ -552,11 +600,13 @@ aws__cpp__sdk__sts_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-sts.dir/source/model/ResponseMetadata.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumedRoleUser.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-sts.dir/source/model/DecodeAuthorizationMessageRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleResult.cpp.o"
 
@@ -576,17 +626,19 @@ aws-cpp-sdk-sts/libaws-cpp-sdk-sts.so: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-st
 aws-cpp-sdk-sts/libaws-cpp-sdk-sts.so: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/ResponseMetadata.cpp.o
 aws-cpp-sdk-sts/libaws-cpp-sdk-sts.so: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLResult.cpp.o
 aws-cpp-sdk-sts/libaws-cpp-sdk-sts.so: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenRequest.cpp.o
+aws-cpp-sdk-sts/libaws-cpp-sdk-sts.so: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o
 aws-cpp-sdk-sts/libaws-cpp-sdk-sts.so: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumedRoleUser.cpp.o
 aws-cpp-sdk-sts/libaws-cpp-sdk-sts.so: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleRequest.cpp.o
 aws-cpp-sdk-sts/libaws-cpp-sdk-sts.so: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLRequest.cpp.o
 aws-cpp-sdk-sts/libaws-cpp-sdk-sts.so: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResult.cpp.o
 aws-cpp-sdk-sts/libaws-cpp-sdk-sts.so: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenRequest.cpp.o
+aws-cpp-sdk-sts/libaws-cpp-sdk-sts.so: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o
 aws-cpp-sdk-sts/libaws-cpp-sdk-sts.so: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/DecodeAuthorizationMessageRequest.cpp.o
 aws-cpp-sdk-sts/libaws-cpp-sdk-sts.so: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleResult.cpp.o
 aws-cpp-sdk-sts/libaws-cpp-sdk-sts.so: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/build.make
 aws-cpp-sdk-sts/libaws-cpp-sdk-sts.so: aws-cpp-sdk-core/libaws-cpp-sdk-core.so
 aws-cpp-sdk-sts/libaws-cpp-sdk-sts.so: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX shared library libaws-cpp-sdk-sts.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX shared library libaws-cpp-sdk-sts.so"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aws-cpp-sdk-sts.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -607,11 +659,13 @@ aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/requires: aws-cpp-sdk-sts/CMakeFi
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/requires: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/ResponseMetadata.cpp.o.requires
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/requires: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLResult.cpp.o.requires
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/requires: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenRequest.cpp.o.requires
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/requires: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityRequest.cpp.o.requires
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/requires: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumedRoleUser.cpp.o.requires
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/requires: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleRequest.cpp.o.requires
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/requires: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleWithSAMLRequest.cpp.o.requires
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/requires: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetSessionTokenResult.cpp.o.requires
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/requires: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetFederationTokenRequest.cpp.o.requires
+aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/requires: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/GetCallerIdentityResult.cpp.o.requires
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/requires: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/DecodeAuthorizationMessageRequest.cpp.o.requires
 aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/requires: aws-cpp-sdk-sts/CMakeFiles/aws-cpp-sdk-sts.dir/source/model/AssumeRoleResult.cpp.o.requires
 

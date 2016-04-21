@@ -439,6 +439,141 @@ source/model/DescribeStreamResult.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStreamResult.cpp.s
 .PHONY : source/model/DescribeStreamResult.cpp.s
 
+source/model/DisableEnhancedMonitoringRequest.o: source/model/DisableEnhancedMonitoringRequest.cpp.o
+
+.PHONY : source/model/DisableEnhancedMonitoringRequest.o
+
+# target to build an object file
+source/model/DisableEnhancedMonitoringRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.o
+.PHONY : source/model/DisableEnhancedMonitoringRequest.cpp.o
+
+source/model/DisableEnhancedMonitoringRequest.i: source/model/DisableEnhancedMonitoringRequest.cpp.i
+
+.PHONY : source/model/DisableEnhancedMonitoringRequest.i
+
+# target to preprocess a source file
+source/model/DisableEnhancedMonitoringRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.i
+.PHONY : source/model/DisableEnhancedMonitoringRequest.cpp.i
+
+source/model/DisableEnhancedMonitoringRequest.s: source/model/DisableEnhancedMonitoringRequest.cpp.s
+
+.PHONY : source/model/DisableEnhancedMonitoringRequest.s
+
+# target to generate assembly for a file
+source/model/DisableEnhancedMonitoringRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.s
+.PHONY : source/model/DisableEnhancedMonitoringRequest.cpp.s
+
+source/model/DisableEnhancedMonitoringResult.o: source/model/DisableEnhancedMonitoringResult.cpp.o
+
+.PHONY : source/model/DisableEnhancedMonitoringResult.o
+
+# target to build an object file
+source/model/DisableEnhancedMonitoringResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.o
+.PHONY : source/model/DisableEnhancedMonitoringResult.cpp.o
+
+source/model/DisableEnhancedMonitoringResult.i: source/model/DisableEnhancedMonitoringResult.cpp.i
+
+.PHONY : source/model/DisableEnhancedMonitoringResult.i
+
+# target to preprocess a source file
+source/model/DisableEnhancedMonitoringResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.i
+.PHONY : source/model/DisableEnhancedMonitoringResult.cpp.i
+
+source/model/DisableEnhancedMonitoringResult.s: source/model/DisableEnhancedMonitoringResult.cpp.s
+
+.PHONY : source/model/DisableEnhancedMonitoringResult.s
+
+# target to generate assembly for a file
+source/model/DisableEnhancedMonitoringResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.s
+.PHONY : source/model/DisableEnhancedMonitoringResult.cpp.s
+
+source/model/EnableEnhancedMonitoringRequest.o: source/model/EnableEnhancedMonitoringRequest.cpp.o
+
+.PHONY : source/model/EnableEnhancedMonitoringRequest.o
+
+# target to build an object file
+source/model/EnableEnhancedMonitoringRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.o
+.PHONY : source/model/EnableEnhancedMonitoringRequest.cpp.o
+
+source/model/EnableEnhancedMonitoringRequest.i: source/model/EnableEnhancedMonitoringRequest.cpp.i
+
+.PHONY : source/model/EnableEnhancedMonitoringRequest.i
+
+# target to preprocess a source file
+source/model/EnableEnhancedMonitoringRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.i
+.PHONY : source/model/EnableEnhancedMonitoringRequest.cpp.i
+
+source/model/EnableEnhancedMonitoringRequest.s: source/model/EnableEnhancedMonitoringRequest.cpp.s
+
+.PHONY : source/model/EnableEnhancedMonitoringRequest.s
+
+# target to generate assembly for a file
+source/model/EnableEnhancedMonitoringRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.s
+.PHONY : source/model/EnableEnhancedMonitoringRequest.cpp.s
+
+source/model/EnableEnhancedMonitoringResult.o: source/model/EnableEnhancedMonitoringResult.cpp.o
+
+.PHONY : source/model/EnableEnhancedMonitoringResult.o
+
+# target to build an object file
+source/model/EnableEnhancedMonitoringResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.o
+.PHONY : source/model/EnableEnhancedMonitoringResult.cpp.o
+
+source/model/EnableEnhancedMonitoringResult.i: source/model/EnableEnhancedMonitoringResult.cpp.i
+
+.PHONY : source/model/EnableEnhancedMonitoringResult.i
+
+# target to preprocess a source file
+source/model/EnableEnhancedMonitoringResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.i
+.PHONY : source/model/EnableEnhancedMonitoringResult.cpp.i
+
+source/model/EnableEnhancedMonitoringResult.s: source/model/EnableEnhancedMonitoringResult.cpp.s
+
+.PHONY : source/model/EnableEnhancedMonitoringResult.s
+
+# target to generate assembly for a file
+source/model/EnableEnhancedMonitoringResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.s
+.PHONY : source/model/EnableEnhancedMonitoringResult.cpp.s
+
+source/model/EnhancedMetrics.o: source/model/EnhancedMetrics.cpp.o
+
+.PHONY : source/model/EnhancedMetrics.o
+
+# target to build an object file
+source/model/EnhancedMetrics.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.o
+.PHONY : source/model/EnhancedMetrics.cpp.o
+
+source/model/EnhancedMetrics.i: source/model/EnhancedMetrics.cpp.i
+
+.PHONY : source/model/EnhancedMetrics.i
+
+# target to preprocess a source file
+source/model/EnhancedMetrics.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.i
+.PHONY : source/model/EnhancedMetrics.cpp.i
+
+source/model/EnhancedMetrics.s: source/model/EnhancedMetrics.cpp.s
+
+.PHONY : source/model/EnhancedMetrics.s
+
+# target to generate assembly for a file
+source/model/EnhancedMetrics.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.s
+.PHONY : source/model/EnhancedMetrics.cpp.s
+
 source/model/GetRecordsRequest.o: source/model/GetRecordsRequest.cpp.o
 
 .PHONY : source/model/GetRecordsRequest.o
@@ -735,6 +870,33 @@ source/model/MergeShardsRequest.s: source/model/MergeShardsRequest.cpp.s
 source/model/MergeShardsRequest.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MergeShardsRequest.cpp.s
 .PHONY : source/model/MergeShardsRequest.cpp.s
+
+source/model/MetricsName.o: source/model/MetricsName.cpp.o
+
+.PHONY : source/model/MetricsName.o
+
+# target to build an object file
+source/model/MetricsName.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.o
+.PHONY : source/model/MetricsName.cpp.o
+
+source/model/MetricsName.i: source/model/MetricsName.cpp.i
+
+.PHONY : source/model/MetricsName.i
+
+# target to preprocess a source file
+source/model/MetricsName.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.i
+.PHONY : source/model/MetricsName.cpp.i
+
+source/model/MetricsName.s: source/model/MetricsName.cpp.s
+
+.PHONY : source/model/MetricsName.s
+
+# target to generate assembly for a file
+source/model/MetricsName.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/build.make aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.s
+.PHONY : source/model/MetricsName.cpp.s
 
 source/model/PutRecordRequest.o: source/model/PutRecordRequest.cpp.o
 
@@ -1184,6 +1346,21 @@ help:
 	@echo "... source/model/DescribeStreamResult.o"
 	@echo "... source/model/DescribeStreamResult.i"
 	@echo "... source/model/DescribeStreamResult.s"
+	@echo "... source/model/DisableEnhancedMonitoringRequest.o"
+	@echo "... source/model/DisableEnhancedMonitoringRequest.i"
+	@echo "... source/model/DisableEnhancedMonitoringRequest.s"
+	@echo "... source/model/DisableEnhancedMonitoringResult.o"
+	@echo "... source/model/DisableEnhancedMonitoringResult.i"
+	@echo "... source/model/DisableEnhancedMonitoringResult.s"
+	@echo "... source/model/EnableEnhancedMonitoringRequest.o"
+	@echo "... source/model/EnableEnhancedMonitoringRequest.i"
+	@echo "... source/model/EnableEnhancedMonitoringRequest.s"
+	@echo "... source/model/EnableEnhancedMonitoringResult.o"
+	@echo "... source/model/EnableEnhancedMonitoringResult.i"
+	@echo "... source/model/EnableEnhancedMonitoringResult.s"
+	@echo "... source/model/EnhancedMetrics.o"
+	@echo "... source/model/EnhancedMetrics.i"
+	@echo "... source/model/EnhancedMetrics.s"
 	@echo "... source/model/GetRecordsRequest.o"
 	@echo "... source/model/GetRecordsRequest.i"
 	@echo "... source/model/GetRecordsRequest.s"
@@ -1217,6 +1394,9 @@ help:
 	@echo "... source/model/MergeShardsRequest.o"
 	@echo "... source/model/MergeShardsRequest.i"
 	@echo "... source/model/MergeShardsRequest.s"
+	@echo "... source/model/MetricsName.o"
+	@echo "... source/model/MetricsName.i"
+	@echo "... source/model/MetricsName.s"
 	@echo "... source/model/PutRecordRequest.o"
 	@echo "... source/model/PutRecordRequest.i"
 	@echo "... source/model/PutRecordRequest.s"

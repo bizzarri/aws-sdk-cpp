@@ -25,14 +25,17 @@ aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchCl
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
@@ -120,6 +123,7 @@ aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/CloudWatchEr
 
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/AlarmHistoryItem.cpp.o: aws-cpp-sdk-monitoring/source/model/AlarmHistoryItem.cpp
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/AlarmHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/AlarmHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/AlarmHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/AlarmHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/AlarmHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -153,6 +157,7 @@ aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/Compar
 
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/Datapoint.cpp.o: aws-cpp-sdk-monitoring/source/model/Datapoint.cpp
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/Datapoint.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/Datapoint.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/Datapoint.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/Datapoint.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/Datapoint.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -201,6 +206,7 @@ aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/Descri
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -227,6 +233,7 @@ aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/Descri
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -287,6 +294,7 @@ aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/Descri
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmsForMetricResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmsForMetricResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmsForMetricResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmsForMetricResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmsForMetricResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmsForMetricResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmsForMetricResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -349,6 +357,7 @@ aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/Descri
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/DescribeAlarmsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -467,6 +476,7 @@ aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/GetMet
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/GetMetricStatisticsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/GetMetricStatisticsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/GetMetricStatisticsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/GetMetricStatisticsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/GetMetricStatisticsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/GetMetricStatisticsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/GetMetricStatisticsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -495,6 +505,7 @@ aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/GetMet
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/GetMetricStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/GetMetricStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/GetMetricStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/GetMetricStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/GetMetricStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/GetMetricStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/GetMetricStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -612,6 +623,7 @@ aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/Metric
 
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/MetricAlarm.cpp.o: aws-cpp-sdk-monitoring/source/model/MetricAlarm.cpp
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/MetricAlarm.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/MetricAlarm.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/MetricAlarm.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/MetricAlarm.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/MetricAlarm.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -633,6 +645,7 @@ aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/Metric
 
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/MetricDatum.cpp.o: aws-cpp-sdk-monitoring/source/model/MetricDatum.cpp
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/MetricDatum.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/MetricDatum.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/MetricDatum.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/MetricDatum.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/MetricDatum.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -687,6 +700,7 @@ aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/PutMet
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/PutMetricDataRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/PutMetricDataRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/PutMetricDataRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/PutMetricDataRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/PutMetricDataRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/PutMetricDataRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-monitoring/CMakeFiles/aws-cpp-sdk-monitoring.dir/source/model/PutMetricDataRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

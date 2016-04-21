@@ -345,9 +345,33 @@ aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/EnumOverflowTest.cp
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/EnumOverflowTest.cpp.o.provides.build: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/EnumOverflowTest.cpp.o
 
 
+aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/flags.make
+aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o: aws-cpp-sdk-core-tests/utils/DateTimeTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/utils/DateTimeTest.cpp
+
+aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/utils/DateTimeTest.cpp > CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.i
+
+aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/utils/DateTimeTest.cpp -o CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.s
+
+aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o.requires
+
+aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o.provides: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/build.make aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o.provides
+
+aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o.provides.build: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o
+
+
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/json/JsonSerializerTest.cpp.o: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/flags.make
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/json/JsonSerializerTest.cpp.o: aws-cpp-sdk-core-tests/utils/json/JsonSerializerTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/json/JsonSerializerTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/json/JsonSerializerTest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/runCoreUnitTests.dir/utils/json/JsonSerializerTest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/utils/json/JsonSerializerTest.cpp
 
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/json/JsonSerializerTest.cpp.i: cmake_force
@@ -371,7 +395,7 @@ aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/json/JsonSerializer
 
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/xml/XmlSerializerTest.cpp.o: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/flags.make
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/xml/XmlSerializerTest.cpp.o: aws-cpp-sdk-core-tests/utils/xml/XmlSerializerTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/xml/XmlSerializerTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/xml/XmlSerializerTest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/runCoreUnitTests.dir/utils/xml/XmlSerializerTest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/utils/xml/XmlSerializerTest.cpp
 
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/xml/XmlSerializerTest.cpp.i: cmake_force
@@ -395,7 +419,7 @@ aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/xml/XmlSerializerTe
 
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/logging/LoggingTest.cpp.o: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/flags.make
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/logging/LoggingTest.cpp.o: aws-cpp-sdk-core-tests/utils/logging/LoggingTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/logging/LoggingTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/logging/LoggingTest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/runCoreUnitTests.dir/utils/logging/LoggingTest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/utils/logging/LoggingTest.cpp
 
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/logging/LoggingTest.cpp.i: cmake_force
@@ -419,7 +443,7 @@ aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/logging/LoggingTest
 
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/memory/MemoryTests.cpp.o: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/flags.make
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/memory/MemoryTests.cpp.o: aws-cpp-sdk-core-tests/utils/memory/MemoryTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/memory/MemoryTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/memory/MemoryTests.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/runCoreUnitTests.dir/utils/memory/MemoryTests.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/utils/memory/MemoryTests.cpp
 
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/memory/MemoryTests.cpp.i: cmake_force
@@ -443,7 +467,7 @@ aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/memory/MemoryTests.
 
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/ratelimiter/RateLimiterTests.cpp.o: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/flags.make
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/ratelimiter/RateLimiterTests.cpp.o: aws-cpp-sdk-core-tests/utils/ratelimiter/RateLimiterTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/ratelimiter/RateLimiterTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/ratelimiter/RateLimiterTests.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/runCoreUnitTests.dir/utils/ratelimiter/RateLimiterTests.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/utils/ratelimiter/RateLimiterTests.cpp
 
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/ratelimiter/RateLimiterTests.cpp.i: cmake_force
@@ -479,6 +503,7 @@ runCoreUnitTests_OBJECTS = \
 "CMakeFiles/runCoreUnitTests.dir/utils/OSVersionInfoTest.cpp.o" \
 "CMakeFiles/runCoreUnitTests.dir/utils/HashingUtilsTest.cpp.o" \
 "CMakeFiles/runCoreUnitTests.dir/utils/EnumOverflowTest.cpp.o" \
+"CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o" \
 "CMakeFiles/runCoreUnitTests.dir/utils/json/JsonSerializerTest.cpp.o" \
 "CMakeFiles/runCoreUnitTests.dir/utils/xml/XmlSerializerTest.cpp.o" \
 "CMakeFiles/runCoreUnitTests.dir/utils/logging/LoggingTest.cpp.o" \
@@ -500,6 +525,7 @@ aws-cpp-sdk-core-tests/runCoreUnitTests: aws-cpp-sdk-core-tests/CMakeFiles/runCo
 aws-cpp-sdk-core-tests/runCoreUnitTests: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/OSVersionInfoTest.cpp.o
 aws-cpp-sdk-core-tests/runCoreUnitTests: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/HashingUtilsTest.cpp.o
 aws-cpp-sdk-core-tests/runCoreUnitTests: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/EnumOverflowTest.cpp.o
+aws-cpp-sdk-core-tests/runCoreUnitTests: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o
 aws-cpp-sdk-core-tests/runCoreUnitTests: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/json/JsonSerializerTest.cpp.o
 aws-cpp-sdk-core-tests/runCoreUnitTests: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/xml/XmlSerializerTest.cpp.o
 aws-cpp-sdk-core-tests/runCoreUnitTests: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/logging/LoggingTest.cpp.o
@@ -509,7 +535,7 @@ aws-cpp-sdk-core-tests/runCoreUnitTests: aws-cpp-sdk-core-tests/CMakeFiles/runCo
 aws-cpp-sdk-core-tests/runCoreUnitTests: testing-resources/libtesting-resources.so
 aws-cpp-sdk-core-tests/runCoreUnitTests: aws-cpp-sdk-core/libaws-cpp-sdk-core.so
 aws-cpp-sdk-core-tests/runCoreUnitTests: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable runCoreUnitTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable runCoreUnitTests"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runCoreUnitTests.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests && ./runCoreUnitTests
 
@@ -530,6 +556,7 @@ aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/requires: aws-cpp-sdk-cor
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/requires: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/OSVersionInfoTest.cpp.o.requires
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/requires: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/HashingUtilsTest.cpp.o.requires
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/requires: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/EnumOverflowTest.cpp.o.requires
+aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/requires: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o.requires
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/requires: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/json/JsonSerializerTest.cpp.o.requires
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/requires: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/xml/XmlSerializerTest.cpp.o.requires
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/requires: aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/logging/LoggingTest.cpp.o.requires

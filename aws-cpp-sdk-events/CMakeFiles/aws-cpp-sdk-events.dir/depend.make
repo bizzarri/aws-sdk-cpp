@@ -27,6 +27,7 @@ aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/CloudWatchEventsClie
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/CloudWatchEventsClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/CloudWatchEventsClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/CloudWatchEventsClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/CloudWatchEventsClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/CloudWatchEventsClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/CloudWatchEventsClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/CloudWatchEventsClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -37,6 +38,7 @@ aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/CloudWatchEventsClie
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/CloudWatchEventsClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/CloudWatchEventsClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/CloudWatchEventsClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/CloudWatchEventsClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/CloudWatchEventsClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/CloudWatchEventsClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/CloudWatchEventsClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -434,6 +436,7 @@ aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/model/PutEventsReque
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/model/PutEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/model/PutEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/model/PutEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/model/PutEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/model/PutEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/model/PutEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/model/PutEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -457,6 +460,7 @@ aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/model/PutEventsReque
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/model/PutEventsRequestEntry.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/model/PutEventsRequestEntry.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/model/PutEventsRequestEntry.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/model/PutEventsRequestEntry.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/model/PutEventsRequestEntry.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/model/PutEventsRequestEntry.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-events/CMakeFiles/aws-cpp-sdk-events.dir/source/model/PutEventsRequestEntry.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

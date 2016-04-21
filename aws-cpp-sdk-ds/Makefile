@@ -331,6 +331,33 @@ source/model/Computer.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/Computer.cpp.s
 .PHONY : source/model/Computer.cpp.s
 
+source/model/ConditionalForwarder.o: source/model/ConditionalForwarder.cpp.o
+
+.PHONY : source/model/ConditionalForwarder.o
+
+# target to build an object file
+source/model/ConditionalForwarder.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.o
+.PHONY : source/model/ConditionalForwarder.cpp.o
+
+source/model/ConditionalForwarder.i: source/model/ConditionalForwarder.cpp.i
+
+.PHONY : source/model/ConditionalForwarder.i
+
+# target to preprocess a source file
+source/model/ConditionalForwarder.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.i
+.PHONY : source/model/ConditionalForwarder.cpp.i
+
+source/model/ConditionalForwarder.s: source/model/ConditionalForwarder.cpp.s
+
+.PHONY : source/model/ConditionalForwarder.s
+
+# target to generate assembly for a file
+source/model/ConditionalForwarder.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ConditionalForwarder.cpp.s
+.PHONY : source/model/ConditionalForwarder.cpp.s
+
 source/model/ConnectDirectoryRequest.o: source/model/ConnectDirectoryRequest.cpp.o
 
 .PHONY : source/model/ConnectDirectoryRequest.o
@@ -492,6 +519,60 @@ source/model/CreateComputerResult.s: source/model/CreateComputerResult.cpp.s
 source/model/CreateComputerResult.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateComputerResult.cpp.s
 .PHONY : source/model/CreateComputerResult.cpp.s
+
+source/model/CreateConditionalForwarderRequest.o: source/model/CreateConditionalForwarderRequest.cpp.o
+
+.PHONY : source/model/CreateConditionalForwarderRequest.o
+
+# target to build an object file
+source/model/CreateConditionalForwarderRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.o
+.PHONY : source/model/CreateConditionalForwarderRequest.cpp.o
+
+source/model/CreateConditionalForwarderRequest.i: source/model/CreateConditionalForwarderRequest.cpp.i
+
+.PHONY : source/model/CreateConditionalForwarderRequest.i
+
+# target to preprocess a source file
+source/model/CreateConditionalForwarderRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.i
+.PHONY : source/model/CreateConditionalForwarderRequest.cpp.i
+
+source/model/CreateConditionalForwarderRequest.s: source/model/CreateConditionalForwarderRequest.cpp.s
+
+.PHONY : source/model/CreateConditionalForwarderRequest.s
+
+# target to generate assembly for a file
+source/model/CreateConditionalForwarderRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderRequest.cpp.s
+.PHONY : source/model/CreateConditionalForwarderRequest.cpp.s
+
+source/model/CreateConditionalForwarderResult.o: source/model/CreateConditionalForwarderResult.cpp.o
+
+.PHONY : source/model/CreateConditionalForwarderResult.o
+
+# target to build an object file
+source/model/CreateConditionalForwarderResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.o
+.PHONY : source/model/CreateConditionalForwarderResult.cpp.o
+
+source/model/CreateConditionalForwarderResult.i: source/model/CreateConditionalForwarderResult.cpp.i
+
+.PHONY : source/model/CreateConditionalForwarderResult.i
+
+# target to preprocess a source file
+source/model/CreateConditionalForwarderResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.i
+.PHONY : source/model/CreateConditionalForwarderResult.cpp.i
+
+source/model/CreateConditionalForwarderResult.s: source/model/CreateConditionalForwarderResult.cpp.s
+
+.PHONY : source/model/CreateConditionalForwarderResult.s
+
+# target to generate assembly for a file
+source/model/CreateConditionalForwarderResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateConditionalForwarderResult.cpp.s
+.PHONY : source/model/CreateConditionalForwarderResult.cpp.s
 
 source/model/CreateDirectoryRequest.o: source/model/CreateDirectoryRequest.cpp.o
 
@@ -709,6 +790,60 @@ source/model/CreateTrustResult.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/CreateTrustResult.cpp.s
 .PHONY : source/model/CreateTrustResult.cpp.s
 
+source/model/DeleteConditionalForwarderRequest.o: source/model/DeleteConditionalForwarderRequest.cpp.o
+
+.PHONY : source/model/DeleteConditionalForwarderRequest.o
+
+# target to build an object file
+source/model/DeleteConditionalForwarderRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.o
+.PHONY : source/model/DeleteConditionalForwarderRequest.cpp.o
+
+source/model/DeleteConditionalForwarderRequest.i: source/model/DeleteConditionalForwarderRequest.cpp.i
+
+.PHONY : source/model/DeleteConditionalForwarderRequest.i
+
+# target to preprocess a source file
+source/model/DeleteConditionalForwarderRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.i
+.PHONY : source/model/DeleteConditionalForwarderRequest.cpp.i
+
+source/model/DeleteConditionalForwarderRequest.s: source/model/DeleteConditionalForwarderRequest.cpp.s
+
+.PHONY : source/model/DeleteConditionalForwarderRequest.s
+
+# target to generate assembly for a file
+source/model/DeleteConditionalForwarderRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderRequest.cpp.s
+.PHONY : source/model/DeleteConditionalForwarderRequest.cpp.s
+
+source/model/DeleteConditionalForwarderResult.o: source/model/DeleteConditionalForwarderResult.cpp.o
+
+.PHONY : source/model/DeleteConditionalForwarderResult.o
+
+# target to build an object file
+source/model/DeleteConditionalForwarderResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.o
+.PHONY : source/model/DeleteConditionalForwarderResult.cpp.o
+
+source/model/DeleteConditionalForwarderResult.i: source/model/DeleteConditionalForwarderResult.cpp.i
+
+.PHONY : source/model/DeleteConditionalForwarderResult.i
+
+# target to preprocess a source file
+source/model/DeleteConditionalForwarderResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.i
+.PHONY : source/model/DeleteConditionalForwarderResult.cpp.i
+
+source/model/DeleteConditionalForwarderResult.s: source/model/DeleteConditionalForwarderResult.cpp.s
+
+.PHONY : source/model/DeleteConditionalForwarderResult.s
+
+# target to generate assembly for a file
+source/model/DeleteConditionalForwarderResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeleteConditionalForwarderResult.cpp.s
+.PHONY : source/model/DeleteConditionalForwarderResult.cpp.s
+
 source/model/DeleteDirectoryRequest.o: source/model/DeleteDirectoryRequest.cpp.o
 
 .PHONY : source/model/DeleteDirectoryRequest.o
@@ -924,6 +1059,60 @@ source/model/DeregisterEventTopicResult.s: source/model/DeregisterEventTopicResu
 source/model/DeregisterEventTopicResult.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DeregisterEventTopicResult.cpp.s
 .PHONY : source/model/DeregisterEventTopicResult.cpp.s
+
+source/model/DescribeConditionalForwardersRequest.o: source/model/DescribeConditionalForwardersRequest.cpp.o
+
+.PHONY : source/model/DescribeConditionalForwardersRequest.o
+
+# target to build an object file
+source/model/DescribeConditionalForwardersRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.o
+.PHONY : source/model/DescribeConditionalForwardersRequest.cpp.o
+
+source/model/DescribeConditionalForwardersRequest.i: source/model/DescribeConditionalForwardersRequest.cpp.i
+
+.PHONY : source/model/DescribeConditionalForwardersRequest.i
+
+# target to preprocess a source file
+source/model/DescribeConditionalForwardersRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.i
+.PHONY : source/model/DescribeConditionalForwardersRequest.cpp.i
+
+source/model/DescribeConditionalForwardersRequest.s: source/model/DescribeConditionalForwardersRequest.cpp.s
+
+.PHONY : source/model/DescribeConditionalForwardersRequest.s
+
+# target to generate assembly for a file
+source/model/DescribeConditionalForwardersRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersRequest.cpp.s
+.PHONY : source/model/DescribeConditionalForwardersRequest.cpp.s
+
+source/model/DescribeConditionalForwardersResult.o: source/model/DescribeConditionalForwardersResult.cpp.o
+
+.PHONY : source/model/DescribeConditionalForwardersResult.o
+
+# target to build an object file
+source/model/DescribeConditionalForwardersResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.o
+.PHONY : source/model/DescribeConditionalForwardersResult.cpp.o
+
+source/model/DescribeConditionalForwardersResult.i: source/model/DescribeConditionalForwardersResult.cpp.i
+
+.PHONY : source/model/DescribeConditionalForwardersResult.i
+
+# target to preprocess a source file
+source/model/DescribeConditionalForwardersResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.i
+.PHONY : source/model/DescribeConditionalForwardersResult.cpp.i
+
+source/model/DescribeConditionalForwardersResult.s: source/model/DescribeConditionalForwardersResult.cpp.s
+
+.PHONY : source/model/DescribeConditionalForwardersResult.s
+
+# target to generate assembly for a file
+source/model/DescribeConditionalForwardersResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/DescribeConditionalForwardersResult.cpp.s
+.PHONY : source/model/DescribeConditionalForwardersResult.cpp.s
 
 source/model/DescribeDirectoriesRequest.o: source/model/DescribeDirectoriesRequest.cpp.o
 
@@ -1870,6 +2059,33 @@ source/model/RegisterEventTopicResult.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/RegisterEventTopicResult.cpp.s
 .PHONY : source/model/RegisterEventTopicResult.cpp.s
 
+source/model/ReplicationScope.o: source/model/ReplicationScope.cpp.o
+
+.PHONY : source/model/ReplicationScope.o
+
+# target to build an object file
+source/model/ReplicationScope.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.o
+.PHONY : source/model/ReplicationScope.cpp.o
+
+source/model/ReplicationScope.i: source/model/ReplicationScope.cpp.i
+
+.PHONY : source/model/ReplicationScope.i
+
+# target to preprocess a source file
+source/model/ReplicationScope.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.i
+.PHONY : source/model/ReplicationScope.cpp.i
+
+source/model/ReplicationScope.s: source/model/ReplicationScope.cpp.s
+
+.PHONY : source/model/ReplicationScope.s
+
+# target to generate assembly for a file
+source/model/ReplicationScope.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/ReplicationScope.cpp.s
+.PHONY : source/model/ReplicationScope.cpp.s
+
 source/model/RestoreFromSnapshotRequest.o: source/model/RestoreFromSnapshotRequest.cpp.o
 
 .PHONY : source/model/RestoreFromSnapshotRequest.o
@@ -2167,6 +2383,60 @@ source/model/TrustType.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/TrustType.cpp.s
 .PHONY : source/model/TrustType.cpp.s
 
+source/model/UpdateConditionalForwarderRequest.o: source/model/UpdateConditionalForwarderRequest.cpp.o
+
+.PHONY : source/model/UpdateConditionalForwarderRequest.o
+
+# target to build an object file
+source/model/UpdateConditionalForwarderRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.o
+.PHONY : source/model/UpdateConditionalForwarderRequest.cpp.o
+
+source/model/UpdateConditionalForwarderRequest.i: source/model/UpdateConditionalForwarderRequest.cpp.i
+
+.PHONY : source/model/UpdateConditionalForwarderRequest.i
+
+# target to preprocess a source file
+source/model/UpdateConditionalForwarderRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.i
+.PHONY : source/model/UpdateConditionalForwarderRequest.cpp.i
+
+source/model/UpdateConditionalForwarderRequest.s: source/model/UpdateConditionalForwarderRequest.cpp.s
+
+.PHONY : source/model/UpdateConditionalForwarderRequest.s
+
+# target to generate assembly for a file
+source/model/UpdateConditionalForwarderRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderRequest.cpp.s
+.PHONY : source/model/UpdateConditionalForwarderRequest.cpp.s
+
+source/model/UpdateConditionalForwarderResult.o: source/model/UpdateConditionalForwarderResult.cpp.o
+
+.PHONY : source/model/UpdateConditionalForwarderResult.o
+
+# target to build an object file
+source/model/UpdateConditionalForwarderResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.o
+.PHONY : source/model/UpdateConditionalForwarderResult.cpp.o
+
+source/model/UpdateConditionalForwarderResult.i: source/model/UpdateConditionalForwarderResult.cpp.i
+
+.PHONY : source/model/UpdateConditionalForwarderResult.i
+
+# target to preprocess a source file
+source/model/UpdateConditionalForwarderResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.i
+.PHONY : source/model/UpdateConditionalForwarderResult.cpp.i
+
+source/model/UpdateConditionalForwarderResult.s: source/model/UpdateConditionalForwarderResult.cpp.s
+
+.PHONY : source/model/UpdateConditionalForwarderResult.s
+
+# target to generate assembly for a file
+source/model/UpdateConditionalForwarderResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/build.make aws-cpp-sdk-ds/CMakeFiles/aws-cpp-sdk-ds.dir/source/model/UpdateConditionalForwarderResult.cpp.s
+.PHONY : source/model/UpdateConditionalForwarderResult.cpp.s
+
 source/model/UpdateRadiusRequest.o: source/model/UpdateRadiusRequest.cpp.o
 
 .PHONY : source/model/UpdateRadiusRequest.o
@@ -2306,6 +2576,9 @@ help:
 	@echo "... source/model/Computer.o"
 	@echo "... source/model/Computer.i"
 	@echo "... source/model/Computer.s"
+	@echo "... source/model/ConditionalForwarder.o"
+	@echo "... source/model/ConditionalForwarder.i"
+	@echo "... source/model/ConditionalForwarder.s"
 	@echo "... source/model/ConnectDirectoryRequest.o"
 	@echo "... source/model/ConnectDirectoryRequest.i"
 	@echo "... source/model/ConnectDirectoryRequest.s"
@@ -2324,6 +2597,12 @@ help:
 	@echo "... source/model/CreateComputerResult.o"
 	@echo "... source/model/CreateComputerResult.i"
 	@echo "... source/model/CreateComputerResult.s"
+	@echo "... source/model/CreateConditionalForwarderRequest.o"
+	@echo "... source/model/CreateConditionalForwarderRequest.i"
+	@echo "... source/model/CreateConditionalForwarderRequest.s"
+	@echo "... source/model/CreateConditionalForwarderResult.o"
+	@echo "... source/model/CreateConditionalForwarderResult.i"
+	@echo "... source/model/CreateConditionalForwarderResult.s"
 	@echo "... source/model/CreateDirectoryRequest.o"
 	@echo "... source/model/CreateDirectoryRequest.i"
 	@echo "... source/model/CreateDirectoryRequest.s"
@@ -2348,6 +2627,12 @@ help:
 	@echo "... source/model/CreateTrustResult.o"
 	@echo "... source/model/CreateTrustResult.i"
 	@echo "... source/model/CreateTrustResult.s"
+	@echo "... source/model/DeleteConditionalForwarderRequest.o"
+	@echo "... source/model/DeleteConditionalForwarderRequest.i"
+	@echo "... source/model/DeleteConditionalForwarderRequest.s"
+	@echo "... source/model/DeleteConditionalForwarderResult.o"
+	@echo "... source/model/DeleteConditionalForwarderResult.i"
+	@echo "... source/model/DeleteConditionalForwarderResult.s"
 	@echo "... source/model/DeleteDirectoryRequest.o"
 	@echo "... source/model/DeleteDirectoryRequest.i"
 	@echo "... source/model/DeleteDirectoryRequest.s"
@@ -2372,6 +2657,12 @@ help:
 	@echo "... source/model/DeregisterEventTopicResult.o"
 	@echo "... source/model/DeregisterEventTopicResult.i"
 	@echo "... source/model/DeregisterEventTopicResult.s"
+	@echo "... source/model/DescribeConditionalForwardersRequest.o"
+	@echo "... source/model/DescribeConditionalForwardersRequest.i"
+	@echo "... source/model/DescribeConditionalForwardersRequest.s"
+	@echo "... source/model/DescribeConditionalForwardersResult.o"
+	@echo "... source/model/DescribeConditionalForwardersResult.i"
+	@echo "... source/model/DescribeConditionalForwardersResult.s"
 	@echo "... source/model/DescribeDirectoriesRequest.o"
 	@echo "... source/model/DescribeDirectoriesRequest.i"
 	@echo "... source/model/DescribeDirectoriesRequest.s"
@@ -2477,6 +2768,9 @@ help:
 	@echo "... source/model/RegisterEventTopicResult.o"
 	@echo "... source/model/RegisterEventTopicResult.i"
 	@echo "... source/model/RegisterEventTopicResult.s"
+	@echo "... source/model/ReplicationScope.o"
+	@echo "... source/model/ReplicationScope.i"
+	@echo "... source/model/ReplicationScope.s"
 	@echo "... source/model/RestoreFromSnapshotRequest.o"
 	@echo "... source/model/RestoreFromSnapshotRequest.i"
 	@echo "... source/model/RestoreFromSnapshotRequest.s"
@@ -2510,6 +2804,12 @@ help:
 	@echo "... source/model/TrustType.o"
 	@echo "... source/model/TrustType.i"
 	@echo "... source/model/TrustType.s"
+	@echo "... source/model/UpdateConditionalForwarderRequest.o"
+	@echo "... source/model/UpdateConditionalForwarderRequest.i"
+	@echo "... source/model/UpdateConditionalForwarderRequest.s"
+	@echo "... source/model/UpdateConditionalForwarderResult.o"
+	@echo "... source/model/UpdateConditionalForwarderResult.i"
+	@echo "... source/model/UpdateConditionalForwarderResult.s"
 	@echo "... source/model/UpdateRadiusRequest.o"
 	@echo "... source/model/UpdateRadiusRequest.i"
 	@echo "... source/model/UpdateRadiusRequest.s"

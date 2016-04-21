@@ -277,6 +277,33 @@ source/Route53Errors.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/Route53Errors.cpp.s
 .PHONY : source/Route53Errors.cpp.s
 
+source/model/AlarmIdentifier.o: source/model/AlarmIdentifier.cpp.o
+
+.PHONY : source/model/AlarmIdentifier.o
+
+# target to build an object file
+source/model/AlarmIdentifier.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o
+.PHONY : source/model/AlarmIdentifier.cpp.o
+
+source/model/AlarmIdentifier.i: source/model/AlarmIdentifier.cpp.i
+
+.PHONY : source/model/AlarmIdentifier.i
+
+# target to preprocess a source file
+source/model/AlarmIdentifier.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.i
+.PHONY : source/model/AlarmIdentifier.cpp.i
+
+source/model/AlarmIdentifier.s: source/model/AlarmIdentifier.cpp.s
+
+.PHONY : source/model/AlarmIdentifier.s
+
+# target to generate assembly for a file
+source/model/AlarmIdentifier.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.s
+.PHONY : source/model/AlarmIdentifier.cpp.s
+
 source/model/AliasTarget.o: source/model/AliasTarget.cpp.o
 
 .PHONY : source/model/AliasTarget.o
@@ -627,6 +654,87 @@ source/model/ChangeTagsForResourceResult.s: source/model/ChangeTagsForResourceRe
 source/model/ChangeTagsForResourceResult.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsForResourceResult.cpp.s
 .PHONY : source/model/ChangeTagsForResourceResult.cpp.s
+
+source/model/CloudWatchAlarmConfiguration.o: source/model/CloudWatchAlarmConfiguration.cpp.o
+
+.PHONY : source/model/CloudWatchAlarmConfiguration.o
+
+# target to build an object file
+source/model/CloudWatchAlarmConfiguration.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o
+.PHONY : source/model/CloudWatchAlarmConfiguration.cpp.o
+
+source/model/CloudWatchAlarmConfiguration.i: source/model/CloudWatchAlarmConfiguration.cpp.i
+
+.PHONY : source/model/CloudWatchAlarmConfiguration.i
+
+# target to preprocess a source file
+source/model/CloudWatchAlarmConfiguration.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.i
+.PHONY : source/model/CloudWatchAlarmConfiguration.cpp.i
+
+source/model/CloudWatchAlarmConfiguration.s: source/model/CloudWatchAlarmConfiguration.cpp.s
+
+.PHONY : source/model/CloudWatchAlarmConfiguration.s
+
+# target to generate assembly for a file
+source/model/CloudWatchAlarmConfiguration.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.s
+.PHONY : source/model/CloudWatchAlarmConfiguration.cpp.s
+
+source/model/CloudWatchRegion.o: source/model/CloudWatchRegion.cpp.o
+
+.PHONY : source/model/CloudWatchRegion.o
+
+# target to build an object file
+source/model/CloudWatchRegion.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o
+.PHONY : source/model/CloudWatchRegion.cpp.o
+
+source/model/CloudWatchRegion.i: source/model/CloudWatchRegion.cpp.i
+
+.PHONY : source/model/CloudWatchRegion.i
+
+# target to preprocess a source file
+source/model/CloudWatchRegion.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.i
+.PHONY : source/model/CloudWatchRegion.cpp.i
+
+source/model/CloudWatchRegion.s: source/model/CloudWatchRegion.cpp.s
+
+.PHONY : source/model/CloudWatchRegion.s
+
+# target to generate assembly for a file
+source/model/CloudWatchRegion.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.s
+.PHONY : source/model/CloudWatchRegion.cpp.s
+
+source/model/ComparisonOperator.o: source/model/ComparisonOperator.cpp.o
+
+.PHONY : source/model/ComparisonOperator.o
+
+# target to build an object file
+source/model/ComparisonOperator.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o
+.PHONY : source/model/ComparisonOperator.cpp.o
+
+source/model/ComparisonOperator.i: source/model/ComparisonOperator.cpp.i
+
+.PHONY : source/model/ComparisonOperator.i
+
+# target to preprocess a source file
+source/model/ComparisonOperator.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.i
+.PHONY : source/model/ComparisonOperator.cpp.i
+
+source/model/ComparisonOperator.s: source/model/ComparisonOperator.cpp.s
+
+.PHONY : source/model/ComparisonOperator.s
+
+# target to generate assembly for a file
+source/model/ComparisonOperator.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.s
+.PHONY : source/model/ComparisonOperator.cpp.s
 
 source/model/CreateHealthCheckRequest.o: source/model/CreateHealthCheckRequest.cpp.o
 
@@ -1248,6 +1356,33 @@ source/model/DeleteTrafficPolicyResult.s: source/model/DeleteTrafficPolicyResult
 source/model/DeleteTrafficPolicyResult.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyResult.cpp.s
 .PHONY : source/model/DeleteTrafficPolicyResult.cpp.s
+
+source/model/Dimension.o: source/model/Dimension.cpp.o
+
+.PHONY : source/model/Dimension.o
+
+# target to build an object file
+source/model/Dimension.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o
+.PHONY : source/model/Dimension.cpp.o
+
+source/model/Dimension.i: source/model/Dimension.cpp.i
+
+.PHONY : source/model/Dimension.i
+
+# target to preprocess a source file
+source/model/Dimension.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.i
+.PHONY : source/model/Dimension.cpp.i
+
+source/model/Dimension.s: source/model/Dimension.cpp.s
+
+.PHONY : source/model/Dimension.s
+
+# target to generate assembly for a file
+source/model/Dimension.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.s
+.PHONY : source/model/Dimension.cpp.s
 
 source/model/DisassociateVPCFromHostedZoneRequest.o: source/model/DisassociateVPCFromHostedZoneRequest.cpp.o
 
@@ -2140,6 +2275,33 @@ source/model/HealthCheckObservation.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckObservation.cpp.s
 .PHONY : source/model/HealthCheckObservation.cpp.s
 
+source/model/HealthCheckRegion.o: source/model/HealthCheckRegion.cpp.o
+
+.PHONY : source/model/HealthCheckRegion.o
+
+# target to build an object file
+source/model/HealthCheckRegion.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o
+.PHONY : source/model/HealthCheckRegion.cpp.o
+
+source/model/HealthCheckRegion.i: source/model/HealthCheckRegion.cpp.i
+
+.PHONY : source/model/HealthCheckRegion.i
+
+# target to preprocess a source file
+source/model/HealthCheckRegion.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.i
+.PHONY : source/model/HealthCheckRegion.cpp.i
+
+source/model/HealthCheckRegion.s: source/model/HealthCheckRegion.cpp.s
+
+.PHONY : source/model/HealthCheckRegion.s
+
+# target to generate assembly for a file
+source/model/HealthCheckRegion.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.s
+.PHONY : source/model/HealthCheckRegion.cpp.s
+
 source/model/HealthCheckType.o: source/model/HealthCheckType.cpp.o
 
 .PHONY : source/model/HealthCheckType.o
@@ -2220,6 +2382,33 @@ source/model/HostedZoneConfig.s: source/model/HostedZoneConfig.cpp.s
 source/model/HostedZoneConfig.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZoneConfig.cpp.s
 .PHONY : source/model/HostedZoneConfig.cpp.s
+
+source/model/InsufficientDataHealthStatus.o: source/model/InsufficientDataHealthStatus.cpp.o
+
+.PHONY : source/model/InsufficientDataHealthStatus.o
+
+# target to build an object file
+source/model/InsufficientDataHealthStatus.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o
+.PHONY : source/model/InsufficientDataHealthStatus.cpp.o
+
+source/model/InsufficientDataHealthStatus.i: source/model/InsufficientDataHealthStatus.cpp.i
+
+.PHONY : source/model/InsufficientDataHealthStatus.i
+
+# target to preprocess a source file
+source/model/InsufficientDataHealthStatus.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.i
+.PHONY : source/model/InsufficientDataHealthStatus.cpp.i
+
+source/model/InsufficientDataHealthStatus.s: source/model/InsufficientDataHealthStatus.cpp.s
+
+.PHONY : source/model/InsufficientDataHealthStatus.s
+
+# target to generate assembly for a file
+source/model/InsufficientDataHealthStatus.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.s
+.PHONY : source/model/InsufficientDataHealthStatus.cpp.s
 
 source/model/ListGeoLocationsRequest.o: source/model/ListGeoLocationsRequest.cpp.o
 
@@ -3085,6 +3274,33 @@ source/model/ResourceTagSet.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceTagSet.cpp.s
 .PHONY : source/model/ResourceTagSet.cpp.s
 
+source/model/Statistic.o: source/model/Statistic.cpp.o
+
+.PHONY : source/model/Statistic.o
+
+# target to build an object file
+source/model/Statistic.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o
+.PHONY : source/model/Statistic.cpp.o
+
+source/model/Statistic.i: source/model/Statistic.cpp.i
+
+.PHONY : source/model/Statistic.i
+
+# target to preprocess a source file
+source/model/Statistic.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.i
+.PHONY : source/model/Statistic.cpp.i
+
+source/model/Statistic.s: source/model/Statistic.cpp.s
+
+.PHONY : source/model/Statistic.s
+
+# target to generate assembly for a file
+source/model/Statistic.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.s
+.PHONY : source/model/Statistic.cpp.s
+
 source/model/StatusReport.o: source/model/StatusReport.cpp.o
 
 .PHONY : source/model/StatusReport.o
@@ -3542,6 +3758,9 @@ help:
 	@echo "... source/Route53Errors.o"
 	@echo "... source/Route53Errors.i"
 	@echo "... source/Route53Errors.s"
+	@echo "... source/model/AlarmIdentifier.o"
+	@echo "... source/model/AlarmIdentifier.i"
+	@echo "... source/model/AlarmIdentifier.s"
 	@echo "... source/model/AliasTarget.o"
 	@echo "... source/model/AliasTarget.i"
 	@echo "... source/model/AliasTarget.s"
@@ -3581,6 +3800,15 @@ help:
 	@echo "... source/model/ChangeTagsForResourceResult.o"
 	@echo "... source/model/ChangeTagsForResourceResult.i"
 	@echo "... source/model/ChangeTagsForResourceResult.s"
+	@echo "... source/model/CloudWatchAlarmConfiguration.o"
+	@echo "... source/model/CloudWatchAlarmConfiguration.i"
+	@echo "... source/model/CloudWatchAlarmConfiguration.s"
+	@echo "... source/model/CloudWatchRegion.o"
+	@echo "... source/model/CloudWatchRegion.i"
+	@echo "... source/model/CloudWatchRegion.s"
+	@echo "... source/model/ComparisonOperator.o"
+	@echo "... source/model/ComparisonOperator.i"
+	@echo "... source/model/ComparisonOperator.s"
 	@echo "... source/model/CreateHealthCheckRequest.o"
 	@echo "... source/model/CreateHealthCheckRequest.i"
 	@echo "... source/model/CreateHealthCheckRequest.s"
@@ -3650,6 +3878,9 @@ help:
 	@echo "... source/model/DeleteTrafficPolicyResult.o"
 	@echo "... source/model/DeleteTrafficPolicyResult.i"
 	@echo "... source/model/DeleteTrafficPolicyResult.s"
+	@echo "... source/model/Dimension.o"
+	@echo "... source/model/Dimension.i"
+	@echo "... source/model/Dimension.s"
 	@echo "... source/model/DisassociateVPCFromHostedZoneRequest.o"
 	@echo "... source/model/DisassociateVPCFromHostedZoneRequest.i"
 	@echo "... source/model/DisassociateVPCFromHostedZoneRequest.s"
@@ -3749,6 +3980,9 @@ help:
 	@echo "... source/model/HealthCheckObservation.o"
 	@echo "... source/model/HealthCheckObservation.i"
 	@echo "... source/model/HealthCheckObservation.s"
+	@echo "... source/model/HealthCheckRegion.o"
+	@echo "... source/model/HealthCheckRegion.i"
+	@echo "... source/model/HealthCheckRegion.s"
 	@echo "... source/model/HealthCheckType.o"
 	@echo "... source/model/HealthCheckType.i"
 	@echo "... source/model/HealthCheckType.s"
@@ -3758,6 +3992,9 @@ help:
 	@echo "... source/model/HostedZoneConfig.o"
 	@echo "... source/model/HostedZoneConfig.i"
 	@echo "... source/model/HostedZoneConfig.s"
+	@echo "... source/model/InsufficientDataHealthStatus.o"
+	@echo "... source/model/InsufficientDataHealthStatus.i"
+	@echo "... source/model/InsufficientDataHealthStatus.s"
 	@echo "... source/model/ListGeoLocationsRequest.o"
 	@echo "... source/model/ListGeoLocationsRequest.i"
 	@echo "... source/model/ListGeoLocationsRequest.s"
@@ -3854,6 +4091,9 @@ help:
 	@echo "... source/model/ResourceTagSet.o"
 	@echo "... source/model/ResourceTagSet.i"
 	@echo "... source/model/ResourceTagSet.s"
+	@echo "... source/model/Statistic.o"
+	@echo "... source/model/Statistic.i"
+	@echo "... source/model/Statistic.s"
 	@echo "... source/model/StatusReport.o"
 	@echo "... source/model/StatusReport.i"
 	@echo "... source/model/StatusReport.s"

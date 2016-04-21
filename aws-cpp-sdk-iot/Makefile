@@ -439,6 +439,87 @@ source/model/AttributePayload.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttributePayload.cpp.s
 .PHONY : source/model/AttributePayload.cpp.s
 
+source/model/CACertificate.o: source/model/CACertificate.cpp.o
+
+.PHONY : source/model/CACertificate.o
+
+# target to build an object file
+source/model/CACertificate.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.o
+.PHONY : source/model/CACertificate.cpp.o
+
+source/model/CACertificate.i: source/model/CACertificate.cpp.i
+
+.PHONY : source/model/CACertificate.i
+
+# target to preprocess a source file
+source/model/CACertificate.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.i
+.PHONY : source/model/CACertificate.cpp.i
+
+source/model/CACertificate.s: source/model/CACertificate.cpp.s
+
+.PHONY : source/model/CACertificate.s
+
+# target to generate assembly for a file
+source/model/CACertificate.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.s
+.PHONY : source/model/CACertificate.cpp.s
+
+source/model/CACertificateDescription.o: source/model/CACertificateDescription.cpp.o
+
+.PHONY : source/model/CACertificateDescription.o
+
+# target to build an object file
+source/model/CACertificateDescription.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.o
+.PHONY : source/model/CACertificateDescription.cpp.o
+
+source/model/CACertificateDescription.i: source/model/CACertificateDescription.cpp.i
+
+.PHONY : source/model/CACertificateDescription.i
+
+# target to preprocess a source file
+source/model/CACertificateDescription.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.i
+.PHONY : source/model/CACertificateDescription.cpp.i
+
+source/model/CACertificateDescription.s: source/model/CACertificateDescription.cpp.s
+
+.PHONY : source/model/CACertificateDescription.s
+
+# target to generate assembly for a file
+source/model/CACertificateDescription.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.s
+.PHONY : source/model/CACertificateDescription.cpp.s
+
+source/model/CACertificateStatus.o: source/model/CACertificateStatus.cpp.o
+
+.PHONY : source/model/CACertificateStatus.o
+
+# target to build an object file
+source/model/CACertificateStatus.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.o
+.PHONY : source/model/CACertificateStatus.cpp.o
+
+source/model/CACertificateStatus.i: source/model/CACertificateStatus.cpp.i
+
+.PHONY : source/model/CACertificateStatus.i
+
+# target to preprocess a source file
+source/model/CACertificateStatus.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.i
+.PHONY : source/model/CACertificateStatus.cpp.i
+
+source/model/CACertificateStatus.s: source/model/CACertificateStatus.cpp.s
+
+.PHONY : source/model/CACertificateStatus.s
+
+# target to generate assembly for a file
+source/model/CACertificateStatus.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.s
+.PHONY : source/model/CACertificateStatus.cpp.s
+
 source/model/CancelCertificateTransferRequest.o: source/model/CancelCertificateTransferRequest.cpp.o
 
 .PHONY : source/model/CancelCertificateTransferRequest.o
@@ -898,6 +979,60 @@ source/model/CreateTopicRuleRequest.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateTopicRuleRequest.cpp.s
 .PHONY : source/model/CreateTopicRuleRequest.cpp.s
 
+source/model/DeleteCACertificateRequest.o: source/model/DeleteCACertificateRequest.cpp.o
+
+.PHONY : source/model/DeleteCACertificateRequest.o
+
+# target to build an object file
+source/model/DeleteCACertificateRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.o
+.PHONY : source/model/DeleteCACertificateRequest.cpp.o
+
+source/model/DeleteCACertificateRequest.i: source/model/DeleteCACertificateRequest.cpp.i
+
+.PHONY : source/model/DeleteCACertificateRequest.i
+
+# target to preprocess a source file
+source/model/DeleteCACertificateRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.i
+.PHONY : source/model/DeleteCACertificateRequest.cpp.i
+
+source/model/DeleteCACertificateRequest.s: source/model/DeleteCACertificateRequest.cpp.s
+
+.PHONY : source/model/DeleteCACertificateRequest.s
+
+# target to generate assembly for a file
+source/model/DeleteCACertificateRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.s
+.PHONY : source/model/DeleteCACertificateRequest.cpp.s
+
+source/model/DeleteCACertificateResult.o: source/model/DeleteCACertificateResult.cpp.o
+
+.PHONY : source/model/DeleteCACertificateResult.o
+
+# target to build an object file
+source/model/DeleteCACertificateResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.o
+.PHONY : source/model/DeleteCACertificateResult.cpp.o
+
+source/model/DeleteCACertificateResult.i: source/model/DeleteCACertificateResult.cpp.i
+
+.PHONY : source/model/DeleteCACertificateResult.i
+
+# target to preprocess a source file
+source/model/DeleteCACertificateResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.i
+.PHONY : source/model/DeleteCACertificateResult.cpp.i
+
+source/model/DeleteCACertificateResult.s: source/model/DeleteCACertificateResult.cpp.s
+
+.PHONY : source/model/DeleteCACertificateResult.s
+
+# target to generate assembly for a file
+source/model/DeleteCACertificateResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.s
+.PHONY : source/model/DeleteCACertificateResult.cpp.s
+
 source/model/DeleteCertificateRequest.o: source/model/DeleteCertificateRequest.cpp.o
 
 .PHONY : source/model/DeleteCertificateRequest.o
@@ -979,6 +1114,60 @@ source/model/DeletePolicyVersionRequest.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyVersionRequest.cpp.s
 .PHONY : source/model/DeletePolicyVersionRequest.cpp.s
 
+source/model/DeleteRegistrationCodeRequest.o: source/model/DeleteRegistrationCodeRequest.cpp.o
+
+.PHONY : source/model/DeleteRegistrationCodeRequest.o
+
+# target to build an object file
+source/model/DeleteRegistrationCodeRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.o
+.PHONY : source/model/DeleteRegistrationCodeRequest.cpp.o
+
+source/model/DeleteRegistrationCodeRequest.i: source/model/DeleteRegistrationCodeRequest.cpp.i
+
+.PHONY : source/model/DeleteRegistrationCodeRequest.i
+
+# target to preprocess a source file
+source/model/DeleteRegistrationCodeRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.i
+.PHONY : source/model/DeleteRegistrationCodeRequest.cpp.i
+
+source/model/DeleteRegistrationCodeRequest.s: source/model/DeleteRegistrationCodeRequest.cpp.s
+
+.PHONY : source/model/DeleteRegistrationCodeRequest.s
+
+# target to generate assembly for a file
+source/model/DeleteRegistrationCodeRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.s
+.PHONY : source/model/DeleteRegistrationCodeRequest.cpp.s
+
+source/model/DeleteRegistrationCodeResult.o: source/model/DeleteRegistrationCodeResult.cpp.o
+
+.PHONY : source/model/DeleteRegistrationCodeResult.o
+
+# target to build an object file
+source/model/DeleteRegistrationCodeResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.o
+.PHONY : source/model/DeleteRegistrationCodeResult.cpp.o
+
+source/model/DeleteRegistrationCodeResult.i: source/model/DeleteRegistrationCodeResult.cpp.i
+
+.PHONY : source/model/DeleteRegistrationCodeResult.i
+
+# target to preprocess a source file
+source/model/DeleteRegistrationCodeResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.i
+.PHONY : source/model/DeleteRegistrationCodeResult.cpp.i
+
+source/model/DeleteRegistrationCodeResult.s: source/model/DeleteRegistrationCodeResult.cpp.s
+
+.PHONY : source/model/DeleteRegistrationCodeResult.s
+
+# target to generate assembly for a file
+source/model/DeleteRegistrationCodeResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.s
+.PHONY : source/model/DeleteRegistrationCodeResult.cpp.s
+
 source/model/DeleteThingRequest.o: source/model/DeleteThingRequest.cpp.o
 
 .PHONY : source/model/DeleteThingRequest.o
@@ -1059,6 +1248,60 @@ source/model/DeleteTopicRuleRequest.s: source/model/DeleteTopicRuleRequest.cpp.s
 source/model/DeleteTopicRuleRequest.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteTopicRuleRequest.cpp.s
 .PHONY : source/model/DeleteTopicRuleRequest.cpp.s
+
+source/model/DescribeCACertificateRequest.o: source/model/DescribeCACertificateRequest.cpp.o
+
+.PHONY : source/model/DescribeCACertificateRequest.o
+
+# target to build an object file
+source/model/DescribeCACertificateRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.o
+.PHONY : source/model/DescribeCACertificateRequest.cpp.o
+
+source/model/DescribeCACertificateRequest.i: source/model/DescribeCACertificateRequest.cpp.i
+
+.PHONY : source/model/DescribeCACertificateRequest.i
+
+# target to preprocess a source file
+source/model/DescribeCACertificateRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.i
+.PHONY : source/model/DescribeCACertificateRequest.cpp.i
+
+source/model/DescribeCACertificateRequest.s: source/model/DescribeCACertificateRequest.cpp.s
+
+.PHONY : source/model/DescribeCACertificateRequest.s
+
+# target to generate assembly for a file
+source/model/DescribeCACertificateRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.s
+.PHONY : source/model/DescribeCACertificateRequest.cpp.s
+
+source/model/DescribeCACertificateResult.o: source/model/DescribeCACertificateResult.cpp.o
+
+.PHONY : source/model/DescribeCACertificateResult.o
+
+# target to build an object file
+source/model/DescribeCACertificateResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.o
+.PHONY : source/model/DescribeCACertificateResult.cpp.o
+
+source/model/DescribeCACertificateResult.i: source/model/DescribeCACertificateResult.cpp.i
+
+.PHONY : source/model/DescribeCACertificateResult.i
+
+# target to preprocess a source file
+source/model/DescribeCACertificateResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.i
+.PHONY : source/model/DescribeCACertificateResult.cpp.i
+
+source/model/DescribeCACertificateResult.s: source/model/DescribeCACertificateResult.cpp.s
+
+.PHONY : source/model/DescribeCACertificateResult.s
+
+# target to generate assembly for a file
+source/model/DescribeCACertificateResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.s
+.PHONY : source/model/DescribeCACertificateResult.cpp.s
 
 source/model/DescribeCertificateRequest.o: source/model/DescribeCertificateRequest.cpp.o
 
@@ -1600,6 +1843,60 @@ source/model/GetPolicyVersionResult.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionResult.cpp.s
 .PHONY : source/model/GetPolicyVersionResult.cpp.s
 
+source/model/GetRegistrationCodeRequest.o: source/model/GetRegistrationCodeRequest.cpp.o
+
+.PHONY : source/model/GetRegistrationCodeRequest.o
+
+# target to build an object file
+source/model/GetRegistrationCodeRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.o
+.PHONY : source/model/GetRegistrationCodeRequest.cpp.o
+
+source/model/GetRegistrationCodeRequest.i: source/model/GetRegistrationCodeRequest.cpp.i
+
+.PHONY : source/model/GetRegistrationCodeRequest.i
+
+# target to preprocess a source file
+source/model/GetRegistrationCodeRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.i
+.PHONY : source/model/GetRegistrationCodeRequest.cpp.i
+
+source/model/GetRegistrationCodeRequest.s: source/model/GetRegistrationCodeRequest.cpp.s
+
+.PHONY : source/model/GetRegistrationCodeRequest.s
+
+# target to generate assembly for a file
+source/model/GetRegistrationCodeRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.s
+.PHONY : source/model/GetRegistrationCodeRequest.cpp.s
+
+source/model/GetRegistrationCodeResult.o: source/model/GetRegistrationCodeResult.cpp.o
+
+.PHONY : source/model/GetRegistrationCodeResult.o
+
+# target to build an object file
+source/model/GetRegistrationCodeResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.o
+.PHONY : source/model/GetRegistrationCodeResult.cpp.o
+
+source/model/GetRegistrationCodeResult.i: source/model/GetRegistrationCodeResult.cpp.i
+
+.PHONY : source/model/GetRegistrationCodeResult.i
+
+# target to preprocess a source file
+source/model/GetRegistrationCodeResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.i
+.PHONY : source/model/GetRegistrationCodeResult.cpp.i
+
+source/model/GetRegistrationCodeResult.s: source/model/GetRegistrationCodeResult.cpp.s
+
+.PHONY : source/model/GetRegistrationCodeResult.s
+
+# target to generate assembly for a file
+source/model/GetRegistrationCodeResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.s
+.PHONY : source/model/GetRegistrationCodeResult.cpp.s
+
 source/model/GetTopicRuleRequest.o: source/model/GetTopicRuleRequest.cpp.o
 
 .PHONY : source/model/GetTopicRuleRequest.o
@@ -1734,6 +2031,114 @@ source/model/LambdaAction.s: source/model/LambdaAction.cpp.s
 source/model/LambdaAction.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LambdaAction.cpp.s
 .PHONY : source/model/LambdaAction.cpp.s
+
+source/model/ListCACertificatesRequest.o: source/model/ListCACertificatesRequest.cpp.o
+
+.PHONY : source/model/ListCACertificatesRequest.o
+
+# target to build an object file
+source/model/ListCACertificatesRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.o
+.PHONY : source/model/ListCACertificatesRequest.cpp.o
+
+source/model/ListCACertificatesRequest.i: source/model/ListCACertificatesRequest.cpp.i
+
+.PHONY : source/model/ListCACertificatesRequest.i
+
+# target to preprocess a source file
+source/model/ListCACertificatesRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.i
+.PHONY : source/model/ListCACertificatesRequest.cpp.i
+
+source/model/ListCACertificatesRequest.s: source/model/ListCACertificatesRequest.cpp.s
+
+.PHONY : source/model/ListCACertificatesRequest.s
+
+# target to generate assembly for a file
+source/model/ListCACertificatesRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.s
+.PHONY : source/model/ListCACertificatesRequest.cpp.s
+
+source/model/ListCACertificatesResult.o: source/model/ListCACertificatesResult.cpp.o
+
+.PHONY : source/model/ListCACertificatesResult.o
+
+# target to build an object file
+source/model/ListCACertificatesResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.o
+.PHONY : source/model/ListCACertificatesResult.cpp.o
+
+source/model/ListCACertificatesResult.i: source/model/ListCACertificatesResult.cpp.i
+
+.PHONY : source/model/ListCACertificatesResult.i
+
+# target to preprocess a source file
+source/model/ListCACertificatesResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.i
+.PHONY : source/model/ListCACertificatesResult.cpp.i
+
+source/model/ListCACertificatesResult.s: source/model/ListCACertificatesResult.cpp.s
+
+.PHONY : source/model/ListCACertificatesResult.s
+
+# target to generate assembly for a file
+source/model/ListCACertificatesResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.s
+.PHONY : source/model/ListCACertificatesResult.cpp.s
+
+source/model/ListCertificatesByCARequest.o: source/model/ListCertificatesByCARequest.cpp.o
+
+.PHONY : source/model/ListCertificatesByCARequest.o
+
+# target to build an object file
+source/model/ListCertificatesByCARequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.o
+.PHONY : source/model/ListCertificatesByCARequest.cpp.o
+
+source/model/ListCertificatesByCARequest.i: source/model/ListCertificatesByCARequest.cpp.i
+
+.PHONY : source/model/ListCertificatesByCARequest.i
+
+# target to preprocess a source file
+source/model/ListCertificatesByCARequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.i
+.PHONY : source/model/ListCertificatesByCARequest.cpp.i
+
+source/model/ListCertificatesByCARequest.s: source/model/ListCertificatesByCARequest.cpp.s
+
+.PHONY : source/model/ListCertificatesByCARequest.s
+
+# target to generate assembly for a file
+source/model/ListCertificatesByCARequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.s
+.PHONY : source/model/ListCertificatesByCARequest.cpp.s
+
+source/model/ListCertificatesByCAResult.o: source/model/ListCertificatesByCAResult.cpp.o
+
+.PHONY : source/model/ListCertificatesByCAResult.o
+
+# target to build an object file
+source/model/ListCertificatesByCAResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.o
+.PHONY : source/model/ListCertificatesByCAResult.cpp.o
+
+source/model/ListCertificatesByCAResult.i: source/model/ListCertificatesByCAResult.cpp.i
+
+.PHONY : source/model/ListCertificatesByCAResult.i
+
+# target to preprocess a source file
+source/model/ListCertificatesByCAResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.i
+.PHONY : source/model/ListCertificatesByCAResult.cpp.i
+
+source/model/ListCertificatesByCAResult.s: source/model/ListCertificatesByCAResult.cpp.s
+
+.PHONY : source/model/ListCertificatesByCAResult.s
+
+# target to generate assembly for a file
+source/model/ListCertificatesByCAResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.s
+.PHONY : source/model/ListCertificatesByCAResult.cpp.s
 
 source/model/ListCertificatesRequest.o: source/model/ListCertificatesRequest.cpp.o
 
@@ -2302,6 +2707,114 @@ source/model/PolicyVersion.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/PolicyVersion.cpp.s
 .PHONY : source/model/PolicyVersion.cpp.s
 
+source/model/RegisterCACertificateRequest.o: source/model/RegisterCACertificateRequest.cpp.o
+
+.PHONY : source/model/RegisterCACertificateRequest.o
+
+# target to build an object file
+source/model/RegisterCACertificateRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.o
+.PHONY : source/model/RegisterCACertificateRequest.cpp.o
+
+source/model/RegisterCACertificateRequest.i: source/model/RegisterCACertificateRequest.cpp.i
+
+.PHONY : source/model/RegisterCACertificateRequest.i
+
+# target to preprocess a source file
+source/model/RegisterCACertificateRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.i
+.PHONY : source/model/RegisterCACertificateRequest.cpp.i
+
+source/model/RegisterCACertificateRequest.s: source/model/RegisterCACertificateRequest.cpp.s
+
+.PHONY : source/model/RegisterCACertificateRequest.s
+
+# target to generate assembly for a file
+source/model/RegisterCACertificateRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.s
+.PHONY : source/model/RegisterCACertificateRequest.cpp.s
+
+source/model/RegisterCACertificateResult.o: source/model/RegisterCACertificateResult.cpp.o
+
+.PHONY : source/model/RegisterCACertificateResult.o
+
+# target to build an object file
+source/model/RegisterCACertificateResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.o
+.PHONY : source/model/RegisterCACertificateResult.cpp.o
+
+source/model/RegisterCACertificateResult.i: source/model/RegisterCACertificateResult.cpp.i
+
+.PHONY : source/model/RegisterCACertificateResult.i
+
+# target to preprocess a source file
+source/model/RegisterCACertificateResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.i
+.PHONY : source/model/RegisterCACertificateResult.cpp.i
+
+source/model/RegisterCACertificateResult.s: source/model/RegisterCACertificateResult.cpp.s
+
+.PHONY : source/model/RegisterCACertificateResult.s
+
+# target to generate assembly for a file
+source/model/RegisterCACertificateResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.s
+.PHONY : source/model/RegisterCACertificateResult.cpp.s
+
+source/model/RegisterCertificateRequest.o: source/model/RegisterCertificateRequest.cpp.o
+
+.PHONY : source/model/RegisterCertificateRequest.o
+
+# target to build an object file
+source/model/RegisterCertificateRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.o
+.PHONY : source/model/RegisterCertificateRequest.cpp.o
+
+source/model/RegisterCertificateRequest.i: source/model/RegisterCertificateRequest.cpp.i
+
+.PHONY : source/model/RegisterCertificateRequest.i
+
+# target to preprocess a source file
+source/model/RegisterCertificateRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.i
+.PHONY : source/model/RegisterCertificateRequest.cpp.i
+
+source/model/RegisterCertificateRequest.s: source/model/RegisterCertificateRequest.cpp.s
+
+.PHONY : source/model/RegisterCertificateRequest.s
+
+# target to generate assembly for a file
+source/model/RegisterCertificateRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.s
+.PHONY : source/model/RegisterCertificateRequest.cpp.s
+
+source/model/RegisterCertificateResult.o: source/model/RegisterCertificateResult.cpp.o
+
+.PHONY : source/model/RegisterCertificateResult.o
+
+# target to build an object file
+source/model/RegisterCertificateResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.o
+.PHONY : source/model/RegisterCertificateResult.cpp.o
+
+source/model/RegisterCertificateResult.i: source/model/RegisterCertificateResult.cpp.i
+
+.PHONY : source/model/RegisterCertificateResult.i
+
+# target to preprocess a source file
+source/model/RegisterCertificateResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.i
+.PHONY : source/model/RegisterCertificateResult.cpp.i
+
+source/model/RegisterCertificateResult.s: source/model/RegisterCertificateResult.cpp.s
+
+.PHONY : source/model/RegisterCertificateResult.s
+
+# target to generate assembly for a file
+source/model/RegisterCertificateResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.s
+.PHONY : source/model/RegisterCertificateResult.cpp.s
+
 source/model/RejectCertificateTransferRequest.o: source/model/RejectCertificateTransferRequest.cpp.o
 
 .PHONY : source/model/RejectCertificateTransferRequest.o
@@ -2680,6 +3193,60 @@ source/model/TransferCertificateResult.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferCertificateResult.cpp.s
 .PHONY : source/model/TransferCertificateResult.cpp.s
 
+source/model/TransferData.o: source/model/TransferData.cpp.o
+
+.PHONY : source/model/TransferData.o
+
+# target to build an object file
+source/model/TransferData.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.o
+.PHONY : source/model/TransferData.cpp.o
+
+source/model/TransferData.i: source/model/TransferData.cpp.i
+
+.PHONY : source/model/TransferData.i
+
+# target to preprocess a source file
+source/model/TransferData.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.i
+.PHONY : source/model/TransferData.cpp.i
+
+source/model/TransferData.s: source/model/TransferData.cpp.s
+
+.PHONY : source/model/TransferData.s
+
+# target to generate assembly for a file
+source/model/TransferData.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.s
+.PHONY : source/model/TransferData.cpp.s
+
+source/model/UpdateCACertificateRequest.o: source/model/UpdateCACertificateRequest.cpp.o
+
+.PHONY : source/model/UpdateCACertificateRequest.o
+
+# target to build an object file
+source/model/UpdateCACertificateRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.o
+.PHONY : source/model/UpdateCACertificateRequest.cpp.o
+
+source/model/UpdateCACertificateRequest.i: source/model/UpdateCACertificateRequest.cpp.i
+
+.PHONY : source/model/UpdateCACertificateRequest.i
+
+# target to preprocess a source file
+source/model/UpdateCACertificateRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.i
+.PHONY : source/model/UpdateCACertificateRequest.cpp.i
+
+source/model/UpdateCACertificateRequest.s: source/model/UpdateCACertificateRequest.cpp.s
+
+.PHONY : source/model/UpdateCACertificateRequest.s
+
+# target to generate assembly for a file
+source/model/UpdateCACertificateRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/build.make aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.s
+.PHONY : source/model/UpdateCACertificateRequest.cpp.s
+
 source/model/UpdateCertificateRequest.o: source/model/UpdateCertificateRequest.cpp.o
 
 .PHONY : source/model/UpdateCertificateRequest.o
@@ -2804,6 +3371,15 @@ help:
 	@echo "... source/model/AttributePayload.o"
 	@echo "... source/model/AttributePayload.i"
 	@echo "... source/model/AttributePayload.s"
+	@echo "... source/model/CACertificate.o"
+	@echo "... source/model/CACertificate.i"
+	@echo "... source/model/CACertificate.s"
+	@echo "... source/model/CACertificateDescription.o"
+	@echo "... source/model/CACertificateDescription.i"
+	@echo "... source/model/CACertificateDescription.s"
+	@echo "... source/model/CACertificateStatus.o"
+	@echo "... source/model/CACertificateStatus.i"
+	@echo "... source/model/CACertificateStatus.s"
 	@echo "... source/model/CancelCertificateTransferRequest.o"
 	@echo "... source/model/CancelCertificateTransferRequest.i"
 	@echo "... source/model/CancelCertificateTransferRequest.s"
@@ -2855,6 +3431,12 @@ help:
 	@echo "... source/model/CreateTopicRuleRequest.o"
 	@echo "... source/model/CreateTopicRuleRequest.i"
 	@echo "... source/model/CreateTopicRuleRequest.s"
+	@echo "... source/model/DeleteCACertificateRequest.o"
+	@echo "... source/model/DeleteCACertificateRequest.i"
+	@echo "... source/model/DeleteCACertificateRequest.s"
+	@echo "... source/model/DeleteCACertificateResult.o"
+	@echo "... source/model/DeleteCACertificateResult.i"
+	@echo "... source/model/DeleteCACertificateResult.s"
 	@echo "... source/model/DeleteCertificateRequest.o"
 	@echo "... source/model/DeleteCertificateRequest.i"
 	@echo "... source/model/DeleteCertificateRequest.s"
@@ -2864,6 +3446,12 @@ help:
 	@echo "... source/model/DeletePolicyVersionRequest.o"
 	@echo "... source/model/DeletePolicyVersionRequest.i"
 	@echo "... source/model/DeletePolicyVersionRequest.s"
+	@echo "... source/model/DeleteRegistrationCodeRequest.o"
+	@echo "... source/model/DeleteRegistrationCodeRequest.i"
+	@echo "... source/model/DeleteRegistrationCodeRequest.s"
+	@echo "... source/model/DeleteRegistrationCodeResult.o"
+	@echo "... source/model/DeleteRegistrationCodeResult.i"
+	@echo "... source/model/DeleteRegistrationCodeResult.s"
 	@echo "... source/model/DeleteThingRequest.o"
 	@echo "... source/model/DeleteThingRequest.i"
 	@echo "... source/model/DeleteThingRequest.s"
@@ -2873,6 +3461,12 @@ help:
 	@echo "... source/model/DeleteTopicRuleRequest.o"
 	@echo "... source/model/DeleteTopicRuleRequest.i"
 	@echo "... source/model/DeleteTopicRuleRequest.s"
+	@echo "... source/model/DescribeCACertificateRequest.o"
+	@echo "... source/model/DescribeCACertificateRequest.i"
+	@echo "... source/model/DescribeCACertificateRequest.s"
+	@echo "... source/model/DescribeCACertificateResult.o"
+	@echo "... source/model/DescribeCACertificateResult.i"
+	@echo "... source/model/DescribeCACertificateResult.s"
 	@echo "... source/model/DescribeCertificateRequest.o"
 	@echo "... source/model/DescribeCertificateRequest.i"
 	@echo "... source/model/DescribeCertificateRequest.s"
@@ -2933,6 +3527,12 @@ help:
 	@echo "... source/model/GetPolicyVersionResult.o"
 	@echo "... source/model/GetPolicyVersionResult.i"
 	@echo "... source/model/GetPolicyVersionResult.s"
+	@echo "... source/model/GetRegistrationCodeRequest.o"
+	@echo "... source/model/GetRegistrationCodeRequest.i"
+	@echo "... source/model/GetRegistrationCodeRequest.s"
+	@echo "... source/model/GetRegistrationCodeResult.o"
+	@echo "... source/model/GetRegistrationCodeResult.i"
+	@echo "... source/model/GetRegistrationCodeResult.s"
 	@echo "... source/model/GetTopicRuleRequest.o"
 	@echo "... source/model/GetTopicRuleRequest.i"
 	@echo "... source/model/GetTopicRuleRequest.s"
@@ -2948,6 +3548,18 @@ help:
 	@echo "... source/model/LambdaAction.o"
 	@echo "... source/model/LambdaAction.i"
 	@echo "... source/model/LambdaAction.s"
+	@echo "... source/model/ListCACertificatesRequest.o"
+	@echo "... source/model/ListCACertificatesRequest.i"
+	@echo "... source/model/ListCACertificatesRequest.s"
+	@echo "... source/model/ListCACertificatesResult.o"
+	@echo "... source/model/ListCACertificatesResult.i"
+	@echo "... source/model/ListCACertificatesResult.s"
+	@echo "... source/model/ListCertificatesByCARequest.o"
+	@echo "... source/model/ListCertificatesByCARequest.i"
+	@echo "... source/model/ListCertificatesByCARequest.s"
+	@echo "... source/model/ListCertificatesByCAResult.o"
+	@echo "... source/model/ListCertificatesByCAResult.i"
+	@echo "... source/model/ListCertificatesByCAResult.s"
 	@echo "... source/model/ListCertificatesRequest.o"
 	@echo "... source/model/ListCertificatesRequest.i"
 	@echo "... source/model/ListCertificatesRequest.s"
@@ -3011,6 +3623,18 @@ help:
 	@echo "... source/model/PolicyVersion.o"
 	@echo "... source/model/PolicyVersion.i"
 	@echo "... source/model/PolicyVersion.s"
+	@echo "... source/model/RegisterCACertificateRequest.o"
+	@echo "... source/model/RegisterCACertificateRequest.i"
+	@echo "... source/model/RegisterCACertificateRequest.s"
+	@echo "... source/model/RegisterCACertificateResult.o"
+	@echo "... source/model/RegisterCACertificateResult.i"
+	@echo "... source/model/RegisterCACertificateResult.s"
+	@echo "... source/model/RegisterCertificateRequest.o"
+	@echo "... source/model/RegisterCertificateRequest.i"
+	@echo "... source/model/RegisterCertificateRequest.s"
+	@echo "... source/model/RegisterCertificateResult.o"
+	@echo "... source/model/RegisterCertificateResult.i"
+	@echo "... source/model/RegisterCertificateResult.s"
 	@echo "... source/model/RejectCertificateTransferRequest.o"
 	@echo "... source/model/RejectCertificateTransferRequest.i"
 	@echo "... source/model/RejectCertificateTransferRequest.s"
@@ -3053,6 +3677,12 @@ help:
 	@echo "... source/model/TransferCertificateResult.o"
 	@echo "... source/model/TransferCertificateResult.i"
 	@echo "... source/model/TransferCertificateResult.s"
+	@echo "... source/model/TransferData.o"
+	@echo "... source/model/TransferData.i"
+	@echo "... source/model/TransferData.s"
+	@echo "... source/model/UpdateCACertificateRequest.o"
+	@echo "... source/model/UpdateCACertificateRequest.i"
+	@echo "... source/model/UpdateCACertificateRequest.s"
 	@echo "... source/model/UpdateCertificateRequest.o"
 	@echo "... source/model/UpdateCertificateRequest.i"
 	@echo "... source/model/UpdateCertificateRequest.s"

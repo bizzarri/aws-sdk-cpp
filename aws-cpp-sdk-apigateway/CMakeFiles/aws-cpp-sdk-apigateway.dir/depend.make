@@ -109,6 +109,8 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayCl
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetStageResult.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetStagesRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetStagesResult.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/ImportRestApiRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/ImportRestApiResult.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/Integration.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/IntegrationResponse.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/IntegrationType.h
@@ -127,6 +129,9 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayCl
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PutMethodResponseRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PutMethodResponseResult.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PutMethodResult.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PutMode.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PutRestApiRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PutRestApiResult.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/Resource.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/RestApi.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/Stage.h
@@ -168,6 +173,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayCl
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateStageRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateStageResult.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
@@ -192,6 +198,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayCl
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -202,6 +209,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayCl
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/APIGatewayClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -257,6 +265,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ApiKey
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ApiKey.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ApiKey.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ApiKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ApiKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ApiKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ApiKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ApiKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -360,6 +369,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Client
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ClientCertificate.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ClientCertificate.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ClientCertificate.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ClientCertificate.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ClientCertificate.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ClientCertificate.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ClientCertificate.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -378,6 +388,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/CreateApiKeyRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/StageKey.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -413,6 +424,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -433,6 +445,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/AuthorizerType.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/CreateAuthorizerRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -488,6 +501,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/CreateBasePathMappingRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -543,6 +557,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/CacheClusterSize.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/CreateDeploymentRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -579,6 +594,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -598,6 +614,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/CreateDomainNameRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -633,6 +650,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -652,6 +670,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/CreateModelRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -706,6 +725,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/CreateResourceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -765,6 +785,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/CreateRestApiRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -800,6 +821,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -820,6 +842,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/CacheClusterSize.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/CreateStageRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -859,6 +882,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -878,6 +902,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteApiKeyRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteApiKeyRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/DeleteApiKeyRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -906,6 +931,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/DeleteAuthorizerRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -934,6 +960,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteBasePathMappingRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteBasePathMappingRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/DeleteBasePathMappingRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -962,6 +989,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteClientCertificateRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteClientCertificateRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/DeleteClientCertificateRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -990,6 +1018,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDeploymentRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDeploymentRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/DeleteDeploymentRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1018,6 +1047,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDomainNameRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDomainNameRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/DeleteDomainNameRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1046,6 +1076,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/DeleteIntegrationRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1074,6 +1105,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationResponseRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationResponseRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/DeleteIntegrationResponseRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1102,6 +1134,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/DeleteMethodRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1130,6 +1163,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodResponseRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodResponseRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/DeleteMethodResponseRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1158,6 +1192,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteModelRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteModelRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/DeleteModelRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1186,6 +1221,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteResourceRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteResourceRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/DeleteResourceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1214,6 +1250,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/DeleteRestApiRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1242,6 +1279,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteStageRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteStageRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/DeleteStageRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1272,6 +1310,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Deploy
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1290,6 +1329,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Domain
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DomainName.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DomainName.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DomainName.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DomainName.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DomainName.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DomainName.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DomainName.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1307,6 +1347,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushS
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageAuthorizersCacheRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageAuthorizersCacheRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/FlushStageAuthorizersCacheRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageAuthorizersCacheRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageAuthorizersCacheRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageAuthorizersCacheRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageAuthorizersCacheRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageAuthorizersCacheRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1335,6 +1376,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushS
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageCacheRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageCacheRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/FlushStageCacheRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageCacheRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageCacheRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageCacheRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageCacheRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageCacheRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1363,6 +1405,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Genera
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GenerateClientCertificateRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1398,6 +1441,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Genera
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1417,6 +1461,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAcc
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetAccountRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1472,6 +1517,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApi
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetApiKeyRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1507,6 +1553,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApi
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1526,6 +1573,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApi
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetApiKeysRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1563,6 +1611,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApi
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1582,6 +1631,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAut
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetAuthorizerRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1637,6 +1687,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAut
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetAuthorizersRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1694,6 +1745,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBas
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetBasePathMappingRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1748,6 +1800,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBas
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetBasePathMappingsRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1804,6 +1857,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetCli
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetClientCertificateRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1839,6 +1893,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetCli
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1858,6 +1913,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetCli
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetClientCertificatesRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1895,6 +1951,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetCli
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1914,6 +1971,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDep
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetDeploymentRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -1950,6 +2008,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDep
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1969,6 +2028,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDep
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetDeploymentsRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2007,6 +2067,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDep
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2026,6 +2087,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDom
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetDomainNameRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2061,6 +2123,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDom
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2080,6 +2143,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDom
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetDomainNamesRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2117,6 +2181,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDom
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2136,6 +2201,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExp
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetExportRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2190,6 +2256,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetInt
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetIntegrationRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2218,6 +2285,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetInt
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetIntegrationResponseRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2300,6 +2368,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMet
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetMethodRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2328,6 +2397,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMet
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetMethodResponseRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2412,6 +2482,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMod
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetModelRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2467,6 +2538,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMod
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetModelTemplateRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2521,6 +2593,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMod
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetModelsRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2577,6 +2650,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRes
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetResourceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2636,6 +2710,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRes
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetResourcesRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2697,6 +2772,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRes
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetRestApiRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2732,6 +2808,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRes
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2751,6 +2828,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRes
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetRestApisRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2788,6 +2866,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRes
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2807,6 +2886,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdk
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetSdkRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2861,6 +2941,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSta
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetStageRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2900,6 +2981,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSta
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2919,6 +3001,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSta
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/GetStagesRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -2960,6 +3043,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSta
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2973,6 +3057,61 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSta
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/ImportRestApiRequest.cpp
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGatewayRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/ImportRestApiRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-apigateway/source/model/ImportRestApiResult.cpp
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/ImportRestApiResult.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Integration.cpp.o: aws-cpp-sdk-apigateway/source/model/Integration.cpp
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Integration.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
@@ -3164,6 +3303,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutInt
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/IntegrationType.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PutIntegrationRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -3192,6 +3332,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutInt
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PutIntegrationResponseRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -3274,6 +3415,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMet
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PutMethodRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -3302,6 +3444,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMet
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PutMethodResponseRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -3381,6 +3524,78 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMet
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
 
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o: aws-cpp-sdk-apigateway/source/model/PutMode.cpp
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PutMode.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o: aws-cpp-sdk-core/include/aws/core/Globals.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/PutRestApiRequest.cpp
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGatewayRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PutMode.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PutRestApiRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-apigateway/source/model/PutRestApiResult.cpp
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PutRestApiResult.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Resource.cpp.o: aws-cpp-sdk-apigateway/source/model/Resource.cpp
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Resource.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Resource.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/Integration.h
@@ -3410,6 +3625,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/RestAp
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/RestApi.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/RestApi.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/RestApi.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/RestApi.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/RestApi.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/RestApi.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/RestApi.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -3432,6 +3648,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Stage.
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Stage.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Stage.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Stage.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Stage.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Stage.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Stage.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Stage.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -3467,6 +3684,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestIn
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/TestInvokeAuthorizerRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -3521,6 +3739,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestIn
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/APIGateway_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/TestInvokeMethodRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -3611,6 +3830,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PatchOperation.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateAccountRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -3668,6 +3888,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PatchOperation.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateApiKeyRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -3703,6 +3924,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -3724,6 +3946,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PatchOperation.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateAuthorizerRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -3781,6 +4004,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PatchOperation.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateBasePathMappingRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -3837,6 +4061,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PatchOperation.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateClientCertificateRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -3872,6 +4097,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -3893,6 +4119,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PatchOperation.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateDeploymentRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -3929,6 +4156,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -3950,6 +4178,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PatchOperation.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateDomainNameRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -3985,6 +4214,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -4006,6 +4236,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PatchOperation.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateIntegrationRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -4036,6 +4267,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PatchOperation.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateIntegrationResponseRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -4120,6 +4352,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PatchOperation.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateMethodRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -4150,6 +4383,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PatchOperation.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateMethodResponseRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -4236,6 +4470,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PatchOperation.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateModelRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -4292,6 +4527,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PatchOperation.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateResourceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -4353,6 +4589,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PatchOperation.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateRestApiRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -4388,6 +4625,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -4409,6 +4647,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/PatchOperation.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageRequest.cpp.o: aws-cpp-sdk-apigateway/include/aws/apigateway/model/UpdateStageRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonStreamingWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
@@ -4448,6 +4687,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/aws/client/HttpSchemeMapperTest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/aws/client/HttpSchemeMapperTest.cpp.o"
   "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/http/HttpTypesMapperTest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/http/HttpTypesMapperTest.cpp.o"
   "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/http/URITest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/http/URITest.cpp.o"
+  "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/utils/DateTimeTest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o"
   "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/utils/EnumOverflowTest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/EnumOverflowTest.cpp.o"
   "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/utils/HashingUtilsTest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/HashingUtilsTest.cpp.o"
   "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/utils/OSVersionInfoTest.cpp" "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/OSVersionInfoTest.cpp.o"

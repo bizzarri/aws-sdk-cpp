@@ -321,9 +321,33 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentResourcesResult.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentResourcesResult.cpp.o
 
 
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ApplyEnvironmentManagedActionResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ApplyEnvironmentManagedActionResult.cpp
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ApplyEnvironmentManagedActionResult.cpp > CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.i
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ApplyEnvironmentManagedActionResult.cpp -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.s
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o.requires
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o.provides: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o.provides
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o
+
+
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventSeverity.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventSeverity.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/EventSeverity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventSeverity.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventSeverity.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventSeverity.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/EventSeverity.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventSeverity.cpp.i: cmake_force
@@ -345,9 +369,57 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventSeverity.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventSeverity.cpp.o
 
 
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp > CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.i
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.s
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o.requires
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o.provides: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o.provides
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o
+
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ManagedActionHistoryItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ManagedActionHistoryItem.cpp
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ManagedActionHistoryItem.cpp > CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.i
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ManagedActionHistoryItem.cpp -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.s
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o.requires
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o.provides: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o.provides
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o
+
+
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeConfigurationSettingsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeConfigurationSettingsRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsRequest.cpp.i: cmake_force
@@ -371,7 +443,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/InstancesHealthAttribute.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/InstancesHealthAttribute.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/InstancesHealthAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/InstancesHealthAttribute.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/InstancesHealthAttribute.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/InstancesHealthAttribute.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/InstancesHealthAttribute.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/InstancesHealthAttribute.cpp.i: cmake_force
@@ -395,7 +467,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteEnvironmentConfigurationRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteEnvironmentConfigurationRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DeleteEnvironmentConfigurationRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteEnvironmentConfigurationRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteEnvironmentConfigurationRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteEnvironmentConfigurationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DeleteEnvironmentConfigurationRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteEnvironmentConfigurationRequest.cpp.i: cmake_force
@@ -419,7 +491,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeConfigurationSettingsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeConfigurationSettingsResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsResult.cpp.i: cmake_force
@@ -443,7 +515,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationSettingsDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationSettingsDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ConfigurationSettingsDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationSettingsDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationSettingsDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationSettingsDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ConfigurationSettingsDescription.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationSettingsDescription.cpp.i: cmake_force
@@ -467,7 +539,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentLink.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentLink.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentLink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentLink.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentLink.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentLink.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentLink.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentLink.cpp.i: cmake_force
@@ -491,7 +563,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/StatusCodes.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/StatusCodes.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/StatusCodes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/StatusCodes.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/StatusCodes.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/StatusCodes.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/StatusCodes.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/StatusCodes.cpp.i: cmake_force
@@ -515,7 +587,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeApplicationVersionsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeApplicationVersionsRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsRequest.cpp.i: cmake_force
@@ -539,7 +611,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentInfoDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentInfoDescription.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoDescription.cpp.i: cmake_force
@@ -563,7 +635,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeInstancesHealthResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeInstancesHealthResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.i: cmake_force
@@ -587,7 +659,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Tag.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Tag.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/Tag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Tag.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Tag.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Tag.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/Tag.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Tag.cpp.i: cmake_force
@@ -611,7 +683,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AbortEnvironmentUpdateRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AbortEnvironmentUpdateRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/AbortEnvironmentUpdateRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AbortEnvironmentUpdateRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AbortEnvironmentUpdateRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AbortEnvironmentUpdateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/AbortEnvironmentUpdateRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AbortEnvironmentUpdateRequest.cpp.i: cmake_force
@@ -635,7 +707,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RestartAppServerRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RestartAppServerRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/RestartAppServerRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RestartAppServerRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RestartAppServerRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RestartAppServerRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/RestartAppServerRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RestartAppServerRequest.cpp.i: cmake_force
@@ -659,7 +731,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationDeploymentStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationDeploymentStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ConfigurationDeploymentStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationDeploymentStatus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationDeploymentStatus.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationDeploymentStatus.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ConfigurationDeploymentStatus.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationDeploymentStatus.cpp.i: cmake_force
@@ -683,7 +755,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/EventDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/EventDescription.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventDescription.cpp.i: cmake_force
@@ -707,7 +779,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealthAttribute.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealthAttribute.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentHealthAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealthAttribute.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealthAttribute.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealthAttribute.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentHealthAttribute.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealthAttribute.cpp.i: cmake_force
@@ -731,7 +803,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/SingleInstanceHealth.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/SingleInstanceHealth.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.i: cmake_force
@@ -755,7 +827,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateStorageLocationRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateStorageLocationRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/CreateStorageLocationRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateStorageLocationRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateStorageLocationRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateStorageLocationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/CreateStorageLocationRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateStorageLocationRequest.cpp.i: cmake_force
@@ -779,7 +851,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Queue.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Queue.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/Queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Queue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Queue.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Queue.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/Queue.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Queue.cpp.i: cmake_force
@@ -803,7 +875,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionSpecification.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionSpecification.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/OptionSpecification.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionSpecification.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionSpecification.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionSpecification.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/OptionSpecification.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionSpecification.cpp.i: cmake_force
@@ -827,7 +899,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/UpdateConfigurationTemplateResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/UpdateConfigurationTemplateResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateResult.cpp.i: cmake_force
@@ -851,7 +923,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentTier.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentTier.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentTier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentTier.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentTier.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentTier.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentTier.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentTier.cpp.i: cmake_force
@@ -873,9 +945,33 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentTier.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentTier.cpp.o
 
 
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionsRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionsRequest.cpp
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionsRequest.cpp > CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.i
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionsRequest.cpp -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.s
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o.requires
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o.provides: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o.provides
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o
+
+
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationMetrics.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationMetrics.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ApplicationMetrics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationMetrics.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationMetrics.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationMetrics.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ApplicationMetrics.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationMetrics.cpp.i: cmake_force
@@ -899,7 +995,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ApplicationDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ApplicationDescription.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationDescription.cpp.i: cmake_force
@@ -923,7 +1019,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentsRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsRequest.cpp.i: cmake_force
@@ -947,7 +1043,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Listener.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Listener.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/Listener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Listener.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Listener.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Listener.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/Listener.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Listener.cpp.i: cmake_force
@@ -971,7 +1067,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ResponseMetadata.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ResponseMetadata.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ResponseMetadata.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ResponseMetadata.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ResponseMetadata.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ResponseMetadata.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ResponseMetadata.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ResponseMetadata.cpp.i: cmake_force
@@ -995,7 +1091,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/CreateConfigurationTemplateRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/CreateConfigurationTemplateRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateRequest.cpp.i: cmake_force
@@ -1019,7 +1115,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ApplicationVersionDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ApplicationVersionDescription.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionDescription.cpp.i: cmake_force
@@ -1043,7 +1139,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/TerminateEnvironmentRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/TerminateEnvironmentRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentRequest.cpp.i: cmake_force
@@ -1067,7 +1163,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeApplicationsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeApplicationsRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsRequest.cpp.i: cmake_force
@@ -1089,9 +1185,33 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsRequest.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsRequest.cpp.o
 
 
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ApplyEnvironmentManagedActionRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ApplyEnvironmentManagedActionRequest.cpp
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ApplyEnvironmentManagedActionRequest.cpp > CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.i
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ApplyEnvironmentManagedActionRequest.cpp -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.s
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o.requires
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o.provides: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o.provides
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o
+
+
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ListAvailableSolutionStacksResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ListAvailableSolutionStacksResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ListAvailableSolutionStacksResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ListAvailableSolutionStacksResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ListAvailableSolutionStacksResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ListAvailableSolutionStacksResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ListAvailableSolutionStacksResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ListAvailableSolutionStacksResult.cpp.i: cmake_force
@@ -1115,7 +1235,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/CreateApplicationVersionResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/CreateApplicationVersionResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionResult.cpp.i: cmake_force
@@ -1139,7 +1259,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/UpdateApplicationRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/UpdateApplicationRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationRequest.cpp.i: cmake_force
@@ -1163,7 +1283,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/LaunchConfiguration.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/LaunchConfiguration.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/LaunchConfiguration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/LaunchConfiguration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/LaunchConfiguration.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/LaunchConfiguration.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/LaunchConfiguration.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/LaunchConfiguration.cpp.i: cmake_force
@@ -1187,7 +1307,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/CreateApplicationResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/CreateApplicationResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationResult.cpp.i: cmake_force
@@ -1211,7 +1331,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentsResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsResult.cpp.i: cmake_force
@@ -1235,7 +1355,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Latency.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Latency.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/Latency.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Latency.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Latency.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Latency.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/Latency.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Latency.cpp.i: cmake_force
@@ -1257,9 +1377,33 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Latency.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Latency.cpp.o
 
 
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/Deployment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/Deployment.cpp
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/Deployment.cpp > CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.i
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/Deployment.cpp -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.s
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o.requires
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o.provides: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o.provides
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o
+
+
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoType.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoType.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentInfoType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoType.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoType.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoType.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentInfoType.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoType.cpp.i: cmake_force
@@ -1283,7 +1427,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteConfigurationTemplateRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteConfigurationTemplateRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DeleteConfigurationTemplateRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteConfigurationTemplateRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteConfigurationTemplateRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteConfigurationTemplateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DeleteConfigurationTemplateRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteConfigurationTemplateRequest.cpp.i: cmake_force
@@ -1307,7 +1451,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentStatus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentStatus.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentStatus.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentStatus.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentStatus.cpp.i: cmake_force
@@ -1331,7 +1475,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentDescription.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentDescription.cpp.i: cmake_force
@@ -1355,7 +1499,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RetrieveEnvironmentInfoResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RetrieveEnvironmentInfoResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/RetrieveEnvironmentInfoResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RetrieveEnvironmentInfoResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RetrieveEnvironmentInfoResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RetrieveEnvironmentInfoResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/RetrieveEnvironmentInfoResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RetrieveEnvironmentInfoResult.cpp.i: cmake_force
@@ -1379,7 +1523,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/CreateApplicationVersionRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/CreateApplicationVersionRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionRequest.cpp.i: cmake_force
@@ -1403,7 +1547,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/CreateConfigurationTemplateResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/CreateConfigurationTemplateResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateResult.cpp.i: cmake_force
@@ -1427,7 +1571,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Instance.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Instance.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/Instance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Instance.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Instance.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Instance.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/Instance.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Instance.cpp.i: cmake_force
@@ -1451,7 +1595,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealthStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealthStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentHealthStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealthStatus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealthStatus.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealthStatus.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentHealthStatus.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealthStatus.cpp.i: cmake_force
@@ -1475,7 +1619,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ConfigurationOptionDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ConfigurationOptionDescription.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionDescription.cpp.i: cmake_force
@@ -1499,7 +1643,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/CreateEnvironmentRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/CreateEnvironmentRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentRequest.cpp.i: cmake_force
@@ -1523,7 +1667,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEventsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEventsRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsRequest.cpp.i: cmake_force
@@ -1547,7 +1691,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentHealthRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentHealthRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthRequest.cpp.i: cmake_force
@@ -1569,9 +1713,57 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthRequest.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthRequest.cpp.o
 
 
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionsResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionsResult.cpp
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionsResult.cpp > CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.i
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionsResult.cpp -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.s
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o.requires
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o.provides: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o.provides
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o
+
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ActionStatus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ActionStatus.cpp
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ActionStatus.cpp > CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.i
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ActionStatus.cpp -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.s
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o.requires
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o.provides: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o.provides
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o
+
+
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/CreateApplicationRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/CreateApplicationRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationRequest.cpp.i: cmake_force
@@ -1595,7 +1787,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentHealthResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentHealthResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.i: cmake_force
@@ -1617,9 +1809,33 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o
 
 
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ManagedAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ManagedAction.cpp
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ManagedAction.cpp > CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.i
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ManagedAction.cpp -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.s
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o.requires
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o.provides: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o.provides
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o
+
+
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeApplicationsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeApplicationsResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsResult.cpp.i: cmake_force
@@ -1643,7 +1859,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/UpdateEnvironmentRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/UpdateEnvironmentRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentRequest.cpp.i: cmake_force
@@ -1667,7 +1883,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DeleteApplicationRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DeleteApplicationRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationRequest.cpp.i: cmake_force
@@ -1691,7 +1907,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionRestrictionRegex.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionRestrictionRegex.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/OptionRestrictionRegex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionRestrictionRegex.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionRestrictionRegex.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionRestrictionRegex.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/OptionRestrictionRegex.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionRestrictionRegex.cpp.i: cmake_force
@@ -1715,7 +1931,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationVersionRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationVersionRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DeleteApplicationVersionRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationVersionRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationVersionRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationVersionRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DeleteApplicationVersionRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationVersionRequest.cpp.i: cmake_force
@@ -1739,7 +1955,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ComposeEnvironmentsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ComposeEnvironmentsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ComposeEnvironmentsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ComposeEnvironmentsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ComposeEnvironmentsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ComposeEnvironmentsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ComposeEnvironmentsRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ComposeEnvironmentsRequest.cpp.i: cmake_force
@@ -1763,7 +1979,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RebuildEnvironmentRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RebuildEnvironmentRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/RebuildEnvironmentRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RebuildEnvironmentRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RebuildEnvironmentRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RebuildEnvironmentRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/RebuildEnvironmentRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RebuildEnvironmentRequest.cpp.i: cmake_force
@@ -1785,9 +2001,33 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RebuildEnvironmentRequest.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RebuildEnvironmentRequest.cpp.o
 
 
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/FailureType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/FailureType.cpp
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/FailureType.cpp > CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.i
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/FailureType.cpp -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.s
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o.requires
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o.provides: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o.provides
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o
+
+
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/UpdateApplicationVersionResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/UpdateApplicationVersionResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionResult.cpp.i: cmake_force
@@ -1811,7 +2051,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AutoScalingGroup.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AutoScalingGroup.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/AutoScalingGroup.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AutoScalingGroup.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AutoScalingGroup.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AutoScalingGroup.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/AutoScalingGroup.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AutoScalingGroup.cpp.i: cmake_force
@@ -1835,7 +2075,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/UpdateApplicationResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/UpdateApplicationResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationResult.cpp.i: cmake_force
@@ -1859,7 +2099,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SolutionStackDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SolutionStackDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/SolutionStackDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SolutionStackDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SolutionStackDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SolutionStackDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/SolutionStackDescription.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SolutionStackDescription.cpp.i: cmake_force
@@ -1883,7 +2123,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeInstancesHealthRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeInstancesHealthRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthRequest.cpp.i: cmake_force
@@ -1907,7 +2147,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CPUUtilization.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CPUUtilization.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/CPUUtilization.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CPUUtilization.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CPUUtilization.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CPUUtilization.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/CPUUtilization.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CPUUtilization.cpp.i: cmake_force
@@ -1931,7 +2171,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CheckDNSAvailabilityRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CheckDNSAvailabilityRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/CheckDNSAvailabilityRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CheckDNSAvailabilityRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CheckDNSAvailabilityRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CheckDNSAvailabilityRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/CheckDNSAvailabilityRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CheckDNSAvailabilityRequest.cpp.i: cmake_force
@@ -1955,7 +2195,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/UpdateConfigurationTemplateRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/UpdateConfigurationTemplateRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateRequest.cpp.i: cmake_force
@@ -1979,7 +2219,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationOptionsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationOptionsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeConfigurationOptionsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationOptionsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationOptionsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationOptionsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeConfigurationOptionsRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationOptionsRequest.cpp.i: cmake_force
@@ -2003,7 +2243,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CheckDNSAvailabilityResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CheckDNSAvailabilityResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/CheckDNSAvailabilityResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CheckDNSAvailabilityResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CheckDNSAvailabilityResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CheckDNSAvailabilityResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/CheckDNSAvailabilityResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CheckDNSAvailabilityResult.cpp.i: cmake_force
@@ -2027,7 +2267,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationMessage.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationMessage.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ValidationMessage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationMessage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationMessage.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationMessage.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ValidationMessage.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationMessage.cpp.i: cmake_force
@@ -2051,7 +2291,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RequestEnvironmentInfoRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RequestEnvironmentInfoRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/RequestEnvironmentInfoRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RequestEnvironmentInfoRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RequestEnvironmentInfoRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RequestEnvironmentInfoRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/RequestEnvironmentInfoRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RequestEnvironmentInfoRequest.cpp.i: cmake_force
@@ -2073,9 +2313,33 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RequestEnvironmentInfoRequest.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RequestEnvironmentInfoRequest.cpp.o
 
 
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ActionType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ActionType.cpp
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ActionType.cpp > CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.i
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ActionType.cpp -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.s
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o.requires
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o.provides: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o.provides
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o
+
+
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationOptionsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationOptionsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeConfigurationOptionsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationOptionsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationOptionsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationOptionsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeConfigurationOptionsResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationOptionsResult.cpp.i: cmake_force
@@ -2099,7 +2363,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SwapEnvironmentCNAMEsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SwapEnvironmentCNAMEsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/SwapEnvironmentCNAMEsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SwapEnvironmentCNAMEsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SwapEnvironmentCNAMEsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SwapEnvironmentCNAMEsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/SwapEnvironmentCNAMEsRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SwapEnvironmentCNAMEsRequest.cpp.i: cmake_force
@@ -2123,7 +2387,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentResourcesRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentResourcesRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentResourcesRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentResourcesRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentResourcesRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentResourcesRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentResourcesRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentResourcesRequest.cpp.i: cmake_force
@@ -2147,7 +2411,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationSeverity.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationSeverity.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ValidationSeverity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationSeverity.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationSeverity.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationSeverity.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ValidationSeverity.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationSeverity.cpp.i: cmake_force
@@ -2171,7 +2435,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionValueType.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionValueType.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ConfigurationOptionValueType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionValueType.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionValueType.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionValueType.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ConfigurationOptionValueType.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionValueType.cpp.i: cmake_force
@@ -2195,7 +2459,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SourceConfiguration.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SourceConfiguration.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/SourceConfiguration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SourceConfiguration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SourceConfiguration.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SourceConfiguration.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/SourceConfiguration.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SourceConfiguration.cpp.i: cmake_force
@@ -2217,9 +2481,33 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SourceConfiguration.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SourceConfiguration.cpp.o
 
 
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp > CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.i
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.s
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o.requires
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o.provides: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o.provides
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o
+
+
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourceDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourceDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentResourceDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourceDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourceDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourceDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentResourceDescription.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourceDescription.cpp.i: cmake_force
@@ -2243,7 +2531,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ApplicationVersionStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionStatus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionStatus.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionStatus.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ApplicationVersionStatus.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionStatus.cpp.i: cmake_force
@@ -2267,7 +2555,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidateConfigurationSettingsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidateConfigurationSettingsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ValidateConfigurationSettingsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidateConfigurationSettingsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidateConfigurationSettingsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidateConfigurationSettingsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ValidateConfigurationSettingsResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidateConfigurationSettingsResult.cpp.i: cmake_force
@@ -2291,7 +2579,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEventsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEventsResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsResult.cpp.i: cmake_force
@@ -2315,7 +2603,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/CreateEnvironmentResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/CreateEnvironmentResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentResult.cpp.i: cmake_force
@@ -2339,7 +2627,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourcesDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourcesDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentResourcesDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourcesDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourcesDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourcesDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentResourcesDescription.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourcesDescription.cpp.i: cmake_force
@@ -2363,7 +2651,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealth.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealth.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentHealth.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealth.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealth.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealth.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentHealth.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealth.cpp.i: cmake_force
@@ -2385,9 +2673,33 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealth.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealth.cpp.o
 
 
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ActionHistoryStatus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ActionHistoryStatus.cpp
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ActionHistoryStatus.cpp > CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.i
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ActionHistoryStatus.cpp -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.s
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o.requires
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o.provides: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o.provides
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o.provides.build: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o
+
+
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/S3Location.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/S3Location.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/S3Location.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/S3Location.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/S3Location.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/S3Location.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/S3Location.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/S3Location.cpp.i: cmake_force
@@ -2411,7 +2723,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeApplicationVersionsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/DescribeApplicationVersionsResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsResult.cpp.i: cmake_force
@@ -2435,7 +2747,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/UpdateApplicationVersionRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/UpdateApplicationVersionRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionRequest.cpp.i: cmake_force
@@ -2459,7 +2771,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/TerminateEnvironmentResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/TerminateEnvironmentResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentResult.cpp.i: cmake_force
@@ -2483,7 +2795,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/LoadBalancerDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/LoadBalancerDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/LoadBalancerDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/LoadBalancerDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/LoadBalancerDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/LoadBalancerDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/LoadBalancerDescription.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/LoadBalancerDescription.cpp.i: cmake_force
@@ -2507,7 +2819,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SystemStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SystemStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/SystemStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SystemStatus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SystemStatus.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SystemStatus.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/SystemStatus.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SystemStatus.cpp.i: cmake_force
@@ -2531,7 +2843,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateStorageLocationResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateStorageLocationResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/CreateStorageLocationResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateStorageLocationResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateStorageLocationResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateStorageLocationResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/CreateStorageLocationResult.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateStorageLocationResult.cpp.i: cmake_force
@@ -2555,7 +2867,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidateConfigurationSettingsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidateConfigurationSettingsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ValidateConfigurationSettingsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidateConfigurationSettingsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidateConfigurationSettingsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidateConfigurationSettingsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/ValidateConfigurationSettingsRequest.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidateConfigurationSettingsRequest.cpp.i: cmake_force
@@ -2579,7 +2891,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/InstanceHealthSummary.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/InstanceHealthSummary.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/InstanceHealthSummary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/InstanceHealthSummary.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/InstanceHealthSummary.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/InstanceHealthSummary.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/InstanceHealthSummary.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/InstanceHealthSummary.cpp.i: cmake_force
@@ -2603,7 +2915,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Trigger.cpp.o: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/flags.make
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Trigger.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/Trigger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Trigger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Trigger.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Trigger.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk/source/model/Trigger.cpp
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Trigger.cpp.i: cmake_force
@@ -2638,7 +2950,10 @@ aws__cpp__sdk__elasticbeanstalk_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionSetting.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentResourcesResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventSeverity.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/InstancesHealthAttribute.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteEnvironmentConfigurationRequest.cpp.o" \
@@ -2661,6 +2976,7 @@ aws__cpp__sdk__elasticbeanstalk_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionSpecification.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentTier.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationMetrics.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationDescription.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsRequest.cpp.o" \
@@ -2670,6 +2986,7 @@ aws__cpp__sdk__elasticbeanstalk_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionDescription.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ListAvailableSolutionStacksResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationRequest.cpp.o" \
@@ -2677,6 +2994,7 @@ aws__cpp__sdk__elasticbeanstalk_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Latency.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoType.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteConfigurationTemplateRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentStatus.cpp.o" \
@@ -2690,8 +3008,11 @@ aws__cpp__sdk__elasticbeanstalk_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationRequest.cpp.o" \
@@ -2699,6 +3020,7 @@ aws__cpp__sdk__elasticbeanstalk_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationVersionRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ComposeEnvironmentsRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RebuildEnvironmentRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AutoScalingGroup.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationResult.cpp.o" \
@@ -2711,12 +3033,14 @@ aws__cpp__sdk__elasticbeanstalk_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CheckDNSAvailabilityResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationMessage.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RequestEnvironmentInfoRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationOptionsResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SwapEnvironmentCNAMEsRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentResourcesRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationSeverity.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionValueType.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SourceConfiguration.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourceDescription.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionStatus.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidateConfigurationSettingsResult.cpp.o" \
@@ -2724,6 +3048,7 @@ aws__cpp__sdk__elasticbeanstalk_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourcesDescription.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealth.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/S3Location.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionRequest.cpp.o" \
@@ -2749,7 +3074,10 @@ aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-ela
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentResult.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionSetting.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentResourcesResult.cpp.o
+aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventSeverity.cpp.o
+aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o
+aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsRequest.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/InstancesHealthAttribute.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteEnvironmentConfigurationRequest.cpp.o
@@ -2772,6 +3100,7 @@ aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-ela
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionSpecification.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateResult.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentTier.cpp.o
+aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationMetrics.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationDescription.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsRequest.cpp.o
@@ -2781,6 +3110,7 @@ aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-ela
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionDescription.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentRequest.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsRequest.cpp.o
+aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ListAvailableSolutionStacksResult.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionResult.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationRequest.cpp.o
@@ -2788,6 +3118,7 @@ aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-ela
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationResult.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsResult.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Latency.cpp.o
+aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoType.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteConfigurationTemplateRequest.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentStatus.cpp.o
@@ -2801,8 +3132,11 @@ aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-ela
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentRequest.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsRequest.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthRequest.cpp.o
+aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o
+aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationRequest.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o
+aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsResult.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentRequest.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationRequest.cpp.o
@@ -2810,6 +3144,7 @@ aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-ela
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationVersionRequest.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ComposeEnvironmentsRequest.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RebuildEnvironmentRequest.cpp.o
+aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionResult.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AutoScalingGroup.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationResult.cpp.o
@@ -2822,12 +3157,14 @@ aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-ela
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CheckDNSAvailabilityResult.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationMessage.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RequestEnvironmentInfoRequest.cpp.o
+aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationOptionsResult.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SwapEnvironmentCNAMEsRequest.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentResourcesRequest.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationSeverity.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionValueType.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SourceConfiguration.cpp.o
+aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourceDescription.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionStatus.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidateConfigurationSettingsResult.cpp.o
@@ -2835,6 +3172,7 @@ aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-ela
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentResult.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourcesDescription.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealth.cpp.o
+aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/S3Location.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsResult.cpp.o
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionRequest.cpp.o
@@ -2848,7 +3186,7 @@ aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-ela
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-core/libaws-cpp-sdk-core.so
 aws-cpp-sdk-elasticbeanstalk/libaws-cpp-sdk-elasticbeanstalk.so: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Linking CXX shared library libaws-cpp-sdk-elasticbeanstalk.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Linking CXX shared library libaws-cpp-sdk-elasticbeanstalk.so"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-elasticbeanstalk && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -2867,7 +3205,10 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/require
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentResult.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionSetting.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentResourcesResult.cpp.o.requires
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventSeverity.cpp.o.requires
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o.requires
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsRequest.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/InstancesHealthAttribute.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteEnvironmentConfigurationRequest.cpp.o.requires
@@ -2890,6 +3231,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/require
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionSpecification.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateResult.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentTier.cpp.o.requires
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationMetrics.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationDescription.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsRequest.cpp.o.requires
@@ -2899,6 +3241,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/require
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionDescription.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentRequest.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsRequest.cpp.o.requires
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ListAvailableSolutionStacksResult.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionResult.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationRequest.cpp.o.requires
@@ -2906,6 +3249,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/require
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationResult.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsResult.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Latency.cpp.o.requires
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoType.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteConfigurationTemplateRequest.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentStatus.cpp.o.requires
@@ -2919,8 +3263,11 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/require
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentRequest.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsRequest.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthRequest.cpp.o.requires
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o.requires
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationRequest.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o.requires
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsResult.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentRequest.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationRequest.cpp.o.requires
@@ -2928,6 +3275,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/require
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteApplicationVersionRequest.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ComposeEnvironmentsRequest.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RebuildEnvironmentRequest.cpp.o.requires
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionResult.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AutoScalingGroup.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationResult.cpp.o.requires
@@ -2940,12 +3288,14 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/require
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CheckDNSAvailabilityResult.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationMessage.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RequestEnvironmentInfoRequest.cpp.o.requires
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationOptionsResult.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SwapEnvironmentCNAMEsRequest.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentResourcesRequest.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidationSeverity.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationOptionValueType.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SourceConfiguration.cpp.o.requires
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourceDescription.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionStatus.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ValidateConfigurationSettingsResult.cpp.o.requires
@@ -2953,6 +3303,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/require
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentResult.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentResourcesDescription.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentHealth.cpp.o.requires
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/S3Location.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsResult.cpp.o.requires
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/requires: aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionRequest.cpp.o.requires

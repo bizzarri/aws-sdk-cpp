@@ -273,9 +273,33 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/Record.cpp
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/Record.cpp.o.provides.build: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/Record.cpp.o
 
 
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.o: aws-cpp-sdk-firehose/source/model/ElasticsearchRetryOptions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchRetryOptions.cpp
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchRetryOptions.cpp > CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.i
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchRetryOptions.cpp -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.s
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.o.requires
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.o.provides: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.o.provides
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.o.provides.build: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.o
+
+
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationRequest.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationRequest.cpp.o: aws-cpp-sdk-firehose/source/model/UpdateDestinationRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/UpdateDestinationRequest.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationRequest.cpp.i: cmake_force
@@ -299,7 +323,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDest
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationUpdate.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationUpdate.cpp.o: aws-cpp-sdk-firehose/source/model/RedshiftDestinationUpdate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationUpdate.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationUpdate.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationUpdate.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/RedshiftDestinationUpdate.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationUpdate.cpp.i: cmake_force
@@ -323,7 +347,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDe
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamRequest.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamRequest.cpp.o: aws-cpp-sdk-firehose/source/model/DeleteDeliveryStreamRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/DeleteDeliveryStreamRequest.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamRequest.cpp.i: cmake_force
@@ -347,7 +371,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeli
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CopyCommand.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CopyCommand.cpp.o: aws-cpp-sdk-firehose/source/model/CopyCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CopyCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CopyCommand.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CopyCommand.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/CopyCommand.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CopyCommand.cpp.i: cmake_force
@@ -371,7 +395,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CopyComman
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DescribeDeliveryStreamRequest.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DescribeDeliveryStreamRequest.cpp.o: aws-cpp-sdk-firehose/source/model/DescribeDeliveryStreamRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DescribeDeliveryStreamRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DescribeDeliveryStreamRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DescribeDeliveryStreamRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/DescribeDeliveryStreamRequest.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DescribeDeliveryStreamRequest.cpp.i: cmake_force
@@ -395,7 +419,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DescribeDe
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsResult.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsResult.cpp.o: aws-cpp-sdk-firehose/source/model/ListDeliveryStreamsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ListDeliveryStreamsResult.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsResult.cpp.i: cmake_force
@@ -419,7 +443,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDelive
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsRequest.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsRequest.cpp.o: aws-cpp-sdk-firehose/source/model/ListDeliveryStreamsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ListDeliveryStreamsRequest.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsRequest.cpp.i: cmake_force
@@ -443,7 +467,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDelive
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationUpdate.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationUpdate.cpp.o: aws-cpp-sdk-firehose/source/model/S3DestinationUpdate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationUpdate.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationUpdate.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationUpdate.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/S3DestinationUpdate.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationUpdate.cpp.i: cmake_force
@@ -465,9 +489,33 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3Destinat
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationUpdate.cpp.o.provides.build: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationUpdate.cpp.o
 
 
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.o: aws-cpp-sdk-firehose/source/model/ElasticsearchS3BackupMode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchS3BackupMode.cpp
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchS3BackupMode.cpp > CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.i
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchS3BackupMode.cpp -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.s
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.o.requires
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.o.provides: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.o.provides
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.o.provides.build: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.o
+
+
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordBatchRequest.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordBatchRequest.cpp.o: aws-cpp-sdk-firehose/source/model/PutRecordBatchRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordBatchRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordBatchRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordBatchRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/PutRecordBatchRequest.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordBatchRequest.cpp.i: cmake_force
@@ -491,7 +539,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordB
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamStatus.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamStatus.cpp.o: aws-cpp-sdk-firehose/source/model/DeliveryStreamStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamStatus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamStatus.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamStatus.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/DeliveryStreamStatus.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamStatus.cpp.i: cmake_force
@@ -515,7 +563,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliverySt
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CompressionFormat.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CompressionFormat.cpp.o: aws-cpp-sdk-firehose/source/model/CompressionFormat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CompressionFormat.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CompressionFormat.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CompressionFormat.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/CompressionFormat.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CompressionFormat.cpp.i: cmake_force
@@ -537,9 +585,33 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/Compressio
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CompressionFormat.cpp.o.provides.build: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CompressionFormat.cpp.o
 
 
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.o: aws-cpp-sdk-firehose/source/model/ElasticsearchIndexRotationPeriod.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchIndexRotationPeriod.cpp
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchIndexRotationPeriod.cpp > CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.i
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchIndexRotationPeriod.cpp -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.s
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.o.requires
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.o.provides: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.o.provides
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.o.provides.build: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.o
+
+
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationDescription.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationDescription.cpp.o: aws-cpp-sdk-firehose/source/model/RedshiftDestinationDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/RedshiftDestinationDescription.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationDescription.cpp.i: cmake_force
@@ -563,7 +635,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDe
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationConfiguration.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationConfiguration.cpp.o: aws-cpp-sdk-firehose/source/model/RedshiftDestinationConfiguration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationConfiguration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationConfiguration.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationConfiguration.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/RedshiftDestinationConfiguration.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationConfiguration.cpp.i: cmake_force
@@ -587,7 +659,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDe
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamDescription.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamDescription.cpp.o: aws-cpp-sdk-firehose/source/model/DeliveryStreamDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/DeliveryStreamDescription.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamDescription.cpp.i: cmake_force
@@ -609,9 +681,33 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliverySt
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamDescription.cpp.o.provides.build: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamDescription.cpp.o
 
 
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.o: aws-cpp-sdk-firehose/source/model/ElasticsearchBufferingHints.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchBufferingHints.cpp
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchBufferingHints.cpp > CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.i
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchBufferingHints.cpp -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.s
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.o.requires
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.o.provides: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.o.provides
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.o.provides.build: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.o
+
+
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/NoEncryptionConfig.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/NoEncryptionConfig.cpp.o: aws-cpp-sdk-firehose/source/model/NoEncryptionConfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/NoEncryptionConfig.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/NoEncryptionConfig.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/NoEncryptionConfig.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/NoEncryptionConfig.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/NoEncryptionConfig.cpp.i: cmake_force
@@ -635,7 +731,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/NoEncrypti
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationConfiguration.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationConfiguration.cpp.o: aws-cpp-sdk-firehose/source/model/S3DestinationConfiguration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationConfiguration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationConfiguration.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationConfiguration.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/S3DestinationConfiguration.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationConfiguration.cpp.i: cmake_force
@@ -657,9 +753,33 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3Destinat
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationConfiguration.cpp.o.provides.build: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationConfiguration.cpp.o
 
 
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.o: aws-cpp-sdk-firehose/source/model/ElasticsearchDestinationConfiguration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchDestinationConfiguration.cpp
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchDestinationConfiguration.cpp > CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.i
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchDestinationConfiguration.cpp -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.s
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.o.requires
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.o.provides: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.o.provides
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.o.provides.build: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.o
+
+
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/KMSEncryptionConfig.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/KMSEncryptionConfig.cpp.o: aws-cpp-sdk-firehose/source/model/KMSEncryptionConfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/KMSEncryptionConfig.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/KMSEncryptionConfig.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/KMSEncryptionConfig.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/KMSEncryptionConfig.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/KMSEncryptionConfig.cpp.i: cmake_force
@@ -683,7 +803,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/KMSEncrypt
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamResult.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamResult.cpp.o: aws-cpp-sdk-firehose/source/model/CreateDeliveryStreamResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/CreateDeliveryStreamResult.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamResult.cpp.i: cmake_force
@@ -707,7 +827,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeli
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationDescription.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationDescription.cpp.o: aws-cpp-sdk-firehose/source/model/S3DestinationDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/S3DestinationDescription.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationDescription.cpp.i: cmake_force
@@ -731,7 +851,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3Destinat
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordRequest.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordRequest.cpp.o: aws-cpp-sdk-firehose/source/model/PutRecordRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/PutRecordRequest.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordRequest.cpp.i: cmake_force
@@ -755,7 +875,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordR
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamRequest.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamRequest.cpp.o: aws-cpp-sdk-firehose/source/model/CreateDeliveryStreamRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/CreateDeliveryStreamRequest.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamRequest.cpp.i: cmake_force
@@ -779,7 +899,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeli
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamResult.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamResult.cpp.o: aws-cpp-sdk-firehose/source/model/DeleteDeliveryStreamResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/DeleteDeliveryStreamResult.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamResult.cpp.i: cmake_force
@@ -801,9 +921,33 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeli
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamResult.cpp.o.provides.build: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamResult.cpp.o
 
 
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.o: aws-cpp-sdk-firehose/source/model/CloudWatchLoggingOptions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/CloudWatchLoggingOptions.cpp
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/CloudWatchLoggingOptions.cpp > CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.i
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/CloudWatchLoggingOptions.cpp -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.s
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.o.requires
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.o.provides: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.o.provides
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.o.provides.build: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.o
+
+
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationResult.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationResult.cpp.o: aws-cpp-sdk-firehose/source/model/UpdateDestinationResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/UpdateDestinationResult.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationResult.cpp.i: cmake_force
@@ -825,9 +969,33 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDest
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationResult.cpp.o.provides.build: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationResult.cpp.o
 
 
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.o: aws-cpp-sdk-firehose/source/model/ElasticsearchDestinationUpdate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchDestinationUpdate.cpp
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchDestinationUpdate.cpp > CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.i
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchDestinationUpdate.cpp -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.s
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.o.requires
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.o.provides: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.o.provides
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.o.provides.build: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.o
+
+
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DestinationDescription.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DestinationDescription.cpp.o: aws-cpp-sdk-firehose/source/model/DestinationDescription.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DestinationDescription.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DestinationDescription.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DestinationDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/DestinationDescription.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DestinationDescription.cpp.i: cmake_force
@@ -851,7 +1019,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/Destinatio
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/EncryptionConfiguration.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/EncryptionConfiguration.cpp.o: aws-cpp-sdk-firehose/source/model/EncryptionConfiguration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/EncryptionConfiguration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/EncryptionConfiguration.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/EncryptionConfiguration.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/EncryptionConfiguration.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/EncryptionConfiguration.cpp.i: cmake_force
@@ -873,9 +1041,33 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/Encryption
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/EncryptionConfiguration.cpp.o.provides.build: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/EncryptionConfiguration.cpp.o
 
 
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.o: aws-cpp-sdk-firehose/source/model/ElasticsearchDestinationDescription.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchDestinationDescription.cpp
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchDestinationDescription.cpp > CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.i
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/ElasticsearchDestinationDescription.cpp -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.s
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.o.requires
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.o.provides: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.o.provides
+
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.o.provides.build: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.o
+
+
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DescribeDeliveryStreamResult.cpp.o: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/flags.make
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DescribeDeliveryStreamResult.cpp.o: aws-cpp-sdk-firehose/source/model/DescribeDeliveryStreamResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DescribeDeliveryStreamResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DescribeDeliveryStreamResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DescribeDeliveryStreamResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose/source/model/DescribeDeliveryStreamResult.cpp
 
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DescribeDeliveryStreamResult.cpp.i: cmake_force
@@ -908,6 +1100,7 @@ aws__cpp__sdk__firehose_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordBatchResponseEntry.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/Record.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationUpdate.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamRequest.cpp.o" \
@@ -916,23 +1109,30 @@ aws__cpp__sdk__firehose_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationUpdate.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordBatchRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamStatus.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CompressionFormat.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationDescription.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationConfiguration.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamDescription.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/NoEncryptionConfig.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationConfiguration.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/KMSEncryptionConfig.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationDescription.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DestinationDescription.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/EncryptionConfiguration.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DescribeDeliveryStreamResult.cpp.o"
 
 # External object files for target aws-cpp-sdk-firehose
@@ -947,6 +1147,7 @@ aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordBatchResponseEntry.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordResult.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/Record.cpp.o
+aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationRequest.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationUpdate.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamRequest.cpp.o
@@ -955,28 +1156,35 @@ aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsResult.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsRequest.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationUpdate.cpp.o
+aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordBatchRequest.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamStatus.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CompressionFormat.cpp.o
+aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationDescription.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationConfiguration.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamDescription.cpp.o
+aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/NoEncryptionConfig.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationConfiguration.cpp.o
+aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/KMSEncryptionConfig.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamResult.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationDescription.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordRequest.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamRequest.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamResult.cpp.o
+aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationResult.cpp.o
+aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DestinationDescription.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/EncryptionConfiguration.cpp.o
+aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DescribeDeliveryStreamResult.cpp.o
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/build.make
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-core/libaws-cpp-sdk-core.so
 aws-cpp-sdk-firehose/libaws-cpp-sdk-firehose.so: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX shared library libaws-cpp-sdk-firehose.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Linking CXX shared library libaws-cpp-sdk-firehose.so"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-firehose && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aws-cpp-sdk-firehose.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -993,6 +1201,7 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-f
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordBatchResponseEntry.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordResult.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/Record.cpp.o.requires
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchRetryOptions.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationRequest.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationUpdate.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamRequest.cpp.o.requires
@@ -1001,23 +1210,30 @@ aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-f
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsResult.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ListDeliveryStreamsRequest.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationUpdate.cpp.o.requires
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchS3BackupMode.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordBatchRequest.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamStatus.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CompressionFormat.cpp.o.requires
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchIndexRotationPeriod.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationDescription.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/RedshiftDestinationConfiguration.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeliveryStreamDescription.cpp.o.requires
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchBufferingHints.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/NoEncryptionConfig.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationConfiguration.cpp.o.requires
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationConfiguration.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/KMSEncryptionConfig.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamResult.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/S3DestinationDescription.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/PutRecordRequest.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CreateDeliveryStreamRequest.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DeleteDeliveryStreamResult.cpp.o.requires
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/CloudWatchLoggingOptions.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/UpdateDestinationResult.cpp.o.requires
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationUpdate.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DestinationDescription.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/EncryptionConfiguration.cpp.o.requires
+aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/ElasticsearchDestinationDescription.cpp.o.requires
 aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires: aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/source/model/DescribeDeliveryStreamResult.cpp.o.requires
 
 .PHONY : aws-cpp-sdk-firehose/CMakeFiles/aws-cpp-sdk-firehose.dir/requires

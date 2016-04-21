@@ -28,6 +28,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/KinesisClient.cpp.
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -38,6 +39,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/KinesisClient.cpp.
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -57,6 +59,11 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/KinesisClient.cpp.
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/DeleteStreamRequest.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/DescribeStreamRequest.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/DescribeStreamResult.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/DisableEnhancedMonitoringRequest.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/DisableEnhancedMonitoringResult.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/EnableEnhancedMonitoringRequest.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/EnableEnhancedMonitoringResult.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/EnhancedMetrics.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/GetRecordsRequest.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/GetRecordsResult.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/GetShardIteratorRequest.h
@@ -68,6 +75,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/KinesisClient.cpp.
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/ListTagsForStreamRequest.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/ListTagsForStreamResult.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/MergeShardsRequest.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/MetricsName.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/PutRecordRequest.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/PutRecordResult.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/PutRecordsRequest.h
@@ -290,11 +298,144 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DescribeStre
  aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/Kinesis_EXPORTS.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/DescribeStreamResult.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/EnhancedMetrics.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/HashKeyRange.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/MetricsName.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/SequenceNumberRange.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/Shard.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/StreamDescription.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/StreamStatus.h
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringRequest.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/DisableEnhancedMonitoringRequest.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/KinesisRequest.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/Kinesis_EXPORTS.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/DisableEnhancedMonitoringRequest.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/MetricsName.h
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/DisableEnhancedMonitoringResult.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/DisableEnhancedMonitoringResult.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/Kinesis_EXPORTS.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/DisableEnhancedMonitoringResult.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/MetricsName.h
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringRequest.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/EnableEnhancedMonitoringRequest.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/KinesisRequest.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/Kinesis_EXPORTS.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/EnableEnhancedMonitoringRequest.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/MetricsName.h
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnableEnhancedMonitoringResult.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/EnableEnhancedMonitoringResult.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/Kinesis_EXPORTS.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/EnableEnhancedMonitoringResult.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/MetricsName.h
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/EnhancedMetrics.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/EnhancedMetrics.cpp
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/Kinesis_EXPORTS.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/EnhancedMetrics.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/MetricsName.h
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetRecordsRequest.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/GetRecordsRequest.cpp
  aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -334,6 +475,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetRecordsRe
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -361,6 +503,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/GetShardIter
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -588,6 +731,22 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MergeShardsR
  aws-cpp-sdk-kinesis/include/aws/kinesis/KinesisRequest.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/Kinesis_EXPORTS.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/MergeShardsRequest.h
+aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/MetricsName.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/MetricsName.cpp
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/Globals.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
+ aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/Kinesis_EXPORTS.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/MetricsName.h
 aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/PutRecordRequest.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-kinesis/source/model/PutRecordRequest.cpp
  aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -741,6 +900,7 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/Record.cpp.o
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
  aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -882,7 +1042,9 @@ aws-cpp-sdk-kinesis/CMakeFiles/aws-cpp-sdk-kinesis.dir/source/model/StreamDescri
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/Kinesis_EXPORTS.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/EnhancedMetrics.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/HashKeyRange.h
+ aws-cpp-sdk-kinesis/include/aws/kinesis/model/MetricsName.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/SequenceNumberRange.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/Shard.h
  aws-cpp-sdk-kinesis/include/aws/kinesis/model/StreamDescription.h

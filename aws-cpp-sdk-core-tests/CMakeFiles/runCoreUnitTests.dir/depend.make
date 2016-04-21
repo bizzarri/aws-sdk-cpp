@@ -113,6 +113,16 @@ aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/http/URITest.cpp.o: testi
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/http/URITest.cpp.o: testing-resources/include/aws/testing/MemoryTesting.h
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/http/URITest.cpp.o: testing-resources/include/aws/testing/Testing_EXPORTS.h
 
+aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o: aws-cpp-sdk-core-tests/utils/DateTimeTest.cpp
+aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/DateTimeTest.cpp.o: testing-resources/include/aws/external/gtest.h
+
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/EnumOverflowTest.cpp.o: aws-cpp-sdk-core-tests/utils/EnumOverflowTest.cpp
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/EnumOverflowTest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-core-tests/CMakeFiles/runCoreUnitTests.dir/utils/EnumOverflowTest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h

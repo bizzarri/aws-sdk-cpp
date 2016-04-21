@@ -43,6 +43,8 @@ aws/sts/model/AssumeRoleWithWebIdentityRequest.h
 -
 aws/sts/model/DecodeAuthorizationMessageRequest.h
 -
+aws/sts/model/GetCallerIdentityRequest.h
+-
 aws/sts/model/GetFederationTokenRequest.h
 -
 aws/sts/model/GetSessionTokenRequest.h
@@ -190,6 +192,28 @@ aws/core/utils/xml/XmlSerializer.h
 aws/core/utils/StringUtils.h
 -
 aws/core/utils/memory/stl/AWSStringStream.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/GetCallerIdentityRequest.cpp
+aws/sts/model/GetCallerIdentityRequest.h
+-
+aws/core/utils/StringUtils.h
+-
+aws/core/utils/memory/stl/AWSStringStream.h
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/source/model/GetCallerIdentityResult.cpp
+aws/sts/model/GetCallerIdentityResult.h
+-
+aws/core/utils/xml/XmlSerializer.h
+-
+aws/core/AmazonWebServiceResult.h
+-
+aws/core/utils/StringUtils.h
+-
+aws/core/utils/logging/LogMacros.h
 -
 utility
 -
@@ -478,6 +502,18 @@ cassert
 iterator
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+iomanip
+-
+ctime
+-
+mutex
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
 aws/core/Core_EXPORTS.h
 -
@@ -568,6 +604,14 @@ memory
 cstdlib
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+deque
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws/core/Core_EXPORTS.h
 -
@@ -592,6 +636,18 @@ aws/core/utils/memory/stl/AWSAllocator.h
 map
 -
 cstring
+-
+
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+aws/core/utils/memory/stl/AWSDeque.h
+-
+deque
+-
+queue
 -
 
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
@@ -635,9 +691,17 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
 aws/core/Core_EXPORTS.h
 -
+aws/core/utils/memory/stl/AWSFunction.h
+-
+aws/core/utils/memory/stl/AWSQueue.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 functional
 -
-aws/core/utils/memory/stl/AWSFunction.h
+mutex
+-
+condition_variable
 -
 
 aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
@@ -672,6 +736,8 @@ aws/sts/model/AssumeRoleWithSAMLResult.h
 aws/sts/model/AssumeRoleWithWebIdentityResult.h
 -
 aws/sts/model/DecodeAuthorizationMessageResult.h
+-
+aws/sts/model/GetCallerIdentityResult.h
 -
 aws/sts/model/GetFederationTokenResult.h
 -
@@ -791,6 +857,8 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-sts/include/aws/sts/model/DecodeAuthorizationMessageRequest.h
 aws/sts/STS_EXPORTS.h
@@ -814,6 +882,20 @@ aws/sts/STS_EXPORTS.h
 aws/core/utils/memory/stl/AWSStreamFwd.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+
+aws-cpp-sdk-sts/include/aws/sts/model/GetCallerIdentityRequest.h
+aws/sts/STS_EXPORTS.h
+-
+aws/sts/STSRequest.h
+-
+
+aws-cpp-sdk-sts/include/aws/sts/model/GetCallerIdentityResult.h
+aws/sts/STS_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+aws/sts/model/ResponseMetadata.h
 -
 
 aws-cpp-sdk-sts/include/aws/sts/model/GetFederationTokenRequest.h

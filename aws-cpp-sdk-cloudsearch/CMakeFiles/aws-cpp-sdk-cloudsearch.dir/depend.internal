@@ -115,14 +115,17 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/CloudSearc
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
@@ -178,6 +181,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Acce
  aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionState.h
  aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionStatus.h
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -268,6 +272,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Anal
  aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionState.h
  aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionStatus.h
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -286,6 +291,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Avai
  aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionState.h
  aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionStatus.h
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -490,6 +496,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Defi
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -550,6 +557,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Defi
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -634,6 +642,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Defi
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -698,6 +707,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Defi
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -760,6 +770,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Dele
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -877,6 +888,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Dele
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -948,6 +960,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Dele
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1009,6 +1022,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Dele
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1071,6 +1085,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Desc
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1129,6 +1144,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Desc
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1246,6 +1262,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Desc
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1317,6 +1334,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Desc
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1377,6 +1395,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Desc
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1435,6 +1454,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Desc
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1496,6 +1516,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Desc
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1605,6 +1626,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Expr
  aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionState.h
  aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionStatus.h
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1719,6 +1741,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Inde
  aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/TextArrayOptions.h
  aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/TextOptions.h
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1919,6 +1942,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Opti
  aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionState.h
  aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/OptionStatus.h
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1988,6 +2012,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Scal
  aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/ScalingParameters.h
  aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/ScalingParametersStatus.h
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2059,6 +2084,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Sugg
  aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/SuggesterFuzzyMatching.h
  aws-cpp-sdk-cloudsearch/include/aws/cloudsearch/model/SuggesterStatus.h
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2142,6 +2168,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Upda
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2204,6 +2231,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Upda
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2262,6 +2290,7 @@ aws-cpp-sdk-cloudsearch/CMakeFiles/aws-cpp-sdk-cloudsearch.dir/source/model/Upda
  aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h

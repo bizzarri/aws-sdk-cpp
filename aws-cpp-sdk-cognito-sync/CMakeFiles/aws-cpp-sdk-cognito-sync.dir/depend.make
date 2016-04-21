@@ -77,6 +77,7 @@ aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/CognitoS
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/CognitoSyncClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/CognitoSyncClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/CognitoSyncClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/CognitoSyncClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/CognitoSyncClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/CognitoSyncClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/CognitoSyncClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -87,6 +88,7 @@ aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/CognitoS
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/CognitoSyncClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/CognitoSyncClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/CognitoSyncClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/CognitoSyncClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/CognitoSyncClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/CognitoSyncClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/CognitoSyncClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -231,6 +233,7 @@ aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Da
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Dataset.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Dataset.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Dataset.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Dataset.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Dataset.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Dataset.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Dataset.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -284,6 +287,7 @@ aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/De
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DeleteDatasetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DeleteDatasetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DeleteDatasetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DeleteDatasetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DeleteDatasetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DeleteDatasetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DeleteDatasetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -339,6 +343,7 @@ aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/De
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeDatasetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeDatasetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeDatasetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeDatasetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeDatasetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeDatasetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeDatasetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -394,6 +399,7 @@ aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/De
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeIdentityPoolUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeIdentityPoolUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeIdentityPoolUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeIdentityPoolUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeIdentityPoolUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeIdentityPoolUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeIdentityPoolUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -449,6 +455,7 @@ aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/De
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeIdentityUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeIdentityUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeIdentityUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeIdentityUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeIdentityUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeIdentityUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/DescribeIdentityUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -504,6 +511,7 @@ aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Ge
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/GetBulkPublishDetailsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/GetBulkPublishDetailsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/GetBulkPublishDetailsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/GetBulkPublishDetailsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/GetBulkPublishDetailsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/GetBulkPublishDetailsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/GetBulkPublishDetailsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -635,6 +643,7 @@ aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Id
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/IdentityPoolUsage.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/IdentityPoolUsage.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/IdentityPoolUsage.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/IdentityPoolUsage.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/IdentityPoolUsage.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/IdentityPoolUsage.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/IdentityPoolUsage.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -653,6 +662,7 @@ aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Id
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/IdentityUsage.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/IdentityUsage.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/IdentityUsage.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/IdentityUsage.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/IdentityUsage.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/IdentityUsage.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/IdentityUsage.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -707,6 +717,7 @@ aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Li
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListDatasetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListDatasetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListDatasetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListDatasetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListDatasetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListDatasetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListDatasetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -763,6 +774,7 @@ aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Li
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListIdentityPoolUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListIdentityPoolUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListIdentityPoolUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListIdentityPoolUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListIdentityPoolUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListIdentityPoolUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListIdentityPoolUsageResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -819,6 +831,7 @@ aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Li
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListRecordsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListRecordsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListRecordsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListRecordsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListRecordsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListRecordsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/ListRecordsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -889,6 +902,7 @@ aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Re
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Record.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Record.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Record.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Record.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Record.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Record.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Record.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -908,6 +922,7 @@ aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Re
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/RecordPatch.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/RecordPatch.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/RecordPatch.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/RecordPatch.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/RecordPatch.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/RecordPatch.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/RecordPatch.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1202,6 +1217,7 @@ aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Up
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/UpdateRecordsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/UpdateRecordsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/UpdateRecordsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/UpdateRecordsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/UpdateRecordsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/UpdateRecordsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/UpdateRecordsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1231,6 +1247,7 @@ aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/Up
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/UpdateRecordsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/UpdateRecordsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/UpdateRecordsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/UpdateRecordsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/UpdateRecordsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/UpdateRecordsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cognito-sync/CMakeFiles/aws-cpp-sdk-cognito-sync.dir/source/model/UpdateRecordsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

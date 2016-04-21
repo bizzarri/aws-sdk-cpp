@@ -26,6 +26,7 @@ aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/Ma
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/MachineLearningClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/MachineLearningClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/MachineLearningClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/MachineLearningClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/MachineLearningClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/MachineLearningClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/MachineLearningClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -36,6 +37,7 @@ aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/Ma
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/MachineLearningClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/MachineLearningClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/MachineLearningClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/MachineLearningClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/MachineLearningClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/MachineLearningClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/MachineLearningClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -187,6 +189,7 @@ aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/mo
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/BatchPrediction.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/BatchPrediction.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/BatchPrediction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/BatchPrediction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/BatchPrediction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/BatchPrediction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/BatchPrediction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -588,6 +591,7 @@ aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/mo
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/CreateRealtimeEndpointResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/CreateRealtimeEndpointResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/CreateRealtimeEndpointResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/CreateRealtimeEndpointResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/CreateRealtimeEndpointResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/CreateRealtimeEndpointResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/CreateRealtimeEndpointResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -610,6 +614,7 @@ aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/mo
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DataSource.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DataSource.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DataSource.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DataSource.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DataSource.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DataSource.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DataSource.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -899,6 +904,7 @@ aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/mo
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DeleteRealtimeEndpointResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DeleteRealtimeEndpointResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DeleteRealtimeEndpointResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DeleteRealtimeEndpointResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DeleteRealtimeEndpointResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DeleteRealtimeEndpointResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DeleteRealtimeEndpointResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -957,6 +963,7 @@ aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/mo
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeBatchPredictionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeBatchPredictionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeBatchPredictionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeBatchPredictionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeBatchPredictionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeBatchPredictionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeBatchPredictionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1015,6 +1022,7 @@ aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/mo
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeDataSourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeDataSourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeDataSourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeDataSourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeDataSourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeDataSourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeDataSourcesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1077,6 +1085,7 @@ aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/mo
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeEvaluationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeEvaluationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeEvaluationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeEvaluationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeEvaluationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeEvaluationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeEvaluationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1136,6 +1145,7 @@ aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/mo
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeMLModelsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeMLModelsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeMLModelsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeMLModelsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeMLModelsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeMLModelsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/DescribeMLModelsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1194,6 +1204,7 @@ aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/mo
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/Evaluation.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/Evaluation.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/Evaluation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/Evaluation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/Evaluation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/Evaluation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/Evaluation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1264,6 +1275,7 @@ aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/mo
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetBatchPredictionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetBatchPredictionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetBatchPredictionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetBatchPredictionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetBatchPredictionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetBatchPredictionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetBatchPredictionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1319,6 +1331,7 @@ aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/mo
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetDataSourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetDataSourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetDataSourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetDataSourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetDataSourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetDataSourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetDataSourceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1378,6 +1391,7 @@ aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/mo
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetEvaluationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetEvaluationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetEvaluationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetEvaluationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetEvaluationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetEvaluationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetEvaluationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1434,6 +1448,7 @@ aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/mo
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetMLModelResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetMLModelResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetMLModelResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetMLModelResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetMLModelResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetMLModelResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/GetMLModelResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1458,6 +1473,7 @@ aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/mo
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/MLModel.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/MLModel.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/MLModel.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/MLModel.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/MLModel.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/MLModel.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/MLModel.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1681,6 +1697,7 @@ aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/mo
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/RealtimeEndpointInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/RealtimeEndpointInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/RealtimeEndpointInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/RealtimeEndpointInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/RealtimeEndpointInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/RealtimeEndpointInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-machinelearning/CMakeFiles/aws-cpp-sdk-machinelearning.dir/source/model/RealtimeEndpointInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

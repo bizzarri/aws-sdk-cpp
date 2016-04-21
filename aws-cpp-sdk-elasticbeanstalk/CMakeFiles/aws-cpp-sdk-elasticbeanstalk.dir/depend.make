@@ -25,14 +25,17 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
@@ -47,10 +50,15 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalkRequest.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/AbortEnvironmentUpdateRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ActionHistoryStatus.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ActionStatus.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ActionType.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ApplicationDescription.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ApplicationMetrics.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ApplicationVersionDescription.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ApplicationVersionStatus.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ApplyEnvironmentManagedActionRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ApplyEnvironmentManagedActionResult.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/AutoScalingGroup.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/CPUUtilization.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/CheckDNSAvailabilityRequest.h
@@ -76,6 +84,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DeleteApplicationVersionRequest.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DeleteConfigurationTemplateRequest.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DeleteEnvironmentConfigurationRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/Deployment.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeApplicationVersionsRequest.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeApplicationVersionsResult.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeApplicationsRequest.h
@@ -86,6 +95,10 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeConfigurationSettingsResult.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeEnvironmentHealthRequest.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeEnvironmentHealthResult.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeEnvironmentManagedActionHistoryRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeEnvironmentManagedActionHistoryResult.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeEnvironmentManagedActionsRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeEnvironmentManagedActionsResult.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeEnvironmentResourcesRequest.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeEnvironmentResourcesResult.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeEnvironmentsRequest.h
@@ -107,6 +120,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/EnvironmentTier.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/EventDescription.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/EventSeverity.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/FailureType.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/Instance.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/InstanceHealthSummary.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/InstancesHealthAttribute.h
@@ -117,6 +131,8 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/Listener.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/LoadBalancer.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/LoadBalancerDescription.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ManagedAction.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ManagedActionHistoryItem.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/OptionRestrictionRegex.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/OptionSpecification.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/ElasticBeanstalkClient.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/Queue.h
@@ -216,8 +232,57 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AbortEnvironmentUpdateRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AbortEnvironmentUpdateRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/AbortEnvironmentUpdateRequest.h
 
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ActionHistoryStatus.cpp
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Globals.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ActionHistoryStatus.h
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ActionStatus.cpp
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Globals.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ActionStatus.h
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ActionType.cpp
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o: aws-cpp-sdk-core/include/aws/core/Globals.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ActionType.h
+
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ApplicationDescription.cpp
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -252,6 +317,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ApplicationVersionDescription.cpp
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -283,6 +349,62 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionStatus.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ApplicationVersionStatus.h
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ApplyEnvironmentManagedActionRequest.cpp
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalkRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ApplyEnvironmentManagedActionRequest.h
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ApplyEnvironmentManagedActionResult.cpp
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/AWSLogging.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/LogLevel.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/LogMacros.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/LogSystemInterface.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ActionType.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ApplyEnvironmentManagedActionResult.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ResponseMetadata.h
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AutoScalingGroup.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/AutoScalingGroup.cpp
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AutoScalingGroup.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
@@ -404,6 +526,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ComposeEnvironmentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ComposeEnvironmentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ComposeEnvironmentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ComposeEnvironmentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ComposeEnvironmentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ComposeEnvironmentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ComposeEnvironmentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -503,6 +626,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationSettingsDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ConfigurationSettingsDescription.cpp
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationSettingsDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationSettingsDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationSettingsDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationSettingsDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ConfigurationSettingsDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -553,6 +677,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -610,6 +735,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateApplicationVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -670,6 +796,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -731,6 +858,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/CreateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -916,6 +1044,23 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteEnvironmentConfigurationRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteEnvironmentConfigurationRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DeleteEnvironmentConfigurationRequest.h
 
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/Deployment.cpp
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/Deployment.h
+
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeApplicationVersionsRequest.cpp
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
@@ -949,6 +1094,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1007,6 +1153,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeApplicationsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1122,6 +1269,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeConfigurationSettingsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1181,6 +1329,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1207,6 +1356,126 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/Latency.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ResponseMetadata.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/StatusCodes.h
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalkRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeEnvironmentManagedActionHistoryRequest.h
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/AWSLogging.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/LogLevel.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/LogMacros.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/LogSystemInterface.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ActionHistoryStatus.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ActionType.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeEnvironmentManagedActionHistoryResult.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/FailureType.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ManagedActionHistoryItem.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ResponseMetadata.h
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionsRequest.cpp
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalkRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ActionStatus.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeEnvironmentManagedActionsRequest.h
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentManagedActionsResult.cpp
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/AWSLogging.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/LogLevel.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/LogMacros.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/logging/LogSystemInterface.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ActionStatus.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ActionType.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeEnvironmentManagedActionsResult.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ManagedAction.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ResponseMetadata.h
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentResourcesRequest.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/DescribeEnvironmentResourcesRequest.cpp
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentResourcesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -1278,6 +1547,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1303,6 +1573,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1342,6 +1613,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1368,6 +1640,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1426,6 +1699,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1447,6 +1721,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ApplicationMetrics.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/CPUUtilization.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/Deployment.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/DescribeInstancesHealthResult.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/Latency.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeInstancesHealthResult.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ResponseMetadata.h
@@ -1456,6 +1731,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentDescription.cpp
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1529,6 +1805,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/EnvironmentInfoDescription.cpp
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EnvironmentInfoDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1650,6 +1927,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/EventDescription.cpp
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventDescription.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1680,6 +1958,22 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventSeverity.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventSeverity.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventSeverity.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/EventSeverity.h
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/FailureType.cpp
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o: aws-cpp-sdk-core/include/aws/core/Globals.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/FailureType.h
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Instance.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/Instance.cpp
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Instance.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
@@ -1866,6 +2160,45 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/LoadBalancerDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/Listener.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/LoadBalancerDescription.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/LoadBalancerDescription.h
 
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ManagedAction.cpp
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ActionStatus.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ActionType.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ManagedAction.h
+
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/ManagedActionHistoryItem.cpp
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ActionHistoryStatus.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ActionType.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/FailureType.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ManagedActionHistoryItem.h
+
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionRestrictionRegex.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/OptionRestrictionRegex.cpp
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionRestrictionRegex.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/OptionRestrictionRegex.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
@@ -2040,6 +2373,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RetrieveEnvironmentInfoResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RetrieveEnvironmentInfoResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RetrieveEnvironmentInfoResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RetrieveEnvironmentInfoResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RetrieveEnvironmentInfoResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RetrieveEnvironmentInfoResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/RetrieveEnvironmentInfoResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2082,6 +2416,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o: aws-cpp-sdk-elasticbeanstalk/source/model/SingleInstanceHealth.cpp
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2096,6 +2431,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/ElasticBeanstalk_EXPORTS.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/ApplicationMetrics.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/CPUUtilization.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/Deployment.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/Latency.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/SingleInstanceHealth.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/SingleInstanceHealth.cpp.o: aws-cpp-sdk-elasticbeanstalk/include/aws/elasticbeanstalk/model/StatusCodes.h
@@ -2240,6 +2576,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/TerminateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2319,6 +2656,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2375,6 +2713,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateApplicationVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2435,6 +2774,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateConfigurationTemplateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2495,6 +2835,7 @@ aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/UpdateEnvironmentResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h

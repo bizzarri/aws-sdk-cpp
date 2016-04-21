@@ -119,6 +119,7 @@ aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/CodePipe
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/CodePipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/CodePipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/CodePipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/CodePipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/CodePipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/CodePipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/CodePipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -129,6 +130,7 @@ aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/CodePipe
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/CodePipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/CodePipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/CodePipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/CodePipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/CodePipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/CodePipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/CodePipelineClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -424,6 +426,7 @@ aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/Ac
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionExecution.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionExecution.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionExecution.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionExecution.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionExecution.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionExecution.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionExecution.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -474,6 +477,7 @@ aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/Ac
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionRevision.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionRevision.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionRevision.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionRevision.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionRevision.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionRevision.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionRevision.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -496,6 +500,7 @@ aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/Ac
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionState.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionState.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionState.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionState.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionState.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionState.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ActionState.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1291,6 +1296,7 @@ aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/Ge
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/GetPipelineStateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/GetPipelineStateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/GetPipelineStateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/GetPipelineStateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/GetPipelineStateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/GetPipelineStateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/GetPipelineStateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1611,6 +1617,7 @@ aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/Li
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ListPipelinesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ListPipelinesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ListPipelinesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ListPipelinesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ListPipelinesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ListPipelinesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/ListPipelinesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1700,6 +1707,7 @@ aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/Pi
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/PipelineSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/PipelineSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/PipelineSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/PipelineSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/PipelineSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/PipelineSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/PipelineSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1857,6 +1865,7 @@ aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/Pu
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/PutActionRevisionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/PutActionRevisionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/PutActionRevisionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/PutActionRevisionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/PutActionRevisionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/PutActionRevisionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/PutActionRevisionRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2092,6 +2101,7 @@ aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/St
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/StageState.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/StageState.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/StageState.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/StageState.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/StageState.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/StageState.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/StageState.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2263,6 +2273,7 @@ aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/Tr
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/TransitionState.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/TransitionState.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/TransitionState.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/TransitionState.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/TransitionState.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/TransitionState.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-codepipeline/CMakeFiles/aws-cpp-sdk-codepipeline.dir/source/model/TransitionState.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

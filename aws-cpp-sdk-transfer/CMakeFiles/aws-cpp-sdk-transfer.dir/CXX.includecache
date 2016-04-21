@@ -266,6 +266,18 @@ cassert
 iterator
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+iomanip
+-
+ctime
+-
+mutex
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
 aws/core/Core_EXPORTS.h
 -
@@ -425,6 +437,8 @@ aws/s3/model/DeleteObjectResult.h
 -
 aws/s3/model/DeleteObjectsResult.h
 -
+aws/s3/model/GetBucketAccelerateConfigurationResult.h
+-
 aws/s3/model/GetBucketAclResult.h
 -
 aws/s3/model/GetBucketCorsResult.h
@@ -533,6 +547,14 @@ aws/s3/S3_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
+
+aws-cpp-sdk-s3/include/aws/s3/model/BucketAccelerateStatus.h
+aws/s3/S3_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
 
 aws-cpp-sdk-s3/include/aws/s3/model/BucketCannedACL.h
 aws/s3/S3_EXPORTS.h
@@ -619,11 +641,15 @@ aws/s3/S3_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-s3/include/aws/s3/model/CopyPartResult.h
 aws/s3/S3_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-s3/include/aws/s3/model/CreateBucketConfiguration.h
@@ -659,6 +685,8 @@ aws/s3/model/ObjectCannedACL.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/core/utils/memory/stl/AWSMap.h
 -
 aws/s3/model/ServerSideEncryption.h
@@ -670,6 +698,8 @@ aws/s3/model/RequestPayer.h
 
 aws-cpp-sdk-s3/include/aws/s3/model/CreateMultipartUploadResult.h
 aws/s3/S3_EXPORTS.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
@@ -684,6 +714,8 @@ aws/s3/S3_EXPORTS.h
 aws/s3/model/Owner.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-s3/include/aws/s3/model/DeleteObjectResult.h
@@ -762,6 +794,12 @@ aws-cpp-sdk-s3/include/aws/s3/model/FilterRuleName.h
 aws/s3/S3_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+
+aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAccelerateConfigurationResult.h
+aws/s3/S3_EXPORTS.h
+-
+aws/s3/model/BucketAccelerateStatus.h
 -
 
 aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAclResult.h
@@ -883,6 +921,8 @@ aws/s3/S3Request.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/s3/model/RequestPayer.h
 -
 
@@ -894,6 +934,8 @@ aws/core/utils/stream/ResponseStream.h
 aws/core/utils/Array.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/s3/model/ServerSideEncryption.h
 -
@@ -947,6 +989,8 @@ aws/s3/S3Request.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/s3/model/RequestPayer.h
 -
 
@@ -954,6 +998,8 @@ aws-cpp-sdk-s3/include/aws/s3/model/HeadObjectResult.h
 aws/s3/S3_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/s3/model/ServerSideEncryption.h
 -
@@ -992,6 +1038,8 @@ aws/s3/model/Event.h
 
 aws-cpp-sdk-s3/include/aws/s3/model/LifecycleExpiration.h
 aws/s3/S3_EXPORTS.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-s3/include/aws/s3/model/LifecycleRule.h
@@ -1081,6 +1129,8 @@ aws/s3/model/CommonPrefix.h
 aws-cpp-sdk-s3/include/aws/s3/model/ListPartsResult.h
 aws/s3/S3_EXPORTS.h
 -
+aws/core/utils/DateTime.h
+-
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/core/utils/memory/stl/AWSVector.h
@@ -1117,6 +1167,8 @@ aws/s3/S3_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/s3/model/StorageClass.h
 -
 aws/s3/model/Owner.h
@@ -1145,6 +1197,8 @@ aws/s3/S3_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/s3/model/ObjectStorageClass.h
 -
 aws/s3/model/Owner.h
@@ -1169,6 +1223,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/s3/model/ObjectVersionStorageClass.h
 -
+aws/core/utils/DateTime.h
+-
 aws/s3/model/Owner.h
 -
 
@@ -1186,6 +1242,8 @@ aws/core/utils/memory/stl/AWSString.h
 
 aws-cpp-sdk-s3/include/aws/s3/model/Part.h
 aws/s3/S3_EXPORTS.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
@@ -1224,6 +1282,8 @@ aws/s3/model/ObjectCannedACL.h
 aws/core/utils/Array.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSMap.h
 -
@@ -1378,6 +1438,8 @@ aws/s3/model/Event.h
 
 aws-cpp-sdk-s3/include/aws/s3/model/Transition.h
 aws/s3/S3_EXPORTS.h
+-
+aws/core/utils/DateTime.h
 -
 aws/s3/model/TransitionStorageClass.h
 -

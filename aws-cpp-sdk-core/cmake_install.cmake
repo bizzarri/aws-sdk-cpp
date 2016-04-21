@@ -195,7 +195,10 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/aws/core/utils/threading" TYPE FILE FILES "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/aws/core/utils/threading" TYPE FILE FILES
+    "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h"
+    "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-core/include/aws/core/utils/threading/ThreadTask.h"
+    )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

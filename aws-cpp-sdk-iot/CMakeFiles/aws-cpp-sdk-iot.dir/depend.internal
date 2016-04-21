@@ -28,6 +28,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTClient.cpp.o
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -38,6 +39,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTClient.cpp.o
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -57,6 +59,9 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTClient.cpp.o
  aws-cpp-sdk-iot/include/aws/iot/model/AttachThingPrincipalRequest.h
  aws-cpp-sdk-iot/include/aws/iot/model/AttachThingPrincipalResult.h
  aws-cpp-sdk-iot/include/aws/iot/model/AttributePayload.h
+ aws-cpp-sdk-iot/include/aws/iot/model/CACertificate.h
+ aws-cpp-sdk-iot/include/aws/iot/model/CACertificateDescription.h
+ aws-cpp-sdk-iot/include/aws/iot/model/CACertificateStatus.h
  aws-cpp-sdk-iot/include/aws/iot/model/CancelCertificateTransferRequest.h
  aws-cpp-sdk-iot/include/aws/iot/model/Certificate.h
  aws-cpp-sdk-iot/include/aws/iot/model/CertificateDescription.h
@@ -74,12 +79,18 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTClient.cpp.o
  aws-cpp-sdk-iot/include/aws/iot/model/CreateThingRequest.h
  aws-cpp-sdk-iot/include/aws/iot/model/CreateThingResult.h
  aws-cpp-sdk-iot/include/aws/iot/model/CreateTopicRuleRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/model/DeleteCACertificateRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/model/DeleteCACertificateResult.h
  aws-cpp-sdk-iot/include/aws/iot/model/DeleteCertificateRequest.h
  aws-cpp-sdk-iot/include/aws/iot/model/DeletePolicyRequest.h
  aws-cpp-sdk-iot/include/aws/iot/model/DeletePolicyVersionRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/model/DeleteRegistrationCodeRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/model/DeleteRegistrationCodeResult.h
  aws-cpp-sdk-iot/include/aws/iot/model/DeleteThingRequest.h
  aws-cpp-sdk-iot/include/aws/iot/model/DeleteThingResult.h
  aws-cpp-sdk-iot/include/aws/iot/model/DeleteTopicRuleRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/model/DescribeCACertificateRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/model/DescribeCACertificateResult.h
  aws-cpp-sdk-iot/include/aws/iot/model/DescribeCertificateRequest.h
  aws-cpp-sdk-iot/include/aws/iot/model/DescribeCertificateResult.h
  aws-cpp-sdk-iot/include/aws/iot/model/DescribeEndpointRequest.h
@@ -100,11 +111,17 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTClient.cpp.o
  aws-cpp-sdk-iot/include/aws/iot/model/GetPolicyResult.h
  aws-cpp-sdk-iot/include/aws/iot/model/GetPolicyVersionRequest.h
  aws-cpp-sdk-iot/include/aws/iot/model/GetPolicyVersionResult.h
+ aws-cpp-sdk-iot/include/aws/iot/model/GetRegistrationCodeRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/model/GetRegistrationCodeResult.h
  aws-cpp-sdk-iot/include/aws/iot/model/GetTopicRuleRequest.h
  aws-cpp-sdk-iot/include/aws/iot/model/GetTopicRuleResult.h
  aws-cpp-sdk-iot/include/aws/iot/model/KeyPair.h
  aws-cpp-sdk-iot/include/aws/iot/model/KinesisAction.h
  aws-cpp-sdk-iot/include/aws/iot/model/LambdaAction.h
+ aws-cpp-sdk-iot/include/aws/iot/model/ListCACertificatesRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/model/ListCACertificatesResult.h
+ aws-cpp-sdk-iot/include/aws/iot/model/ListCertificatesByCARequest.h
+ aws-cpp-sdk-iot/include/aws/iot/model/ListCertificatesByCAResult.h
  aws-cpp-sdk-iot/include/aws/iot/model/ListCertificatesRequest.h
  aws-cpp-sdk-iot/include/aws/iot/model/ListCertificatesResult.h
  aws-cpp-sdk-iot/include/aws/iot/model/ListPoliciesRequest.h
@@ -126,6 +143,10 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTClient.cpp.o
  aws-cpp-sdk-iot/include/aws/iot/model/MessageFormat.h
  aws-cpp-sdk-iot/include/aws/iot/model/Policy.h
  aws-cpp-sdk-iot/include/aws/iot/model/PolicyVersion.h
+ aws-cpp-sdk-iot/include/aws/iot/model/RegisterCACertificateRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/model/RegisterCACertificateResult.h
+ aws-cpp-sdk-iot/include/aws/iot/model/RegisterCertificateRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/model/RegisterCertificateResult.h
  aws-cpp-sdk-iot/include/aws/iot/model/RejectCertificateTransferRequest.h
  aws-cpp-sdk-iot/include/aws/iot/model/ReplaceTopicRuleRequest.h
  aws-cpp-sdk-iot/include/aws/iot/model/RepublishAction.h
@@ -140,6 +161,8 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/IoTClient.cpp.o
  aws-cpp-sdk-iot/include/aws/iot/model/TopicRulePayload.h
  aws-cpp-sdk-iot/include/aws/iot/model/TransferCertificateRequest.h
  aws-cpp-sdk-iot/include/aws/iot/model/TransferCertificateResult.h
+ aws-cpp-sdk-iot/include/aws/iot/model/TransferData.h
+ aws-cpp-sdk-iot/include/aws/iot/model/UpdateCACertificateRequest.h
  aws-cpp-sdk-iot/include/aws/iot/model/UpdateCertificateRequest.h
  aws-cpp-sdk-iot/include/aws/iot/model/UpdateThingRequest.h
  aws-cpp-sdk-iot/include/aws/iot/model/UpdateThingResult.h
@@ -345,6 +368,62 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/AttributePayload.cpp
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
  aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
  aws-cpp-sdk-iot/include/aws/iot/model/AttributePayload.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificate.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CACertificate.cpp
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/CACertificate.h
+ aws-cpp-sdk-iot/include/aws/iot/model/CACertificateStatus.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateDescription.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CACertificateDescription.cpp
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/CACertificateDescription.h
+ aws-cpp-sdk-iot/include/aws/iot/model/CACertificateStatus.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CACertificateStatus.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CACertificateStatus.cpp
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/Globals.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
+ aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/CACertificateStatus.h
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CancelCertificateTransferRequest.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CancelCertificateTransferRequest.cpp
  aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -378,6 +457,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/Certificate.cpp.o
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
  aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -397,6 +477,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateDescripti
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
  aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -411,6 +492,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateDescripti
  aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
  aws-cpp-sdk-iot/include/aws/iot/model/CertificateDescription.h
  aws-cpp-sdk-iot/include/aws/iot/model/CertificateStatus.h
+ aws-cpp-sdk-iot/include/aws/iot/model/TransferData.h
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CertificateStatus.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/CertificateStatus.cpp
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
@@ -780,6 +862,60 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/CreateTopicRuleReque
  aws-cpp-sdk-iot/include/aws/iot/model/SnsAction.h
  aws-cpp-sdk-iot/include/aws/iot/model/SqsAction.h
  aws-cpp-sdk-iot/include/aws/iot/model/TopicRulePayload.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateRequest.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteCACertificateRequest.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-iot/include/aws/iot/IoTRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/DeleteCACertificateRequest.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCACertificateResult.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteCACertificateResult.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/DeleteCACertificateResult.h
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteCertificateRequest.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteCertificateRequest.cpp
  aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -864,6 +1000,60 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeletePolicyVersionR
  aws-cpp-sdk-iot/include/aws/iot/IoTRequest.h
  aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
  aws-cpp-sdk-iot/include/aws/iot/model/DeletePolicyVersionRequest.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeRequest.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteRegistrationCodeRequest.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-iot/include/aws/iot/IoTRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/DeleteRegistrationCodeRequest.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteRegistrationCodeResult.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteRegistrationCodeResult.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/DeleteRegistrationCodeResult.h
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteThingRequest.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DeleteThingRequest.cpp
  aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -946,6 +1136,63 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DeleteTopicRuleReque
  aws-cpp-sdk-iot/include/aws/iot/IoTRequest.h
  aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
  aws-cpp-sdk-iot/include/aws/iot/model/DeleteTopicRuleRequest.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateRequest.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DescribeCACertificateRequest.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-iot/include/aws/iot/IoTRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/DescribeCACertificateRequest.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCACertificateResult.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DescribeCACertificateResult.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/CACertificateDescription.h
+ aws-cpp-sdk-iot/include/aws/iot/model/CACertificateStatus.h
+ aws-cpp-sdk-iot/include/aws/iot/model/DescribeCACertificateResult.h
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateRequest.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DescribeCertificateRequest.cpp
  aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -985,6 +1232,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateR
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1002,6 +1250,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeCertificateR
  aws-cpp-sdk-iot/include/aws/iot/model/CertificateDescription.h
  aws-cpp-sdk-iot/include/aws/iot/model/CertificateStatus.h
  aws-cpp-sdk-iot/include/aws/iot/model/DescribeCertificateResult.h
+ aws-cpp-sdk-iot/include/aws/iot/model/TransferData.h
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/DescribeEndpointRequest.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/DescribeEndpointRequest.cpp
  aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -1467,6 +1716,60 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetPolicyVersionResu
  aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
  aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
  aws-cpp-sdk-iot/include/aws/iot/model/GetPolicyVersionResult.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeRequest.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/GetRegistrationCodeRequest.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-iot/include/aws/iot/IoTRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/GetRegistrationCodeRequest.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetRegistrationCodeResult.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/GetRegistrationCodeResult.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/GetRegistrationCodeResult.h
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetTopicRuleRequest.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/GetTopicRuleRequest.cpp
  aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -1506,6 +1809,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/GetTopicRuleResult.c
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1589,6 +1893,122 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/LambdaAction.cpp.o
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
  aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
  aws-cpp-sdk-iot/include/aws/iot/model/LambdaAction.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesRequest.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCACertificatesRequest.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-iot/include/aws/iot/IoTRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/ListCACertificatesRequest.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCACertificatesResult.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCACertificatesResult.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/CACertificate.h
+ aws-cpp-sdk-iot/include/aws/iot/model/CACertificateStatus.h
+ aws-cpp-sdk-iot/include/aws/iot/model/ListCACertificatesResult.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCARequest.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCertificatesByCARequest.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-iot/include/aws/iot/IoTRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/ListCertificatesByCARequest.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesByCAResult.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCertificatesByCAResult.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/Certificate.h
+ aws-cpp-sdk-iot/include/aws/iot/model/CertificateStatus.h
+ aws-cpp-sdk-iot/include/aws/iot/model/ListCertificatesByCAResult.h
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesRequest.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/ListCertificatesRequest.cpp
  aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -1629,6 +2049,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListCertificatesResu
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1741,6 +2162,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListPolicyVersionsRe
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2018,6 +2440,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/ListTopicRulesResult
  aws-cpp-sdk-core/include/aws/core/http/Scheme.h
  aws-cpp-sdk-core/include/aws/core/http/URI.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2108,6 +2531,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/PolicyVersion.cpp.o
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
  aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2121,6 +2545,116 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/PolicyVersion.cpp.o
  aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
  aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
  aws-cpp-sdk-iot/include/aws/iot/model/PolicyVersion.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateRequest.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RegisterCACertificateRequest.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-iot/include/aws/iot/IoTRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/RegisterCACertificateRequest.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCACertificateResult.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RegisterCACertificateResult.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/RegisterCACertificateResult.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateRequest.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RegisterCertificateRequest.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-iot/include/aws/iot/IoTRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/RegisterCertificateRequest.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RegisterCertificateResult.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RegisterCertificateResult.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/RegisterCertificateResult.h
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/RejectCertificateTransferRequest.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/RejectCertificateTransferRequest.cpp
  aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
@@ -2345,6 +2879,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRule.cpp.o
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
  aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2376,6 +2911,7 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TopicRuleListItem.cp
  aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
  aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
  aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
  aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
  aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
  aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2475,6 +3011,55 @@ aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferCertificateR
  aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
  aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
  aws-cpp-sdk-iot/include/aws/iot/model/TransferCertificateResult.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/TransferData.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/TransferData.cpp
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/TransferData.h
+aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCACertificateRequest.cpp.o
+ /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/UpdateCACertificateRequest.cpp
+ aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h
+ aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+ aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h
+ aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
+ aws-cpp-sdk-core/include/aws/core/http/Scheme.h
+ aws-cpp-sdk-core/include/aws/core/http/URI.h
+ aws-cpp-sdk-core/include/aws/core/utils/Array.h
+ aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
+ aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
+ aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h
+ aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h
+ aws-cpp-sdk-iot/include/aws/iot/IoTRequest.h
+ aws-cpp-sdk-iot/include/aws/iot/IoT_EXPORTS.h
+ aws-cpp-sdk-iot/include/aws/iot/model/CACertificateStatus.h
+ aws-cpp-sdk-iot/include/aws/iot/model/UpdateCACertificateRequest.h
 aws-cpp-sdk-iot/CMakeFiles/aws-cpp-sdk-iot.dir/source/model/UpdateCertificateRequest.cpp.o
  /home/maurice/aws-sdk-cpp/aws-cpp-sdk-iot/source/model/UpdateCertificateRequest.cpp
  aws-cpp-sdk-core/include/aws/core/AmazonSerializableWebServiceRequest.h

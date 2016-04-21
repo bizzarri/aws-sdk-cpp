@@ -65,6 +65,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/aws/sts/model" TYPE FILE FILES
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/include/aws/sts/model/AssumeRoleResult.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/include/aws/sts/model/Credentials.h"
+    "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/include/aws/sts/model/GetCallerIdentityResult.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/include/aws/sts/model/FederatedUser.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/include/aws/sts/model/AssumeRoleRequest.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/include/aws/sts/model/AssumeRoleWithSAMLResult.h"
@@ -77,6 +78,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/include/aws/sts/model/ResponseMetadata.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/include/aws/sts/model/AssumeRoleWithSAMLRequest.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/include/aws/sts/model/GetSessionTokenRequest.h"
+    "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/include/aws/sts/model/GetCallerIdentityRequest.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/include/aws/sts/model/GetFederationTokenResult.h"
     "/home/maurice/aws-sdk-cpp/aws-cpp-sdk-sts/include/aws/sts/model/AssumeRoleWithWebIdentityRequest.h"
     )

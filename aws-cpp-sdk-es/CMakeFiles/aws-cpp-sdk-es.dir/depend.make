@@ -27,6 +27,7 @@ aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/ElasticsearchServiceClient.c
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/ElasticsearchServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/ElasticsearchServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/ElasticsearchServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/ElasticsearchServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/ElasticsearchServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/ElasticsearchServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/ElasticsearchServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -37,6 +38,7 @@ aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/ElasticsearchServiceClient.c
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/ElasticsearchServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/ElasticsearchServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/ElasticsearchServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/ElasticsearchServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/ElasticsearchServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/ElasticsearchServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/ElasticsearchServiceClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -129,6 +131,7 @@ aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/AccessPoliciesStatus.c
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/AccessPoliciesStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/AccessPoliciesStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/AccessPoliciesStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/AccessPoliciesStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/AccessPoliciesStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/AccessPoliciesStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/AccessPoliciesStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -178,6 +181,7 @@ aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/AdvancedOptionsStatus.
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/AdvancedOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/AdvancedOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/AdvancedOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/AdvancedOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/AdvancedOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/AdvancedOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/AdvancedOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -357,6 +361,7 @@ aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/DescribeElasticsearchD
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/DescribeElasticsearchDomainConfigResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/DescribeElasticsearchDomainConfigResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/DescribeElasticsearchDomainConfigResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/DescribeElasticsearchDomainConfigResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/DescribeElasticsearchDomainConfigResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/DescribeElasticsearchDomainConfigResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/DescribeElasticsearchDomainConfigResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -547,6 +552,7 @@ aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/EBSOptionsStatus.cpp.o
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/EBSOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/EBSOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/EBSOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/EBSOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/EBSOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/EBSOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/EBSOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -604,6 +610,7 @@ aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/ElasticsearchClusterCo
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/ElasticsearchClusterConfigStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/ElasticsearchClusterConfigStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/ElasticsearchClusterConfigStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/ElasticsearchClusterConfigStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/ElasticsearchClusterConfigStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/ElasticsearchClusterConfigStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/ElasticsearchClusterConfigStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -626,6 +633,7 @@ aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/ElasticsearchDomainCon
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/ElasticsearchDomainConfig.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/ElasticsearchDomainConfig.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/ElasticsearchDomainConfig.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/ElasticsearchDomainConfig.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/ElasticsearchDomainConfig.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/ElasticsearchDomainConfig.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/ElasticsearchDomainConfig.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -778,6 +786,7 @@ aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/OptionStatus.cpp.o: aw
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/OptionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/OptionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/OptionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/OptionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/OptionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/OptionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/OptionStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -843,6 +852,7 @@ aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/SnapshotOptionsStatus.
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/SnapshotOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/SnapshotOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/SnapshotOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/SnapshotOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/SnapshotOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/SnapshotOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/SnapshotOptionsStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -921,6 +931,7 @@ aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/UpdateElasticsearchDom
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/UpdateElasticsearchDomainConfigResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/UpdateElasticsearchDomainConfigResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/UpdateElasticsearchDomainConfigResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/UpdateElasticsearchDomainConfigResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/UpdateElasticsearchDomainConfigResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/UpdateElasticsearchDomainConfigResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-es/CMakeFiles/aws-cpp-sdk-es.dir/source/model/UpdateElasticsearchDomainConfigResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

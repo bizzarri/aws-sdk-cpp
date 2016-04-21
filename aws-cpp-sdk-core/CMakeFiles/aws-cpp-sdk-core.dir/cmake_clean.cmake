@@ -35,6 +35,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/aws-cpp-sdk-core.dir/source/utils/crypto/Sha256HMAC.cpp.o"
   "CMakeFiles/aws-cpp-sdk-core.dir/source/utils/crypto/MD5.cpp.o"
   "CMakeFiles/aws-cpp-sdk-core.dir/source/utils/json/JsonSerializer.cpp.o"
+  "CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o"
   "CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.o"
   "CMakeFiles/aws-cpp-sdk-core.dir/source/utils/xml/XmlSerializer.cpp.o"
   "CMakeFiles/aws-cpp-sdk-core.dir/source/utils/stream/ResponseStream.cpp.o"

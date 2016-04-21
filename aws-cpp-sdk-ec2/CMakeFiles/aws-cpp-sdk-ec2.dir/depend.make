@@ -26,14 +26,17 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-s
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/EC2Client.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
@@ -734,6 +737,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/AcceptVpcPeeringConn
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/AcceptVpcPeeringConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/AcceptVpcPeeringConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/AcceptVpcPeeringConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/AcceptVpcPeeringConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/AcceptVpcPeeringConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/AcceptVpcPeeringConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/AcceptVpcPeeringConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1348,6 +1352,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/AttachVolumeResponse
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/AttachVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/AttachVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/AttachVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/AttachVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/AttachVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/AttachVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/AttachVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1706,6 +1711,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/BundleInstanceRespon
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/BundleInstanceResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/BundleInstanceResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/BundleInstanceResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/BundleInstanceResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/BundleInstanceResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/BundleInstanceResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/BundleInstanceResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1736,6 +1742,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/BundleInstanceRespon
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/BundleTask.cpp.o: aws-cpp-sdk-ec2/source/model/BundleTask.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/BundleTask.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/BundleTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/BundleTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/BundleTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/BundleTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/BundleTask.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1836,6 +1843,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CancelBundleTaskResp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CancelBundleTaskResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CancelBundleTaskResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CancelBundleTaskResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CancelBundleTaskResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CancelBundleTaskResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CancelBundleTaskResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CancelBundleTaskResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2001,6 +2009,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CancelReservedInstan
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CancelReservedInstancesListingResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CancelReservedInstancesListingResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CancelReservedInstancesListingResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CancelReservedInstancesListingResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CancelReservedInstancesListingResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CancelReservedInstancesListingResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CancelReservedInstancesListingResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2268,6 +2277,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ClassicLinkInstance.
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ClientData.cpp.o: aws-cpp-sdk-ec2/source/model/ClientData.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ClientData.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ClientData.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ClientData.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ClientData.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ClientData.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2952,6 +2962,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateNatGatewayResp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateNatGatewayResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateNatGatewayResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateNatGatewayResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateNatGatewayResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateNatGatewayResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateNatGatewayResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateNatGatewayResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3101,6 +3112,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateNetworkInterfa
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateNetworkInterfaceResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateNetworkInterfaceResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateNetworkInterfaceResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateNetworkInterfaceResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateNetworkInterfaceResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateNetworkInterfaceResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateNetworkInterfaceResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3193,6 +3205,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateReservedInstan
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateReservedInstancesListingResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateReservedInstancesListingResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateReservedInstancesListingResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateReservedInstancesListingResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateReservedInstancesListingResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateReservedInstancesListingResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateReservedInstancesListingResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3427,6 +3440,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateSnapshotRespon
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateSnapshotResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateSnapshotResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateSnapshotResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateSnapshotResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateSnapshotResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateSnapshotResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateSnapshotResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3662,6 +3676,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVolumeResponse
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3722,6 +3737,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpcEndpointRes
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpcEndpointResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpcEndpointResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpcEndpointResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpcEndpointResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpcEndpointResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpcEndpointResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpcEndpointResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3779,6 +3795,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpcPeeringConn
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpcPeeringConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpcPeeringConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpcPeeringConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpcPeeringConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpcPeeringConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpcPeeringConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpcPeeringConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3900,6 +3917,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpnConnectionR
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpnConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpnConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpnConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpnConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpnConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpnConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/CreateVpnConnectionResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5027,6 +5045,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeBundleTasksR
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeBundleTasksResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeBundleTasksResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeBundleTasksResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeBundleTasksResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeBundleTasksResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeBundleTasksResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeBundleTasksResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5393,6 +5412,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeFlowLogsResp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeFlowLogsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeFlowLogsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeFlowLogsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeFlowLogsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeFlowLogsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeFlowLogsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeFlowLogsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5513,6 +5533,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeIdFormatResp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeIdFormatResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeIdFormatResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeIdFormatResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeIdFormatResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeIdFormatResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeIdFormatResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeIdFormatResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5823,6 +5844,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstanceAttr
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstanceAttributeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstanceAttributeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstanceAttributeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstanceAttributeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstanceAttributeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstanceAttributeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstanceAttributeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5887,6 +5909,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstanceStat
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstanceStatusResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstanceStatusResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstanceStatusResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstanceStatusResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstanceStatusResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstanceStatusResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstanceStatusResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5953,6 +5976,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstancesRes
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -6213,6 +6237,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNatGatewaysR
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNatGatewaysResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNatGatewaysResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNatGatewaysResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNatGatewaysResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNatGatewaysResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNatGatewaysResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNatGatewaysResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -6335,6 +6360,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNetworkInter
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNetworkInterfaceAttributeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNetworkInterfaceAttributeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNetworkInterfaceAttributeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNetworkInterfaceAttributeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNetworkInterfaceAttributeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNetworkInterfaceAttributeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNetworkInterfaceAttributeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -6396,6 +6422,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNetworkInter
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNetworkInterfacesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNetworkInterfacesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNetworkInterfacesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNetworkInterfacesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNetworkInterfacesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNetworkInterfacesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeNetworkInterfacesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -6634,6 +6661,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInst
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesListingsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesListingsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesListingsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesListingsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesListingsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesListingsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesListingsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -6697,6 +6725,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInst
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesModificationsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesModificationsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesModificationsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesModificationsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesModificationsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesModificationsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesModificationsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -6828,6 +6857,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInst
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeReservedInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -6931,6 +6961,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledIns
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstanceAvailabilityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstanceAvailabilityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstanceAvailabilityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstanceAvailabilityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstanceAvailabilityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstanceAvailabilityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstanceAvailabilityRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -6959,6 +6990,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledIns
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstanceAvailabilityResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstanceAvailabilityResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstanceAvailabilityResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstanceAvailabilityResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstanceAvailabilityResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstanceAvailabilityResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstanceAvailabilityResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -6991,6 +7023,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledIns
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstancesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstancesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstancesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstancesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstancesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstancesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstancesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -7018,6 +7051,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledIns
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeScheduledInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -7198,6 +7232,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSnapshotsRes
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSnapshotsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSnapshotsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSnapshotsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSnapshotsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSnapshotsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSnapshotsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSnapshotsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -7345,6 +7380,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetReq
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -7371,6 +7407,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetReq
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestHistoryResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestHistoryResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestHistoryResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestHistoryResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestHistoryResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestHistoryResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestHistoryResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -7429,6 +7466,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetReq
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotFleetRequestsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -7501,6 +7539,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotInstance
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotInstanceRequestsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotInstanceRequestsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotInstanceRequestsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotInstanceRequestsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotInstanceRequestsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotInstanceRequestsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotInstanceRequestsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -7549,6 +7588,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotPriceHis
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotPriceHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotPriceHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotPriceHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotPriceHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotPriceHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotPriceHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotPriceHistoryRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -7576,6 +7616,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotPriceHis
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotPriceHistoryResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotPriceHistoryResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotPriceHistoryResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotPriceHistoryResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotPriceHistoryResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotPriceHistoryResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeSpotPriceHistoryResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -7811,6 +7852,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVolumeStatus
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVolumeStatusResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVolumeStatusResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVolumeStatusResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVolumeStatusResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVolumeStatusResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVolumeStatusResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVolumeStatusResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -7874,6 +7916,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVolumesRespo
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVolumesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVolumesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVolumesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVolumesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVolumesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVolumesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVolumesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -8162,6 +8205,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpcEndpoints
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpcEndpointsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpcEndpointsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpcEndpointsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpcEndpointsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpcEndpointsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpcEndpointsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpcEndpointsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -8220,6 +8264,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpcPeeringCo
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpcPeeringConnectionsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpcPeeringConnectionsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpcPeeringConnectionsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpcPeeringConnectionsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpcPeeringConnectionsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpcPeeringConnectionsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpcPeeringConnectionsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -8341,6 +8386,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpnConnectio
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpnConnectionsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpnConnectionsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpnConnectionsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpnConnectionsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpnConnectionsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpnConnectionsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DescribeVpnConnectionsResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -8572,6 +8618,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DetachVolumeResponse
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DetachVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DetachVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DetachVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DetachVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DetachVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DetachVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/DetachVolumeResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -8977,6 +9024,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/EbsBlockDevice.cpp.o
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/EbsInstanceBlockDevice.cpp.o: aws-cpp-sdk-ec2/source/model/EbsInstanceBlockDevice.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/EbsInstanceBlockDevice.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/EbsInstanceBlockDevice.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/EbsInstanceBlockDevice.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/EbsInstanceBlockDevice.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/EbsInstanceBlockDevice.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -9340,6 +9388,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Filter.cpp.o: aws-cp
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/FlowLog.cpp.o: aws-cpp-sdk-ec2/source/model/FlowLog.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/FlowLog.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/FlowLog.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/FlowLog.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/FlowLog.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/FlowLog.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -9420,6 +9469,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/GetConsoleOutputResp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/GetConsoleOutputResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/GetConsoleOutputResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/GetConsoleOutputResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/GetConsoleOutputResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/GetConsoleOutputResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/GetConsoleOutputResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/GetConsoleOutputResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -9475,6 +9525,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/GetPasswordDataRespo
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/GetPasswordDataResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/GetPasswordDataResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/GetPasswordDataResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/GetPasswordDataResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/GetPasswordDataResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/GetPasswordDataResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/GetPasswordDataResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -9515,6 +9566,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/GroupIdentifier.cpp.
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/HistoryRecord.cpp.o: aws-cpp-sdk-ec2/source/model/HistoryRecord.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/HistoryRecord.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/HistoryRecord.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/HistoryRecord.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/HistoryRecord.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/HistoryRecord.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -9667,6 +9719,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/IcmpTypeCode.cpp.o: 
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/IdFormat.cpp.o: aws-cpp-sdk-ec2/source/model/IdFormat.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/IdFormat.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/IdFormat.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/IdFormat.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/IdFormat.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/IdFormat.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -9784,6 +9837,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ImportImageRequest.c
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ImportImageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ImportImageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ImportImageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ImportImageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ImportImageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ImportImageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ImportImageRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -10058,6 +10112,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ImportSnapshotReques
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ImportSnapshotRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ImportSnapshotRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ImportSnapshotRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ImportSnapshotRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ImportSnapshotRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ImportSnapshotRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ImportSnapshotRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -10217,6 +10272,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ImportVolumeTaskDeta
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Instance.cpp.o: aws-cpp-sdk-ec2/source/model/Instance.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Instance.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Instance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Instance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Instance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Instance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -10276,6 +10332,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceAttributeNam
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceBlockDeviceMapping.cpp.o: aws-cpp-sdk-ec2/source/model/InstanceBlockDeviceMapping.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceBlockDeviceMapping.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceBlockDeviceMapping.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceBlockDeviceMapping.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceBlockDeviceMapping.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceBlockDeviceMapping.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -10395,6 +10452,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceMonitoring.c
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceNetworkInterface.cpp.o: aws-cpp-sdk-ec2/source/model/InstanceNetworkInterface.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceNetworkInterface.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceNetworkInterface.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceNetworkInterface.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceNetworkInterface.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceNetworkInterface.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -10433,6 +10491,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceNetworkInter
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceNetworkInterfaceAttachment.cpp.o: aws-cpp-sdk-ec2/source/model/InstanceNetworkInterfaceAttachment.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceNetworkInterfaceAttachment.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceNetworkInterfaceAttachment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceNetworkInterfaceAttachment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceNetworkInterfaceAttachment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceNetworkInterfaceAttachment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -10535,6 +10594,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStateName.cp
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatus.cpp.o: aws-cpp-sdk-ec2/source/model/InstanceStatus.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -10560,6 +10620,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatus.cpp.o
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusDetails.cpp.o: aws-cpp-sdk-ec2/source/model/InstanceStatusDetails.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusDetails.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusDetails.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusDetails.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusDetails.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusDetails.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -10578,6 +10639,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusDetail
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusEvent.cpp.o: aws-cpp-sdk-ec2/source/model/InstanceStatusEvent.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -10595,6 +10657,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusEvent.
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusSummary.cpp.o: aws-cpp-sdk-ec2/source/model/InstanceStatusSummary.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/InstanceStatusSummary.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -11497,6 +11560,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/MovingAddressStatus.
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NatGateway.cpp.o: aws-cpp-sdk-ec2/source/model/NatGateway.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NatGateway.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NatGateway.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NatGateway.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NatGateway.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NatGateway.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -11604,6 +11668,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NetworkAclEntry.cpp.
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NetworkInterface.cpp.o: aws-cpp-sdk-ec2/source/model/NetworkInterface.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NetworkInterface.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NetworkInterface.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NetworkInterface.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NetworkInterface.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NetworkInterface.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -11644,6 +11709,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NetworkInterfaceAsso
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NetworkInterfaceAttachment.cpp.o: aws-cpp-sdk-ec2/source/model/NetworkInterfaceAttachment.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NetworkInterfaceAttachment.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NetworkInterfaceAttachment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NetworkInterfaceAttachment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NetworkInterfaceAttachment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/NetworkInterfaceAttachment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -12157,6 +12223,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/PurchaseScheduledIns
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/PurchaseScheduledInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/PurchaseScheduledInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/PurchaseScheduledInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/PurchaseScheduledInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/PurchaseScheduledInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/PurchaseScheduledInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/PurchaseScheduledInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -12654,6 +12721,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReportInstanceStatus
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReportInstanceStatusRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReportInstanceStatusRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReportInstanceStatusRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReportInstanceStatusRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReportInstanceStatusRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReportInstanceStatusRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReportInstanceStatusRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -12697,6 +12765,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotFleetRequ
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotFleetRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotFleetRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotFleetRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotFleetRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotFleetRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotFleetRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotFleetRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -12766,6 +12835,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotInstances
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotInstancesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotInstancesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotInstancesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotInstancesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotInstancesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotInstancesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotInstancesRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -12802,6 +12872,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotInstances
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -12869,6 +12940,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RequestSpotLaunchSpe
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Reservation.cpp.o: aws-cpp-sdk-ec2/source/model/Reservation.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Reservation.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Reservation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Reservation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Reservation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Reservation.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -12947,6 +13019,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstanceStat
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstances.cpp.o: aws-cpp-sdk-ec2/source/model/ReservedInstances.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstances.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstances.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstances.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstances.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstances.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -13005,6 +13078,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstancesId.
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstancesListing.cpp.o: aws-cpp-sdk-ec2/source/model/ReservedInstancesListing.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstancesListing.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstancesListing.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstancesListing.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstancesListing.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstancesListing.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -13027,6 +13101,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstancesLis
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstancesModification.cpp.o: aws-cpp-sdk-ec2/source/model/ReservedInstancesModification.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstancesModification.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstancesModification.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstancesModification.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstancesModification.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ReservedInstancesModification.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -13516,6 +13591,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RunInstancesResponse
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RunInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RunInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RunInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RunInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RunInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RunInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/RunInstancesResponse.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -13649,6 +13725,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/S3Storage.cpp.o: aws
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ScheduledInstance.cpp.o: aws-cpp-sdk-ec2/source/model/ScheduledInstance.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ScheduledInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ScheduledInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ScheduledInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ScheduledInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ScheduledInstance.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -13666,6 +13743,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ScheduledInstance.cp
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ScheduledInstanceAvailability.cpp.o: aws-cpp-sdk-ec2/source/model/ScheduledInstanceAvailability.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ScheduledInstanceAvailability.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ScheduledInstanceAvailability.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ScheduledInstanceAvailability.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ScheduledInstanceAvailability.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ScheduledInstanceAvailability.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -13889,6 +13967,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/ShutdownBehavior.cpp
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SlotDateTimeRangeRequest.cpp.o: aws-cpp-sdk-ec2/source/model/SlotDateTimeRangeRequest.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SlotDateTimeRangeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SlotDateTimeRangeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SlotDateTimeRangeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SlotDateTimeRangeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SlotDateTimeRangeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -13905,6 +13984,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SlotDateTimeRangeReq
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SlotStartTimeRangeRequest.cpp.o: aws-cpp-sdk-ec2/source/model/SlotStartTimeRangeRequest.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SlotStartTimeRangeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SlotStartTimeRangeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SlotStartTimeRangeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SlotStartTimeRangeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SlotStartTimeRangeRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -13921,6 +14001,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SlotStartTimeRangeRe
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-ec2/source/model/Snapshot.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Snapshot.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -14083,6 +14164,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotFleetMonitoring.
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotFleetRequestConfig.cpp.o: aws-cpp-sdk-ec2/source/model/SpotFleetRequestConfig.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotFleetRequestConfig.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotFleetRequestConfig.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotFleetRequestConfig.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotFleetRequestConfig.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotFleetRequestConfig.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -14114,6 +14196,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotFleetRequestConf
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotFleetRequestConfigData.cpp.o: aws-cpp-sdk-ec2/source/model/SpotFleetRequestConfigData.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotFleetRequestConfigData.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotFleetRequestConfigData.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotFleetRequestConfigData.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotFleetRequestConfigData.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotFleetRequestConfigData.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -14143,6 +14226,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotFleetRequestConf
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotInstanceRequest.cpp.o: aws-cpp-sdk-ec2/source/model/SpotInstanceRequest.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotInstanceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotInstanceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotInstanceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotInstanceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotInstanceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -14208,6 +14292,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotInstanceStateFau
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotInstanceStatus.cpp.o: aws-cpp-sdk-ec2/source/model/SpotInstanceStatus.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotInstanceStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotInstanceStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotInstanceStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotInstanceStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotInstanceStatus.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -14256,6 +14341,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotPlacement.cpp.o:
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotPrice.cpp.o: aws-cpp-sdk-ec2/source/model/SpotPrice.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotPrice.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotPrice.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotPrice.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotPrice.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/SpotPrice.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -14857,6 +14943,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/UserIdGroupPair.cpp.
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VgwTelemetry.cpp.o: aws-cpp-sdk-ec2/source/model/VgwTelemetry.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VgwTelemetry.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VgwTelemetry.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VgwTelemetry.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VgwTelemetry.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VgwTelemetry.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -14890,6 +14977,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VirtualizationType.c
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Volume.cpp.o: aws-cpp-sdk-ec2/source/model/Volume.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Volume.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Volume.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Volume.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Volume.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Volume.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -14912,6 +15000,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/Volume.cpp.o: aws-cp
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeAttachment.cpp.o: aws-cpp-sdk-ec2/source/model/VolumeAttachment.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeAttachment.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeAttachment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeAttachment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeAttachment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeAttachment.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -15027,6 +15116,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeStatusDetails.
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeStatusEvent.cpp.o: aws-cpp-sdk-ec2/source/model/VolumeStatusEvent.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeStatusEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeStatusEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeStatusEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeStatusEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeStatusEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -15078,6 +15168,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeStatusInfoStat
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeStatusItem.cpp.o: aws-cpp-sdk-ec2/source/model/VolumeStatusItem.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeStatusItem.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeStatusItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeStatusItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeStatusItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VolumeStatusItem.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -15201,6 +15292,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpcClassicLink.cpp.o
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpcEndpoint.cpp.o: aws-cpp-sdk-ec2/source/model/VpcEndpoint.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpcEndpoint.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpcEndpoint.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpcEndpoint.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpcEndpoint.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpcEndpoint.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -15218,6 +15310,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpcEndpoint.cpp.o: a
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpcPeeringConnection.cpp.o: aws-cpp-sdk-ec2/source/model/VpcPeeringConnection.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpcPeeringConnection.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpcPeeringConnection.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpcPeeringConnection.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpcPeeringConnection.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpcPeeringConnection.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -15303,6 +15396,7 @@ aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpcState.cpp.o: aws-
 
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpnConnection.cpp.o: aws-cpp-sdk-ec2/source/model/VpnConnection.cpp
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpnConnection.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpnConnection.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpnConnection.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpnConnection.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-ec2/CMakeFiles/aws-cpp-sdk-ec2.dir/source/model/VpnConnection.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h

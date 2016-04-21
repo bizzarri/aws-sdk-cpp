@@ -64,6 +64,7 @@ aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/CloudTrailCl
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/CloudTrailClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/CloudTrailClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/CloudTrailClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/CloudTrailClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/CloudTrailClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/CloudTrailClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/CloudTrailClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -74,6 +75,7 @@ aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/CloudTrailCl
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/CloudTrailClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/CloudTrailClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/CloudTrailClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/CloudTrailClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/CloudTrailClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/CloudTrailClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/CloudTrailClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -348,6 +350,7 @@ aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/Event.
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/Event.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -400,6 +403,7 @@ aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/GetTra
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/GetTrailStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/GetTrailStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/GetTrailStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/GetTrailStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/GetTrailStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/GetTrailStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/GetTrailStatusResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -427,6 +431,7 @@ aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/ListPu
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/ListPublicKeysRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/ListPublicKeysRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/ListPublicKeysRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/ListPublicKeysRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/ListPublicKeysRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/ListPublicKeysRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/ListPublicKeysRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -455,6 +460,7 @@ aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/ListPu
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/ListPublicKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/ListPublicKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/ListPublicKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/ListPublicKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/ListPublicKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/ListPublicKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/ListPublicKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -575,6 +581,7 @@ aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/Lookup
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/LookupEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/LookupEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/LookupEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/LookupEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/LookupEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/LookupEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/LookupEventsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -604,6 +611,7 @@ aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/Lookup
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/LookupEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/LookupEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/LookupEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/LookupEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/LookupEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/LookupEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/LookupEventsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -624,6 +632,7 @@ aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/Public
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/PublicKey.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/PublicKey.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/PublicKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/PublicKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/PublicKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/PublicKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-cloudtrail/CMakeFiles/aws-cpp-sdk-cloudtrail.dir/source/model/PublicKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h

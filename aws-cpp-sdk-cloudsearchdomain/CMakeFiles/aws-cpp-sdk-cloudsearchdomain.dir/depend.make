@@ -60,6 +60,7 @@ aws-cpp-sdk-cloudsearchdomain/CMakeFiles/aws-cpp-sdk-cloudsearchdomain.dir/sourc
 aws-cpp-sdk-cloudsearchdomain/CMakeFiles/aws-cpp-sdk-cloudsearchdomain.dir/source/CloudSearchDomainClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-cloudsearchdomain/CMakeFiles/aws-cpp-sdk-cloudsearchdomain.dir/source/CloudSearchDomainClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-cloudsearchdomain/CMakeFiles/aws-cpp-sdk-cloudsearchdomain.dir/source/CloudSearchDomainClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-cloudsearchdomain/CMakeFiles/aws-cpp-sdk-cloudsearchdomain.dir/source/CloudSearchDomainClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-cloudsearchdomain/CMakeFiles/aws-cpp-sdk-cloudsearchdomain.dir/source/CloudSearchDomainClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-cloudsearchdomain/CMakeFiles/aws-cpp-sdk-cloudsearchdomain.dir/source/CloudSearchDomainClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-cloudsearchdomain/CMakeFiles/aws-cpp-sdk-cloudsearchdomain.dir/source/CloudSearchDomainClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h

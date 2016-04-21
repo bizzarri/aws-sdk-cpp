@@ -27,6 +27,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/SWFClient.cpp.o: aws-cpp-s
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/SWFClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/SWFClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/SWFClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/SWFClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/SWFClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/SWFClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/SWFClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
@@ -37,6 +38,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/SWFClient.cpp.o: aws-cpp-s
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/SWFClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/SWFClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/SWFClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/SWFClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/SWFClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/SWFClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/SWFClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
@@ -440,6 +442,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ActivityTypeInfo.cpp
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ActivityTypeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ActivityTypeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ActivityTypeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ActivityTypeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ActivityTypeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ActivityTypeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ActivityTypeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -852,6 +855,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/CountClosedWorkflowE
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/CountClosedWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/CountClosedWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/CountClosedWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/CountClosedWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/CountClosedWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/CountClosedWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/CountClosedWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -912,6 +916,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/CountOpenWorkflowExe
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/CountOpenWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/CountOpenWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/CountOpenWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/CountOpenWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/CountOpenWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/CountOpenWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/CountOpenWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1337,6 +1342,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeActivityType
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeActivityTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeActivityTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeActivityTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeActivityTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeActivityTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeActivityTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeActivityTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1454,6 +1460,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeWorkflowExec
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeWorkflowExecutionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeWorkflowExecutionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeWorkflowExecutionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeWorkflowExecutionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeWorkflowExecutionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeWorkflowExecutionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeWorkflowExecutionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1518,6 +1525,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeWorkflowType
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeWorkflowTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeWorkflowTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeWorkflowTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeWorkflowTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeWorkflowTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeWorkflowTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/DescribeWorkflowTypeResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1613,6 +1621,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ExecutionTimeFilter.
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ExecutionTimeFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ExecutionTimeFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ExecutionTimeFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ExecutionTimeFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ExecutionTimeFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ExecutionTimeFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ExecutionTimeFilter.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1757,6 +1766,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/GetWorkflowExecution
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/GetWorkflowExecutionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/GetWorkflowExecutionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/GetWorkflowExecutionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/GetWorkflowExecutionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/GetWorkflowExecutionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/GetWorkflowExecutionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/GetWorkflowExecutionHistoryResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -1858,6 +1868,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/HistoryEvent.cpp.o: 
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/HistoryEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/HistoryEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/HistoryEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/HistoryEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/HistoryEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/HistoryEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/HistoryEvent.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2098,6 +2109,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListActivityTypesRes
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListActivityTypesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListActivityTypesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListActivityTypesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListActivityTypesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListActivityTypesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListActivityTypesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListActivityTypesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2127,6 +2139,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListClosedWorkflowEx
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListClosedWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListClosedWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListClosedWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListClosedWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListClosedWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListClosedWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListClosedWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2161,6 +2174,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListClosedWorkflowEx
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListClosedWorkflowExecutionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListClosedWorkflowExecutionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListClosedWorkflowExecutionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListClosedWorkflowExecutionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListClosedWorkflowExecutionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListClosedWorkflowExecutionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListClosedWorkflowExecutionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2249,6 +2263,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListOpenWorkflowExec
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListOpenWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListOpenWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListOpenWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListOpenWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListOpenWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListOpenWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListOpenWorkflowExecutionsRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2281,6 +2296,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListOpenWorkflowExec
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListOpenWorkflowExecutionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListOpenWorkflowExecutionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListOpenWorkflowExecutionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListOpenWorkflowExecutionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListOpenWorkflowExecutionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListOpenWorkflowExecutionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListOpenWorkflowExecutionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2341,6 +2357,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListWorkflowTypesRes
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListWorkflowTypesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListWorkflowTypesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListWorkflowTypesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListWorkflowTypesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListWorkflowTypesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListWorkflowTypesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/ListWorkflowTypesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2474,6 +2491,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/PollForDecisionTaskR
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/PollForDecisionTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/PollForDecisionTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/PollForDecisionTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/PollForDecisionTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/PollForDecisionTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/PollForDecisionTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/PollForDecisionTaskResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -3785,6 +3803,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/WorkflowExecutionInf
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/WorkflowExecutionInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/WorkflowExecutionInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/WorkflowExecutionInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/WorkflowExecutionInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/WorkflowExecutionInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/WorkflowExecutionInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/WorkflowExecutionInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -3994,6 +4013,7 @@ aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/WorkflowTypeInfo.cpp
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/WorkflowTypeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/WorkflowTypeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/external/json-cpp/json.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/WorkflowTypeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/WorkflowTypeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/WorkflowTypeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/WorkflowTypeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h
 aws-cpp-sdk-swf/CMakeFiles/aws-cpp-sdk-swf.dir/source/model/WorkflowTypeInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h

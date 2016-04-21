@@ -304,6 +304,87 @@ source/model/AbortEnvironmentUpdateRequest.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/AbortEnvironmentUpdateRequest.cpp.s
 .PHONY : source/model/AbortEnvironmentUpdateRequest.cpp.s
 
+source/model/ActionHistoryStatus.o: source/model/ActionHistoryStatus.cpp.o
+
+.PHONY : source/model/ActionHistoryStatus.o
+
+# target to build an object file
+source/model/ActionHistoryStatus.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.o
+.PHONY : source/model/ActionHistoryStatus.cpp.o
+
+source/model/ActionHistoryStatus.i: source/model/ActionHistoryStatus.cpp.i
+
+.PHONY : source/model/ActionHistoryStatus.i
+
+# target to preprocess a source file
+source/model/ActionHistoryStatus.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.i
+.PHONY : source/model/ActionHistoryStatus.cpp.i
+
+source/model/ActionHistoryStatus.s: source/model/ActionHistoryStatus.cpp.s
+
+.PHONY : source/model/ActionHistoryStatus.s
+
+# target to generate assembly for a file
+source/model/ActionHistoryStatus.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionHistoryStatus.cpp.s
+.PHONY : source/model/ActionHistoryStatus.cpp.s
+
+source/model/ActionStatus.o: source/model/ActionStatus.cpp.o
+
+.PHONY : source/model/ActionStatus.o
+
+# target to build an object file
+source/model/ActionStatus.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.o
+.PHONY : source/model/ActionStatus.cpp.o
+
+source/model/ActionStatus.i: source/model/ActionStatus.cpp.i
+
+.PHONY : source/model/ActionStatus.i
+
+# target to preprocess a source file
+source/model/ActionStatus.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.i
+.PHONY : source/model/ActionStatus.cpp.i
+
+source/model/ActionStatus.s: source/model/ActionStatus.cpp.s
+
+.PHONY : source/model/ActionStatus.s
+
+# target to generate assembly for a file
+source/model/ActionStatus.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionStatus.cpp.s
+.PHONY : source/model/ActionStatus.cpp.s
+
+source/model/ActionType.o: source/model/ActionType.cpp.o
+
+.PHONY : source/model/ActionType.o
+
+# target to build an object file
+source/model/ActionType.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.o
+.PHONY : source/model/ActionType.cpp.o
+
+source/model/ActionType.i: source/model/ActionType.cpp.i
+
+.PHONY : source/model/ActionType.i
+
+# target to preprocess a source file
+source/model/ActionType.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.i
+.PHONY : source/model/ActionType.cpp.i
+
+source/model/ActionType.s: source/model/ActionType.cpp.s
+
+.PHONY : source/model/ActionType.s
+
+# target to generate assembly for a file
+source/model/ActionType.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ActionType.cpp.s
+.PHONY : source/model/ActionType.cpp.s
+
 source/model/ApplicationDescription.o: source/model/ApplicationDescription.cpp.o
 
 .PHONY : source/model/ApplicationDescription.o
@@ -411,6 +492,60 @@ source/model/ApplicationVersionStatus.s: source/model/ApplicationVersionStatus.c
 source/model/ApplicationVersionStatus.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplicationVersionStatus.cpp.s
 .PHONY : source/model/ApplicationVersionStatus.cpp.s
+
+source/model/ApplyEnvironmentManagedActionRequest.o: source/model/ApplyEnvironmentManagedActionRequest.cpp.o
+
+.PHONY : source/model/ApplyEnvironmentManagedActionRequest.o
+
+# target to build an object file
+source/model/ApplyEnvironmentManagedActionRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.o
+.PHONY : source/model/ApplyEnvironmentManagedActionRequest.cpp.o
+
+source/model/ApplyEnvironmentManagedActionRequest.i: source/model/ApplyEnvironmentManagedActionRequest.cpp.i
+
+.PHONY : source/model/ApplyEnvironmentManagedActionRequest.i
+
+# target to preprocess a source file
+source/model/ApplyEnvironmentManagedActionRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.i
+.PHONY : source/model/ApplyEnvironmentManagedActionRequest.cpp.i
+
+source/model/ApplyEnvironmentManagedActionRequest.s: source/model/ApplyEnvironmentManagedActionRequest.cpp.s
+
+.PHONY : source/model/ApplyEnvironmentManagedActionRequest.s
+
+# target to generate assembly for a file
+source/model/ApplyEnvironmentManagedActionRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionRequest.cpp.s
+.PHONY : source/model/ApplyEnvironmentManagedActionRequest.cpp.s
+
+source/model/ApplyEnvironmentManagedActionResult.o: source/model/ApplyEnvironmentManagedActionResult.cpp.o
+
+.PHONY : source/model/ApplyEnvironmentManagedActionResult.o
+
+# target to build an object file
+source/model/ApplyEnvironmentManagedActionResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.o
+.PHONY : source/model/ApplyEnvironmentManagedActionResult.cpp.o
+
+source/model/ApplyEnvironmentManagedActionResult.i: source/model/ApplyEnvironmentManagedActionResult.cpp.i
+
+.PHONY : source/model/ApplyEnvironmentManagedActionResult.i
+
+# target to preprocess a source file
+source/model/ApplyEnvironmentManagedActionResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.i
+.PHONY : source/model/ApplyEnvironmentManagedActionResult.cpp.i
+
+source/model/ApplyEnvironmentManagedActionResult.s: source/model/ApplyEnvironmentManagedActionResult.cpp.s
+
+.PHONY : source/model/ApplyEnvironmentManagedActionResult.s
+
+# target to generate assembly for a file
+source/model/ApplyEnvironmentManagedActionResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ApplyEnvironmentManagedActionResult.cpp.s
+.PHONY : source/model/ApplyEnvironmentManagedActionResult.cpp.s
 
 source/model/AutoScalingGroup.o: source/model/AutoScalingGroup.cpp.o
 
@@ -1087,6 +1222,33 @@ source/model/DeleteEnvironmentConfigurationRequest.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DeleteEnvironmentConfigurationRequest.cpp.s
 .PHONY : source/model/DeleteEnvironmentConfigurationRequest.cpp.s
 
+source/model/Deployment.o: source/model/Deployment.cpp.o
+
+.PHONY : source/model/Deployment.o
+
+# target to build an object file
+source/model/Deployment.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.o
+.PHONY : source/model/Deployment.cpp.o
+
+source/model/Deployment.i: source/model/Deployment.cpp.i
+
+.PHONY : source/model/Deployment.i
+
+# target to preprocess a source file
+source/model/Deployment.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.i
+.PHONY : source/model/Deployment.cpp.i
+
+source/model/Deployment.s: source/model/Deployment.cpp.s
+
+.PHONY : source/model/Deployment.s
+
+# target to generate assembly for a file
+source/model/Deployment.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/Deployment.cpp.s
+.PHONY : source/model/Deployment.cpp.s
+
 source/model/DescribeApplicationVersionsRequest.o: source/model/DescribeApplicationVersionsRequest.cpp.o
 
 .PHONY : source/model/DescribeApplicationVersionsRequest.o
@@ -1356,6 +1518,114 @@ source/model/DescribeEnvironmentHealthResult.s: source/model/DescribeEnvironment
 source/model/DescribeEnvironmentHealthResult.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentHealthResult.cpp.s
 .PHONY : source/model/DescribeEnvironmentHealthResult.cpp.s
+
+source/model/DescribeEnvironmentManagedActionHistoryRequest.o: source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o
+
+.PHONY : source/model/DescribeEnvironmentManagedActionHistoryRequest.o
+
+# target to build an object file
+source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o
+.PHONY : source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.o
+
+source/model/DescribeEnvironmentManagedActionHistoryRequest.i: source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.i
+
+.PHONY : source/model/DescribeEnvironmentManagedActionHistoryRequest.i
+
+# target to preprocess a source file
+source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.i
+.PHONY : source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.i
+
+source/model/DescribeEnvironmentManagedActionHistoryRequest.s: source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.s
+
+.PHONY : source/model/DescribeEnvironmentManagedActionHistoryRequest.s
+
+# target to generate assembly for a file
+source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.s
+.PHONY : source/model/DescribeEnvironmentManagedActionHistoryRequest.cpp.s
+
+source/model/DescribeEnvironmentManagedActionHistoryResult.o: source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o
+
+.PHONY : source/model/DescribeEnvironmentManagedActionHistoryResult.o
+
+# target to build an object file
+source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o
+.PHONY : source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.o
+
+source/model/DescribeEnvironmentManagedActionHistoryResult.i: source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.i
+
+.PHONY : source/model/DescribeEnvironmentManagedActionHistoryResult.i
+
+# target to preprocess a source file
+source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.i
+.PHONY : source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.i
+
+source/model/DescribeEnvironmentManagedActionHistoryResult.s: source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.s
+
+.PHONY : source/model/DescribeEnvironmentManagedActionHistoryResult.s
+
+# target to generate assembly for a file
+source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.s
+.PHONY : source/model/DescribeEnvironmentManagedActionHistoryResult.cpp.s
+
+source/model/DescribeEnvironmentManagedActionsRequest.o: source/model/DescribeEnvironmentManagedActionsRequest.cpp.o
+
+.PHONY : source/model/DescribeEnvironmentManagedActionsRequest.o
+
+# target to build an object file
+source/model/DescribeEnvironmentManagedActionsRequest.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.o
+.PHONY : source/model/DescribeEnvironmentManagedActionsRequest.cpp.o
+
+source/model/DescribeEnvironmentManagedActionsRequest.i: source/model/DescribeEnvironmentManagedActionsRequest.cpp.i
+
+.PHONY : source/model/DescribeEnvironmentManagedActionsRequest.i
+
+# target to preprocess a source file
+source/model/DescribeEnvironmentManagedActionsRequest.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.i
+.PHONY : source/model/DescribeEnvironmentManagedActionsRequest.cpp.i
+
+source/model/DescribeEnvironmentManagedActionsRequest.s: source/model/DescribeEnvironmentManagedActionsRequest.cpp.s
+
+.PHONY : source/model/DescribeEnvironmentManagedActionsRequest.s
+
+# target to generate assembly for a file
+source/model/DescribeEnvironmentManagedActionsRequest.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsRequest.cpp.s
+.PHONY : source/model/DescribeEnvironmentManagedActionsRequest.cpp.s
+
+source/model/DescribeEnvironmentManagedActionsResult.o: source/model/DescribeEnvironmentManagedActionsResult.cpp.o
+
+.PHONY : source/model/DescribeEnvironmentManagedActionsResult.o
+
+# target to build an object file
+source/model/DescribeEnvironmentManagedActionsResult.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.o
+.PHONY : source/model/DescribeEnvironmentManagedActionsResult.cpp.o
+
+source/model/DescribeEnvironmentManagedActionsResult.i: source/model/DescribeEnvironmentManagedActionsResult.cpp.i
+
+.PHONY : source/model/DescribeEnvironmentManagedActionsResult.i
+
+# target to preprocess a source file
+source/model/DescribeEnvironmentManagedActionsResult.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.i
+.PHONY : source/model/DescribeEnvironmentManagedActionsResult.cpp.i
+
+source/model/DescribeEnvironmentManagedActionsResult.s: source/model/DescribeEnvironmentManagedActionsResult.cpp.s
+
+.PHONY : source/model/DescribeEnvironmentManagedActionsResult.s
+
+# target to generate assembly for a file
+source/model/DescribeEnvironmentManagedActionsResult.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/DescribeEnvironmentManagedActionsResult.cpp.s
+.PHONY : source/model/DescribeEnvironmentManagedActionsResult.cpp.s
 
 source/model/DescribeEnvironmentResourcesRequest.o: source/model/DescribeEnvironmentResourcesRequest.cpp.o
 
@@ -1924,6 +2194,33 @@ source/model/EventSeverity.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/EventSeverity.cpp.s
 .PHONY : source/model/EventSeverity.cpp.s
 
+source/model/FailureType.o: source/model/FailureType.cpp.o
+
+.PHONY : source/model/FailureType.o
+
+# target to build an object file
+source/model/FailureType.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.o
+.PHONY : source/model/FailureType.cpp.o
+
+source/model/FailureType.i: source/model/FailureType.cpp.i
+
+.PHONY : source/model/FailureType.i
+
+# target to preprocess a source file
+source/model/FailureType.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.i
+.PHONY : source/model/FailureType.cpp.i
+
+source/model/FailureType.s: source/model/FailureType.cpp.s
+
+.PHONY : source/model/FailureType.s
+
+# target to generate assembly for a file
+source/model/FailureType.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/FailureType.cpp.s
+.PHONY : source/model/FailureType.cpp.s
+
 source/model/Instance.o: source/model/Instance.cpp.o
 
 .PHONY : source/model/Instance.o
@@ -2193,6 +2490,60 @@ source/model/LoadBalancerDescription.s: source/model/LoadBalancerDescription.cpp
 source/model/LoadBalancerDescription.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/LoadBalancerDescription.cpp.s
 .PHONY : source/model/LoadBalancerDescription.cpp.s
+
+source/model/ManagedAction.o: source/model/ManagedAction.cpp.o
+
+.PHONY : source/model/ManagedAction.o
+
+# target to build an object file
+source/model/ManagedAction.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.o
+.PHONY : source/model/ManagedAction.cpp.o
+
+source/model/ManagedAction.i: source/model/ManagedAction.cpp.i
+
+.PHONY : source/model/ManagedAction.i
+
+# target to preprocess a source file
+source/model/ManagedAction.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.i
+.PHONY : source/model/ManagedAction.cpp.i
+
+source/model/ManagedAction.s: source/model/ManagedAction.cpp.s
+
+.PHONY : source/model/ManagedAction.s
+
+# target to generate assembly for a file
+source/model/ManagedAction.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedAction.cpp.s
+.PHONY : source/model/ManagedAction.cpp.s
+
+source/model/ManagedActionHistoryItem.o: source/model/ManagedActionHistoryItem.cpp.o
+
+.PHONY : source/model/ManagedActionHistoryItem.o
+
+# target to build an object file
+source/model/ManagedActionHistoryItem.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.o
+.PHONY : source/model/ManagedActionHistoryItem.cpp.o
+
+source/model/ManagedActionHistoryItem.i: source/model/ManagedActionHistoryItem.cpp.i
+
+.PHONY : source/model/ManagedActionHistoryItem.i
+
+# target to preprocess a source file
+source/model/ManagedActionHistoryItem.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.i
+.PHONY : source/model/ManagedActionHistoryItem.cpp.i
+
+source/model/ManagedActionHistoryItem.s: source/model/ManagedActionHistoryItem.cpp.s
+
+.PHONY : source/model/ManagedActionHistoryItem.s
+
+# target to generate assembly for a file
+source/model/ManagedActionHistoryItem.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/build.make aws-cpp-sdk-elasticbeanstalk/CMakeFiles/aws-cpp-sdk-elasticbeanstalk.dir/source/model/ManagedActionHistoryItem.cpp.s
+.PHONY : source/model/ManagedActionHistoryItem.cpp.s
 
 source/model/OptionRestrictionRegex.o: source/model/OptionRestrictionRegex.cpp.o
 
@@ -3086,6 +3437,15 @@ help:
 	@echo "... source/model/AbortEnvironmentUpdateRequest.o"
 	@echo "... source/model/AbortEnvironmentUpdateRequest.i"
 	@echo "... source/model/AbortEnvironmentUpdateRequest.s"
+	@echo "... source/model/ActionHistoryStatus.o"
+	@echo "... source/model/ActionHistoryStatus.i"
+	@echo "... source/model/ActionHistoryStatus.s"
+	@echo "... source/model/ActionStatus.o"
+	@echo "... source/model/ActionStatus.i"
+	@echo "... source/model/ActionStatus.s"
+	@echo "... source/model/ActionType.o"
+	@echo "... source/model/ActionType.i"
+	@echo "... source/model/ActionType.s"
 	@echo "... source/model/ApplicationDescription.o"
 	@echo "... source/model/ApplicationDescription.i"
 	@echo "... source/model/ApplicationDescription.s"
@@ -3098,6 +3458,12 @@ help:
 	@echo "... source/model/ApplicationVersionStatus.o"
 	@echo "... source/model/ApplicationVersionStatus.i"
 	@echo "... source/model/ApplicationVersionStatus.s"
+	@echo "... source/model/ApplyEnvironmentManagedActionRequest.o"
+	@echo "... source/model/ApplyEnvironmentManagedActionRequest.i"
+	@echo "... source/model/ApplyEnvironmentManagedActionRequest.s"
+	@echo "... source/model/ApplyEnvironmentManagedActionResult.o"
+	@echo "... source/model/ApplyEnvironmentManagedActionResult.i"
+	@echo "... source/model/ApplyEnvironmentManagedActionResult.s"
 	@echo "... source/model/AutoScalingGroup.o"
 	@echo "... source/model/AutoScalingGroup.i"
 	@echo "... source/model/AutoScalingGroup.s"
@@ -3173,6 +3539,9 @@ help:
 	@echo "... source/model/DeleteEnvironmentConfigurationRequest.o"
 	@echo "... source/model/DeleteEnvironmentConfigurationRequest.i"
 	@echo "... source/model/DeleteEnvironmentConfigurationRequest.s"
+	@echo "... source/model/Deployment.o"
+	@echo "... source/model/Deployment.i"
+	@echo "... source/model/Deployment.s"
 	@echo "... source/model/DescribeApplicationVersionsRequest.o"
 	@echo "... source/model/DescribeApplicationVersionsRequest.i"
 	@echo "... source/model/DescribeApplicationVersionsRequest.s"
@@ -3203,6 +3572,18 @@ help:
 	@echo "... source/model/DescribeEnvironmentHealthResult.o"
 	@echo "... source/model/DescribeEnvironmentHealthResult.i"
 	@echo "... source/model/DescribeEnvironmentHealthResult.s"
+	@echo "... source/model/DescribeEnvironmentManagedActionHistoryRequest.o"
+	@echo "... source/model/DescribeEnvironmentManagedActionHistoryRequest.i"
+	@echo "... source/model/DescribeEnvironmentManagedActionHistoryRequest.s"
+	@echo "... source/model/DescribeEnvironmentManagedActionHistoryResult.o"
+	@echo "... source/model/DescribeEnvironmentManagedActionHistoryResult.i"
+	@echo "... source/model/DescribeEnvironmentManagedActionHistoryResult.s"
+	@echo "... source/model/DescribeEnvironmentManagedActionsRequest.o"
+	@echo "... source/model/DescribeEnvironmentManagedActionsRequest.i"
+	@echo "... source/model/DescribeEnvironmentManagedActionsRequest.s"
+	@echo "... source/model/DescribeEnvironmentManagedActionsResult.o"
+	@echo "... source/model/DescribeEnvironmentManagedActionsResult.i"
+	@echo "... source/model/DescribeEnvironmentManagedActionsResult.s"
 	@echo "... source/model/DescribeEnvironmentResourcesRequest.o"
 	@echo "... source/model/DescribeEnvironmentResourcesRequest.i"
 	@echo "... source/model/DescribeEnvironmentResourcesRequest.s"
@@ -3266,6 +3647,9 @@ help:
 	@echo "... source/model/EventSeverity.o"
 	@echo "... source/model/EventSeverity.i"
 	@echo "... source/model/EventSeverity.s"
+	@echo "... source/model/FailureType.o"
+	@echo "... source/model/FailureType.i"
+	@echo "... source/model/FailureType.s"
 	@echo "... source/model/Instance.o"
 	@echo "... source/model/Instance.i"
 	@echo "... source/model/Instance.s"
@@ -3296,6 +3680,12 @@ help:
 	@echo "... source/model/LoadBalancerDescription.o"
 	@echo "... source/model/LoadBalancerDescription.i"
 	@echo "... source/model/LoadBalancerDescription.s"
+	@echo "... source/model/ManagedAction.o"
+	@echo "... source/model/ManagedAction.i"
+	@echo "... source/model/ManagedAction.s"
+	@echo "... source/model/ManagedActionHistoryItem.o"
+	@echo "... source/model/ManagedActionHistoryItem.i"
+	@echo "... source/model/ManagedActionHistoryItem.s"
 	@echo "... source/model/OptionRestrictionRegex.o"
 	@echo "... source/model/OptionRestrictionRegex.i"
 	@echo "... source/model/OptionRestrictionRegex.s"

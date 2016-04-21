@@ -26,14 +26,17 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-s
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
@@ -313,6 +316,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/IAMErrors.cpp.o: aws-cpp-s
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKey.cpp.o: aws-cpp-sdk-iam/source/model/AccessKey.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKey.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -330,6 +334,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKey.cpp.o: aws
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKeyLastUsed.cpp.o: aws-cpp-sdk-iam/source/model/AccessKeyLastUsed.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKeyLastUsed.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKeyLastUsed.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKeyLastUsed.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKeyLastUsed.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKeyLastUsed.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -346,6 +351,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKeyLastUsed.cp
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKeyMetadata.cpp.o: aws-cpp-sdk-iam/source/model/AccessKeyMetadata.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKeyMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKeyMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKeyMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKeyMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/AccessKeyMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -634,6 +640,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateAccessKeyResul
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateAccessKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateAccessKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateAccessKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateAccessKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateAccessKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateAccessKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateAccessKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -716,6 +723,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateGroupResult.cp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -772,6 +780,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateInstanceProfil
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateInstanceProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateInstanceProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateInstanceProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateInstanceProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateInstanceProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateInstanceProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateInstanceProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -829,6 +838,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateLoginProfileRe
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateLoginProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateLoginProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateLoginProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateLoginProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateLoginProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateLoginProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateLoginProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -940,6 +950,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreatePolicyResult.c
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreatePolicyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreatePolicyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreatePolicyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreatePolicyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreatePolicyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreatePolicyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreatePolicyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -996,6 +1007,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreatePolicyVersionR
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreatePolicyVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreatePolicyVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreatePolicyVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreatePolicyVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreatePolicyVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreatePolicyVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreatePolicyVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1052,6 +1064,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateRoleResult.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1163,6 +1176,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateUserResult.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1220,6 +1234,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateVirtualMFADevi
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateVirtualMFADeviceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateVirtualMFADeviceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateVirtualMFADeviceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateVirtualMFADeviceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateVirtualMFADeviceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateVirtualMFADeviceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/CreateVirtualMFADeviceResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1987,6 +2002,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetAccessKeyLastUsed
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetAccessKeyLastUsedResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetAccessKeyLastUsedResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetAccessKeyLastUsedResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetAccessKeyLastUsedResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetAccessKeyLastUsedResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetAccessKeyLastUsedResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetAccessKeyLastUsedResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2044,6 +2060,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetAccountAuthorizat
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetAccountAuthorizationDetailsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetAccountAuthorizationDetailsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetAccountAuthorizationDetailsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetAccountAuthorizationDetailsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetAccountAuthorizationDetailsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetAccountAuthorizationDetailsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetAccountAuthorizationDetailsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2331,6 +2348,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetCredentialReportR
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetCredentialReportResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetCredentialReportResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetCredentialReportResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetCredentialReportResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetCredentialReportResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetCredentialReportResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetCredentialReportResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
@@ -2443,6 +2461,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetGroupResult.cpp.o
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetGroupResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2500,6 +2519,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetInstanceProfileRe
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetInstanceProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetInstanceProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetInstanceProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetInstanceProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetInstanceProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetInstanceProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetInstanceProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2557,6 +2577,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetLoginProfileResul
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetLoginProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetLoginProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetLoginProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetLoginProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetLoginProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetLoginProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetLoginProfileResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2613,6 +2634,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetOpenIDConnectProv
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetOpenIDConnectProviderResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetOpenIDConnectProviderResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetOpenIDConnectProviderResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetOpenIDConnectProviderResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetOpenIDConnectProviderResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetOpenIDConnectProviderResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetOpenIDConnectProviderResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2668,6 +2690,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetPolicyResult.cpp.
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetPolicyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetPolicyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetPolicyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetPolicyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetPolicyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetPolicyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetPolicyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2724,6 +2747,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetPolicyVersionResu
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetPolicyVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetPolicyVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetPolicyVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetPolicyVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetPolicyVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetPolicyVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetPolicyVersionResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2835,6 +2859,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetRoleResult.cpp.o:
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2891,6 +2916,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetSAMLProviderResul
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetSAMLProviderResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetSAMLProviderResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetSAMLProviderResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetSAMLProviderResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetSAMLProviderResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetSAMLProviderResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetSAMLProviderResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2947,6 +2973,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetSSHPublicKeyResul
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetSSHPublicKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetSSHPublicKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetSSHPublicKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetSSHPublicKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetSSHPublicKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetSSHPublicKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetSSHPublicKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3004,6 +3031,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetServerCertificate
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetServerCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetServerCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetServerCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetServerCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetServerCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetServerCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetServerCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3116,6 +3144,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetUserResult.cpp.o:
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3141,6 +3170,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GetUserResult.cpp.o:
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Group.cpp.o: aws-cpp-sdk-iam/source/model/Group.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Group.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Group.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Group.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Group.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Group.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3157,6 +3187,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Group.cpp.o: aws-cpp
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GroupDetail.cpp.o: aws-cpp-sdk-iam/source/model/GroupDetail.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GroupDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GroupDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GroupDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GroupDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GroupDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3175,6 +3206,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/GroupDetail.cpp.o: a
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/InstanceProfile.cpp.o: aws-cpp-sdk-iam/source/model/InstanceProfile.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/InstanceProfile.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/InstanceProfile.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/InstanceProfile.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/InstanceProfile.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/InstanceProfile.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3223,6 +3255,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListAccessKeysResult
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListAccessKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListAccessKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListAccessKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListAccessKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListAccessKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListAccessKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListAccessKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3617,6 +3650,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListGroupsForUserRes
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListGroupsForUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListGroupsForUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListGroupsForUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListGroupsForUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListGroupsForUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListGroupsForUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListGroupsForUserResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3673,6 +3707,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListGroupsResult.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListGroupsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3729,6 +3764,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListInstanceProfiles
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListInstanceProfilesForRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListInstanceProfilesForRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListInstanceProfilesForRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListInstanceProfilesForRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListInstanceProfilesForRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListInstanceProfilesForRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListInstanceProfilesForRoleResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3786,6 +3822,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListInstanceProfiles
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListInstanceProfilesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListInstanceProfilesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListInstanceProfilesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListInstanceProfilesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListInstanceProfilesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListInstanceProfilesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListInstanceProfilesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3843,6 +3880,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListMFADevicesResult
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListMFADevicesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListMFADevicesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListMFADevicesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListMFADevicesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListMFADevicesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListMFADevicesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListMFADevicesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -3956,6 +3994,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListPoliciesResult.c
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListPoliciesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4012,6 +4051,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListPolicyVersionsRe
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListPolicyVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListPolicyVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListPolicyVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListPolicyVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListPolicyVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListPolicyVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListPolicyVersionsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4123,6 +4163,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListRolesResult.cpp.
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListRolesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListRolesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListRolesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListRolesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListRolesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListRolesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListRolesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4179,6 +4220,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSAMLProvidersRes
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSAMLProvidersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSAMLProvidersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSAMLProvidersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSAMLProvidersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSAMLProvidersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSAMLProvidersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSAMLProvidersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4235,6 +4277,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSSHPublicKeysRes
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSSHPublicKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSSHPublicKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSSHPublicKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSSHPublicKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSSHPublicKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSSHPublicKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSSHPublicKeysResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4292,6 +4335,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListServerCertificat
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListServerCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListServerCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListServerCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListServerCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListServerCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListServerCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListServerCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4348,6 +4392,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSigningCertifica
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSigningCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSigningCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSigningCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSigningCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSigningCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSigningCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListSigningCertificatesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4460,6 +4505,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListUsersResult.cpp.
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListUsersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListUsersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListUsersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListUsersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListUsersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListUsersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListUsersResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4518,6 +4564,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListVirtualMFADevice
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListVirtualMFADevicesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListVirtualMFADevicesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListVirtualMFADevicesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListVirtualMFADevicesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListVirtualMFADevicesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListVirtualMFADevicesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListVirtualMFADevicesResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4544,6 +4591,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ListVirtualMFADevice
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/LoginProfile.cpp.o: aws-cpp-sdk-iam/source/model/LoginProfile.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/LoginProfile.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/LoginProfile.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/LoginProfile.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/LoginProfile.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/LoginProfile.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4560,6 +4608,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/LoginProfile.cpp.o: 
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/MFADevice.cpp.o: aws-cpp-sdk-iam/source/model/MFADevice.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/MFADevice.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/MFADevice.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/MFADevice.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/MFADevice.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/MFADevice.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4576,6 +4625,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/MFADevice.cpp.o: aws
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ManagedPolicyDetail.cpp.o: aws-cpp-sdk-iam/source/model/ManagedPolicyDetail.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ManagedPolicyDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ManagedPolicyDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ManagedPolicyDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ManagedPolicyDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ManagedPolicyDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4625,6 +4675,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/PasswordPolicy.cpp.o
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Policy.cpp.o: aws-cpp-sdk-iam/source/model/Policy.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Policy.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Policy.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Policy.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Policy.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Policy.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -4753,6 +4804,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/PolicyUser.cpp.o: aw
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/PolicyVersion.cpp.o: aws-cpp-sdk-iam/source/model/PolicyVersion.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/PolicyVersion.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/PolicyVersion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/PolicyVersion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/PolicyVersion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/PolicyVersion.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5029,6 +5081,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ResyncMFADeviceReque
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Role.cpp.o: aws-cpp-sdk-iam/source/model/Role.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Role.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Role.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Role.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Role.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Role.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5045,6 +5098,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/Role.cpp.o: aws-cpp-
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/RoleDetail.cpp.o: aws-cpp-sdk-iam/source/model/RoleDetail.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/RoleDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/RoleDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/RoleDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/RoleDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/RoleDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5065,6 +5119,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/RoleDetail.cpp.o: aw
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SAMLProviderListEntry.cpp.o: aws-cpp-sdk-iam/source/model/SAMLProviderListEntry.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SAMLProviderListEntry.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SAMLProviderListEntry.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SAMLProviderListEntry.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SAMLProviderListEntry.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SAMLProviderListEntry.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5081,6 +5136,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SAMLProviderListEntr
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SSHPublicKey.cpp.o: aws-cpp-sdk-iam/source/model/SSHPublicKey.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SSHPublicKey.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SSHPublicKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SSHPublicKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SSHPublicKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SSHPublicKey.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5098,6 +5154,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SSHPublicKey.cpp.o: 
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SSHPublicKeyMetadata.cpp.o: aws-cpp-sdk-iam/source/model/SSHPublicKeyMetadata.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SSHPublicKeyMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SSHPublicKeyMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SSHPublicKeyMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SSHPublicKeyMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SSHPublicKeyMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5115,6 +5172,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SSHPublicKeyMetadata
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ServerCertificate.cpp.o: aws-cpp-sdk-iam/source/model/ServerCertificate.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ServerCertificate.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ServerCertificate.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ServerCertificate.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ServerCertificate.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ServerCertificate.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5132,6 +5190,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ServerCertificate.cp
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ServerCertificateMetadata.cpp.o: aws-cpp-sdk-iam/source/model/ServerCertificateMetadata.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ServerCertificateMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ServerCertificateMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ServerCertificateMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ServerCertificateMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/ServerCertificateMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5173,6 +5232,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SetDefaultPolicyVers
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SigningCertificate.cpp.o: aws-cpp-sdk-iam/source/model/SigningCertificate.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SigningCertificate.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SigningCertificate.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SigningCertificate.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SigningCertificate.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/SigningCertificate.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5705,6 +5765,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadSSHPublicKeyRe
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadSSHPublicKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadSSHPublicKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadSSHPublicKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadSSHPublicKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadSSHPublicKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadSSHPublicKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadSSHPublicKeyResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5762,6 +5823,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadServerCertific
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadServerCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadServerCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadServerCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadServerCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadServerCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadServerCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadServerCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5818,6 +5880,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadSigningCertifi
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadSigningCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadSigningCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadSigningCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadSigningCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadSigningCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadSigningCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadSigningCertificateResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5844,6 +5907,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UploadSigningCertifi
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/User.cpp.o: aws-cpp-sdk-iam/source/model/User.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/User.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/User.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/User.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/User.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/User.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5860,6 +5924,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/User.cpp.o: aws-cpp-
 
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UserDetail.cpp.o: aws-cpp-sdk-iam/source/model/UserDetail.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UserDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UserDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UserDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UserDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UserDetail.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -5879,6 +5944,7 @@ aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/UserDetail.cpp.o: aw
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/VirtualMFADevice.cpp.o: aws-cpp-sdk-iam/source/model/VirtualMFADevice.cpp
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/VirtualMFADevice.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/VirtualMFADevice.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/VirtualMFADevice.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/VirtualMFADevice.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/VirtualMFADevice.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-iam/CMakeFiles/aws-cpp-sdk-iam.dir/source/model/VirtualMFADevice.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h

@@ -1207,6 +1207,8 @@ aws/codedeploy/CodeDeploy_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-codedeploy/include/aws/codedeploy/model/ApplicationRevisionSortBy.h
 aws/codedeploy/CodeDeploy_EXPORTS.h
@@ -1449,6 +1451,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/codedeploy/model/MinimumHealthyHosts.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-codedeploy/include/aws/codedeploy/model/DeploymentCreator.h
 aws/codedeploy/CodeDeploy_EXPORTS.h
@@ -1484,6 +1488,8 @@ aws/codedeploy/model/RevisionLocation.h
 aws/codedeploy/model/DeploymentStatus.h
 -
 aws/codedeploy/model/ErrorInformation.h
+-
+aws/core/utils/DateTime.h
 -
 aws/codedeploy/model/DeploymentOverview.h
 -
@@ -1550,6 +1556,8 @@ aws/codedeploy/CodeDeploy_EXPORTS.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/core/utils/memory/stl/AWSVector.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-codedeploy/include/aws/codedeploy/model/GetApplicationRequest.h
@@ -1667,6 +1675,8 @@ aws/codedeploy/CodeDeploy_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/core/utils/memory/stl/AWSVector.h
 -
 aws/codedeploy/model/Tag.h
@@ -1685,6 +1695,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/codedeploy/model/InstanceStatus.h
 -
+aws/core/utils/DateTime.h
+-
 aws/core/utils/memory/stl/AWSVector.h
 -
 aws/codedeploy/model/LifecycleEvent.h
@@ -1702,6 +1714,8 @@ aws/codedeploy/CodeDeploy_EXPORTS.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/codedeploy/model/Diagnostics.h
+-
+aws/core/utils/DateTime.h
 -
 aws/codedeploy/model/LifecycleEventStatus.h
 -
@@ -1984,6 +1998,8 @@ aws/core/utils/memory/stl/AWSString.h
 
 aws-cpp-sdk-codedeploy/include/aws/codedeploy/model/TimeRange.h
 aws/codedeploy/CodeDeploy_EXPORTS.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-codedeploy/include/aws/codedeploy/model/TriggerConfig.h
@@ -2312,6 +2328,18 @@ cassert
 iterator
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+iomanip
+-
+ctime
+-
+mutex
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
 aws/core/utils/memory/stl/AWSMap.h
 -
@@ -2418,6 +2446,18 @@ map
 cstring
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+aws/core/utils/memory/stl/AWSDeque.h
+-
+deque
+-
+queue
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws/core/Core_EXPORTS.h
 -
@@ -2471,8 +2511,16 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
 aws/core/Core_EXPORTS.h
 -
+aws/core/utils/memory/stl/AWSFunction.h
+-
+aws/core/utils/memory/stl/AWSQueue.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 functional
 -
-aws/core/utils/memory/stl/AWSFunction.h
+mutex
+-
+condition_variable
 -
 

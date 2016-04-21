@@ -121,6 +121,8 @@ aws/cognito-identity/CognitoIdentity_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-cognito-identity/include/aws/cognito-identity/model/DeleteIdentitiesResult.h
 aws/cognito-identity/CognitoIdentity_EXPORTS.h
@@ -146,6 +148,8 @@ aws/cognito-identity/CognitoIdentity_EXPORTS.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/core/utils/memory/stl/AWSVector.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-cognito-identity/include/aws/cognito-identity/model/ErrorCode.h
@@ -214,6 +218,8 @@ aws/cognito-identity/CognitoIdentity_EXPORTS.h
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/core/utils/memory/stl/AWSVector.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-cognito-identity/include/aws/cognito-identity/model/IdentityPoolShortDescription.h
@@ -503,6 +509,10 @@ aws/core/Core_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+iomanip
+-
+ctime
+-
 mutex
 -
 
@@ -688,6 +698,8 @@ aws/cognito-identity/CognitoIdentityClient.h
 aws/core/auth/AWSCredentialsProvider.h
 -
 aws/identity-management/IdentityManagment_EXPORTS.h
+-
+aws/core/utils/DateTime.h
 -
 mutex
 -

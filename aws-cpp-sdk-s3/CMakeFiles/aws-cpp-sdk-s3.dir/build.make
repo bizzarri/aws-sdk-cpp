@@ -2337,9 +2337,33 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectCannedACL.cpp.o.
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectCannedACL.cpp.o.provides.build: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectCannedACL.cpp.o
 
 
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-s3/source/model/GetBucketAccelerateConfigurationRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketAccelerateConfigurationRequest.cpp
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketAccelerateConfigurationRequest.cpp > CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.i
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketAccelerateConfigurationRequest.cpp -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.s
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o.requires
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o.provides: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o.provides
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o.provides.build: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o
+
+
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLocationConstraint.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLocationConstraint.cpp.o: aws-cpp-sdk-s3/source/model/BucketLocationConstraint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLocationConstraint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLocationConstraint.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLocationConstraint.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/BucketLocationConstraint.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLocationConstraint.cpp.i: cmake_force
@@ -2363,7 +2387,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLocationConstrai
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsRequest.cpp.o: aws-cpp-sdk-s3/source/model/ListObjectsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/ListObjectsRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsRequest.cpp.i: cmake_force
@@ -2387,7 +2411,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ReplicationConfiguration.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ReplicationConfiguration.cpp.o: aws-cpp-sdk-s3/source/model/ReplicationConfiguration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ReplicationConfiguration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ReplicationConfiguration.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ReplicationConfiguration.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/ReplicationConfiguration.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ReplicationConfiguration.cpp.i: cmake_force
@@ -2411,7 +2435,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ReplicationConfigurati
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectResult.cpp.o: aws-cpp-sdk-s3/source/model/DeleteObjectResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/DeleteObjectResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectResult.cpp.i: cmake_force
@@ -2435,7 +2459,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MetadataDirective.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MetadataDirective.cpp.o: aws-cpp-sdk-s3/source/model/MetadataDirective.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MetadataDirective.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MetadataDirective.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MetadataDirective.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/MetadataDirective.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MetadataDirective.cpp.i: cmake_force
@@ -2459,7 +2483,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MetadataDirective.cpp.
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketPolicyRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketPolicyRequest.cpp.o: aws-cpp-sdk-s3/source/model/PutBucketPolicyRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketPolicyRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketPolicyRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketPolicyRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/PutBucketPolicyRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketPolicyRequest.cpp.i: cmake_force
@@ -2483,7 +2507,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketPolicyRequest
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLoggingStatus.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLoggingStatus.cpp.o: aws-cpp-sdk-s3/source/model/BucketLoggingStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLoggingStatus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLoggingStatus.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLoggingStatus.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/BucketLoggingStatus.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLoggingStatus.cpp.i: cmake_force
@@ -2507,7 +2531,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLoggingStatus.cp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartRequest.cpp.o: aws-cpp-sdk-s3/source/model/UploadPartRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/UploadPartRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartRequest.cpp.i: cmake_force
@@ -2531,7 +2555,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/UploadPartRequest.cpp.
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAclRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAclRequest.cpp.o: aws-cpp-sdk-s3/source/model/GetBucketAclRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAclRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAclRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAclRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketAclRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAclRequest.cpp.i: cmake_force
@@ -2555,7 +2579,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAclRequest.cp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LoggingEnabled.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LoggingEnabled.cpp.o: aws-cpp-sdk-s3/source/model/LoggingEnabled.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LoggingEnabled.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LoggingEnabled.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LoggingEnabled.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/LoggingEnabled.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LoggingEnabled.cpp.i: cmake_force
@@ -2579,7 +2603,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/LoggingEnabled.cpp.o.p
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketNotificationConfigurationRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketNotificationConfigurationRequest.cpp.o: aws-cpp-sdk-s3/source/model/PutBucketNotificationConfigurationRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketNotificationConfigurationRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketNotificationConfigurationRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketNotificationConfigurationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/PutBucketNotificationConfigurationRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketNotificationConfigurationRequest.cpp.i: cmake_force
@@ -2603,7 +2627,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketNotificationC
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLoggingResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLoggingResult.cpp.o: aws-cpp-sdk-s3/source/model/GetBucketLoggingResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLoggingResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLoggingResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLoggingResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketLoggingResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLoggingResult.cpp.i: cmake_force
@@ -2627,7 +2651,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLoggingResult
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectVersion.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectVersion.cpp.o: aws-cpp-sdk-s3/source/model/ObjectVersion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectVersion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectVersion.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectVersion.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/ObjectVersion.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectVersion.cpp.i: cmake_force
@@ -2651,7 +2675,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectVersion.cpp.o.pr
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Event.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Event.cpp.o: aws-cpp-sdk-s3/source/model/Event.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Event.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Event.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Event.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/Event.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Event.cpp.i: cmake_force
@@ -2675,7 +2699,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Event.cpp.o.provides.b
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAclResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAclResult.cpp.o: aws-cpp-sdk-s3/source/model/GetBucketAclResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAclResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAclResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAclResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketAclResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAclResult.cpp.i: cmake_force
@@ -2699,7 +2723,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAclResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CommonPrefix.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CommonPrefix.cpp.o: aws-cpp-sdk-s3/source/model/CommonPrefix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CommonPrefix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CommonPrefix.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CommonPrefix.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/CommonPrefix.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CommonPrefix.cpp.i: cmake_force
@@ -2723,7 +2747,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CommonPrefix.cpp.o.pro
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectTorrentResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectTorrentResult.cpp.o: aws-cpp-sdk-s3/source/model/GetObjectTorrentResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectTorrentResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectTorrentResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectTorrentResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetObjectTorrentResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectTorrentResult.cpp.i: cmake_force
@@ -2747,7 +2771,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectTorrentResult
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPayer.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPayer.cpp.o: aws-cpp-sdk-s3/source/model/RequestPayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPayer.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPayer.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/RequestPayer.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPayer.cpp.i: cmake_force
@@ -2769,9 +2793,33 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPayer.cpp.o.pro
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPayer.cpp.o.provides.build: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPayer.cpp.o
 
 
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o: aws-cpp-sdk-s3/source/model/PutBucketAccelerateConfigurationRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/PutBucketAccelerateConfigurationRequest.cpp
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/PutBucketAccelerateConfigurationRequest.cpp > CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.i
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/PutBucketAccelerateConfigurationRequest.cpp -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.s
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o.requires
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o.provides: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o.provides
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o.provides.build: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o
+
+
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NoncurrentVersionTransition.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NoncurrentVersionTransition.cpp.o: aws-cpp-sdk-s3/source/model/NoncurrentVersionTransition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NoncurrentVersionTransition.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NoncurrentVersionTransition.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NoncurrentVersionTransition.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/NoncurrentVersionTransition.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NoncurrentVersionTransition.cpp.i: cmake_force
@@ -2795,7 +2843,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NoncurrentVersionTrans
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurationDeprecated.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurationDeprecated.cpp.o: aws-cpp-sdk-s3/source/model/NotificationConfigurationDeprecated.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurationDeprecated.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurationDeprecated.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurationDeprecated.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/NotificationConfigurationDeprecated.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurationDeprecated.cpp.i: cmake_force
@@ -2819,7 +2867,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurat
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectStorageClass.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectStorageClass.cpp.o: aws-cpp-sdk-s3/source/model/ObjectStorageClass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectStorageClass.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectStorageClass.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectStorageClass.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/ObjectStorageClass.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectStorageClass.cpp.i: cmake_force
@@ -2843,7 +2891,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectStorageClass.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestCharged.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestCharged.cpp.o: aws-cpp-sdk-s3/source/model/RequestCharged.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestCharged.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestCharged.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestCharged.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/RequestCharged.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestCharged.cpp.i: cmake_force
@@ -2867,7 +2915,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestCharged.cpp.o.p
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLifecycleConfiguration.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLifecycleConfiguration.cpp.o: aws-cpp-sdk-s3/source/model/BucketLifecycleConfiguration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLifecycleConfiguration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLifecycleConfiguration.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLifecycleConfiguration.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/BucketLifecycleConfiguration.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLifecycleConfiguration.cpp.i: cmake_force
@@ -2891,7 +2939,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLifecycleConfigu
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketCorsRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketCorsRequest.cpp.o: aws-cpp-sdk-s3/source/model/GetBucketCorsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketCorsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketCorsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketCorsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketCorsRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketCorsRequest.cpp.i: cmake_force
@@ -2915,7 +2963,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketCorsRequest.c
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketRequest.cpp.o: aws-cpp-sdk-s3/source/model/CreateBucketRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/CreateBucketRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketRequest.cpp.i: cmake_force
@@ -2937,9 +2985,33 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketRequest.cp
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketRequest.cpp.o.provides.build: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketRequest.cpp.o
 
 
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o: aws-cpp-sdk-s3/source/model/GetBucketAccelerateConfigurationResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketAccelerateConfigurationResult.cpp
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketAccelerateConfigurationResult.cpp > CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.i
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketAccelerateConfigurationResult.cpp -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.s
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o.requires
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o.provides: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o.provides
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o.provides.build: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o
+
+
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Transition.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Transition.cpp.o: aws-cpp-sdk-s3/source/model/Transition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Transition.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Transition.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Transition.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/Transition.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Transition.cpp.i: cmake_force
@@ -2963,7 +3035,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Transition.cpp.o.provi
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsResult.cpp.o: aws-cpp-sdk-s3/source/model/ListMultipartUploadsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/ListMultipartUploadsResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsResult.cpp.i: cmake_force
@@ -2987,7 +3059,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsRe
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/TopicConfigurationDeprecated.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/TopicConfigurationDeprecated.cpp.o: aws-cpp-sdk-s3/source/model/TopicConfigurationDeprecated.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/TopicConfigurationDeprecated.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/TopicConfigurationDeprecated.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/TopicConfigurationDeprecated.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/TopicConfigurationDeprecated.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/TopicConfigurationDeprecated.cpp.i: cmake_force
@@ -3011,7 +3083,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/TopicConfigurationDepr
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketRequestPaymentResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketRequestPaymentResult.cpp.o: aws-cpp-sdk-s3/source/model/GetBucketRequestPaymentResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketRequestPaymentResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketRequestPaymentResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketRequestPaymentResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketRequestPaymentResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketRequestPaymentResult.cpp.i: cmake_force
@@ -3035,7 +3107,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketRequestPaymen
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectAclResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectAclResult.cpp.o: aws-cpp-sdk-s3/source/model/GetObjectAclResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectAclResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectAclResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectAclResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetObjectAclResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectAclResult.cpp.i: cmake_force
@@ -3059,7 +3131,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectAclResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RedirectAllRequestsTo.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RedirectAllRequestsTo.cpp.o: aws-cpp-sdk-s3/source/model/RedirectAllRequestsTo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RedirectAllRequestsTo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RedirectAllRequestsTo.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RedirectAllRequestsTo.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/RedirectAllRequestsTo.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RedirectAllRequestsTo.cpp.i: cmake_force
@@ -3083,7 +3155,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RedirectAllRequestsTo.
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedPart.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedPart.cpp.o: aws-cpp-sdk-s3/source/model/CompletedPart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedPart.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedPart.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedPart.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/CompletedPart.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedPart.cpp.i: cmake_force
@@ -3105,9 +3177,33 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedPart.cpp.o.pr
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedPart.cpp.o.provides.build: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedPart.cpp.o
 
 
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o: aws-cpp-sdk-s3/source/model/AccelerateConfiguration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/AccelerateConfiguration.cpp
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/AccelerateConfiguration.cpp > CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.i
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/AccelerateConfiguration.cpp -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.s
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o.requires
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o.provides: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o.provides
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o.provides.build: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o
+
+
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketResult.cpp.o: aws-cpp-sdk-s3/source/model/CreateBucketResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/CreateBucketResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketResult.cpp.i: cmake_force
@@ -3131,7 +3227,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/S3KeyFilter.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/S3KeyFilter.cpp.o: aws-cpp-sdk-s3/source/model/S3KeyFilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/S3KeyFilter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/S3KeyFilter.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/S3KeyFilter.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/S3KeyFilter.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/S3KeyFilter.cpp.i: cmake_force
@@ -3155,7 +3251,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/S3KeyFilter.cpp.o.prov
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectIdentifier.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectIdentifier.cpp.o: aws-cpp-sdk-s3/source/model/ObjectIdentifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectIdentifier.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectIdentifier.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectIdentifier.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/ObjectIdentifier.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectIdentifier.cpp.i: cmake_force
@@ -3179,7 +3275,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectIdentifier.cpp.o
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadResult.cpp.o: aws-cpp-sdk-s3/source/model/CreateMultipartUploadResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/CreateMultipartUploadResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadResult.cpp.i: cmake_force
@@ -3203,7 +3299,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadR
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketRequestPaymentRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketRequestPaymentRequest.cpp.o: aws-cpp-sdk-s3/source/model/GetBucketRequestPaymentRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketRequestPaymentRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketRequestPaymentRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketRequestPaymentRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketRequestPaymentRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketRequestPaymentRequest.cpp.i: cmake_force
@@ -3227,7 +3323,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketRequestPaymen
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketCannedACL.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketCannedACL.cpp.o: aws-cpp-sdk-s3/source/model/BucketCannedACL.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketCannedACL.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketCannedACL.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketCannedACL.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/BucketCannedACL.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketCannedACL.cpp.i: cmake_force
@@ -3251,7 +3347,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketCannedACL.cpp.o.
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/QueueConfigurationDeprecated.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/QueueConfigurationDeprecated.cpp.o: aws-cpp-sdk-s3/source/model/QueueConfigurationDeprecated.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/QueueConfigurationDeprecated.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/QueueConfigurationDeprecated.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/QueueConfigurationDeprecated.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/QueueConfigurationDeprecated.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/QueueConfigurationDeprecated.cpp.i: cmake_force
@@ -3275,7 +3371,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/QueueConfigurationDepr
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectsResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectsResult.cpp.o: aws-cpp-sdk-s3/source/model/DeleteObjectsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/DeleteObjectsResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectsResult.cpp.i: cmake_force
@@ -3299,7 +3395,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectsResult.cp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectsRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectsRequest.cpp.o: aws-cpp-sdk-s3/source/model/DeleteObjectsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/DeleteObjectsRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectsRequest.cpp.i: cmake_force
@@ -3323,7 +3419,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectsRequest.c
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MultipartUpload.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MultipartUpload.cpp.o: aws-cpp-sdk-s3/source/model/MultipartUpload.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MultipartUpload.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MultipartUpload.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MultipartUpload.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/MultipartUpload.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MultipartUpload.cpp.i: cmake_force
@@ -3347,7 +3443,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/MultipartUpload.cpp.o.
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Object.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Object.cpp.o: aws-cpp-sdk-s3/source/model/Object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Object.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Object.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Object.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/Object.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Object.cpp.i: cmake_force
@@ -3371,7 +3467,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Object.cpp.o.provides.
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompleteMultipartUploadRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompleteMultipartUploadRequest.cpp.o: aws-cpp-sdk-s3/source/model/CompleteMultipartUploadRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompleteMultipartUploadRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompleteMultipartUploadRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompleteMultipartUploadRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/CompleteMultipartUploadRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompleteMultipartUploadRequest.cpp.i: cmake_force
@@ -3395,7 +3491,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompleteMultipartUploa
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Initiator.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Initiator.cpp.o: aws-cpp-sdk-s3/source/model/Initiator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Initiator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Initiator.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Initiator.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/Initiator.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Initiator.cpp.i: cmake_force
@@ -3419,7 +3515,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Initiator.cpp.o.provid
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketReplicationRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketReplicationRequest.cpp.o: aws-cpp-sdk-s3/source/model/GetBucketReplicationRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketReplicationRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketReplicationRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketReplicationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketReplicationRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketReplicationRequest.cpp.i: cmake_force
@@ -3443,7 +3539,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketReplicationRe
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteBucketReplicationRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteBucketReplicationRequest.cpp.o: aws-cpp-sdk-s3/source/model/DeleteBucketReplicationRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteBucketReplicationRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteBucketReplicationRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteBucketReplicationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/DeleteBucketReplicationRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteBucketReplicationRequest.cpp.i: cmake_force
@@ -3467,7 +3563,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteBucketReplicatio
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketWebsiteResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketWebsiteResult.cpp.o: aws-cpp-sdk-s3/source/model/GetBucketWebsiteResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketWebsiteResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketWebsiteResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketWebsiteResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketWebsiteResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketWebsiteResult.cpp.i: cmake_force
@@ -3491,7 +3587,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketWebsiteResult
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Payer.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Payer.cpp.o: aws-cpp-sdk-s3/source/model/Payer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Payer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Payer.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Payer.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/Payer.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Payer.cpp.i: cmake_force
@@ -3515,7 +3611,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Payer.cpp.o.provides.b
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/IndexDocument.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/IndexDocument.cpp.o: aws-cpp-sdk-s3/source/model/IndexDocument.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/IndexDocument.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/IndexDocument.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/IndexDocument.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/IndexDocument.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/IndexDocument.cpp.i: cmake_force
@@ -3539,7 +3635,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/IndexDocument.cpp.o.pr
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectRequest.cpp.o: aws-cpp-sdk-s3/source/model/DeleteObjectRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/DeleteObjectRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectRequest.cpp.i: cmake_force
@@ -3563,7 +3659,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeleteObjectRequest.cp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsRequest.cpp.o: aws-cpp-sdk-s3/source/model/ListPartsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/ListPartsRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsRequest.cpp.i: cmake_force
@@ -3587,7 +3683,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsRequest.cpp.o
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Delete.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Delete.cpp.o: aws-cpp-sdk-s3/source/model/Delete.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Delete.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Delete.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Delete.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/Delete.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Delete.cpp.i: cmake_force
@@ -3611,7 +3707,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Delete.cpp.o.provides.
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketVersioningResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketVersioningResult.cpp.o: aws-cpp-sdk-s3/source/model/GetBucketVersioningResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketVersioningResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketVersioningResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketVersioningResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketVersioningResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketVersioningResult.cpp.i: cmake_force
@@ -3635,7 +3731,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketVersioningRes
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLifecycleConfigurationResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLifecycleConfigurationResult.cpp.o: aws-cpp-sdk-s3/source/model/GetBucketLifecycleConfigurationResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLifecycleConfigurationResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLifecycleConfigurationResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLifecycleConfigurationResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketLifecycleConfigurationResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLifecycleConfigurationResult.cpp.i: cmake_force
@@ -3659,7 +3755,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLifecycleConf
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAclRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAclRequest.cpp.o: aws-cpp-sdk-s3/source/model/PutBucketAclRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAclRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAclRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAclRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/PutBucketAclRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAclRequest.cpp.i: cmake_force
@@ -3683,7 +3779,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAclRequest.cp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Owner.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Owner.cpp.o: aws-cpp-sdk-s3/source/model/Owner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Owner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Owner.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Owner.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/Owner.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Owner.cpp.i: cmake_force
@@ -3707,7 +3803,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Owner.cpp.o.provides.b
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketVersioningRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketVersioningRequest.cpp.o: aws-cpp-sdk-s3/source/model/PutBucketVersioningRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketVersioningRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketVersioningRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketVersioningRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/PutBucketVersioningRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketVersioningRequest.cpp.i: cmake_force
@@ -3731,7 +3827,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketVersioningReq
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLocationResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLocationResult.cpp.o: aws-cpp-sdk-s3/source/model/GetBucketLocationResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLocationResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLocationResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLocationResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketLocationResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLocationResult.cpp.i: cmake_force
@@ -3755,7 +3851,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketLocationResul
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadRequest.cpp.o: aws-cpp-sdk-s3/source/model/CreateMultipartUploadRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/CreateMultipartUploadRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadRequest.cpp.i: cmake_force
@@ -3779,7 +3875,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateMultipartUploadR
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompleteMultipartUploadResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompleteMultipartUploadResult.cpp.o: aws-cpp-sdk-s3/source/model/CompleteMultipartUploadResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompleteMultipartUploadResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompleteMultipartUploadResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompleteMultipartUploadResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/CompleteMultipartUploadResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompleteMultipartUploadResult.cpp.i: cmake_force
@@ -3803,7 +3899,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompleteMultipartUploa
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CloudFunctionConfiguration.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CloudFunctionConfiguration.cpp.o: aws-cpp-sdk-s3/source/model/CloudFunctionConfiguration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CloudFunctionConfiguration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CloudFunctionConfiguration.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CloudFunctionConfiguration.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/CloudFunctionConfiguration.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CloudFunctionConfiguration.cpp.i: cmake_force
@@ -3827,7 +3923,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CloudFunctionConfigura
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ReplicationRule.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ReplicationRule.cpp.o: aws-cpp-sdk-s3/source/model/ReplicationRule.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ReplicationRule.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ReplicationRule.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ReplicationRule.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/ReplicationRule.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ReplicationRule.cpp.i: cmake_force
@@ -3851,7 +3947,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ReplicationRule.cpp.o.
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CORSConfiguration.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CORSConfiguration.cpp.o: aws-cpp-sdk-s3/source/model/CORSConfiguration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CORSConfiguration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CORSConfiguration.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CORSConfiguration.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/CORSConfiguration.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CORSConfiguration.cpp.i: cmake_force
@@ -3875,7 +3971,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CORSConfiguration.cpp.
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketNotificationConfigurationRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketNotificationConfigurationRequest.cpp.o: aws-cpp-sdk-s3/source/model/GetBucketNotificationConfigurationRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketNotificationConfigurationRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketNotificationConfigurationRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketNotificationConfigurationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketNotificationConfigurationRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketNotificationConfigurationRequest.cpp.i: cmake_force
@@ -3899,7 +3995,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketNotificationC
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadBucketRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadBucketRequest.cpp.o: aws-cpp-sdk-s3/source/model/HeadBucketRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadBucketRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadBucketRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadBucketRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/HeadBucketRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadBucketRequest.cpp.i: cmake_force
@@ -3923,7 +4019,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/HeadBucketRequest.cpp.
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Error.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Error.cpp.o: aws-cpp-sdk-s3/source/model/Error.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Error.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Error.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Error.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/Error.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Error.cpp.i: cmake_force
@@ -3947,7 +4043,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Error.cpp.o.provides.b
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.o: aws-cpp-sdk-s3/source/model/ListPartsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/ListPartsResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.i: cmake_force
@@ -3971,7 +4067,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.o.
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeletedObject.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeletedObject.cpp.o: aws-cpp-sdk-s3/source/model/DeletedObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeletedObject.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeletedObject.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeletedObject.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/DeletedObject.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeletedObject.cpp.i: cmake_force
@@ -3995,7 +4091,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeletedObject.cpp.o.pr
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RoutingRule.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RoutingRule.cpp.o: aws-cpp-sdk-s3/source/model/RoutingRule.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RoutingRule.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RoutingRule.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RoutingRule.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/RoutingRule.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RoutingRule.cpp.i: cmake_force
@@ -4017,9 +4113,33 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RoutingRule.cpp.o.prov
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RoutingRule.cpp.o.provides.build: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RoutingRule.cpp.o
 
 
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o: aws-cpp-sdk-s3/source/model/BucketAccelerateStatus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/BucketAccelerateStatus.cpp
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/BucketAccelerateStatus.cpp > CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.i
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/BucketAccelerateStatus.cpp -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.s
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o.requires
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o.provides: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o.provides
+
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o.provides.build: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o
+
+
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectResult.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectResult.cpp.o: aws-cpp-sdk-s3/source/model/PutObjectResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/PutObjectResult.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectResult.cpp.i: cmake_force
@@ -4043,7 +4163,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectResult.cpp.o.
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketReplicationRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketReplicationRequest.cpp.o: aws-cpp-sdk-s3/source/model/PutBucketReplicationRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketReplicationRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketReplicationRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketReplicationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/PutBucketReplicationRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketReplicationRequest.cpp.i: cmake_force
@@ -4067,7 +4187,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketReplicationRe
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Tagging.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Tagging.cpp.o: aws-cpp-sdk-s3/source/model/Tagging.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Tagging.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Tagging.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Tagging.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/Tagging.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Tagging.cpp.i: cmake_force
@@ -4091,7 +4211,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Tagging.cpp.o.provides
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPaymentConfiguration.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPaymentConfiguration.cpp.o: aws-cpp-sdk-s3/source/model/RequestPaymentConfiguration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPaymentConfiguration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPaymentConfiguration.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPaymentConfiguration.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/RequestPaymentConfiguration.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPaymentConfiguration.cpp.i: cmake_force
@@ -4115,7 +4235,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPaymentConfigur
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectAclRequest.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectAclRequest.cpp.o: aws-cpp-sdk-s3/source/model/PutObjectAclRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectAclRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectAclRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectAclRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/PutObjectAclRequest.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectAclRequest.cpp.i: cmake_force
@@ -4139,7 +4259,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectAclRequest.cp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurationFilter.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurationFilter.cpp.o: aws-cpp-sdk-s3/source/model/NotificationConfigurationFilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurationFilter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurationFilter.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurationFilter.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/NotificationConfigurationFilter.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurationFilter.cpp.i: cmake_force
@@ -4163,7 +4283,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurat
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedMultipartUpload.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedMultipartUpload.cpp.o: aws-cpp-sdk-s3/source/model/CompletedMultipartUpload.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedMultipartUpload.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedMultipartUpload.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedMultipartUpload.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/CompletedMultipartUpload.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedMultipartUpload.cpp.i: cmake_force
@@ -4187,7 +4307,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedMultipartUplo
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CORSRule.cpp.o: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/flags.make
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CORSRule.cpp.o: aws-cpp-sdk-s3/source/model/CORSRule.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CORSRule.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CORSRule.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CORSRule.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/CORSRule.cpp
 
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CORSRule.cpp.i: cmake_force
@@ -4306,6 +4426,7 @@ aws__cpp__sdk__s3_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/FilterRuleName.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketVersioningStatus.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectCannedACL.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLocationConstraint.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ReplicationConfiguration.cpp.o" \
@@ -4324,6 +4445,7 @@ aws__cpp__sdk__s3_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CommonPrefix.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectTorrentResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPayer.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NoncurrentVersionTransition.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurationDeprecated.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectStorageClass.cpp.o" \
@@ -4331,6 +4453,7 @@ aws__cpp__sdk__s3_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLifecycleConfiguration.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketCorsRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Transition.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/TopicConfigurationDeprecated.cpp.o" \
@@ -4338,6 +4461,7 @@ aws__cpp__sdk__s3_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectAclResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RedirectAllRequestsTo.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedPart.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/S3KeyFilter.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectIdentifier.cpp.o" \
@@ -4376,6 +4500,7 @@ aws__cpp__sdk__s3_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeletedObject.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RoutingRule.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketReplicationRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Tagging.cpp.o" \
@@ -4483,6 +4608,7 @@ aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.di
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/FilterRuleName.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketVersioningStatus.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectCannedACL.cpp.o
+aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLocationConstraint.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsRequest.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ReplicationConfiguration.cpp.o
@@ -4501,6 +4627,7 @@ aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.di
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CommonPrefix.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectTorrentResult.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPayer.cpp.o
+aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NoncurrentVersionTransition.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurationDeprecated.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectStorageClass.cpp.o
@@ -4508,6 +4635,7 @@ aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.di
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLifecycleConfiguration.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketCorsRequest.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketRequest.cpp.o
+aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Transition.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsResult.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/TopicConfigurationDeprecated.cpp.o
@@ -4515,6 +4643,7 @@ aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.di
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectAclResult.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RedirectAllRequestsTo.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedPart.cpp.o
+aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketResult.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/S3KeyFilter.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectIdentifier.cpp.o
@@ -4553,6 +4682,7 @@ aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.di
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeletedObject.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RoutingRule.cpp.o
+aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectResult.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketReplicationRequest.cpp.o
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Tagging.cpp.o
@@ -4564,7 +4694,7 @@ aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.di
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-core/libaws-cpp-sdk-core.so
 aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Linking CXX shared library libaws-cpp-sdk-s3.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Linking CXX shared library libaws-cpp-sdk-s3.so"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aws-cpp-sdk-s3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -4667,6 +4797,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/FilterRuleName.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketVersioningStatus.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectCannedACL.cpp.o.requires
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationRequest.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLocationConstraint.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListObjectsRequest.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ReplicationConfiguration.cpp.o.requires
@@ -4685,6 +4816,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CommonPrefix.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectTorrentResult.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RequestPayer.cpp.o.requires
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketAccelerateConfigurationRequest.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NoncurrentVersionTransition.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/NotificationConfigurationDeprecated.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectStorageClass.cpp.o.requires
@@ -4692,6 +4824,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketLifecycleConfiguration.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketCorsRequest.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketRequest.cpp.o.requires
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetBucketAccelerateConfigurationResult.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Transition.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListMultipartUploadsResult.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/TopicConfigurationDeprecated.cpp.o.requires
@@ -4699,6 +4832,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/GetObjectAclResult.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RedirectAllRequestsTo.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CompletedPart.cpp.o.requires
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/AccelerateConfiguration.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/CreateBucketResult.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/S3KeyFilter.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ObjectIdentifier.cpp.o.requires
@@ -4737,6 +4871,7 @@ aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/ListPartsResult.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/DeletedObject.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/RoutingRule.cpp.o.requires
+aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/BucketAccelerateStatus.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutObjectResult.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/PutBucketReplicationRequest.cpp.o.requires
 aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/requires: aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/source/model/Tagging.cpp.o.requires

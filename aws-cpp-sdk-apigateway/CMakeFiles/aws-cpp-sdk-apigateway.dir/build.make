@@ -369,9 +369,33 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerResult.cpp.o.provides.build: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerResult.cpp.o
 
 
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o: aws-cpp-sdk-apigateway/source/model/PutMode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutMode.cpp
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutMode.cpp > CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.i
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutMode.cpp -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.s
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o.requires
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o.provides: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o.provides
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o.provides.build: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o
+
+
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/AuthorizerType.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/AuthorizerType.cpp.o: aws-cpp-sdk-apigateway/source/model/AuthorizerType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/AuthorizerType.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/AuthorizerType.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/AuthorizerType.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/AuthorizerType.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/AuthorizerType.cpp.i: cmake_force
@@ -395,7 +419,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Author
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/BasePathMapping.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/BasePathMapping.cpp.o: aws-cpp-sdk-apigateway/source/model/BasePathMapping.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/BasePathMapping.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/BasePathMapping.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/BasePathMapping.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/BasePathMapping.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/BasePathMapping.cpp.i: cmake_force
@@ -419,7 +443,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/BasePa
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateStageRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateStageRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageRequest.cpp.i: cmake_force
@@ -443,7 +467,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetApiKeyResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetApiKeyResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyResult.cpp.i: cmake_force
@@ -467,7 +491,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApi
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetModelsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetModelsRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsRequest.cpp.i: cmake_force
@@ -491,7 +515,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMod
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateDeploymentRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateDeploymentRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentRequest.cpp.i: cmake_force
@@ -515,7 +539,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResult.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateIntegrationResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateIntegrationResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResult.cpp.i: cmake_force
@@ -539,7 +563,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Op.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Op.cpp.o: aws-cpp-sdk-apigateway/source/model/Op.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Op.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Op.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Op.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/Op.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Op.cpp.i: cmake_force
@@ -561,9 +585,33 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Op.cpp
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Op.cpp.o.provides.build: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Op.cpp.o
 
 
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o: aws-cpp-sdk-apigateway/source/model/ImportRestApiResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/ImportRestApiResult.cpp
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/ImportRestApiResult.cpp > CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.i
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/ImportRestApiResult.cpp -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.s
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o.requires
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o.provides: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o.provides
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o.provides.build: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o
+
+
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodResponse.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodResponse.cpp.o: aws-cpp-sdk-apigateway/source/model/MethodResponse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodResponse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodResponse.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodResponse.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/MethodResponse.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodResponse.cpp.i: cmake_force
@@ -587,7 +635,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Method
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodSetting.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodSetting.cpp.o: aws-cpp-sdk-apigateway/source/model/MethodSetting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodSetting.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodSetting.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodSetting.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/MethodSetting.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodSetting.cpp.i: cmake_force
@@ -611,7 +659,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Method
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetMethodResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetMethodResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResult.cpp.i: cmake_force
@@ -635,7 +683,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMet
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetDeploymentsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetDeploymentsRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsRequest.cpp.i: cmake_force
@@ -659,7 +707,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDep
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetRestApisRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetRestApisRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisRequest.cpp.i: cmake_force
@@ -683,7 +731,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRes
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetBasePathMappingResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetBasePathMappingResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingResult.cpp.i: cmake_force
@@ -707,7 +755,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBas
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateModelRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateModelRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelRequest.cpp.i: cmake_force
@@ -731,7 +779,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResult.cpp.o: aws-cpp-sdk-apigateway/source/model/PutMethodResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutMethodResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResult.cpp.i: cmake_force
@@ -755,7 +803,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMet
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelResult.cpp.o: aws-cpp-sdk-apigateway/source/model/CreateModelResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CreateModelResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelResult.cpp.i: cmake_force
@@ -779,7 +827,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GenerateClientCertificateRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GenerateClientCertificateRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateRequest.cpp.i: cmake_force
@@ -803,7 +851,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Genera
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetMethodResponseResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetMethodResponseResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseResult.cpp.i: cmake_force
@@ -827,7 +875,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMet
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResult.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateMethodResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateMethodResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResult.cpp.i: cmake_force
@@ -851,7 +899,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetResourcesResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetResourcesResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesResult.cpp.i: cmake_force
@@ -875,7 +923,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRes
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetIntegrationResponseResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetIntegrationResponseResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseResult.cpp.i: cmake_force
@@ -899,7 +947,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetInt
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetDomainNameResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetDomainNameResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameResult.cpp.i: cmake_force
@@ -923,7 +971,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDom
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageCacheRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageCacheRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/FlushStageCacheRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageCacheRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageCacheRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageCacheRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/FlushStageCacheRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageCacheRequest.cpp.i: cmake_force
@@ -947,7 +995,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushS
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerResult.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateAuthorizerResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateAuthorizerResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerResult.cpp.i: cmake_force
@@ -971,7 +1019,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateResult.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateClientCertificateResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateClientCertificateResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateResult.cpp.i: cmake_force
@@ -995,7 +1043,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageResult.cpp.o: aws-cpp-sdk-apigateway/source/model/CreateStageResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CreateStageResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageResult.cpp.i: cmake_force
@@ -1019,7 +1067,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetAuthorizersRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetAuthorizersRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersRequest.cpp.i: cmake_force
@@ -1043,7 +1091,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAut
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetExportResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetExportResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportResult.cpp.i: cmake_force
@@ -1067,7 +1115,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateIntegrationResponseRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateIntegrationResponseRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseRequest.cpp.i: cmake_force
@@ -1091,7 +1139,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetAuthorizerRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetAuthorizerRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerRequest.cpp.i: cmake_force
@@ -1115,7 +1163,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAut
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/CreateDeploymentRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CreateDeploymentRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentRequest.cpp.i: cmake_force
@@ -1139,7 +1187,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentResult.cpp.o: aws-cpp-sdk-apigateway/source/model/CreateDeploymentResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CreateDeploymentResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDeploymentResult.cpp.i: cmake_force
@@ -1163,7 +1211,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageResult.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateStageResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateStageResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageResult.cpp.i: cmake_force
@@ -1187,7 +1235,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateBasePathMappingRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateBasePathMappingRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingRequest.cpp.i: cmake_force
@@ -1211,7 +1259,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetRestApiResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetRestApiResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiResult.cpp.i: cmake_force
@@ -1235,7 +1283,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRes
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CacheClusterSize.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CacheClusterSize.cpp.o: aws-cpp-sdk-apigateway/source/model/CacheClusterSize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CacheClusterSize.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CacheClusterSize.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CacheClusterSize.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CacheClusterSize.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CacheClusterSize.cpp.i: cmake_force
@@ -1259,7 +1307,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CacheC
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetBasePathMappingRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetBasePathMappingRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingRequest.cpp.i: cmake_force
@@ -1283,7 +1331,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBas
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Deployment.cpp.o: aws-cpp-sdk-apigateway/source/model/Deployment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Deployment.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Deployment.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Deployment.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/Deployment.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Deployment.cpp.i: cmake_force
@@ -1307,7 +1355,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Deploy
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetDomainNamesResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetDomainNamesResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesResult.cpp.i: cmake_force
@@ -1331,7 +1379,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDom
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteModelRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteModelRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/DeleteModelRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteModelRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteModelRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteModelRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/DeleteModelRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteModelRequest.cpp.i: cmake_force
@@ -1355,7 +1403,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentResult.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateDeploymentResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateDeploymentResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentResult.cpp.i: cmake_force
@@ -1379,7 +1427,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameResult.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateDomainNameResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateDomainNameResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameResult.cpp.i: cmake_force
@@ -1403,7 +1451,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseResult.cpp.o: aws-cpp-sdk-apigateway/source/model/PutMethodResponseResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutMethodResponseResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseResult.cpp.i: cmake_force
@@ -1427,7 +1475,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMet
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateMethodResponseRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateMethodResponseRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseRequest.cpp.i: cmake_force
@@ -1451,7 +1499,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/CreateModelRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CreateModelRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateModelRequest.cpp.i: cmake_force
@@ -1475,7 +1523,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteResourceRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteResourceRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/DeleteResourceRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteResourceRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteResourceRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteResourceRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/DeleteResourceRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteResourceRequest.cpp.i: cmake_force
@@ -1499,7 +1547,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateResourceRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateResourceRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceRequest.cpp.i: cmake_force
@@ -1523,7 +1571,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateApiKeyRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateApiKeyRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyRequest.cpp.i: cmake_force
@@ -1547,7 +1595,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountResult.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateAccountResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateAccountResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountResult.cpp.i: cmake_force
@@ -1571,7 +1619,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/CreateDomainNameRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CreateDomainNameRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameRequest.cpp.i: cmake_force
@@ -1595,7 +1643,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetClientCertificateResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetClientCertificateResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateResult.cpp.i: cmake_force
@@ -1619,7 +1667,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetCli
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetMethodResponseRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetMethodResponseRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResponseRequest.cpp.i: cmake_force
@@ -1643,7 +1691,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMet
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodSnapshot.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodSnapshot.cpp.o: aws-cpp-sdk-apigateway/source/model/MethodSnapshot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodSnapshot.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodSnapshot.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodSnapshot.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/MethodSnapshot.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodSnapshot.cpp.i: cmake_force
@@ -1667,7 +1715,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Method
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateIntegrationRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateIntegrationRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationRequest.cpp.i: cmake_force
@@ -1691,7 +1739,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetResourcesRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetResourcesRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourcesRequest.cpp.i: cmake_force
@@ -1715,7 +1763,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRes
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetStageResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetStageResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageResult.cpp.i: cmake_force
@@ -1739,7 +1787,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSta
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyResult.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateApiKeyResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateApiKeyResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateApiKeyResult.cpp.i: cmake_force
@@ -1763,7 +1811,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetModelResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetModelResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelResult.cpp.i: cmake_force
@@ -1787,7 +1835,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMod
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Authorizer.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Authorizer.cpp.o: aws-cpp-sdk-apigateway/source/model/Authorizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Authorizer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Authorizer.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Authorizer.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/Authorizer.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Authorizer.cpp.i: cmake_force
@@ -1811,7 +1859,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Author
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetDeploymentsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetDeploymentsResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentsResult.cpp.i: cmake_force
@@ -1835,7 +1883,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDep
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Model.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Model.cpp.o: aws-cpp-sdk-apigateway/source/model/Model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Model.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Model.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Model.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/Model.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Model.cpp.i: cmake_force
@@ -1859,7 +1907,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Model.
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/CreateAuthorizerRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CreateAuthorizerRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerRequest.cpp.i: cmake_force
@@ -1883,7 +1931,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingResult.cpp.o: aws-cpp-sdk-apigateway/source/model/CreateBasePathMappingResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CreateBasePathMappingResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingResult.cpp.i: cmake_force
@@ -1907,7 +1955,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResult.cpp.o: aws-cpp-sdk-apigateway/source/model/PutIntegrationResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutIntegrationResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResult.cpp.i: cmake_force
@@ -1929,9 +1977,33 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutInt
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResult.cpp.o.provides.build: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResult.cpp.o
 
 
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/PutRestApiRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutRestApiRequest.cpp
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutRestApiRequest.cpp > CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.i
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutRestApiRequest.cpp -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.s
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o.requires
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o.provides: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o.provides
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o.provides.build: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o
+
+
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Method.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Method.cpp.o: aws-cpp-sdk-apigateway/source/model/Method.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Method.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Method.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Method.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/Method.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Method.cpp.i: cmake_force
@@ -1955,7 +2027,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Method
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceResult.cpp.o: aws-cpp-sdk-apigateway/source/model/CreateResourceResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CreateResourceResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceResult.cpp.i: cmake_force
@@ -1979,7 +2051,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/CreateStageRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CreateStageRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageRequest.cpp.i: cmake_force
@@ -2003,7 +2075,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/TestInvokeAuthorizerRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/TestInvokeAuthorizerRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerRequest.cpp.i: cmake_force
@@ -2027,7 +2099,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestIn
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/PutIntegrationRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutIntegrationRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationRequest.cpp.i: cmake_force
@@ -2051,7 +2123,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutInt
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteClientCertificateRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteClientCertificateRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/DeleteClientCertificateRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteClientCertificateRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteClientCertificateRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteClientCertificateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/DeleteClientCertificateRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteClientCertificateRequest.cpp.i: cmake_force
@@ -2075,7 +2147,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceResult.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateResourceResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateResourceResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateResourceResult.cpp.i: cmake_force
@@ -2099,7 +2171,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ApiKey.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ApiKey.cpp.o: aws-cpp-sdk-apigateway/source/model/ApiKey.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ApiKey.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ApiKey.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ApiKey.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/ApiKey.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ApiKey.cpp.i: cmake_force
@@ -2123,7 +2195,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ApiKey
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateRestApiRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateRestApiRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiRequest.cpp.i: cmake_force
@@ -2147,7 +2219,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetAuthorizerResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetAuthorizerResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizerResult.cpp.i: cmake_force
@@ -2171,7 +2243,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAut
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UnauthorizedCacheControlHeaderStrategy.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UnauthorizedCacheControlHeaderStrategy.cpp.o: aws-cpp-sdk-apigateway/source/model/UnauthorizedCacheControlHeaderStrategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UnauthorizedCacheControlHeaderStrategy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UnauthorizedCacheControlHeaderStrategy.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UnauthorizedCacheControlHeaderStrategy.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UnauthorizedCacheControlHeaderStrategy.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UnauthorizedCacheControlHeaderStrategy.cpp.i: cmake_force
@@ -2195,7 +2267,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Unauth
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelResult.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateModelResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateModelResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateModelResult.cpp.i: cmake_force
@@ -2219,7 +2291,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetBasePathMappingsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetBasePathMappingsRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsRequest.cpp.i: cmake_force
@@ -2243,7 +2315,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBas
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateClientCertificateRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateClientCertificateRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateClientCertificateRequest.cpp.i: cmake_force
@@ -2267,7 +2339,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/DeleteMethodRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/DeleteMethodRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodRequest.cpp.i: cmake_force
@@ -2291,7 +2363,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateMethodRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateMethodRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodRequest.cpp.i: cmake_force
@@ -2315,7 +2387,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetResourceResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetResourceResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceResult.cpp.i: cmake_force
@@ -2339,7 +2411,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRes
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationResponseRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationResponseRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/DeleteIntegrationResponseRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationResponseRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationResponseRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationResponseRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/DeleteIntegrationResponseRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationResponseRequest.cpp.i: cmake_force
@@ -2363,7 +2435,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodResponseRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodResponseRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/DeleteMethodResponseRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodResponseRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodResponseRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodResponseRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/DeleteMethodResponseRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteMethodResponseRequest.cpp.i: cmake_force
@@ -2387,7 +2459,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ClientCertificate.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ClientCertificate.cpp.o: aws-cpp-sdk-apigateway/source/model/ClientCertificate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ClientCertificate.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ClientCertificate.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ClientCertificate.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/ClientCertificate.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ClientCertificate.cpp.i: cmake_force
@@ -2411,7 +2483,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Client
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetModelTemplateRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetModelTemplateRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateRequest.cpp.i: cmake_force
@@ -2435,7 +2507,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMod
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingResult.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateBasePathMappingResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateBasePathMappingResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateBasePathMappingResult.cpp.i: cmake_force
@@ -2459,7 +2531,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetResourceRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetResourceRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetResourceRequest.cpp.i: cmake_force
@@ -2483,7 +2555,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRes
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/IntegrationType.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/IntegrationType.cpp.o: aws-cpp-sdk-apigateway/source/model/IntegrationType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/IntegrationType.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/IntegrationType.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/IntegrationType.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/IntegrationType.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/IntegrationType.cpp.i: cmake_force
@@ -2507,7 +2579,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Integr
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseResult.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateMethodResponseResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateMethodResponseResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseResult.cpp.i: cmake_force
@@ -2531,7 +2603,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/CreateBasePathMappingRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CreateBasePathMappingRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.i: cmake_force
@@ -2553,9 +2625,33 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.o.provides.build: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.o
 
 
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o: aws-cpp-sdk-apigateway/source/model/PutRestApiResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutRestApiResult.cpp
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutRestApiResult.cpp > CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.i
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutRestApiResult.cpp -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.s
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o.requires
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o.provides: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o.provides
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o.provides.build: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o
+
+
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetSdkResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetSdkResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkResult.cpp.i: cmake_force
@@ -2579,7 +2675,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdk
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetDomainNameRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetDomainNameRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameRequest.cpp.i: cmake_force
@@ -2603,7 +2699,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDom
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetIntegrationResponseRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetIntegrationResponseRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseRequest.cpp.i: cmake_force
@@ -2627,7 +2723,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetInt
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodResult.cpp.o: aws-cpp-sdk-apigateway/source/model/TestInvokeMethodResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/TestInvokeMethodResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodResult.cpp.i: cmake_force
@@ -2651,7 +2747,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestIn
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetExportRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetExportRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExportRequest.cpp.i: cmake_force
@@ -2675,7 +2771,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetExp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetMethodRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetMethodRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodRequest.cpp.i: cmake_force
@@ -2699,7 +2795,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMet
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseResult.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateIntegrationResponseResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateIntegrationResponseResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResponseResult.cpp.i: cmake_force
@@ -2723,7 +2819,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/PutMethodRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutMethodRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodRequest.cpp.i: cmake_force
@@ -2747,7 +2843,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMet
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerResult.cpp.o: aws-cpp-sdk-apigateway/source/model/TestInvokeAuthorizerResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/TestInvokeAuthorizerResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeAuthorizerResult.cpp.i: cmake_force
@@ -2771,7 +2867,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestIn
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GenerateClientCertificateResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GenerateClientCertificateResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GenerateClientCertificateResult.cpp.i: cmake_force
@@ -2795,7 +2891,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Genera
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDeploymentRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDeploymentRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/DeleteDeploymentRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDeploymentRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDeploymentRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDeploymentRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/DeleteDeploymentRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDeploymentRequest.cpp.i: cmake_force
@@ -2819,7 +2915,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetStageRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetStageRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStageRequest.cpp.i: cmake_force
@@ -2843,7 +2939,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSta
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/StageKey.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/StageKey.cpp.o: aws-cpp-sdk-apigateway/source/model/StageKey.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/StageKey.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/StageKey.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/StageKey.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/StageKey.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/StageKey.cpp.i: cmake_force
@@ -2867,7 +2963,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/StageK
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateAccountRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateAccountRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAccountRequest.cpp.i: cmake_force
@@ -2891,7 +2987,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateAuthorizerRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateAuthorizerRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateAuthorizerRequest.cpp.i: cmake_force
@@ -2915,7 +3011,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/DeleteIntegrationRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/DeleteIntegrationRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteIntegrationRequest.cpp.i: cmake_force
@@ -2939,7 +3035,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetRestApisResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetRestApisResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApisResult.cpp.i: cmake_force
@@ -2963,7 +3059,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRes
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetStagesRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetStagesRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesRequest.cpp.i: cmake_force
@@ -2987,7 +3083,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSta
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/PutMethodResponseRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutMethodResponseRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMethodResponseRequest.cpp.i: cmake_force
@@ -3011,7 +3107,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMet
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetApiKeysResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetApiKeysResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysResult.cpp.i: cmake_force
@@ -3035,7 +3131,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApi
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DomainName.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DomainName.cpp.o: aws-cpp-sdk-apigateway/source/model/DomainName.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DomainName.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DomainName.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DomainName.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/DomainName.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DomainName.cpp.i: cmake_force
@@ -3059,7 +3155,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Domain
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CacheClusterStatus.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CacheClusterStatus.cpp.o: aws-cpp-sdk-apigateway/source/model/CacheClusterStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CacheClusterStatus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CacheClusterStatus.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CacheClusterStatus.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CacheClusterStatus.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CacheClusterStatus.cpp.i: cmake_force
@@ -3083,7 +3179,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CacheC
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetClientCertificatesResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetClientCertificatesResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesResult.cpp.i: cmake_force
@@ -3107,7 +3203,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetCli
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiResult.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateRestApiResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateRestApiResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateRestApiResult.cpp.i: cmake_force
@@ -3131,7 +3227,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteStageRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteStageRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/DeleteStageRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteStageRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteStageRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteStageRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/DeleteStageRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteStageRequest.cpp.i: cmake_force
@@ -3155,7 +3251,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseResult.cpp.o: aws-cpp-sdk-apigateway/source/model/PutIntegrationResponseResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutIntegrationResponseResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseResult.cpp.i: cmake_force
@@ -3179,7 +3275,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutInt
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageAuthorizersCacheRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageAuthorizersCacheRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/FlushStageAuthorizersCacheRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageAuthorizersCacheRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageAuthorizersCacheRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageAuthorizersCacheRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/FlushStageAuthorizersCacheRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushStageAuthorizersCacheRequest.cpp.i: cmake_force
@@ -3203,7 +3299,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/FlushS
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetIntegrationRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetIntegrationRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationRequest.cpp.i: cmake_force
@@ -3227,7 +3323,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetInt
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/CreateRestApiRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CreateRestApiRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiRequest.cpp.i: cmake_force
@@ -3251,7 +3347,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetAccountRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetAccountRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.i: cmake_force
@@ -3273,9 +3369,33 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAcc
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.o.provides.build: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.o
 
 
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/ImportRestApiRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/ImportRestApiRequest.cpp
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/ImportRestApiRequest.cpp > CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.i
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/ImportRestApiRequest.cpp -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.s
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o.requires
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o.provides: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o.provides
+
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o.provides.build: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o
+
+
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PatchOperation.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PatchOperation.cpp.o: aws-cpp-sdk-apigateway/source/model/PatchOperation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PatchOperation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PatchOperation.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PatchOperation.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PatchOperation.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PatchOperation.cpp.i: cmake_force
@@ -3299,7 +3419,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PatchO
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyResult.cpp.o: aws-cpp-sdk-apigateway/source/model/CreateApiKeyResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CreateApiKeyResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyResult.cpp.i: cmake_force
@@ -3323,7 +3443,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetAuthorizersResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetAuthorizersResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersResult.cpp.i: cmake_force
@@ -3347,7 +3467,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAut
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/PutIntegrationResponseRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/PutIntegrationResponseRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResponseRequest.cpp.i: cmake_force
@@ -3371,7 +3491,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutInt
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ThrottleSettings.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ThrottleSettings.cpp.o: aws-cpp-sdk-apigateway/source/model/ThrottleSettings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ThrottleSettings.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ThrottleSettings.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ThrottleSettings.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/ThrottleSettings.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ThrottleSettings.cpp.i: cmake_force
@@ -3395,7 +3515,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Thrott
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDomainNameRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDomainNameRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/DeleteDomainNameRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDomainNameRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDomainNameRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDomainNameRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/DeleteDomainNameRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteDomainNameRequest.cpp.i: cmake_force
@@ -3419,7 +3539,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetClientCertificatesRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetClientCertificatesRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificatesRequest.cpp.i: cmake_force
@@ -3443,7 +3563,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetCli
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/UpdateDomainNameRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/UpdateDomainNameRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDomainNameRequest.cpp.i: cmake_force
@@ -3467,7 +3587,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Update
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetAccountResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetAccountResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountResult.cpp.i: cmake_force
@@ -3491,7 +3611,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAcc
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/CreateResourceRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CreateResourceRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceRequest.cpp.i: cmake_force
@@ -3515,7 +3635,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameResult.cpp.o: aws-cpp-sdk-apigateway/source/model/CreateDomainNameResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CreateDomainNameResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateDomainNameResult.cpp.i: cmake_force
@@ -3539,7 +3659,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetBasePathMappingsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetBasePathMappingsResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBasePathMappingsResult.cpp.i: cmake_force
@@ -3563,7 +3683,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetBas
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetApiKeyRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetApiKeyRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeyRequest.cpp.i: cmake_force
@@ -3587,7 +3707,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApi
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteApiKeyRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteApiKeyRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/DeleteApiKeyRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteApiKeyRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteApiKeyRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteApiKeyRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/DeleteApiKeyRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteApiKeyRequest.cpp.i: cmake_force
@@ -3611,7 +3731,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/TestInvokeMethodRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/TestInvokeMethodRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestInvokeMethodRequest.cpp.i: cmake_force
@@ -3635,7 +3755,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/TestIn
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetModelsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetModelsResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelsResult.cpp.i: cmake_force
@@ -3659,7 +3779,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMod
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetModelRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetModelRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelRequest.cpp.i: cmake_force
@@ -3683,7 +3803,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMod
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetRestApiRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetRestApiRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRestApiRequest.cpp.i: cmake_force
@@ -3707,7 +3827,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetRes
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiResult.cpp.o: aws-cpp-sdk-apigateway/source/model/CreateRestApiResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/CreateRestApiResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiResult.cpp.i: cmake_force
@@ -3731,7 +3851,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Create
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetApiKeysRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetApiKeysRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApiKeysRequest.cpp.i: cmake_force
@@ -3755,7 +3875,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetApi
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetModelTemplateResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetModelTemplateResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetModelTemplateResult.cpp.i: cmake_force
@@ -3779,7 +3899,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMod
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Resource.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Resource.cpp.o: aws-cpp-sdk-apigateway/source/model/Resource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Resource.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Resource.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Resource.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/Resource.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Resource.cpp.i: cmake_force
@@ -3803,7 +3923,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Resour
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetClientCertificateRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetClientCertificateRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetClientCertificateRequest.cpp.i: cmake_force
@@ -3827,7 +3947,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetCli
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteRestApiRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/DeleteRestApiRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteRestApiRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteRestApiRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteRestApiRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/DeleteRestApiRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteRestApiRequest.cpp.i: cmake_force
@@ -3851,7 +3971,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/GetDomainNamesRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetDomainNamesRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNamesRequest.cpp.i: cmake_force
@@ -3875,7 +3995,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDom
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteBasePathMappingRequest.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteBasePathMappingRequest.cpp.o: aws-cpp-sdk-apigateway/source/model/DeleteBasePathMappingRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteBasePathMappingRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteBasePathMappingRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteBasePathMappingRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/DeleteBasePathMappingRequest.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/DeleteBasePathMappingRequest.cpp.i: cmake_force
@@ -3899,7 +4019,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Delete
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/RestApi.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/RestApi.cpp.o: aws-cpp-sdk-apigateway/source/model/RestApi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/RestApi.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/RestApi.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/RestApi.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/RestApi.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/RestApi.cpp.i: cmake_force
@@ -3923,7 +4043,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/RestAp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetDeploymentResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetDeploymentResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDeploymentResult.cpp.i: cmake_force
@@ -3947,7 +4067,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDep
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResult.cpp.o: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/flags.make
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResult.cpp.o: aws-cpp-sdk-apigateway/source/model/GetIntegrationResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway/source/model/GetIntegrationResult.cpp
 
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResult.cpp.i: cmake_force
@@ -3984,6 +4104,7 @@ aws__cpp__sdk__apigateway_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/AuthorizerType.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/BasePathMapping.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageRequest.cpp.o" \
@@ -3992,6 +4113,7 @@ aws__cpp__sdk__apigateway_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Op.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodResponse.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodSetting.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResult.cpp.o" \
@@ -4049,6 +4171,7 @@ aws__cpp__sdk__apigateway_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Method.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageRequest.cpp.o" \
@@ -4075,6 +4198,7 @@ aws__cpp__sdk__apigateway_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/IntegrationType.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseRequest.cpp.o" \
@@ -4105,6 +4229,7 @@ aws__cpp__sdk__apigateway_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PatchOperation.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersResult.cpp.o" \
@@ -4151,6 +4276,7 @@ aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMak
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkRequest.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesResult.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerResult.cpp.o
+aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/AuthorizerType.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/BasePathMapping.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageRequest.cpp.o
@@ -4159,6 +4285,7 @@ aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMak
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentRequest.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResult.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Op.cpp.o
+aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodResponse.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodSetting.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResult.cpp.o
@@ -4216,6 +4343,7 @@ aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMak
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerRequest.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingResult.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResult.cpp.o
+aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Method.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceResult.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageRequest.cpp.o
@@ -4242,6 +4370,7 @@ aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMak
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/IntegrationType.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseResult.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.o
+aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkResult.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameRequest.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseRequest.cpp.o
@@ -4272,6 +4401,7 @@ aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMak
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationRequest.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiRequest.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.o
+aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PatchOperation.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyResult.cpp.o
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersResult.cpp.o
@@ -4304,7 +4434,7 @@ aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMak
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/build.make
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-core/libaws-cpp-sdk-core.so
 aws-cpp-sdk-apigateway/libaws-cpp-sdk-apigateway.so: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Linking CXX shared library libaws-cpp-sdk-apigateway.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Linking CXX shared library libaws-cpp-sdk-apigateway.so"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-apigateway && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aws-cpp-sdk-apigateway.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -4325,6 +4455,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-s
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkRequest.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetStagesResult.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerResult.cpp.o.requires
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutMode.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/AuthorizerType.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/BasePathMapping.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateStageRequest.cpp.o.requires
@@ -4333,6 +4464,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-s
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateDeploymentRequest.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateIntegrationResult.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Op.cpp.o.requires
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiResult.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodResponse.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/MethodSetting.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetMethodResult.cpp.o.requires
@@ -4390,6 +4522,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-s
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateAuthorizerRequest.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingResult.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutIntegrationResult.cpp.o.requires
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiRequest.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/Method.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateResourceResult.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateStageRequest.cpp.o.requires
@@ -4416,6 +4549,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-s
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/IntegrationType.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/UpdateMethodResponseResult.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateBasePathMappingRequest.cpp.o.requires
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PutRestApiResult.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetSdkResult.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetDomainNameRequest.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationResponseRequest.cpp.o.requires
@@ -4446,6 +4580,7 @@ aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-s
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetIntegrationRequest.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateRestApiRequest.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAccountRequest.cpp.o.requires
+aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/ImportRestApiRequest.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/PatchOperation.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/CreateApiKeyResult.cpp.o.requires
 aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/requires: aws-cpp-sdk-apigateway/CMakeFiles/aws-cpp-sdk-apigateway.dir/source/model/GetAuthorizersResult.cpp.o.requires

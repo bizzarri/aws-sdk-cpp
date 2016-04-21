@@ -63,6 +63,8 @@ aws/s3/model/DeleteObjectRequest.h
 -
 aws/s3/model/DeleteObjectsRequest.h
 -
+aws/s3/model/GetBucketAccelerateConfigurationRequest.h
+-
 aws/s3/model/GetBucketAclRequest.h
 -
 aws/s3/model/GetBucketCorsRequest.h
@@ -104,6 +106,8 @@ aws/s3/model/ListObjectVersionsRequest.h
 aws/s3/model/ListObjectsRequest.h
 -
 aws/s3/model/ListPartsRequest.h
+-
+aws/s3/model/PutBucketAccelerateConfigurationRequest.h
 -
 aws/s3/model/PutBucketAclRequest.h
 -
@@ -198,6 +202,18 @@ aws/core/utils/memory/stl/AWSStringStream.h
 utility
 -
 
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/AccelerateConfiguration.cpp
+aws/s3/model/AccelerateConfiguration.h
+-
+aws/core/utils/xml/XmlSerializer.h
+-
+aws/core/utils/StringUtils.h
+-
+aws/core/utils/memory/stl/AWSStringStream.h
+-
+utility
+-
+
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/AccessControlPolicy.cpp
 aws/s3/model/AccessControlPolicy.h
 -
@@ -220,6 +236,16 @@ aws/core/utils/StringUtils.h
 aws/core/utils/memory/stl/AWSStringStream.h
 -
 utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/BucketAccelerateStatus.cpp
+aws/s3/model/BucketAccelerateStatus.h
+-
+aws/core/utils/HashingUtils.h
+-
+aws/core/Globals.h
+-
+aws/core/utils/EnumParseOverflowContainer.h
 -
 
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/BucketCannedACL.cpp
@@ -718,6 +744,26 @@ aws/core/utils/HashingUtils.h
 aws/core/Globals.h
 -
 aws/core/utils/EnumParseOverflowContainer.h
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketAccelerateConfigurationRequest.cpp
+aws/s3/model/GetBucketAccelerateConfigurationRequest.h
+-
+aws/core/utils/xml/XmlSerializer.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketAccelerateConfigurationResult.cpp
+aws/s3/model/GetBucketAccelerateConfigurationResult.h
+-
+aws/core/utils/xml/XmlSerializer.h
+-
+aws/core/AmazonWebServiceResult.h
+-
+aws/core/utils/StringUtils.h
+-
+utility
 -
 
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/GetBucketAclRequest.cpp
@@ -1508,6 +1554,14 @@ aws/core/Globals.h
 aws/core/utils/EnumParseOverflowContainer.h
 -
 
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/PutBucketAccelerateConfigurationRequest.cpp
+aws/s3/model/PutBucketAccelerateConfigurationRequest.h
+-
+aws/core/utils/xml/XmlSerializer.h
+-
+utility
+-
+
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-s3/source/model/PutBucketAclRequest.cpp
 aws/s3/model/PutBucketAclRequest.h
 -
@@ -1618,6 +1672,8 @@ utility
 aws/s3/model/PutObjectAclRequest.h
 -
 aws/core/utils/xml/XmlSerializer.h
+-
+aws/core/http/URI.h
 -
 aws/core/utils/memory/stl/AWSStringStream.h
 -
@@ -2304,6 +2360,18 @@ cassert
 iterator
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+iomanip
+-
+ctime
+-
+mutex
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
 aws/core/utils/memory/stl/AWSMap.h
 -
@@ -2372,6 +2440,14 @@ memory
 cstdlib
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+deque
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws/core/Core_EXPORTS.h
 -
@@ -2396,6 +2472,18 @@ aws/core/utils/memory/stl/AWSAllocator.h
 map
 -
 cstring
+-
+
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+aws/core/utils/memory/stl/AWSDeque.h
+-
+deque
+-
+queue
 -
 
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
@@ -2439,9 +2527,17 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
 aws/core/Core_EXPORTS.h
 -
+aws/core/utils/memory/stl/AWSFunction.h
+-
+aws/core/utils/memory/stl/AWSQueue.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 functional
 -
-aws/core/utils/memory/stl/AWSFunction.h
+mutex
+-
+condition_variable
 -
 
 aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h
@@ -2482,6 +2578,8 @@ aws/s3/model/CreateMultipartUploadResult.h
 aws/s3/model/DeleteObjectResult.h
 -
 aws/s3/model/DeleteObjectsResult.h
+-
+aws/s3/model/GetBucketAccelerateConfigurationResult.h
 -
 aws/s3/model/GetBucketAclResult.h
 -
@@ -2600,6 +2698,12 @@ aws/s3/S3_EXPORTS.h
 aws/s3/model/RequestCharged.h
 -
 
+aws-cpp-sdk-s3/include/aws/s3/model/AccelerateConfiguration.h
+aws/s3/S3_EXPORTS.h
+-
+aws/s3/model/BucketAccelerateStatus.h
+-
+
 aws-cpp-sdk-s3/include/aws/s3/model/AccessControlPolicy.h
 aws/s3/S3_EXPORTS.h
 -
@@ -2611,6 +2715,14 @@ aws/s3/model/Grant.h
 -
 
 aws-cpp-sdk-s3/include/aws/s3/model/Bucket.h
+aws/s3/S3_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
+-
+
+aws-cpp-sdk-s3/include/aws/s3/model/BucketAccelerateStatus.h
 aws/s3/S3_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
@@ -2737,6 +2849,8 @@ aws/s3/model/ObjectCannedACL.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/core/utils/memory/stl/AWSMap.h
 -
 aws/s3/model/MetadataDirective.h
@@ -2753,11 +2867,15 @@ aws/s3/S3_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-s3/include/aws/s3/model/CopyPartResult.h
 aws/s3/S3_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-s3/include/aws/s3/model/CreateBucketConfiguration.h
@@ -2793,6 +2911,8 @@ aws/s3/model/ObjectCannedACL.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/core/utils/memory/stl/AWSMap.h
 -
 aws/s3/model/ServerSideEncryption.h
@@ -2804,6 +2924,8 @@ aws/s3/model/RequestPayer.h
 
 aws-cpp-sdk-s3/include/aws/s3/model/CreateMultipartUploadResult.h
 aws/s3/S3_EXPORTS.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
@@ -2882,6 +3004,8 @@ aws/s3/S3_EXPORTS.h
 aws/s3/model/Owner.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-s3/include/aws/s3/model/DeleteObjectRequest.h
@@ -2982,6 +3106,20 @@ aws-cpp-sdk-s3/include/aws/s3/model/FilterRuleName.h
 aws/s3/S3_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+
+aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAccelerateConfigurationRequest.h
+aws/s3/S3_EXPORTS.h
+-
+aws/s3/S3Request.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+
+aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAccelerateConfigurationResult.h
+aws/s3/S3_EXPORTS.h
+-
+aws/s3/model/BucketAccelerateStatus.h
 -
 
 aws-cpp-sdk-s3/include/aws/s3/model/GetBucketAclRequest.h
@@ -3209,6 +3347,8 @@ aws/s3/S3Request.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/s3/model/RequestPayer.h
 -
 
@@ -3220,6 +3360,8 @@ aws/core/utils/stream/ResponseStream.h
 aws/core/utils/Array.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/s3/model/ServerSideEncryption.h
 -
@@ -3283,6 +3425,8 @@ aws/s3/S3Request.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/s3/model/RequestPayer.h
 -
 
@@ -3290,6 +3434,8 @@ aws-cpp-sdk-s3/include/aws/s3/model/HeadObjectResult.h
 aws/s3/S3_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/s3/model/ServerSideEncryption.h
 -
@@ -3336,6 +3482,8 @@ aws/s3/model/Rule.h
 
 aws-cpp-sdk-s3/include/aws/s3/model/LifecycleExpiration.h
 aws/s3/S3_EXPORTS.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-s3/include/aws/s3/model/LifecycleRule.h
@@ -3455,6 +3603,8 @@ aws/s3/model/RequestPayer.h
 aws-cpp-sdk-s3/include/aws/s3/model/ListPartsResult.h
 aws/s3/S3_EXPORTS.h
 -
+aws/core/utils/DateTime.h
+-
 aws/core/utils/memory/stl/AWSString.h
 -
 aws/core/utils/memory/stl/AWSVector.h
@@ -3502,6 +3652,8 @@ aws-cpp-sdk-s3/include/aws/s3/model/MultipartUpload.h
 aws/s3/S3_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/s3/model/StorageClass.h
 -
@@ -3553,6 +3705,8 @@ aws/s3/S3_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/s3/model/ObjectStorageClass.h
 -
 aws/s3/model/Owner.h
@@ -3583,6 +3737,8 @@ aws/core/utils/memory/stl/AWSString.h
 -
 aws/s3/model/ObjectVersionStorageClass.h
 -
+aws/core/utils/DateTime.h
+-
 aws/s3/model/Owner.h
 -
 
@@ -3600,6 +3756,8 @@ aws/core/utils/memory/stl/AWSString.h
 
 aws-cpp-sdk-s3/include/aws/s3/model/Part.h
 aws/s3/S3_EXPORTS.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
@@ -3620,6 +3778,16 @@ aws-cpp-sdk-s3/include/aws/s3/model/Protocol.h
 aws/s3/S3_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+
+aws-cpp-sdk-s3/include/aws/s3/model/PutBucketAccelerateConfigurationRequest.h
+aws/s3/S3_EXPORTS.h
+-
+aws/s3/S3Request.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+aws/s3/model/AccelerateConfiguration.h
 -
 
 aws-cpp-sdk-s3/include/aws/s3/model/PutBucketAclRequest.h
@@ -3762,6 +3930,8 @@ aws/s3/model/ObjectCannedACL.h
 aws/core/utils/Array.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/core/utils/memory/stl/AWSMap.h
 -
@@ -3985,6 +4155,8 @@ aws/s3/model/Event.h
 aws-cpp-sdk-s3/include/aws/s3/model/Transition.h
 aws/s3/S3_EXPORTS.h
 -
+aws/core/utils/DateTime.h
+-
 aws/s3/model/TransitionStorageClass.h
 -
 
@@ -4006,6 +4178,8 @@ aws/s3/S3_EXPORTS.h
 aws/s3/S3Request.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/DateTime.h
 -
 aws/s3/model/RequestPayer.h
 -

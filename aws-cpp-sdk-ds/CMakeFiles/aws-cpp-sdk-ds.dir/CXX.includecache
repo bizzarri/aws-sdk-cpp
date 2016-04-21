@@ -41,6 +41,8 @@ aws/ds/model/CreateAliasRequest.h
 -
 aws/ds/model/CreateComputerRequest.h
 -
+aws/ds/model/CreateConditionalForwarderRequest.h
+-
 aws/ds/model/CreateDirectoryRequest.h
 -
 aws/ds/model/CreateMicrosoftADRequest.h
@@ -49,6 +51,8 @@ aws/ds/model/CreateSnapshotRequest.h
 -
 aws/ds/model/CreateTrustRequest.h
 -
+aws/ds/model/DeleteConditionalForwarderRequest.h
+-
 aws/ds/model/DeleteDirectoryRequest.h
 -
 aws/ds/model/DeleteSnapshotRequest.h
@@ -56,6 +60,8 @@ aws/ds/model/DeleteSnapshotRequest.h
 aws/ds/model/DeleteTrustRequest.h
 -
 aws/ds/model/DeregisterEventTopicRequest.h
+-
+aws/ds/model/DescribeConditionalForwardersRequest.h
 -
 aws/ds/model/DescribeDirectoriesRequest.h
 -
@@ -80,6 +86,8 @@ aws/ds/model/GetSnapshotLimitsRequest.h
 aws/ds/model/RegisterEventTopicRequest.h
 -
 aws/ds/model/RestoreFromSnapshotRequest.h
+-
+aws/ds/model/UpdateConditionalForwarderRequest.h
 -
 aws/ds/model/UpdateRadiusRequest.h
 -
@@ -118,6 +126,14 @@ utility
 
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/Computer.cpp
 aws/ds/model/Computer.h
+-
+aws/core/utils/json/JsonSerializer.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/ConditionalForwarder.cpp
+aws/ds/model/ConditionalForwarder.h
 -
 aws/core/utils/json/JsonSerializer.h
 -
@@ -174,6 +190,26 @@ utility
 
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateComputerResult.cpp
 aws/ds/model/CreateComputerResult.h
+-
+aws/core/utils/json/JsonSerializer.h
+-
+aws/core/AmazonWebServiceResult.h
+-
+aws/core/utils/UnreferencedParam.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateConditionalForwarderRequest.cpp
+aws/ds/model/CreateConditionalForwarderRequest.h
+-
+aws/core/utils/json/JsonSerializer.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/CreateConditionalForwarderResult.cpp
+aws/ds/model/CreateConditionalForwarderResult.h
 -
 aws/core/utils/json/JsonSerializer.h
 -
@@ -264,6 +300,26 @@ aws/core/utils/UnreferencedParam.h
 utility
 -
 
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteConditionalForwarderRequest.cpp
+aws/ds/model/DeleteConditionalForwarderRequest.h
+-
+aws/core/utils/json/JsonSerializer.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteConditionalForwarderResult.cpp
+aws/ds/model/DeleteConditionalForwarderResult.h
+-
+aws/core/utils/json/JsonSerializer.h
+-
+aws/core/AmazonWebServiceResult.h
+-
+aws/core/utils/UnreferencedParam.h
+-
+utility
+-
+
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeleteDirectoryRequest.cpp
 aws/ds/model/DeleteDirectoryRequest.h
 -
@@ -334,6 +390,26 @@ utility
 
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DeregisterEventTopicResult.cpp
 aws/ds/model/DeregisterEventTopicResult.h
+-
+aws/core/utils/json/JsonSerializer.h
+-
+aws/core/AmazonWebServiceResult.h
+-
+aws/core/utils/UnreferencedParam.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeConditionalForwardersRequest.cpp
+aws/ds/model/DescribeConditionalForwardersRequest.h
+-
+aws/core/utils/json/JsonSerializer.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/DescribeConditionalForwardersResult.cpp
+aws/ds/model/DescribeConditionalForwardersResult.h
 -
 aws/core/utils/json/JsonSerializer.h
 -
@@ -678,6 +754,16 @@ aws/core/utils/UnreferencedParam.h
 utility
 -
 
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/ReplicationScope.cpp
+aws/ds/model/ReplicationScope.h
+-
+aws/core/utils/HashingUtils.h
+-
+aws/core/Globals.h
+-
+aws/core/utils/EnumParseOverflowContainer.h
+-
+
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/RestoreFromSnapshotRequest.cpp
 aws/ds/model/RestoreFromSnapshotRequest.h
 -
@@ -780,6 +866,26 @@ aws/core/utils/HashingUtils.h
 aws/core/Globals.h
 -
 aws/core/utils/EnumParseOverflowContainer.h
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/UpdateConditionalForwarderRequest.cpp
+aws/ds/model/UpdateConditionalForwarderRequest.h
+-
+aws/core/utils/json/JsonSerializer.h
+-
+utility
+-
+
+/home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/UpdateConditionalForwarderResult.cpp
+aws/ds/model/UpdateConditionalForwarderResult.h
+-
+aws/core/utils/json/JsonSerializer.h
+-
+aws/core/AmazonWebServiceResult.h
+-
+aws/core/utils/UnreferencedParam.h
+-
+utility
 -
 
 /home/maurice/aws-sdk-cpp/aws-cpp-sdk-ds/source/model/UpdateRadiusRequest.cpp
@@ -1096,6 +1202,18 @@ cassert
 iterator
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+iomanip
+-
+ctime
+-
+mutex
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h
 aws/core/utils/memory/stl/AWSMap.h
 -
@@ -1202,6 +1320,18 @@ map
 cstring
 -
 
+aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
+aws/core/Core_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSAllocator.h
+-
+aws/core/utils/memory/stl/AWSDeque.h
+-
+deque
+-
+queue
+-
+
 aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h
 aws/core/Core_EXPORTS.h
 -
@@ -1255,9 +1385,17 @@ aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h
 aws/core/Core_EXPORTS.h
 -
+aws/core/utils/memory/stl/AWSFunction.h
+-
+aws/core/utils/memory/stl/AWSQueue.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
 functional
 -
-aws/core/utils/memory/stl/AWSFunction.h
+mutex
+-
+condition_variable
 -
 
 aws-cpp-sdk-ds/include/aws/ds/DirectoryServiceClient.h
@@ -1281,6 +1419,8 @@ aws/ds/model/CreateAliasResult.h
 -
 aws/ds/model/CreateComputerResult.h
 -
+aws/ds/model/CreateConditionalForwarderResult.h
+-
 aws/ds/model/CreateDirectoryResult.h
 -
 aws/ds/model/CreateMicrosoftADResult.h
@@ -1289,6 +1429,8 @@ aws/ds/model/CreateSnapshotResult.h
 -
 aws/ds/model/CreateTrustResult.h
 -
+aws/ds/model/DeleteConditionalForwarderResult.h
+-
 aws/ds/model/DeleteDirectoryResult.h
 -
 aws/ds/model/DeleteSnapshotResult.h
@@ -1296,6 +1438,8 @@ aws/ds/model/DeleteSnapshotResult.h
 aws/ds/model/DeleteTrustResult.h
 -
 aws/ds/model/DeregisterEventTopicResult.h
+-
+aws/ds/model/DescribeConditionalForwardersResult.h
 -
 aws/ds/model/DescribeDirectoriesResult.h
 -
@@ -1320,6 +1464,8 @@ aws/ds/model/GetSnapshotLimitsResult.h
 aws/ds/model/RegisterEventTopicResult.h
 -
 aws/ds/model/RestoreFromSnapshotResult.h
+-
+aws/ds/model/UpdateConditionalForwarderResult.h
 -
 aws/ds/model/UpdateRadiusResult.h
 -
@@ -1382,6 +1528,16 @@ aws/core/utils/memory/stl/AWSVector.h
 aws/ds/model/Attribute.h
 -
 
+aws-cpp-sdk-ds/include/aws/ds/model/ConditionalForwarder.h
+aws/ds/DirectoryService_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
+aws/ds/model/ReplicationScope.h
+-
+
 aws-cpp-sdk-ds/include/aws/ds/model/ConnectDirectoryRequest.h
 aws/ds/DirectoryService_EXPORTS.h
 -
@@ -1430,6 +1586,20 @@ aws-cpp-sdk-ds/include/aws/ds/model/CreateComputerResult.h
 aws/ds/DirectoryService_EXPORTS.h
 -
 aws/ds/model/Computer.h
+-
+
+aws-cpp-sdk-ds/include/aws/ds/model/CreateConditionalForwarderRequest.h
+aws/ds/DirectoryService_EXPORTS.h
+-
+aws/ds/DirectoryServiceRequest.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
+
+aws-cpp-sdk-ds/include/aws/ds/model/CreateConditionalForwarderResult.h
+aws/ds/DirectoryService_EXPORTS.h
 -
 
 aws-cpp-sdk-ds/include/aws/ds/model/CreateDirectoryRequest.h
@@ -1491,11 +1661,25 @@ aws/ds/model/TrustDirection.h
 -
 aws/ds/model/TrustType.h
 -
+aws/core/utils/memory/stl/AWSVector.h
+-
 
 aws-cpp-sdk-ds/include/aws/ds/model/CreateTrustResult.h
 aws/ds/DirectoryService_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+
+aws-cpp-sdk-ds/include/aws/ds/model/DeleteConditionalForwarderRequest.h
+aws/ds/DirectoryService_EXPORTS.h
+-
+aws/ds/DirectoryServiceRequest.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+
+aws-cpp-sdk-ds/include/aws/ds/model/DeleteConditionalForwarderResult.h
+aws/ds/DirectoryService_EXPORTS.h
 -
 
 aws-cpp-sdk-ds/include/aws/ds/model/DeleteDirectoryRequest.h
@@ -1550,6 +1734,24 @@ aws/core/utils/memory/stl/AWSString.h
 
 aws-cpp-sdk-ds/include/aws/ds/model/DeregisterEventTopicResult.h
 aws/ds/DirectoryService_EXPORTS.h
+-
+
+aws-cpp-sdk-ds/include/aws/ds/model/DescribeConditionalForwardersRequest.h
+aws/ds/DirectoryService_EXPORTS.h
+-
+aws/ds/DirectoryServiceRequest.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
+
+aws-cpp-sdk-ds/include/aws/ds/model/DescribeConditionalForwardersResult.h
+aws/ds/DirectoryService_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
+aws/ds/model/ConditionalForwarder.h
 -
 
 aws-cpp-sdk-ds/include/aws/ds/model/DescribeDirectoriesRequest.h
@@ -1657,6 +1859,8 @@ aws/core/utils/memory/stl/AWSVector.h
 -
 aws/ds/model/DirectoryStage.h
 -
+aws/core/utils/DateTime.h
+-
 aws/ds/model/DirectoryType.h
 -
 aws/ds/model/DirectoryVpcSettingsDescription.h
@@ -1761,6 +1965,8 @@ aws/ds/DirectoryService_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
 -
+aws/core/utils/DateTime.h
+-
 aws/ds/model/TopicStatus.h
 -
 
@@ -1824,6 +2030,12 @@ aws-cpp-sdk-ds/include/aws/ds/model/RegisterEventTopicResult.h
 aws/ds/DirectoryService_EXPORTS.h
 -
 
+aws-cpp-sdk-ds/include/aws/ds/model/ReplicationScope.h
+aws/ds/DirectoryService_EXPORTS.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+
 aws-cpp-sdk-ds/include/aws/ds/model/RestoreFromSnapshotRequest.h
 aws/ds/DirectoryService_EXPORTS.h
 -
@@ -1844,6 +2056,8 @@ aws/core/utils/memory/stl/AWSString.h
 aws/ds/model/SnapshotType.h
 -
 aws/ds/model/SnapshotStatus.h
+-
+aws/core/utils/DateTime.h
 -
 
 aws-cpp-sdk-ds/include/aws/ds/model/SnapshotLimits.h
@@ -1879,6 +2093,8 @@ aws/ds/model/TrustDirection.h
 -
 aws/ds/model/TrustState.h
 -
+aws/core/utils/DateTime.h
+-
 
 aws-cpp-sdk-ds/include/aws/ds/model/TrustDirection.h
 aws/ds/DirectoryService_EXPORTS.h
@@ -1896,6 +2112,20 @@ aws-cpp-sdk-ds/include/aws/ds/model/TrustType.h
 aws/ds/DirectoryService_EXPORTS.h
 -
 aws/core/utils/memory/stl/AWSString.h
+-
+
+aws-cpp-sdk-ds/include/aws/ds/model/UpdateConditionalForwarderRequest.h
+aws/ds/DirectoryService_EXPORTS.h
+-
+aws/ds/DirectoryServiceRequest.h
+-
+aws/core/utils/memory/stl/AWSString.h
+-
+aws/core/utils/memory/stl/AWSVector.h
+-
+
+aws-cpp-sdk-ds/include/aws/ds/model/UpdateConditionalForwarderResult.h
+aws/ds/DirectoryService_EXPORTS.h
 -
 
 aws-cpp-sdk-ds/include/aws/ds/model/UpdateRadiusRequest.h

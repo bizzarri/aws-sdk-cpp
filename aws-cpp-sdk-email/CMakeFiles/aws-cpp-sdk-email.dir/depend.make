@@ -26,14 +26,17 @@ aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-c
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Array.h
+aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h
+aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSFunction.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h
+aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/SESClient.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h
@@ -291,6 +294,7 @@ aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/BounceType.cpp.o
 
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/BouncedRecipientInfo.cpp.o: aws-cpp-sdk-email/source/model/BouncedRecipientInfo.cpp
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/BouncedRecipientInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/BouncedRecipientInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/BouncedRecipientInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/BouncedRecipientInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/BouncedRecipientInfo.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -910,6 +914,7 @@ aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/DescribeActiveRe
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/DescribeActiveReceiptRuleSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/DescribeActiveReceiptRuleSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/DescribeActiveReceiptRuleSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/DescribeActiveReceiptRuleSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/DescribeActiveReceiptRuleSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/DescribeActiveReceiptRuleSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/DescribeActiveReceiptRuleSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1047,6 +1052,7 @@ aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/DescribeReceiptR
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/DescribeReceiptRuleSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/DescribeReceiptRuleSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/DescribeReceiptRuleSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/DescribeReceiptRuleSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/DescribeReceiptRuleSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/DescribeReceiptRuleSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/DescribeReceiptRuleSetResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1502,6 +1508,7 @@ aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/GetSendStatistic
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/GetSendStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/GetSendStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/GetSendStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/GetSendStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/GetSendStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/GetSendStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/GetSendStatisticsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1844,6 +1851,7 @@ aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/ListReceiptRuleS
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/ListReceiptRuleSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/ListReceiptRuleSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/ListReceiptRuleSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/ListReceiptRuleSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/ListReceiptRuleSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/ListReceiptRuleSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/ListReceiptRuleSetsResult.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -1942,6 +1950,7 @@ aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/Message.cpp.o: a
 
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/MessageDsn.cpp.o: aws-cpp-sdk-email/source/model/MessageDsn.cpp
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/MessageDsn.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/MessageDsn.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/MessageDsn.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/MessageDsn.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/MessageDsn.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2153,6 +2162,7 @@ aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/ReceiptRule.cpp.
 
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/ReceiptRuleSetMetadata.cpp.o: aws-cpp-sdk-email/source/model/ReceiptRuleSetMetadata.cpp
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/ReceiptRuleSetMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/ReceiptRuleSetMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/ReceiptRuleSetMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/ReceiptRuleSetMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/ReceiptRuleSetMetadata.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2169,6 +2179,7 @@ aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/ReceiptRuleSetMe
 
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/RecipientDsnFields.cpp.o: aws-cpp-sdk-email/source/model/RecipientDsnFields.cpp
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/RecipientDsnFields.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/RecipientDsnFields.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/RecipientDsnFields.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/RecipientDsnFields.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/RecipientDsnFields.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
@@ -2313,6 +2324,7 @@ aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/SendBounceReques
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/SendBounceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/SendBounceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/Scheme.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/SendBounceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/http/URI.h
+aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/SendBounceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/SendBounceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/SendBounceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/SendBounceRequest.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h
@@ -2368,6 +2380,7 @@ aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/SendBounceResult
 
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/SendDataPoint.cpp.o: aws-cpp-sdk-email/source/model/SendDataPoint.cpp
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/SendDataPoint.cpp.o: aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h
+aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/SendDataPoint.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/DateTime.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/SendDataPoint.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/Outcome.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/SendDataPoint.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h
 aws-cpp-sdk-email/CMakeFiles/aws-cpp-sdk-email.dir/source/model/SendDataPoint.cpp.o: aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h

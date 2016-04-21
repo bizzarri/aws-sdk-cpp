@@ -1438,6 +1438,33 @@ source/utils/threading/Executor.cpp.s:
 	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/build.make aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/Executor.cpp.s
 .PHONY : source/utils/threading/Executor.cpp.s
 
+source/utils/threading/ThreadTask.o: source/utils/threading/ThreadTask.cpp.o
+
+.PHONY : source/utils/threading/ThreadTask.o
+
+# target to build an object file
+source/utils/threading/ThreadTask.cpp.o:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/build.make aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.o
+.PHONY : source/utils/threading/ThreadTask.cpp.o
+
+source/utils/threading/ThreadTask.i: source/utils/threading/ThreadTask.cpp.i
+
+.PHONY : source/utils/threading/ThreadTask.i
+
+# target to preprocess a source file
+source/utils/threading/ThreadTask.cpp.i:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/build.make aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.i
+.PHONY : source/utils/threading/ThreadTask.cpp.i
+
+source/utils/threading/ThreadTask.s: source/utils/threading/ThreadTask.cpp.s
+
+.PHONY : source/utils/threading/ThreadTask.s
+
+# target to generate assembly for a file
+source/utils/threading/ThreadTask.cpp.s:
+	cd /home/maurice/aws-sdk-cpp && $(MAKE) -f aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/build.make aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/source/utils/threading/ThreadTask.cpp.s
+.PHONY : source/utils/threading/ThreadTask.cpp.s
+
 source/utils/unix/FileSystemUtils.o: source/utils/unix/FileSystemUtils.cpp.o
 
 .PHONY : source/utils/unix/FileSystemUtils.o
@@ -1646,6 +1673,9 @@ help:
 	@echo "... source/utils/threading/Executor.o"
 	@echo "... source/utils/threading/Executor.i"
 	@echo "... source/utils/threading/Executor.s"
+	@echo "... source/utils/threading/ThreadTask.o"
+	@echo "... source/utils/threading/ThreadTask.i"
+	@echo "... source/utils/threading/ThreadTask.s"
 	@echo "... source/utils/unix/FileSystemUtils.o"
 	@echo "... source/utils/unix/FileSystemUtils.i"
 	@echo "... source/utils/unix/FileSystemUtils.s"

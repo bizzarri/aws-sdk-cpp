@@ -561,9 +561,33 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeInfo.c
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeInfo.cpp.o.provides.build: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeInfo.cpp.o
 
 
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o: aws-cpp-sdk-route53/source/model/HealthCheckRegion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/HealthCheckRegion.cpp
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/HealthCheckRegion.cpp > CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.i
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/HealthCheckRegion.cpp -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.s
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o.requires
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o.provides: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o.provides
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o.provides.build: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o
+
+
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GeoLocationDetails.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GeoLocationDetails.cpp.o: aws-cpp-sdk-route53/source/model/GeoLocationDetails.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GeoLocationDetails.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GeoLocationDetails.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GeoLocationDetails.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GeoLocationDetails.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GeoLocationDetails.cpp.i: cmake_force
@@ -587,7 +611,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GeoLocationD
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountResult.cpp.o: aws-cpp-sdk-route53/source/model/GetHostedZoneCountResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetHostedZoneCountResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountResult.cpp.i: cmake_force
@@ -609,9 +633,33 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZon
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountResult.cpp.o.provides.build: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountResult.cpp.o
 
 
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o: aws-cpp-sdk-route53/source/model/Dimension.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/Dimension.cpp
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/Dimension.cpp > CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.i
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/Dimension.cpp -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.s
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o.requires
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o.provides: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o.provides
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o.provides.build: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o
+
+
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesResult.cpp.o: aws-cpp-sdk-route53/source/model/GetCheckerIpRangesResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetCheckerIpRangesResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesResult.cpp.i: cmake_force
@@ -635,7 +683,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyVersionRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyVersionRequest.cpp.o: aws-cpp-sdk-route53/source/model/CreateTrafficPolicyVersionRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyVersionRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyVersionRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyVersionRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CreateTrafficPolicyVersionRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyVersionRequest.cpp.i: cmake_force
@@ -659,7 +707,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTraffi
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Tag.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Tag.cpp.o: aws-cpp-sdk-route53/source/model/Tag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Tag.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Tag.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Tag.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/Tag.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Tag.cpp.i: cmake_force
@@ -683,7 +731,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Tag.cpp.o.pr
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyResult.cpp.o: aws-cpp-sdk-route53/source/model/CreateTrafficPolicyResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CreateTrafficPolicyResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyResult.cpp.i: cmake_force
@@ -707,7 +755,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTraffi
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/source/model/DeleteHealthCheckRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHealthCheckRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHealthCheckRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHealthCheckRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/DeleteHealthCheckRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHealthCheckRequest.cpp.i: cmake_force
@@ -731,7 +779,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHealth
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableDelegationSetRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableDelegationSetRequest.cpp.o: aws-cpp-sdk-route53/source/model/GetReusableDelegationSetRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableDelegationSetRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableDelegationSetRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableDelegationSetRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetReusableDelegationSetRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableDelegationSetRequest.cpp.i: cmake_force
@@ -755,7 +803,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableD
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/source/model/UpdateHealthCheckRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/UpdateHealthCheckRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckRequest.cpp.i: cmake_force
@@ -779,7 +827,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealth
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyRequest.cpp.o: aws-cpp-sdk-route53/source/model/DeleteTrafficPolicyRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/DeleteTrafficPolicyRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyRequest.cpp.i: cmake_force
@@ -803,7 +851,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTraffi
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/source/model/CreateHealthCheckRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CreateHealthCheckRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.i: cmake_force
@@ -825,9 +873,33 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealth
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o.provides.build: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o
 
 
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o: aws-cpp-sdk-route53/source/model/AlarmIdentifier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/AlarmIdentifier.cpp
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/AlarmIdentifier.cpp > CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.i
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/AlarmIdentifier.cpp -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.s
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o.requires
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o.provides: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o.provides
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o.provides.build: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o
+
+
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteReusableDelegationSetResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteReusableDelegationSetResult.cpp.o: aws-cpp-sdk-route53/source/model/DeleteReusableDelegationSetResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteReusableDelegationSetResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteReusableDelegationSetResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteReusableDelegationSetResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/DeleteReusableDelegationSetResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteReusableDelegationSetResult.cpp.i: cmake_force
@@ -851,7 +923,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteReusab
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHostedZoneCommentRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHostedZoneCommentRequest.cpp.o: aws-cpp-sdk-route53/source/model/UpdateHostedZoneCommentRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHostedZoneCommentRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHostedZoneCommentRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHostedZoneCommentRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/UpdateHostedZoneCommentRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHostedZoneCommentRequest.cpp.i: cmake_force
@@ -875,7 +947,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHosted
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o: aws-cpp-sdk-route53/source/model/GetHealthCheckLastFailureReasonResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetHealthCheckLastFailureReasonResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.i: cmake_force
@@ -899,7 +971,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthChe
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusRequest.cpp.o: aws-cpp-sdk-route53/source/model/GetHealthCheckStatusRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetHealthCheckStatusRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusRequest.cpp.i: cmake_force
@@ -923,7 +995,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthChe
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsForResourceRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsForResourceRequest.cpp.o: aws-cpp-sdk-route53/source/model/ChangeTagsForResourceRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsForResourceRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsForResourceRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsForResourceRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ChangeTagsForResourceRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsForResourceRequest.cpp.i: cmake_force
@@ -947,7 +1019,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsFo
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListResourceRecordSetsResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListResourceRecordSetsResult.cpp.o: aws-cpp-sdk-route53/source/model/ListResourceRecordSetsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListResourceRecordSetsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListResourceRecordSetsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListResourceRecordSetsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListResourceRecordSetsResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListResourceRecordSetsResult.cpp.i: cmake_force
@@ -971,7 +1043,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListResource
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListResourceRecordSetsRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListResourceRecordSetsRequest.cpp.o: aws-cpp-sdk-route53/source/model/ListResourceRecordSetsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListResourceRecordSetsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListResourceRecordSetsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListResourceRecordSetsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListResourceRecordSetsRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListResourceRecordSetsRequest.cpp.i: cmake_force
@@ -995,7 +1067,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListResource
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsForResourceResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsForResourceResult.cpp.o: aws-cpp-sdk-route53/source/model/ChangeTagsForResourceResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsForResourceResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsForResourceResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsForResourceResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ChangeTagsForResourceResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsForResourceResult.cpp.i: cmake_force
@@ -1019,7 +1091,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeTagsFo
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourcesResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourcesResult.cpp.o: aws-cpp-sdk-route53/source/model/ListTagsForResourcesResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourcesResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourcesResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourcesResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListTagsForResourcesResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourcesResult.cpp.i: cmake_force
@@ -1043,7 +1115,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForR
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeResult.cpp.o: aws-cpp-sdk-route53/source/model/GetChangeResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetChangeResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeResult.cpp.i: cmake_force
@@ -1067,7 +1139,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeRes
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyCommentResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyCommentResult.cpp.o: aws-cpp-sdk-route53/source/model/UpdateTrafficPolicyCommentResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyCommentResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyCommentResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyCommentResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/UpdateTrafficPolicyCommentResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyCommentResult.cpp.i: cmake_force
@@ -1091,7 +1163,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTraffi
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesByNameRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesByNameRequest.cpp.o: aws-cpp-sdk-route53/source/model/ListHostedZonesByNameRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesByNameRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesByNameRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesByNameRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListHostedZonesByNameRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesByNameRequest.cpp.i: cmake_force
@@ -1115,7 +1187,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZo
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourcesRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourcesRequest.cpp.o: aws-cpp-sdk-route53/source/model/ListTagsForResourcesRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourcesRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourcesRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourcesRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListTagsForResourcesRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourcesRequest.cpp.i: cmake_force
@@ -1139,7 +1211,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForR
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckConfig.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckConfig.cpp.o: aws-cpp-sdk-route53/source/model/HealthCheckConfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckConfig.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckConfig.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckConfig.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/HealthCheckConfig.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckConfig.cpp.i: cmake_force
@@ -1163,7 +1235,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckC
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesResult.cpp.o: aws-cpp-sdk-route53/source/model/ListTrafficPolicyInstancesResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListTrafficPolicyInstancesResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesResult.cpp.i: cmake_force
@@ -1187,7 +1259,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficP
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecordSetRegion.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecordSetRegion.cpp.o: aws-cpp-sdk-route53/source/model/ResourceRecordSetRegion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecordSetRegion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecordSetRegion.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecordSetRegion.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ResourceRecordSetRegion.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecordSetRegion.cpp.i: cmake_force
@@ -1211,7 +1283,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceReco
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneRequest.cpp.o: aws-cpp-sdk-route53/source/model/DisassociateVPCFromHostedZoneRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/DisassociateVPCFromHostedZoneRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneRequest.cpp.i: cmake_force
@@ -1235,7 +1307,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Disassociate
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByPolicyResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByPolicyResult.cpp.o: aws-cpp-sdk-route53/source/model/ListTrafficPolicyInstancesByPolicyResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByPolicyResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByPolicyResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByPolicyResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListTrafficPolicyInstancesByPolicyResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByPolicyResult.cpp.i: cmake_force
@@ -1259,7 +1331,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficP
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/StatusReport.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/StatusReport.cpp.o: aws-cpp-sdk-route53/source/model/StatusReport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/StatusReport.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/StatusReport.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/StatusReport.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/StatusReport.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/StatusReport.cpp.i: cmake_force
@@ -1283,7 +1355,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/StatusReport
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o: aws-cpp-sdk-route53/source/model/HealthCheck.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/HealthCheck.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.cpp.i: cmake_force
@@ -1307,7 +1379,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheck.
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatchRecord.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatchRecord.cpp.o: aws-cpp-sdk-route53/source/model/ChangeBatchRecord.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatchRecord.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatchRecord.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatchRecord.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ChangeBatchRecord.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatchRecord.cpp.i: cmake_force
@@ -1331,7 +1403,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatchR
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyVersionsRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyVersionsRequest.cpp.o: aws-cpp-sdk-route53/source/model/ListTrafficPolicyVersionsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyVersionsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyVersionsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyVersionsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListTrafficPolicyVersionsRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyVersionsRequest.cpp.i: cmake_force
@@ -1355,7 +1427,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficP
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZoneConfig.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZoneConfig.cpp.o: aws-cpp-sdk-route53/source/model/HostedZoneConfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZoneConfig.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZoneConfig.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZoneConfig.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/HostedZoneConfig.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZoneConfig.cpp.i: cmake_force
@@ -1377,9 +1449,33 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZoneCo
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZoneConfig.cpp.o.provides.build: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZoneConfig.cpp.o
 
 
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o: aws-cpp-sdk-route53/source/model/ComparisonOperator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ComparisonOperator.cpp
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ComparisonOperator.cpp > CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.i
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ComparisonOperator.cpp -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.s
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o.requires
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o.provides: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o.provides
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o.provides.build: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o
+
+
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesRequest.cpp.o: aws-cpp-sdk-route53/source/model/GetCheckerIpRangesRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetCheckerIpRangesRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesRequest.cpp.i: cmake_force
@@ -1403,7 +1499,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocationsResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocationsResult.cpp.o: aws-cpp-sdk-route53/source/model/ListGeoLocationsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocationsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocationsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocationsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListGeoLocationsResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocationsResult.cpp.i: cmake_force
@@ -1427,7 +1523,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocat
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyInstanceResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyInstanceResult.cpp.o: aws-cpp-sdk-route53/source/model/UpdateTrafficPolicyInstanceResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyInstanceResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyInstanceResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyInstanceResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/UpdateTrafficPolicyInstanceResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyInstanceResult.cpp.i: cmake_force
@@ -1451,7 +1547,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTraffi
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneResult.cpp.o: aws-cpp-sdk-route53/source/model/DisassociateVPCFromHostedZoneResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/DisassociateVPCFromHostedZoneResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DisassociateVPCFromHostedZoneResult.cpp.i: cmake_force
@@ -1475,7 +1571,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Disassociate
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListReusableDelegationSetsRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListReusableDelegationSetsRequest.cpp.o: aws-cpp-sdk-route53/source/model/ListReusableDelegationSetsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListReusableDelegationSetsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListReusableDelegationSetsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListReusableDelegationSetsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListReusableDelegationSetsRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListReusableDelegationSetsRequest.cpp.i: cmake_force
@@ -1499,7 +1595,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListReusable
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneResult.cpp.o: aws-cpp-sdk-route53/source/model/GetHostedZoneResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetHostedZoneResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneResult.cpp.i: cmake_force
@@ -1523,7 +1619,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZon
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourceRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourceRequest.cpp.o: aws-cpp-sdk-route53/source/model/ListTagsForResourceRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourceRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourceRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourceRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListTagsForResourceRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourceRequest.cpp.i: cmake_force
@@ -1547,7 +1643,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForR
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/source/model/CreateHealthCheckResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CreateHealthCheckResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckResult.cpp.i: cmake_force
@@ -1571,7 +1667,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealth
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesResult.cpp.o: aws-cpp-sdk-route53/source/model/ListHostedZonesResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListHostedZonesResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesResult.cpp.i: cmake_force
@@ -1595,7 +1691,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZo
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsRequest.cpp.o: aws-cpp-sdk-route53/source/model/ChangeResourceRecordSetsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ChangeResourceRecordSetsRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsRequest.cpp.i: cmake_force
@@ -1619,7 +1715,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResour
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceCountRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceCountRequest.cpp.o: aws-cpp-sdk-route53/source/model/GetTrafficPolicyInstanceCountRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceCountRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceCountRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceCountRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetTrafficPolicyInstanceCountRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceCountRequest.cpp.i: cmake_force
@@ -1643,7 +1739,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPo
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesByNameResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesByNameResult.cpp.o: aws-cpp-sdk-route53/source/model/ListHostedZonesByNameResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesByNameResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesByNameResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesByNameResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListHostedZonesByNameResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesByNameResult.cpp.i: cmake_force
@@ -1667,7 +1763,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZo
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourceResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourceResult.cpp.o: aws-cpp-sdk-route53/source/model/ListTagsForResourceResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourceResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourceResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourceResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListTagsForResourceResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForResourceResult.cpp.i: cmake_force
@@ -1691,7 +1787,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTagsForR
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeRequest.cpp.o: aws-cpp-sdk-route53/source/model/GetChangeRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetChangeRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeRequest.cpp.i: cmake_force
@@ -1715,7 +1811,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetChangeReq
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneResult.cpp.o: aws-cpp-sdk-route53/source/model/CreateHostedZoneResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CreateHostedZoneResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneResult.cpp.i: cmake_force
@@ -1739,7 +1835,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHosted
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AliasTarget.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AliasTarget.cpp.o: aws-cpp-sdk-route53/source/model/AliasTarget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AliasTarget.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AliasTarget.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AliasTarget.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/AliasTarget.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AliasTarget.cpp.i: cmake_force
@@ -1763,7 +1859,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AliasTarget.
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceResult.cpp.o: aws-cpp-sdk-route53/source/model/GetTrafficPolicyInstanceResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetTrafficPolicyInstanceResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceResult.cpp.i: cmake_force
@@ -1787,7 +1883,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPo
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeStatus.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeStatus.cpp.o: aws-cpp-sdk-route53/source/model/ChangeStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeStatus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeStatus.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeStatus.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ChangeStatus.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeStatus.cpp.i: cmake_force
@@ -1811,7 +1907,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeStatus
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.o: aws-cpp-sdk-route53/source/model/GetHealthCheckStatusResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetHealthCheckStatusResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckStatusResult.cpp.i: cmake_force
@@ -1835,7 +1931,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthChe
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByPolicyRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByPolicyRequest.cpp.o: aws-cpp-sdk-route53/source/model/ListTrafficPolicyInstancesByPolicyRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByPolicyRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByPolicyRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByPolicyRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListTrafficPolicyInstancesByPolicyRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByPolicyRequest.cpp.i: cmake_force
@@ -1859,7 +1955,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficP
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteReusableDelegationSetRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteReusableDelegationSetRequest.cpp.o: aws-cpp-sdk-route53/source/model/DeleteReusableDelegationSetRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteReusableDelegationSetRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteReusableDelegationSetRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteReusableDelegationSetRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/DeleteReusableDelegationSetRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteReusableDelegationSetRequest.cpp.i: cmake_force
@@ -1883,7 +1979,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteReusab
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneRequest.cpp.o: aws-cpp-sdk-route53/source/model/GetHostedZoneRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetHostedZoneRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneRequest.cpp.i: cmake_force
@@ -1907,7 +2003,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZon
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyVersionsResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyVersionsResult.cpp.o: aws-cpp-sdk-route53/source/model/ListTrafficPolicyVersionsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyVersionsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyVersionsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyVersionsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListTrafficPolicyVersionsResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyVersionsResult.cpp.i: cmake_force
@@ -1931,7 +2027,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficP
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o: aws-cpp-sdk-route53/source/model/ListHealthChecksResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListHealthChecksResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksResult.cpp.i: cmake_force
@@ -1955,7 +2051,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthCh
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o: aws-cpp-sdk-route53/source/model/UpdateHealthCheckResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/UpdateHealthCheckResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckResult.cpp.i: cmake_force
@@ -1979,7 +2075,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealth
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyCommentRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyCommentRequest.cpp.o: aws-cpp-sdk-route53/source/model/UpdateTrafficPolicyCommentRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyCommentRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyCommentRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyCommentRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/UpdateTrafficPolicyCommentRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyCommentRequest.cpp.i: cmake_force
@@ -2003,7 +2099,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTraffi
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneRequest.cpp.o: aws-cpp-sdk-route53/source/model/CreateHostedZoneRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CreateHostedZoneRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHostedZoneRequest.cpp.i: cmake_force
@@ -2027,7 +2123,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHosted
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o: aws-cpp-sdk-route53/source/model/GetHealthCheckResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetHealthCheckResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckResult.cpp.i: cmake_force
@@ -2051,7 +2147,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthChe
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/VPC.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/VPC.cpp.o: aws-cpp-sdk-route53/source/model/VPC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/VPC.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/VPC.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/VPC.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/VPC.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/VPC.cpp.i: cmake_force
@@ -2075,7 +2171,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/VPC.cpp.o.pr
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksRequest.cpp.o: aws-cpp-sdk-route53/source/model/ListHealthChecksRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListHealthChecksRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthChecksRequest.cpp.i: cmake_force
@@ -2099,7 +2195,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHealthCh
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyInstanceResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyInstanceResult.cpp.o: aws-cpp-sdk-route53/source/model/CreateTrafficPolicyInstanceResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyInstanceResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyInstanceResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyInstanceResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CreateTrafficPolicyInstanceResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyInstanceResult.cpp.i: cmake_force
@@ -2123,7 +2219,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTraffi
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DelegationSet.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DelegationSet.cpp.o: aws-cpp-sdk-route53/source/model/DelegationSet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DelegationSet.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DelegationSet.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DelegationSet.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/DelegationSet.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DelegationSet.cpp.i: cmake_force
@@ -2147,7 +2243,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DelegationSe
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByHostedZoneRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByHostedZoneRequest.cpp.o: aws-cpp-sdk-route53/source/model/ListTrafficPolicyInstancesByHostedZoneRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByHostedZoneRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByHostedZoneRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByHostedZoneRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListTrafficPolicyInstancesByHostedZoneRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByHostedZoneRequest.cpp.i: cmake_force
@@ -2171,7 +2267,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficP
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPoliciesResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPoliciesResult.cpp.o: aws-cpp-sdk-route53/source/model/ListTrafficPoliciesResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPoliciesResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPoliciesResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPoliciesResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListTrafficPoliciesResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPoliciesResult.cpp.i: cmake_force
@@ -2195,7 +2291,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficP
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyRequest.cpp.o: aws-cpp-sdk-route53/source/model/GetTrafficPolicyRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetTrafficPolicyRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyRequest.cpp.i: cmake_force
@@ -2219,7 +2315,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPo
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyInstanceRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyInstanceRequest.cpp.o: aws-cpp-sdk-route53/source/model/DeleteTrafficPolicyInstanceRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyInstanceRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyInstanceRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyInstanceRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/DeleteTrafficPolicyInstanceRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyInstanceRequest.cpp.i: cmake_force
@@ -2243,7 +2339,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTraffi
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyInstanceResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyInstanceResult.cpp.o: aws-cpp-sdk-route53/source/model/DeleteTrafficPolicyInstanceResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyInstanceResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyInstanceResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyInstanceResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/DeleteTrafficPolicyInstanceResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyInstanceResult.cpp.i: cmake_force
@@ -2267,7 +2363,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTraffi
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecordSet.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecordSet.cpp.o: aws-cpp-sdk-route53/source/model/ResourceRecordSet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecordSet.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecordSet.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecordSet.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ResourceRecordSet.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecordSet.cpp.i: cmake_force
@@ -2291,7 +2387,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceReco
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyVersionResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyVersionResult.cpp.o: aws-cpp-sdk-route53/source/model/CreateTrafficPolicyVersionResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyVersionResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyVersionResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyVersionResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CreateTrafficPolicyVersionResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyVersionResult.cpp.i: cmake_force
@@ -2315,7 +2411,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTraffi
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateReusableDelegationSetResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateReusableDelegationSetResult.cpp.o: aws-cpp-sdk-route53/source/model/CreateReusableDelegationSetResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateReusableDelegationSetResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateReusableDelegationSetResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateReusableDelegationSetResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CreateReusableDelegationSetResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateReusableDelegationSetResult.cpp.i: cmake_force
@@ -2339,7 +2435,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateReusab
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListReusableDelegationSetsResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListReusableDelegationSetsResult.cpp.o: aws-cpp-sdk-route53/source/model/ListReusableDelegationSetsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListReusableDelegationSetsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListReusableDelegationSetsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListReusableDelegationSetsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListReusableDelegationSetsResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListReusableDelegationSetsResult.cpp.i: cmake_force
@@ -2363,7 +2459,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListReusable
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckRequest.cpp.o: aws-cpp-sdk-route53/source/model/GetHealthCheckRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetHealthCheckRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckRequest.cpp.i: cmake_force
@@ -2385,9 +2481,33 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthChe
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckRequest.cpp.o.provides.build: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckRequest.cpp.o
 
 
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o: aws-cpp-sdk-route53/source/model/CloudWatchRegion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CloudWatchRegion.cpp
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CloudWatchRegion.cpp > CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.i
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CloudWatchRegion.cpp -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.s
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o.requires
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o.provides: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o.provides
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o.provides.build: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o
+
+
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceTagSet.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceTagSet.cpp.o: aws-cpp-sdk-route53/source/model/ResourceTagSet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceTagSet.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceTagSet.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceTagSet.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ResourceTagSet.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceTagSet.cpp.i: cmake_force
@@ -2411,7 +2531,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceTagS
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesRequest.cpp.o: aws-cpp-sdk-route53/source/model/ListTrafficPolicyInstancesRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListTrafficPolicyInstancesRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesRequest.cpp.i: cmake_force
@@ -2435,7 +2555,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficP
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableDelegationSetResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableDelegationSetResult.cpp.o: aws-cpp-sdk-route53/source/model/GetReusableDelegationSetResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableDelegationSetResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableDelegationSetResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableDelegationSetResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetReusableDelegationSetResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableDelegationSetResult.cpp.i: cmake_force
@@ -2457,9 +2577,33 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableD
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableDelegationSetResult.cpp.o.provides.build: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableDelegationSetResult.cpp.o
 
 
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o: aws-cpp-sdk-route53/source/model/Statistic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/Statistic.cpp
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/Statistic.cpp > CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.i
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/Statistic.cpp -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.s
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o.requires
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o.provides: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o.provides
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o.provides.build: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o
+
+
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckCountResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckCountResult.cpp.o: aws-cpp-sdk-route53/source/model/GetHealthCheckCountResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckCountResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckCountResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckCountResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetHealthCheckCountResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckCountResult.cpp.i: cmake_force
@@ -2483,7 +2627,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthChe
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneRequest.cpp.o: aws-cpp-sdk-route53/source/model/DeleteHostedZoneRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/DeleteHostedZoneRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneRequest.cpp.i: cmake_force
@@ -2507,7 +2651,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHosted
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/TrafficPolicy.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/TrafficPolicy.cpp.o: aws-cpp-sdk-route53/source/model/TrafficPolicy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/TrafficPolicy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/TrafficPolicy.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/TrafficPolicy.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/TrafficPolicy.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/TrafficPolicy.cpp.i: cmake_force
@@ -2531,7 +2675,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/TrafficPolic
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneResult.cpp.o: aws-cpp-sdk-route53/source/model/DeleteHostedZoneResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/DeleteHostedZoneResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneResult.cpp.i: cmake_force
@@ -2555,7 +2699,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHosted
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonRequest.cpp.o: aws-cpp-sdk-route53/source/model/GetHealthCheckLastFailureReasonRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetHealthCheckLastFailureReasonRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonRequest.cpp.i: cmake_force
@@ -2579,7 +2723,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthChe
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesRequest.cpp.o: aws-cpp-sdk-route53/source/model/ListHostedZonesRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListHostedZonesRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesRequest.cpp.i: cmake_force
@@ -2603,7 +2747,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZo
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.o: aws-cpp-sdk-route53/source/model/AssociateVPCWithHostedZoneResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/AssociateVPCWithHostedZoneResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.i: cmake_force
@@ -2625,9 +2769,33 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPC
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.o.provides.build: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.o
 
 
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o: aws-cpp-sdk-route53/source/model/CloudWatchAlarmConfiguration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CloudWatchAlarmConfiguration.cpp
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CloudWatchAlarmConfiguration.cpp > CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.i
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CloudWatchAlarmConfiguration.cpp -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.s
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o.requires
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o.provides: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o.provides
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o.provides.build: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o
+
+
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsResult.cpp.o: aws-cpp-sdk-route53/source/model/ChangeResourceRecordSetsResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ChangeResourceRecordSetsResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsResult.cpp.i: cmake_force
@@ -2651,7 +2819,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResour
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyInstanceRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyInstanceRequest.cpp.o: aws-cpp-sdk-route53/source/model/CreateTrafficPolicyInstanceRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyInstanceRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyInstanceRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyInstanceRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CreateTrafficPolicyInstanceRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyInstanceRequest.cpp.i: cmake_force
@@ -2675,7 +2843,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTraffi
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyResult.cpp.o: aws-cpp-sdk-route53/source/model/GetTrafficPolicyResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetTrafficPolicyResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyResult.cpp.i: cmake_force
@@ -2699,7 +2867,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPo
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GeoLocation.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GeoLocation.cpp.o: aws-cpp-sdk-route53/source/model/GeoLocation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GeoLocation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GeoLocation.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GeoLocation.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GeoLocation.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GeoLocation.cpp.i: cmake_force
@@ -2723,7 +2891,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GeoLocation.
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByHostedZoneResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByHostedZoneResult.cpp.o: aws-cpp-sdk-route53/source/model/ListTrafficPolicyInstancesByHostedZoneResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByHostedZoneResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByHostedZoneResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByHostedZoneResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListTrafficPolicyInstancesByHostedZoneResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByHostedZoneResult.cpp.i: cmake_force
@@ -2747,7 +2915,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficP
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecord.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecord.cpp.o: aws-cpp-sdk-route53/source/model/ResourceRecord.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecord.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecord.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecord.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ResourceRecord.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecord.cpp.i: cmake_force
@@ -2771,7 +2939,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceReco
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceRequest.cpp.o: aws-cpp-sdk-route53/source/model/GetTrafficPolicyInstanceRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetTrafficPolicyInstanceRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceRequest.cpp.i: cmake_force
@@ -2793,9 +2961,33 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPo
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceRequest.cpp.o.provides.build: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceRequest.cpp.o
 
 
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o: aws-cpp-sdk-route53/source/model/InsufficientDataHealthStatus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/InsufficientDataHealthStatus.cpp
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.i"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/InsufficientDataHealthStatus.cpp > CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.i
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.s"
+	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/InsufficientDataHealthStatus.cpp -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.s
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o.requires:
+
+.PHONY : aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o.requires
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o.provides: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o.requires
+	$(MAKE) -f aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o.provides.build
+.PHONY : aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o.provides
+
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o.provides.build: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o
+
+
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZone.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZone.cpp.o: aws-cpp-sdk-route53/source/model/HostedZone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZone.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZone.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZone.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/HostedZone.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZone.cpp.i: cmake_force
@@ -2819,7 +3011,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZone.c
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountRequest.cpp.o: aws-cpp-sdk-route53/source/model/GetHostedZoneCountRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetHostedZoneCountRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountRequest.cpp.i: cmake_force
@@ -2843,7 +3035,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZon
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetGeoLocationRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetGeoLocationRequest.cpp.o: aws-cpp-sdk-route53/source/model/GetGeoLocationRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetGeoLocationRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetGeoLocationRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetGeoLocationRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetGeoLocationRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetGeoLocationRequest.cpp.i: cmake_force
@@ -2867,7 +3059,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetGeoLocati
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateReusableDelegationSetRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateReusableDelegationSetRequest.cpp.o: aws-cpp-sdk-route53/source/model/CreateReusableDelegationSetRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateReusableDelegationSetRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateReusableDelegationSetRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateReusableDelegationSetRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/CreateReusableDelegationSetRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateReusableDelegationSetRequest.cpp.i: cmake_force
@@ -2891,7 +3083,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateReusab
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHostedZoneCommentResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHostedZoneCommentResult.cpp.o: aws-cpp-sdk-route53/source/model/UpdateHostedZoneCommentResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHostedZoneCommentResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHostedZoneCommentResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHostedZoneCommentResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/UpdateHostedZoneCommentResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHostedZoneCommentResult.cpp.i: cmake_force
@@ -2915,7 +3107,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHosted
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneRequest.cpp.o: aws-cpp-sdk-route53/source/model/AssociateVPCWithHostedZoneRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/AssociateVPCWithHostedZoneRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneRequest.cpp.i: cmake_force
@@ -2939,7 +3131,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPC
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckCountRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckCountRequest.cpp.o: aws-cpp-sdk-route53/source/model/GetHealthCheckCountRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckCountRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckCountRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckCountRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/GetHealthCheckCountRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckCountRequest.cpp.i: cmake_force
@@ -2963,7 +3155,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthChe
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatch.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatch.cpp.o: aws-cpp-sdk-route53/source/model/ChangeBatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatch.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatch.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatch.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ChangeBatch.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatch.cpp.i: cmake_force
@@ -2987,7 +3179,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatch.
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHealthCheckResult.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHealthCheckResult.cpp.o: aws-cpp-sdk-route53/source/model/DeleteHealthCheckResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHealthCheckResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHealthCheckResult.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHealthCheckResult.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/DeleteHealthCheckResult.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHealthCheckResult.cpp.i: cmake_force
@@ -3011,7 +3203,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHealth
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocationsRequest.cpp.o: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/flags.make
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocationsRequest.cpp.o: aws-cpp-sdk-route53/source/model/ListGeoLocationsRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocationsRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocationsRequest.cpp.o"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && /home/maurice/core/build/out-glibc/sysroots/x86_64-linux/usr/bin/arm-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocationsRequest.cpp.o -c /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53/source/model/ListGeoLocationsRequest.cpp
 
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocationsRequest.cpp.i: cmake_force
@@ -3056,8 +3248,10 @@ aws__cpp__sdk__route53_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/RRType.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceCountResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeInfo.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GeoLocationDetails.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyVersionRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Tag.cpp.o" \
@@ -3067,6 +3261,7 @@ aws__cpp__sdk__route53_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteReusableDelegationSetResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHostedZoneCommentRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o" \
@@ -3090,6 +3285,7 @@ aws__cpp__sdk__route53_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatchRecord.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyVersionsRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZoneConfig.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocationsResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyInstanceResult.cpp.o" \
@@ -3132,9 +3328,11 @@ aws__cpp__sdk__route53_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateReusableDelegationSetResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListReusableDelegationSetsResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceTagSet.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableDelegationSetResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckCountResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/TrafficPolicy.cpp.o" \
@@ -3142,6 +3340,7 @@ aws__cpp__sdk__route53_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyInstanceRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyResult.cpp.o" \
@@ -3149,6 +3348,7 @@ aws__cpp__sdk__route53_OBJECTS = \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByHostedZoneResult.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecord.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceRequest.cpp.o" \
+"CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZone.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountRequest.cpp.o" \
 "CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetGeoLocationRequest.cpp.o" \
@@ -3184,8 +3384,10 @@ aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aw
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/RRType.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceCountResult.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeInfo.cpp.o
+aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GeoLocationDetails.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountResult.cpp.o
+aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesResult.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyVersionRequest.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Tag.cpp.o
@@ -3195,6 +3397,7 @@ aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aw
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckRequest.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyRequest.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o
+aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteReusableDelegationSetResult.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHostedZoneCommentRequest.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o
@@ -3218,6 +3421,7 @@ aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aw
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatchRecord.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyVersionsRequest.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZoneConfig.cpp.o
+aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesRequest.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocationsResult.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyInstanceResult.cpp.o
@@ -3260,9 +3464,11 @@ aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aw
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateReusableDelegationSetResult.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListReusableDelegationSetsResult.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckRequest.cpp.o
+aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceTagSet.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesRequest.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableDelegationSetResult.cpp.o
+aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckCountResult.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneRequest.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/TrafficPolicy.cpp.o
@@ -3270,6 +3476,7 @@ aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aw
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonRequest.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesRequest.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.o
+aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsResult.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyInstanceRequest.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyResult.cpp.o
@@ -3277,6 +3484,7 @@ aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aw
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByHostedZoneResult.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecord.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceRequest.cpp.o
+aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZone.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountRequest.cpp.o
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetGeoLocationRequest.cpp.o
@@ -3290,7 +3498,7 @@ aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aw
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/build.make
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-core/libaws-cpp-sdk-core.so
 aws-cpp-sdk-route53/libaws-cpp-sdk-route53.so: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Linking CXX shared library libaws-cpp-sdk-route53.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maurice/aws-sdk-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Linking CXX shared library libaws-cpp-sdk-route53.so"
 	cd /home/maurice/aws-sdk-cpp/aws-cpp-sdk-route53 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aws-cpp-sdk-route53.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -3319,8 +3527,10 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-rou
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/RRType.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceCountResult.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeInfo.cpp.o.requires
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HealthCheckRegion.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GeoLocationDetails.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountResult.cpp.o.requires
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Dimension.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesResult.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyVersionRequest.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Tag.cpp.o.requires
@@ -3330,6 +3540,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-rou
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHealthCheckRequest.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteTrafficPolicyRequest.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateHealthCheckRequest.cpp.o.requires
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AlarmIdentifier.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteReusableDelegationSetResult.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateHostedZoneCommentRequest.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonResult.cpp.o.requires
@@ -3353,6 +3564,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-rou
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeBatchRecord.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyVersionsRequest.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZoneConfig.cpp.o.requires
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ComparisonOperator.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetCheckerIpRangesRequest.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListGeoLocationsResult.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/UpdateTrafficPolicyInstanceResult.cpp.o.requires
@@ -3395,9 +3607,11 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-rou
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateReusableDelegationSetResult.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListReusableDelegationSetsResult.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckRequest.cpp.o.requires
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchRegion.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceTagSet.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesRequest.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetReusableDelegationSetResult.cpp.o.requires
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/Statistic.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckCountResult.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/DeleteHostedZoneRequest.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/TrafficPolicy.cpp.o.requires
@@ -3405,6 +3619,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-rou
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHealthCheckLastFailureReasonRequest.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListHostedZonesRequest.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/AssociateVPCWithHostedZoneResult.cpp.o.requires
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CloudWatchAlarmConfiguration.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ChangeResourceRecordSetsResult.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/CreateTrafficPolicyInstanceRequest.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyResult.cpp.o.requires
@@ -3412,6 +3627,7 @@ aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-rou
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ListTrafficPolicyInstancesByHostedZoneResult.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/ResourceRecord.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetTrafficPolicyInstanceRequest.cpp.o.requires
+aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/InsufficientDataHealthStatus.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/HostedZone.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetHostedZoneCountRequest.cpp.o.requires
 aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/requires: aws-cpp-sdk-route53/CMakeFiles/aws-cpp-sdk-route53.dir/source/model/GetGeoLocationRequest.cpp.o.requires
