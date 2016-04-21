@@ -1,15 +1,16 @@
 /*
- * setup the Toradex boards for Rapid Displays
+ * Test the Deveoper authentication code for the Rapid Displays system
+ *
  * This code:
- *   resets all parameters to 0 and none in the database (RAPID)
+ * Tries to login into AWS Cognito authenticated using developer authentication
+ *  resets all parameters to 0 and none in the database (RAPID)
  *   writes the MAC address of the board and a random number to be
  *   used as the "secret" to the database
  *
  * Written by Maurice Bizzarri, based heaviliy on code supplied by Amazon 
  * for the C++ SDK
  *
- * April 4, 2016 - First Release
- * April 12, 2016 - added support for Cognito
+ * April 13, 2016 - derived from setup.cpp
  */
   
 #include <aws/external/gtest.h>
@@ -22,6 +23,11 @@
 #include <aws/core/http/HttpTypes.h>
 #include <aws/core/http/HttpClientFactory.h>
 #include <aws/core/http/HttpClient.h>
+#include <aws/core/Core_EXPORTS.h>
+#include <aws/core/http/URI.h>
+#include <aws/core/http/Scheme.h>
+#include <aws/core/utils/memory/stl/AWSMap.h>
+#include <aws/core/utils/memory/stl/AWSString.h>
 
 #include <fstream>
 
@@ -98,12 +104,13 @@
 #include <aws/sts/model/AssumeRoleWithWebIdentityRequest.h>
 #include <aws/sts/model/AssumeRoleResult.h>
 #include <aws/sts/STSClient.h>
+
 #include <iostream>
 #include <algorithm>
 #include <stdio.h>
 #include <string.h>
 #include <random>
-
+#include <curl/curl.h>
 
 using namespace Aws::Http;
 using namespace Aws::Client;
@@ -115,11 +122,9 @@ using namespace Aws::S3::Model;
 using namespace Aws::Auth;
 using namespace Aws::CognitoIdentity;
 using namespace Aws::CognitoIdentity::Model;
+using namespace Aws::Utils;
 using namespace Aws::STS::Model;
 using namespace Aws::STS;
-using namespace Aws::Utils;
-
-
 
 static const char* ALLOCATION_TAG = "EXPY_TEST";
 static const char* AREGION = "us-east-1";
@@ -132,6 +137,9 @@ int main(int argc,char *argv[]) {
 	
 static std::shared_ptr<Aws::Utils::RateLimits::RateLimiterInterface> m_limiter;
     m_limiter = Aws::MakeShared<Aws::Utils::RateLimits::DefaultRateLimiter<>>(ALLOCATION_TAG, 2000000);
+  Aws::String IdentityARN = "arn:aws:cognito-identity:us-east-1:068477079542:identitypool/us-east-1:0e708d28-3b97-4531-a25c-f7e5d2468ceb";
+  Aws::String identityPoolID = "us-east-1:0e708d28-3b97-4531-a25c-f7e5d2468ceb";  
+  Aws::String Provider = "login.rapiddisplays.bizzarri";
   
 ClientConfiguration config;
  
@@ -146,71 +154,146 @@ ClientConfiguration config;
    std::cout << argv[0] << " Version 0.0" << std::endl;
    std::cout << " Compiled: " << __DATE__ << " " <<  __TIME__ << std::endl;
 
- auto Cognitoclient = Aws::MakeShared<CognitoIdentityClient>(ALLOCATION_TAG);
- config.region = Aws::Region::US_EAST_1; // cognito region
- auto STSclient = Aws::MakeShared<STSClient>(ALLOCATION_TAG,config);
+   /*
+    * login to server, pass mac address and secret.  Pass it a "token" field that isnt used at the moment.
+    */
+
+ CURL *curl;
+  CURLcode res;
+  const char * datas = "mac=asdf&secret=testtest"; 
+  curl = curl_easy_init();
+  if(curl) {
+    curl_easy_setopt(curl, CURLOPT_URL, "http://54.200.208.90");
+      curl_easy_setopt(curl,CURLOPT_POSTFIELDS,datas);
+      curl_easy_setopt(curl,CURLOPT_COOKIEJAR,"cookie.txt");
+    /* Perform the request, res will get the return code */ 
+    res = curl_easy_perform(curl);
+    /* Check for errors */ 
+    if(res != CURLE_OK)
+      fprintf(stderr, "curl_easy_perform() failed: %s\n",
+              curl_easy_strerror(res));
  
-  Aws::String identityPoolID = "us-east-1:0e708d28-3b97-4531-a25c-f7e5d2468ceb";
-  Aws::String identityARN = "arn:aws:cognito-identity:us-east-1:068477079542:identitypool/us-east-1:0e708d28-3b97-4531-a25c-f7e5d2468ceb";
-  Aws::String newARN = "arn:aws:iam::068477079542:role/Cognito_RapidUnauth_Role";
-  Aws::String identitySessionName = "bizzarri";  
-  Aws::String AccountID = "068477079542 ";
-    GetIdRequest getIdRequest;
-    getIdRequest.WithIdentityPoolId(identityPoolID);
+    /* always cleanup */ 
+    curl_easy_cleanup(curl);
+  }  
 
-        GetIdOutcome getIdOutcome = Cognitoclient->GetId(getIdRequest);
-	if (getIdOutcome.IsSuccess())
-	  {
-	    std::cout << "success for Get ID!" << std::endl;
-	  }
+  /*
+   * open up cookie file and read
+   * ID and Token to use
+   */
 
-        GetIdResult getIdResult = getIdOutcome.GetResult();
-	
-	GetOpenIdTokenRequest getOpenIdTokenRequest;
-	getOpenIdTokenRequest.WithIdentityId(getIdOutcome.GetResult().GetIdentityId());
-	GetOpenIdTokenOutcome getOpenIdTokenOutcome = Cognitoclient->GetOpenIdToken(getOpenIdTokenRequest);
+  FILE *cooks = fopen("cookie.txt","r");
+  if (!cooks)
+    {
+      perror("Can't find cooke file!\n");
+      return(EXIT_FAILURE);
+    }
 
-        GetOpenIdTokenResult getOpenIdTokenResult = getOpenIdTokenOutcome.GetResult();
-	Aws::String tempToken = getOpenIdTokenResult.GetToken();
-	
-	if (getOpenIdTokenOutcome.IsSuccess())
-	  {
-	    std::cout << "Success for ID Outcome!" << std::endl;
-	    //	    std::cout << "Token: " << tempToken << std::endl;
-	  }
+  char *buff = (char *)calloc(1,120);              // empty buffer
+  int crcnt = 0;
+  int charcnt = 0;
+
+  while (crcnt < 3)
+    {
+      if (fgetc(cooks) == '\n')
+	crcnt++;
+      charcnt++;
+    }
+      
+
+  char * IdentityId = (char *)calloc(1,100);
+  char * Token = (char *)calloc(1,1000);
+
+  crcnt = 0;
+
+  while ((crcnt < 6))
+    {
+      if (fgetc(cooks) == '\t')
+	crcnt++;
+
+    }
+
+  /*
+   * see how big the token really is
+   */
+
+  crcnt = 0;
+  charcnt = 0;
+  int ch;
+
+  while (1)
+    {
+      ch = fgetc(cooks);
+      if (ch == '\n')
+	break;
+      Token[charcnt++] = ch;
+    }
 
 
-        AssumeRoleWithWebIdentityRequest identityRequest;
-	identityRequest.SetRoleArn(newARN);
-	identityRequest.SetRoleSessionName(identitySessionName);
-	identityRequest.SetWebIdentityToken(tempToken);
+  printf("\ntoken size: %d\n",charcnt);
 
-	AssumeRoleWithWebIdentityOutcome identityOutcome;
-	identityOutcome = STSclient->AssumeRoleWithWebIdentity(identityRequest);
-	AssumeRoleWithWebIdentityResult  identityResult = identityOutcome.GetResult();
-	Aws::STS::Model::Credentials  creds = identityResult.GetCredentials();
+  crcnt = 0;
 
-	Aws::String keyid = creds.GetAccessKeyId();
-	Aws::String secret = creds.GetSecretAccessKey();
-	Aws::String SessionT = creds.GetSessionToken();
-	
-/****************************************************
-#if 0
+  while (crcnt < 6)
+    {
+      if (fgetc(cooks) == '\t')
+	crcnt++;
+
+    }
+   
+
+  crcnt = 0;
+
+
+  crcnt = 0;
+  charcnt = 0;
+
+
+  while (1)
+    {
+      ch = fgetc(cooks);
+      if (ch == '\n')
+	break;
+      IdentityId[charcnt++] = ch;
+    }
+
+
+  //  fread (IdentityId,100,1,cooks);
+
+
+
+  printf("Token: %s\n",Token);
+  printf("IdentityId: %s\n",IdentityId);
+
+
+  fclose(cooks);    // close file - be clean please
+  
+  
+ config.region = Aws::Region::US_EAST_1; // cognito region   
+ auto Cognitoclient = Aws::MakeShared<CognitoIdentityClient>(ALLOCATION_TAG);
+
+
      GetCredentialsForIdentityRequest getCredentialsRequest;
-    getCredentialsRequest.WithIdentityId(getIdOutcome.GetResult().GetIdentityId());
+
+    getCredentialsRequest.SetIdentityId(IdentityId);
+    Aws::Map<Aws::String, Aws::String> LoginMap;
+    Aws::String token(StringUtils::Trim(Token));
+    Aws::String provider(StringUtils::Trim(Provider.c_str()));
+    LoginMap["Logins:" + provider] = token;
+    
+    getCredentialsRequest.SetLogins(LoginMap);
+    
     GetCredentialsForIdentityOutcome getCredentialsOutcome = Cognitoclient->GetCredentialsForIdentity(getCredentialsRequest);
 
     GetCredentialsForIdentityResult getCredentialsResult = getCredentialsOutcome.GetResult();
-Credentials creds = getCredentialsResult.GetCredentials();
+    Aws::CognitoIdentity::Model::Credentials creds = getCredentialsResult.GetCredentials();
 
    Aws::String keyid = creds.GetAccessKeyId();
    Aws::String secret = creds.GetSecretKey();
 
-#endif 
-*************************************************************************/
 
 
-   if (identityOutcome.IsSuccess())
+   if (getCredentialsOutcome.IsSuccess())
       {
 	std::cout << "success for get creds!" << std::endl;
 	//	std::cout << "keyid: " << keyid.c_str() << std::endl;
@@ -218,7 +301,7 @@ Credentials creds = getCredentialsResult.GetCredentials();
       }
     else
       {
-	Aws::String errors = identityOutcome.GetError().GetExceptionName();
+	Aws::String errors = getCredentialsOutcome.GetError().GetExceptionName();
 	std::cout << "Error: " << errors.c_str() << std::endl;
 	std::cout << "creds failed!" << std::endl;
 	exit(-1);
@@ -237,7 +320,8 @@ Credentials creds = getCredentialsResult.GetCredentials();
     }
 
     config.region = Aws::Region::US_WEST_2; // oregon region
-    auto client = Aws::MakeShared<DynamoDBClient>(ALLOCATION_TAG, AWSCredentials(keyid, secret,SessionT),config);
+     auto client = Aws::MakeShared<DynamoDBClient>(ALLOCATION_TAG, AWSCredentials(keyid, secret),config);
+     //    auto client = Aws::MakeShared<DynamoDBClient>(ALLOCATION_TAG,config);
 
  //auto client = Aws::MakeShared<DynamoDBClient>(ALLOCATION_TAG, Aws::MakeShared<CognitoCachingAnonymousCredentialsProvider>(ALLOCATION_TAG, identityPoolID, AccountID), config);
 
@@ -356,7 +440,7 @@ Credentials creds = getCredentialsResult.GetCredentials();
     rmacaddress.SetS(macaddr);
 
     AttributeValue rsecret;
-    rsecret.SetS(std::to_string(param3).c_str());
+    rsecret.SetS(std::to_string(param1).c_str());
 		 
   PutItemRequest putRequest;
   putRequest.SetTableName("Rapid");
@@ -384,3 +468,4 @@ else
 }
 
 }
+
