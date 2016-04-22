@@ -28,7 +28,9 @@
 #include <aws/core/http/Scheme.h>
 #include <aws/core/utils/memory/stl/AWSMap.h>
 #include <aws/core/utils/memory/stl/AWSString.h>
-
+#include <aws/core/utils/logging/DefaultLogSystem.h>
+#include <aws/core/utils/logging/LogMacros.h>
+#include <aws/core/utils/logging/LogLevel.h>
 #include <fstream>
 
 #include <aws/core/utils/memory/stl/AWSString.h>
@@ -138,6 +140,9 @@ static const char* AREGION = "us-east-1";
 
 int main(int argc,char *argv[]) {
 
+  
+Aws::Utils::Logging::InitializeAWSLogging(Aws::MakeShared<Aws::Utils::Logging::DefaultLogSystem>("Rapid_Displays", Aws::Utils::Logging::LogLevel::Trace, "Rapid_"));
+
   /*
    * get Pool ID.  This Pool should allow dynamoDb access
    */
@@ -145,7 +150,7 @@ int main(int argc,char *argv[]) {
 static std::shared_ptr<Aws::Utils::RateLimits::RateLimiterInterface> m_limiter;
     m_limiter = Aws::MakeShared<Aws::Utils::RateLimits::DefaultRateLimiter<>>(ALLOCATION_TAG, 2000000);
   Aws::String IdentityARN = "arn:aws:cognito-identity:us-east-1:068477079542:identitypool/us-east-1:0e708d28-3b97-4531-a25c-f7e5d2468ceb";
-  Aws::String identityPoolID = "us-east-1:0e708d28-3b97-4531-a25c-f7e5d2468ceb";  
+  Aws::String identityPoolID = "us-east-1:0e708d28-3b97-4531-a25c-f7e5d2468ceb";  Aws::String cognitoProvider = "cognito-identity.amazonaws.com";  
   Aws::String Provider = "login.rapiddisplays.bizzarri";
   
 ClientConfiguration config;
@@ -167,7 +172,7 @@ ClientConfiguration config;
  CURL *curl;
   CURLcode res;
   std::string readBuffer;
-  const char * datas = "mac=00:11:22:33:44:55&secret=testtest"; 
+  const char * datas = "mac=55:44:33&secret=testtest"; 
   curl_global_init(CURL_GLOBAL_ALL);
   
   curl = curl_easy_init();
@@ -192,111 +197,92 @@ ClientConfiguration config;
     /* always cleanup */ 
     curl_easy_cleanup(curl);
   }  
-
-  /*
-   * open up cookie file and read
-   * ID and Token to use
-   */
-
-  FILE *cooks = fopen("cookie.txt","r");
-  if (!cooks)
-    {
-      perror("Can't find cookie file!\n");
-      return(EXIT_FAILURE);
-    }
-
-  char *buff = (char *)calloc(1,120);              // empty buffer
-  int crcnt = 0;
-  int charcnt = 0;
-
-  while (crcnt < 3)
-    {
-      if (fgetc(cooks) == '\n')
-	crcnt++;
-      charcnt++;
-    }
       
 
-  char * IdentityId = (char *)calloc(1,100);
-  char * Token = (char *)calloc(1,1000);
 
-  crcnt = 0;
+  char * IdentityId = new char [100];
+  char * Token = new char [1000];
+  std::cout << "buffer: " << readBuffer << std::endl;
 
-  while ((crcnt < 6))
+  int crcnt = 0;
+  int charcnt = 0;
+  char ch;
+  int point = 0;
+  
+  while (charcnt < 100)
     {
-      if (fgetc(cooks) == '\t')
-	crcnt++;
+      ch = readBuffer[point++];
 
-    }
-
-  /*
-   * see how big the token really is
-   */
-
-  crcnt = 0;
-  charcnt = 0;
-  int ch;
-
-  while (1)
-    {
-      ch = fgetc(cooks);
-      if (ch == '\n')
-	break;
-      Token[charcnt++] = ch;
-    }
-
-
-  printf("\ntoken size: %d\n",charcnt);
-
-  crcnt = 0;
-
-  while (crcnt < 6)
-    {
-      if (fgetc(cooks) == '\t')
-	crcnt++;
-
-    }
-   
-
-  crcnt = 0;
-
-
-  crcnt = 0;
-  charcnt = 0;
-
-
-  while (1)
-    {
-      ch = fgetc(cooks);
-      if (ch == '\n')
+      if (ch == '*')
 	break;
       IdentityId[charcnt++] = ch;
     }
 
 
-  //  fread (IdentityId,100,1,cooks);
+  printf("\nID size: %d\n",charcnt);
+  
+charcnt = 0;  // start over  
+  while (charcnt < 1000)
+    {
+      ch = readBuffer[point++];
+      if (ch == '*')
+	break;
+      Token[charcnt++] = ch;
+    }
 
-
+  printf("\nToken size: %d\n",charcnt);
 
   printf("Token: %s\n",Token);
   printf("IdentityId: %s\n",IdentityId);
 
-
-  fclose(cooks);    // close file - be clean please
-  
-  
  config.region = Aws::Region::US_EAST_1; // cognito region   
  auto Cognitoclient = Aws::MakeShared<CognitoIdentityClient>(ALLOCATION_TAG);
+  auto STSclient = Aws::MakeShared<STSClient>(ALLOCATION_TAG);
+
+#if 0
+        AssumeRoleWithWebIdentityRequest identityRequest;
+	identityRequest.SetRoleArn(IdentityARN);
+	identityRequest.SetRoleSessionName("11:11:22:33:44:55");
+	identityRequest.SetWebIdentityToken(Token);
+        //identityRequest.SetProviderId(Provider);
+	AssumeRoleWithWebIdentityOutcome identityOutcome;
+	identityOutcome = STSclient->AssumeRoleWithWebIdentity(identityRequest);
+	AssumeRoleWithWebIdentityResult  identityResult = identityOutcome.GetResult();
+	Aws::STS::Model::Credentials  creds = identityResult.GetCredentials();
+
+	Aws::String keyid = creds.GetAccessKeyId();
+	Aws::String secret = creds.GetSecretAccessKey();
+	Aws::String SessionT = creds.GetSessionToken();
+
+   if (identityOutcome.IsSuccess())
+      {
+	std::cout << "success for get creds!" << std::endl;
+	std::cout << "keyid: " << keyid.c_str() << std::endl;
+	std::cout << "secret: " << secret.c_str() << std::endl;
+      }
+    else
+      {
+	Aws::String errors = identityOutcome.GetError().GetExceptionName();
+	std::cout << "Error: " << errors.c_str() << std::endl;
+	std::cout << "creds failed!" << std::endl;
+	exit(-1);
+      }
+    
 
 
+#endif
+#if 1
      GetCredentialsForIdentityRequest getCredentialsRequest;
 
     getCredentialsRequest.SetIdentityId(IdentityId);
     Aws::Map<Aws::String, Aws::String> LoginMap;
     Aws::String token(StringUtils::Trim(Token));
-    Aws::String provider(StringUtils::Trim(Provider.c_str()));
-    LoginMap[provider] = token;
-    
+
+    //    Aws::String provider(StringUtils::Trim(Provider.c_str()));
+
+    std::cout << "token: " << token << std::endl;
+    LoginMap[cognitoProvider] = token;
+
     getCredentialsRequest.SetLogins(LoginMap);
     
     GetCredentialsForIdentityOutcome getCredentialsOutcome = Cognitoclient->GetCredentialsForIdentity(getCredentialsRequest);
@@ -307,13 +293,13 @@ ClientConfiguration config;
    Aws::String keyid = creds.GetAccessKeyId();
    Aws::String secret = creds.GetSecretKey();
 
-
+#endif
 
    if (getCredentialsOutcome.IsSuccess())
       {
 	std::cout << "success for get creds!" << std::endl;
-	//	std::cout << "keyid: " << keyid.c_str() << std::endl;
-	//std::cout << "secret: " << secret.c_str() << std::endl;
+	std::cout << "keyid: " << keyid.c_str() << std::endl;
+	std::cout << "secret: " << secret.c_str() << std::endl;
       }
     else
       {
@@ -470,6 +456,7 @@ ClientConfiguration config;
   putRequest.AddItem(SECRET,rsecret);
 auto putItemOutcome = client->PutItem(putRequest);
 
+Aws::Utils::Logging::ShutdownAWSLogging();
 if(putItemOutcome.IsSuccess())
 {
   printf("Success!\n");
