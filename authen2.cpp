@@ -11,6 +11,9 @@
  * for the C++ SDK
  *
  * April 13, 2016 - derived from setup.cpp
+ * April 22, 2016 - finally got Developer Authentication to work.
+ * now to finish the rest of it.
+ * April 22, 2016 - found you have to use the session token! wow.
  */
   
 #include <aws/external/gtest.h>
@@ -128,7 +131,7 @@ using namespace Aws::Utils;
 using namespace Aws::STS::Model;
 using namespace Aws::STS;
 
-static const char* ALLOCATION_TAG = "EXPY_TEST";
+static const char* ALLOCATION_TAG = "RAPID_TEST";
 static const char* AREGION = "us-east-1";
    
    static size_t WriteCallback(void *contents, size_t size, size_t nmemb, void *userp)
@@ -172,7 +175,7 @@ ClientConfiguration config;
  CURL *curl;
   CURLcode res;
   std::string readBuffer;
-  const char * datas = "mac=55:44:33&secret=testtest"; 
+  const char * datas = "mac=55:44:33:22:11&secret=testtest"; 
   curl_global_init(CURL_GLOBAL_ALL);
   
   curl = curl_easy_init();
@@ -196,13 +199,18 @@ ClientConfiguration config;
  
     /* always cleanup */ 
     curl_easy_cleanup(curl);
-  }  
+  }
+  else
+    {
+    printf("could not open site!\n");
+    exit(-1);
+    }
       
 
 
   char * IdentityId = new char [100];
   char * Token = new char [1000];
-  std::cout << "buffer: " << readBuffer << std::endl;
+  //std::cout << "buffer: " << readBuffer << std::endl;
 
   int crcnt = 0;
   int charcnt = 0;
@@ -219,7 +227,7 @@ ClientConfiguration config;
     }
 
 
-  printf("\nID size: %d\n",charcnt);
+  //  printf("\nID size: %d\n",charcnt);
   
 charcnt = 0;  // start over  
   while (charcnt < 1000)
@@ -230,57 +238,20 @@ charcnt = 0;  // start over
       Token[charcnt++] = ch;
     }
 
-  printf("\nToken size: %d\n",charcnt);
+  //  printf("\nToken size: %d\n",charcnt);
 
-  printf("Token: %s\n",Token);
-  printf("IdentityId: %s\n",IdentityId);
+  //  printf("Token: %s\n",Token);
+  //  printf("IdentityId: %s\n",IdentityId);
 
  config.region = Aws::Region::US_EAST_1; // cognito region   
  auto Cognitoclient = Aws::MakeShared<CognitoIdentityClient>(ALLOCATION_TAG);
-  auto STSclient = Aws::MakeShared<STSClient>(ALLOCATION_TAG);
 
-#if 0
-        AssumeRoleWithWebIdentityRequest identityRequest;
-	identityRequest.SetRoleArn(IdentityARN);
-	identityRequest.SetRoleSessionName("11:11:22:33:44:55");
-	identityRequest.SetWebIdentityToken(Token);
-        //identityRequest.SetProviderId(Provider);
-	AssumeRoleWithWebIdentityOutcome identityOutcome;
-	identityOutcome = STSclient->AssumeRoleWithWebIdentity(identityRequest);
-	AssumeRoleWithWebIdentityResult  identityResult = identityOutcome.GetResult();
-	Aws::STS::Model::Credentials  creds = identityResult.GetCredentials();
-
-	Aws::String keyid = creds.GetAccessKeyId();
-	Aws::String secret = creds.GetSecretAccessKey();
-	Aws::String SessionT = creds.GetSessionToken();
-
-   if (identityOutcome.IsSuccess())
-      {
-	std::cout << "success for get creds!" << std::endl;
-	std::cout << "keyid: " << keyid.c_str() << std::endl;
-	std::cout << "secret: " << secret.c_str() << std::endl;
-      }
-    else
-      {
-	Aws::String errors = identityOutcome.GetError().GetExceptionName();
-	std::cout << "Error: " << errors.c_str() << std::endl;
-	std::cout << "creds failed!" << std::endl;
-	exit(-1);
-      }
-    
-
-
-#endif
-#if 1
      GetCredentialsForIdentityRequest getCredentialsRequest;
 
     getCredentialsRequest.SetIdentityId(IdentityId);
     Aws::Map<Aws::String, Aws::String> LoginMap;
     Aws::String token(StringUtils::Trim(Token));
-
-    //    Aws::String provider(StringUtils::Trim(Provider.c_str()));
-
-    std::cout << "token: " << token << std::endl;
+    //std::cout << "token: " << token << std::endl;
     LoginMap[cognitoProvider] = token;
 
     getCredentialsRequest.SetLogins(LoginMap);
@@ -292,14 +263,15 @@ charcnt = 0;  // start over
 
    Aws::String keyid = creds.GetAccessKeyId();
    Aws::String secret = creds.GetSecretKey();
+   Aws::String sesstoken = creds.GetSessionToken();
 
-#endif
 
    if (getCredentialsOutcome.IsSuccess())
       {
 	std::cout << "success for get creds!" << std::endl;
 	std::cout << "keyid: " << keyid.c_str() << std::endl;
 	std::cout << "secret: " << secret.c_str() << std::endl;
+	std::cout << "session token: " << sesstoken.c_str() << std::endl;
       }
     else
       {
@@ -322,12 +294,8 @@ charcnt = 0;  // start over
     }
 
     config.region = Aws::Region::US_WEST_2; // oregon region
-     auto client = Aws::MakeShared<DynamoDBClient>(ALLOCATION_TAG, AWSCredentials(keyid, secret),config);
-     //    auto client = Aws::MakeShared<DynamoDBClient>(ALLOCATION_TAG,config);
+    auto client = Aws::MakeShared<DynamoDBClient>("DBCLIENT", AWSCredentials(keyid, secret,sesstoken),config);
 
- //auto client = Aws::MakeShared<DynamoDBClient>(ALLOCATION_TAG, Aws::MakeShared<CognitoCachingAnonymousCredentialsProvider>(ALLOCATION_TAG, identityPoolID, AccountID), config);
-
- // auto client = Aws::MakeShared<DynamoDBClient>(ALLOCATION_TAG,config);
 
   /*
    * DynamoDB test - read, increment number, and write it back
@@ -379,9 +347,11 @@ charcnt = 0;  // start over
       
 
 
-   AttributeValue Hash;
+
    /* set key from argument to program */
    //printf("argument string: %s\n",argv[1]);
+
+   AttributeValue Hash;
    Hash.SetS(argv[1]);
 
     GetItemRequest getItemRequest;
@@ -410,7 +380,6 @@ charcnt = 0;  // start over
 	std::cout << "Failure to find matching item! " << "\n" << '\n';
         exit(1);
       }
-
 
 
     auto valreturned = returnedItemCollection[TIMES_COUNT].GetN();
@@ -457,6 +426,7 @@ charcnt = 0;  // start over
 auto putItemOutcome = client->PutItem(putRequest);
 
 Aws::Utils::Logging::ShutdownAWSLogging();
+
 if(putItemOutcome.IsSuccess())
 {
   printf("Success!\n");
